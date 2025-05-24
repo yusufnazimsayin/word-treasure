@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Word Hunt</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <script src="js/dictionary.js"></script>
+
+    <style>
+        @font-face {
+            font-family: DSEG7;
+            font-weight: normal;
+            font-style: normal;
+            src: url("css/fonts/DSEG7Classic-Regular.ttf");
+        }
+
+        @font-face {
+            font-family: DSEG7;
+            font-weight: bold;
+            font-style: normal;
+            src: url("css/fonts/DSEG7Classic-Bold.ttf");
+        }
+
+        @font-face {
+            font-family: DSEG7;
+            font-weight: normal;
+            font-style: italic;
+            src: url("css/fonts/DSEG7Classic-Italic.ttf");
+        }
+
+        @font-face {
+            font-family: DSEG7;
+            font-weight: bold;
+            font-style: italic;
+            src: url("css/fonts/DSEG7Classic-BoldItalic.ttf");
+        }
+
+        body {
+            font-size: 1.8em;
+            background-image: url("images/pngtree-colorful-leaves-2.png");
+            background-repeat: repeat;
+        }
+
+        .alert-word {
+            background-image: linear-gradient(burlywood, saddlebrown, burlywood);
+            color: white;
+        }
+
+        button {
+            font-size: 0.8em !important;
+        }
+
+        .btn-option {
+            background-image: linear-gradient(lightskyblue, dodgerblue, lightskyblue);
+            color: black;
+        }
+
+        .btn-option:hover {
+            background-image: linear-gradient(dodgerblue, navy, dodgerblue);
+            color: white;
+        }
+
+        .btn-option.btn-true {
+            background-image: linear-gradient(palegreen, #0db91f, palegreen);
+            color: white;
+        }
+
+        .btn-option.btn-false {
+            background-image: linear-gradient(lightsalmon, orangered, lightsalmon);
+            color: white;
+        }
+
+        .btn-next {
+            background-image: linear-gradient(gold, darkgoldenrod, gold);
+            color: white;
+        }
+
+        .btn-true:hover, .btn-wrong:hover {
+            color: white;
+        }
+
+        .score-board {
+            display: flex;
+            background-color: #21252a;
+            color: white;
+            border: 1px solid grey;
+            border-top: none;
+            font-family: DSEG7;
+        }
+
+        .score-board .success {
+            color: lime;
+        }
+
+        .score-board .failure {
+            color: red;
+        }
+
+        button.btn.btn-option:disabled {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+        <div class="container-fluid row">
+            <div class="col">
+                <select class="form-select form-select-lg mb-3" id="fromLang" style="font-size: 1em">
+                    <option value="en" selected>🇬🇧 English</option>
+                    <option value="es">🇪🇸 Spanish</option>
+                    <option value="tr">🇹🇷 Turkish</option>
+                </select>
+            </div>
+            <div class="col text-center text-white">
+                ⮕
+            </div>
+            <div class="col">
+                <select class="form-select form-select-lg mb-3" id="toLang" style="font-size: 1em">
+                    <option value="en">🇬🇧 English</option>
+                    <option value="es" selected>🇪🇸 Spanish</option>
+                    <option value="tr">🇹🇷 Turkish</option>
+                </select>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid text-center">
+        <div class="row">
+            <div class="col"></div>
+            <div class="col">
+                <div class="score-board p-2 mb-5" style="">
+                    <span class="col success">0</span><span class="col failure">0</span>
+                </div>
+
+                <div class="alert alert-word mb-5 p-2 fw-bold" role="alert" id="question"></div>
+
+                <button type="button" class="d-block w-100 btn btn-option mb-3"></button>
+
+                <button type="button" class="d-block w-100 btn btn-option mb-3"></button>
+
+                <button type="button" class="d-block w-100 btn btn-option mb-3"></button>
+
+                <button type="button" class="d-block w-100 btn btn-option mb-5"></button>
+
+                <button type="button" class="d-block w-100 btn btn-next" id="nextButton"><img src="images/next.png" style="width: 40px"/></button>
+            </div>
+            <div class="col"></div>
+        </div>
+    </div>
+
+<script>
+
+    const WORD_HUNT = (function () {
+
+        const fromLang = document.getElementById("fromLang");
+        const toLang = document.getElementById("toLang");
+        const successDisplay = document.querySelector(".score-board .success");
+        const failureDisplay = document.querySelector(".score-board .failure");
+        const question = document.getElementById("question");
+        const optionButtons = document.querySelectorAll(".btn-option");
+        const nextButton = document.getElementById("nextButton");
+
+        let ALL_WORDS = [];
+
+        optionButtons.forEach(button => {
+            button.addEventListener("click", function () {
+                optionButtons.forEach(button => { button.disabled = "disabled"; });
+
+                if (button.dataset.answer) {
+                    successDisplay.innerHTML++;
+                    button.classList.add("btn-true");
+                } else {
+                    failureDisplay.innerHTML++;
+                    button.classList.add("btn-false");
+
+                    setTimeout(function () {
+                        optionButtons.forEach(button => {
+                            if (button.dataset.answer) {
+                                button.classList.add("btn-true");
+                            }
+                        });
+                    }, 1000);
+                }
+            });
+        });
+
+        nextButton.addEventListener("click", function () {
+            nextWord();
+        });
+
+        fromLang.addEventListener("change",function () {
+            from = fromLang.value;
+            nextWord();
+        });
+
+        toLang.addEventListener("change",function () {
+            to = toLang.value;
+            nextWord();
+        });
+
+        const keys = Object.keys(DICTIONARY);
+
+        for(let key of keys) {
+            ALL_WORDS.push(DICTIONARY[key]);
+        }
+
+        ALL_WORDS = ALL_WORDS.flat();
+
+        let wordCount = ALL_WORDS.length;
+        let from = "en";
+        let to = "es";
+
+        function nextWord() {
+            let options = [];
+            let optionSet = new Set();
+            let random;
+            let index;
+
+            while (optionSet.size < 4) {
+                random = Math.random() * 1000000;
+                index = Math.floor(random % (wordCount + 1));
+                let option = ALL_WORDS[index];
+
+                if (!optionSet.has(option[to])) {
+                    optionSet.add(option[to]);
+                    options.push(option);
+                }
+            }
+
+            index = Math.floor(random % 4);
+            answer = options[index];
+
+            question.innerHTML = answer[from];
+
+            let i = 0;
+
+            for(let option of options) {
+                optionButtons[i].disabled = "";
+                optionButtons[i].classList.remove("btn-true", "btn-false");
+                optionButtons[i].innerHTML = option[to];
+                optionButtons[i].dataset.answer = answer[to] === option[to] ? "1" : "";
+                i++;
+            }
+        }
+
+        return {
+            start: function () {
+                nextWord();
+            }
+        }
+
+    })();
+
+    WORD_HUNT.start();
+
+</script>
+</body>
+</html>
