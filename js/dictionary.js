@@ -5308,26 +5308,7 @@ const DICTIONARY = {
             "es" : "Prohibido fumar",
             "tr" : "Sigara içmek yasaktır",
             "type" : "phrase"
-        },
-        {
-            "en" : "",
-            "es" : "",
-            "tr" : "",
-            "type" : "noun"
-        },
-        {
-            "en" : "",
-            "es" : "",
-            "tr" : "",
-            "type" : "noun"
-        },
-        {
-            "en" : "",
-            "es" : "",
-            "tr" : "",
-            "type" : "noun"
         }
-
     ]
 };
 
