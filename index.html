@@ -106,21 +106,21 @@
 
     <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
         <div class="container-fluid row m-0">
-            <div class="col">
-                <select class="form-select form-select-lg mb-3" id="fromLang" style="font-size: 1em">
-                    <option value="en" selected>🇬🇧 English</option>
+            <div class="d-flex col p-0" style="justify-content: center; align-items: center">
+                <select class="form-select form-select-lg" id="fromLang">
+                    <option value="tr" selected>🇹🇷 Turkish</option>
+                    <option value="en">🇬🇧 English</option>
                     <option value="es">🇪🇸 Spanish</option>
-                    <option value="tr">🇹🇷 Turkish</option>
                 </select>
             </div>
-            <div class="col-2 text-center" style="color: gold; font-size: 2em">
+            <div class="d-flex col-2 p-0" style="color: #ba1dff; font-size: 1.5em; justify-content: center; align-items: center">
                 ⮕
             </div>
-            <div class="col">
-                <select class="form-select form-select-lg mb-3" id="toLang" style="font-size: 1em">
-                    <option value="en">🇬🇧 English</option>
-                    <option value="es" selected>🇪🇸 Spanish</option>
+            <div class="d-flex col p-0" style="justify-content: center; align-items: center">
+                <select class="form-select form-select-lg" id="toLang">
                     <option value="tr">🇹🇷 Turkish</option>
+                    <option value="en" selected>🇬🇧 English</option>
+                    <option value="es">🇪🇸 Spanish</option>
                 </select>
             </div>
         </div>
@@ -128,10 +128,17 @@
 
     <div class="container-fluid text-center">
         <div class="row">
-            <div class="col-sm"></div>
-            <div class="col-sm">
-                <div class="score-board p-2 mb-2" style="">
-                    <span class="col success">0</span><span class="col failure">0</span>
+            <div class="col-lg"></div>
+            <div class="col-lg">
+                <div class="score-board p-2 mb-2">
+                    <div class="col d-flex" style="justify-content: center; align-items: center">
+                        <span class="me-3 mb-1">🤗</span>
+                        <span class="success">0</span>
+                    </div>
+                    <div class="col d-flex" style="justify-content: center; align-items: center">
+                        <span class="me-3 mb-1">😔</span>
+                        <span class="failure">0</span>
+                    </div>
                 </div>
 
                 <div class="alert alert-word mb-4 p-2 fw-bold" role="alert" id="question"></div>
@@ -146,7 +153,7 @@
 
                 <button type="button" class="d-block w-100 btn btn-next" id="nextButton"><img src="images/next.png" style="width: 40px"/></button>
             </div>
-            <div class="col-sm"></div>
+            <div class="col-lg"></div>
         </div>
     </div>
 
