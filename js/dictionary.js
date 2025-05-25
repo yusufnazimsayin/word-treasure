@@ -11,7 +11,7 @@ const DICTIONARY = {
         {
             "en" : "Goodbye!",
             "es" : "¡Adiós!",
-            "tr" : "Hoşçakal",
+            "tr" : "Hoşçakal!",
             "type" : "interjection"
         },
         {
@@ -1896,12 +1896,6 @@ const DICTIONARY = {
             "type" : "verb phrase"
         },
         {
-            "en" : "electric dryer",
-            "es" : "la secadora electrica",
-            "tr" : "elektrikli kurutma makinesi",
-            "type" : "noun"
-        },
-        {
             "en" : "brush",
             "es" : "el cepillo",
             "tr" : "fırça",
@@ -2354,7 +2348,7 @@ const DICTIONARY = {
         {
             "en" : "to set the table",
             "es" : "poner la mesa",
-            "tr" : "masayı kurmak [sofrayı kurmak]",
+            "tr" : "masayı kurmak",
             "type" : "verb phrase"
         },
         {
@@ -4932,7 +4926,7 @@ const DICTIONARY = {
         {
             "en" : "traffic lights",
             "es" : "las luces de tráfico",
-            "tr" : "Trafik ışıkları",
+            "tr" : "trafik ışıkları",
             "type" : "noun"
         },
         {
@@ -5184,7 +5178,7 @@ const DICTIONARY = {
             "type" : "noun"
         },
         {
-            "en" : "return ticket [round-trip ticket]",
+            "en" : "return ticket",
             "es" : "el billete de ida y vuelta",
             "tr" : "gidiş-dönüş bileti",
             "type" : "noun phrase"
