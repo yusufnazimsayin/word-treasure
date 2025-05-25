@@ -4076,7 +4076,7 @@ const DICTIONARY = {
         {
             "en" : "subway",
             "es" : "el cruce subterráneo",
-            "tr" : "altg eçit",
+            "tr" : "alt geçit",
             "type" : "noun"
         },
         {
@@ -5138,7 +5138,7 @@ const DICTIONARY = {
         {
             "en" : "barrier",
             "es" : "la barrera",
-            "tr" : "beriyer",
+            "tr" : "bariyer",
             "type" : "noun"
         },
         {
@@ -5302,6 +5302,260 @@ const DICTIONARY = {
             "es" : "Prohibido fumar",
             "tr" : "Sigara içmek yasaktır",
             "type" : "phrase"
+        }
+    ],
+    "Travelling by plane and boat" : [
+        {
+            "en" : "airport",
+            "es" : "el aeropuerto",
+            "tr" : "havalimanı",
+            "type" : "noun"
+        },
+        {
+            "en" : "plane",
+            "es" : "el avión",
+            "tr" : "uçak",
+            "type" : "noun"
+        },
+        {
+            "en" : "to fly",
+            "es" : "volar",
+            "tr" : "uçmak",
+            "type" : "verb"
+        },
+        {
+            "en" : "to land",
+            "es" : "aterrizar",
+            "tr" : "iniş yapnak",
+            "type" : "verb"
+        },
+        {
+            "en" : "to take off",
+            "es" : "despegar",
+            "tr" : "kalkış yapmak",
+            "type" : "verb"
+        },
+        {
+            "en" : "runway",
+            "es" : "la pista de aterrizaje",
+            "tr" : "pist",
+            "type" : "noun"
+        },
+        {
+            "en" : "arrivals",
+            "es" : "llegadas",
+            "tr" : "gelenler",
+            "type" : "noun"
+        },
+        {
+            "en" : "customs",
+            "es" : "la aduana",
+            "tr" : "gümrük",
+            "type" : "noun"
+        },
+        {
+            "en" : "customs officer",
+            "es" : "el aduanero / la aduanera",
+            "tr" : "gümrük memuru",
+            "type" : "noun"
+        },
+        {
+            "en" : "nothing to declare",
+            "es" : "nada que declarar",
+            "tr" : "bildirmek için bir şey yok",
+            "type" : "expression"
+        },
+        {
+            "en" : "passport",
+            "es" : "el pasaport",
+            "tr" : "pasaport",
+            "type" : "noun"
+        },
+        {
+            "en" : "departures",
+            "es" : "dalidas",
+            "tr" : "gidenler",
+            "type" : "noun"
+        },
+        {
+            "en" : "check-in",
+            "es" : "la recepción",
+            "tr" : "giriş",
+            "type" : "noun"
+        },
+        {
+            "en" : "label",
+            "es" : "la etiqueta",
+            "tr" : "etiket",
+            "type" : "noun"
+        },
+        {
+            "en" : "Fasten your seatbelts!",
+            "es" : "¡Abrocharse el cinturón!",
+            "tr" : "Emniyet kemerinizi bağlayın!",
+            "type" : "phrase"
+        },
+        {
+            "en" : "pilot",
+            "es" : "el piloto / la piloto",
+            "tr" : "pilot",
+            "type" : "noun"
+        },
+        {
+            "en" : "wheelbarrow",
+            "es" : "la carretilla",
+            "tr" : "el arabası",
+            "type" : "noun"
+        },
+        {
+            "en" : "crew",
+            "es" : "la tripulación",
+            "tr" : "mürettebat",
+            "type" : "noun"
+        },
+        {
+            "en" : "stewardess",
+            "es" : "la azafata",
+            "tr" : "hostes",
+            "type" : "noun"
+        },
+        {
+            "en" : "suitcase",
+            "es" : "la maleta",
+            "tr" : "bavul",
+            "type" : "noun"
+        },
+        {
+            "en" : "hand luggage",
+            "es" : "el equipaje de mano",
+            "tr" : "el bagajı",
+            "type" : "noun"
+        },
+        {
+            "en" : "port",
+            "es" : "el puerto",
+            "tr" : "liman",
+            "type" : "noun"
+        },
+        {
+            "en" : "to sail",
+            "es" : "ir en barco",
+            "tr" : "denize açılmak",
+            "type" : "verb"
+        },
+        {
+            "en" : "ship",
+            "es" : "el barco",
+            "tr" : "gemi",
+            "type" : "noun"
+        },
+        {
+            "en" : "ocean liner",
+            "es" : "el transatlántico",
+            "tr" : "okyanus gemisi",
+            "type" : "noun"
+        },
+        {
+            "en" : "flag",
+            "es" : "la bandera",
+            "tr" : "bayrak",
+            "type" : "noun"
+        },
+        {
+            "en" : "porthole",
+            "es" : "la portilla",
+            "tr" : "ambar penceresi",
+            "type" : "noun"
+        },
+        {
+            "en" : "anchor",
+            "es" : "el ancla",
+            "tr" : "çapa",
+            "type" : "noun"
+        },
+        {
+            "en" : "cabin",
+            "es" : "el camarote",
+            "tr" : "kamara [kabin]",
+            "type" : "noun"
+        },
+        {
+            "en" : "captain",
+            "es" : "el capitán",
+            "tr" : "kaptan",
+            "type" : "noun"
+        },
+        {
+            "en" : "deck",
+            "es" : "la cubierta",
+            "tr" : "güverte",
+            "type" : "noun"
+        },
+        {
+            "en" : "smokestack",
+            "es" : "la chimenea",
+            "tr" : "baca",
+            "type" : "noun"
+        },
+        {
+            "en" : "gangway",
+            "es" : "la pasarela",
+            "tr" : "gemiye biniş köprüsü",
+            "type" : "noun"
+        },
+        {
+            "en" : "ferry",
+            "es" : "el ferry",
+            "tr" : "feribot",
+            "type" : "noun"
+        },
+        {
+            "en" : "crossing",
+            "es" : "la travesía",
+            "tr" : "deniz yolculuğu",
+            "type" : "noun"
+        },
+        {
+            "en" : "to get seasick",
+            "es" : "marearse",
+            "tr" : "deniz tutmak",
+            "type" : "verb"
+        },
+        {
+            "en" : "dock",
+            "es" : "el muelle",
+            "tr" : "rıhtım",
+            "type" : "noun"
+        },
+        {
+            "en" : "cargo",
+            "es" : "la carga",
+            "tr" : "kargo",
+            "type" : "noun"
+        },
+        {
+            "en" : "to load",
+            "es" : "cargar",
+            "tr" : "yüklemek",
+            "type" : "verb"
+        },
+        {
+            "en" : "to unload",
+            "es" : "descargar",
+            "tr" : "boşaltmak [yük indirmek]",
+            "type" : "verb"
+        },
+        {
+            "en" : "hold",
+            "es" : "la bodega",
+            "tr" : "ambar",
+            "type" : "noun"
+        },
+        {
+            "en" : "sailor",
+            "es" : "el marinero",
+            "tr" : "denizci",
+            "type" : "noun"
         }
     ]
 };
