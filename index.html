@@ -43,7 +43,7 @@
         }
 
         .alert-word {
-            background-image: linear-gradient(burlywood, saddlebrown, burlywood);
+            background-image: linear-gradient(#b18c5e, saddlebrown, #b18c5e);
             color: white;
         }
 
@@ -87,6 +87,7 @@
             border: 1px solid grey;
             border-top: none;
             font-family: DSEG7;
+            font-size: 0.8em;
         }
 
         .score-board .success {
@@ -141,7 +142,7 @@
                     </div>
                 </div>
 
-                <div class="alert alert-word mb-4 p-2 fw-bold" role="alert" id="question"></div>
+                <div class="alert alert-word mb-4 p-1 fw-bold" role="alert" id="question"></div>
 
                 <button type="button" class="d-block w-100 btn btn-option mb-3"></button>
 
@@ -216,8 +217,8 @@
         ALL_WORDS = ALL_WORDS.flat();
 
         let wordCount = ALL_WORDS.length;
-        let from = "en";
-        let to = "es";
+        let from = "tr";
+        let to = "en";
 
         function nextWord() {
             let options = [];
