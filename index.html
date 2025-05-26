@@ -200,11 +200,13 @@
 
         fromLang.addEventListener("change",function () {
             from = fromLang.value;
+            reset();
             nextWord();
         });
 
         toLang.addEventListener("change",function () {
             to = toLang.value;
+            reset();
             nextWord();
         });
 
@@ -219,6 +221,11 @@
         let wordCount = ALL_WORDS.length;
         let from = "tr";
         let to = "en";
+
+        function reset() {
+            successDisplay.innerHTML = "0";
+            failureDisplay.innerHTML = "0";
+        }
 
         function nextWord() {
             let options = [];
