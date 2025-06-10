@@ -5557,6 +5557,1070 @@ const DICTIONARY = {
             "tr" : "denizci",
             "type" : "noun"
         }
+    ],
+    "Vacations" : [
+        {
+            "en" : "to go on vacation",
+            "es" : "ir de vacaciones",
+            "tr" : "tatile gitmek",
+            "type" : "verb phrase"
+        },
+        {
+            "en" : "tourist",
+            "es" : "el turista / la turista",
+            "tr" : "turist",
+            "type" : "noun"
+        },
+        {
+            "en" : "to pack",
+            "es" : "hacer la maleta",
+            "tr" : "bavul hazırlamak",
+            "type" : "verb phrase"
+        },
+        {
+            "en" : "suntan oil",
+            "es" : "el aceite para el sol",
+            "tr" : "güneş yağı",
+            "type" : "noun phrase"
+        },
+        {
+            "en" : "sunglasses",
+            "es" : "las gafas de sol",
+            "tr" : "güneş gözlüğü",
+            "type" : "noun phrase"
+        },
+        {
+            "en" : "hotel",
+            "es" : "el hotel",
+            "tr" : "otel",
+            "type" : "noun"
+        },
+        {
+            "en" : "to stay in a hotel",
+            "es" : "quedarse en un hotel",
+            "tr" : "otelde kalmak",
+            "type" : "verb phrase"
+        },
+        {
+            "en" : "reception",
+            "es" : "la recepción",
+            "tr" : "resepsiyon",
+            "type" : "noun"
+        },
+        {
+            "en" : "with shower",
+            "es" : "con ducha",
+            "tr" : "duşlu",
+            "type" : "phrase"
+        },
+        {
+            "en" : "with balcony",
+            "es" : "con balcon",
+            "tr" : "balkonlu",
+            "type" : "phrase"
+        },
+        {
+            "en" : "single room",
+            "es" : "la habitación individual",
+            "tr" : "tek kişilik oda",
+            "type" : "noun phrase"
+        },
+        {
+            "en" : "double room",
+            "es" : "la habitación doble",
+            "tr" : "çift kişilik oda",
+            "type" : "noun phrase"
+        },
+        {
+            "en" : "to reserve a room",
+            "es" : "reservar una habitación",
+            "tr" : "oda ayırtmak",
+            "type" : "verb phrase"
+        },
+        {
+            "en" : "to be full",
+            "es" : "estar completo",
+            "tr" : "dolu olmak",
+            "type" : "verb phrase"
+        },
+        {
+            "en" : "guesthouse [boarding house]",
+            "es" : "la pensión",
+            "tr" : "pansiyon",
+            "type" : "noun"
+        },
+        {
+            "en" : "beach",
+            "es" : "la playa",
+            "tr" : "plaj",
+            "type" : "noun"
+        },
+        {
+            "en" : "seagull",
+            "es" : "la gaviota",
+            "tr" : "martı",
+            "type" : "noun"
+        },
+        {
+            "en" : "lifeguard",
+            "es" : "el vigilante de playa",
+            "tr" : "cankurtaran",
+            "type" : "noun"
+        },
+        {
+            "en" : "wave",
+            "es" : "la ola",
+            "tr" : "dalga",
+            "type" : "noun"
+        },
+        {
+            "en" : "to swim",
+            "es" : "nadar",
+            "tr" : "yüzmek",
+            "type" : "verb"
+        },
+        {
+            "en" : "sea",
+            "es" : "el mar",
+            "tr" : "deniz",
+            "type" : "noun"
+        },
+        {
+            "en" : "sand",
+            "es" : "la arena",
+            "tr" : "kum",
+            "type" : "noun"
+        },
+        {
+            "en" : "to sunbathe",
+            "es" : "tomar un baño de sol",
+            "tr" : "güneşlenmek",
+            "type" : "verb"
+        },
+        {
+            "en" : "tanned",
+            "es" : "bronceado(a)",
+            "tr" : "bronzlanmış",
+            "type" : "adjective"
+        },
+        {
+            "en" : "parasol [sunshade]",
+            "es" : "el parasol",
+            "tr" : "şemsiye [güneşlik]",
+            "type" : "noun"
+        },
+        {
+            "en" : "seaweed",
+            "es" : "las algas marinas",
+            "tr" : "yosun",
+            "type" : "noun"
+        },
+        {
+            "en" : "crab",
+            "es" : "el canare",
+            "tr" : "yengeç",
+            "type" : "noun"
+        },
+        {
+            "en" : "seahell",
+            "es" : "la concha",
+            "tr" : "deniz kabuğu",
+            "type" : "noun"
+        },
+        {
+            "en" : "to go to mountaineering",
+            "es" : "hacer el alpinismo",
+            "tr" : "dağcılığa gitmek",
+            "type" : "verb phrase"
+        },
+        {
+            "en" : "mountain",
+            "es" : "la montaña",
+            "tr" : "dağ",
+            "type" : "noun"
+        },
+        {
+            "en" : "summit",
+            "es" : "la cima",
+            "tr" : "zirve",
+            "type" : "noun"
+        },
+        {
+            "en" : "view",
+            "es" : "la vista",
+            "tr" : "görünüm",
+            "type" : "noun"
+        },
+        {
+            "en" : "sharp",
+            "es" : "empinado(a)",
+            "tr" : "dik",
+            "type" : "adjective"
+        },
+        {
+            "en" : "to climb",
+            "es" : "escalar",
+            "tr" : "tırmanmak",
+            "type" : "verb"
+        },
+        {
+            "en" : "mountaineer [climber]",
+            "es" : "el alpinisto / la alpinista",
+            "tr" : "dağcı",
+            "type" : "noun"
+        },
+        {
+            "en" : "backpeck",
+            "es" : "la mochila",
+            "tr" : "sırt çantası",
+            "type" : "noun"
+        },
+        {
+            "en" : "to ski",
+            "es" : "esquiar",
+            "tr" : "kayak yapnak",
+            "type" : "verb"
+        },
+        {
+            "en" : "ski resort [ski center]",
+            "es" : "el centro de esquí",
+            "tr" : "kayak merkezi",
+            "type" : "noun phrase"
+        },
+        {
+            "en" : "chairlift",
+            "es" : "la silla de ascenso",
+            "tr" : "telesiyej",
+            "type" : "noun"
+        },
+        {
+            "en" : "slide",
+            "es" : "el tobogán",
+            "tr" : "kaydırak",
+            "type" : "noun"
+        },
+        {
+            "en" : "ski pole",
+            "es" : "el bastón de esquí",
+            "tr" : "kayak sopası",
+            "type" : "noun phrase"
+        },
+        {
+            "en" : "ski boats",
+            "es" : "las botas de esqui",
+            "tr" : "kayak botu",
+            "type" : "noun phrase"
+        },
+        {
+            "en" : "skis",
+            "es" : "los esquís",
+            "tr" : "kayak takımı",
+            "type" : "noun"
+        },
+        {
+            "en" : "to go to camping",
+            "es" : "ir de camping",
+            "tr" : "kampa gitmek",
+            "type" : "verb phrase"
+        },
+        {
+            "en" : "campsite",
+            "es" : "el camping",
+            "tr" : "kamp alanı",
+            "type" : "noun"
+        },
+        {
+            "en" : "caravan [camper van]",
+            "es" : "la caravana",
+            "tr" : "karavan",
+            "type" : "noun"
+        },
+        {
+            "en" : "tent",
+            "es" : "la tienda de campaña",
+            "tr" : "çadır",
+            "type" : "noun"
+        },
+        {
+            "en" : "to pitch the tent",
+            "es" : "montar la tienda de campaña",
+            "tr" : "çadır kurmak",
+            "type" : "verb phrase"
+        },
+        {
+            "en" : "camping stove",
+            "es" : "el infiernillo",
+            "tr" : "kamp ocağı ",
+            "type" : "verb phrase"
+        },
+        {
+            "en" : "sleeping bag",
+            "es" : "el saco de dormir",
+            "tr" : "uyku tulumu",
+            "type" : "noun phrase"
+        },
+        {
+            "en" : "lake",
+            "es" : "el lago",
+            "tr" : "göl",
+            "type" : "noun"
+        },
+        {
+            "en" : "reed",
+            "es" : "el junco",
+            "tr" : "kamış",
+            "type" : "noun"
+        },
+        {
+            "en" : "to go to fishing",
+            "es" : "ir de pesca",
+            "tr" : "balığa gitmek",
+            "type" : "varb phrase"
+        },
+        {
+            "en" : "fishing boat",
+            "es" : "la barca de pesca",
+            "tr" : "balıkçı teknesi",
+            "type" : "noun phrase"
+        },
+        {
+            "en" : "bait",
+            "es" : "el cebo",
+            "tr" : "yem",
+            "type" : "noun"
+        },
+        {
+            "en" : "hook",
+            "es" : "el anzuelo",
+            "tr" : "olta iğnesi",
+            "type" : "noun"
+        },
+        {
+            "en" : "net",
+            "es" : "la red",
+            "tr" : "ağ",
+            "type" : "noun"
+        },
+        {
+            "en" : "to catch a fish",
+            "es" : "coger un pez",
+            "tr" : "balık tutmak",
+            "type" : "verb phrase"
+        },
+        {
+            "en" : "canoe",
+            "es" : "la canoa",
+            "tr" : "kano",
+            "type" : "noun"
+        },
+        {
+            "en" : "to capsize",
+            "es" : "volcarse",
+            "tr" : "devrilmek",
+            "type" : "verb"
+        },
+        {
+            "en" : "to float",
+            "es" : "flotar",
+            "tr" : "su üstüne durmak",
+            "type" : "verb"
+        },
+        {
+            "en" : "dragonfly",
+            "es" : "la libélula",
+            "tr" : "yusufçuk",
+            "type" : "noun"
+        },
+        {
+            "en" : "mosquito",
+            "es" : "el mosquito",
+            "tr" : "sivrisinek",
+            "type" : "noun"
+        },
+        {
+            "en" : "duck",
+            "es" : "el pato",
+            "tr" : "ördek",
+            "type" : "noun"
+        },
+        {
+            "en" : "frog",
+            "es" : "la rana",
+            "tr" : "kurbağa",
+            "type" : "noun"
+        }
+    ],
+    "In the countryside" : [
+        {
+            "en" : "village",
+            "es" : "el pueblo",
+            "tr" : "köy",
+            "type" : "noun"
+        },
+        {
+            "en" : "landscape",
+            "es" : "el paisaje",
+            "tr" : "manzara",
+            "type" : "noun"
+        },
+        {
+            "en" : "peaceful",
+            "es" : "tranquilo(a)",
+            "tr" : "huzurlu",
+            "type" : "adjective"
+        },
+        {
+            "en" : "countryside",
+            "es" : "el campo",
+            "tr" : "kırsal",
+            "type" : "noun"
+        },
+        {
+            "en" : "cottage",
+            "es" : "la casita",
+            "tr" : "küçük ev",
+            "type" : "noun"
+        },
+        {
+            "en" : "to go for a walk",
+            "es" : "dar un paseo",
+            "tr" : "yürüyüşe çıkmak",
+            "type" : "verb phrase"
+        },
+        {
+            "en" : "path",
+            "es" : "el camino",
+            "tr" : "patika",
+            "type" : "noun"
+        },
+        {
+            "en" : "stream",
+            "es" : "el arroyo",
+            "tr" : "dere",
+            "type" : "noun"
+        },
+        {
+            "en" : "meadow",
+            "es" : "el prado",
+            "tr" : "çayır",
+            "type" : "noun"
+        },
+        {
+            "en" : "mole",
+            "es" : "el topo",
+            "tr" : "köstebek",
+            "type" : "noun"
+        },
+        {
+            "en" : "to climb a tree",
+            "es" : "trepar un arbol",
+            "tr" : "ağaca tırmanmak",
+            "type" : "verb phrase"
+        },
+        {
+            "en" : "wild flowers",
+            "es" : "las flores del campo",
+            "tr" : "kır çiçekleri",
+            "type" : "noun phrase"
+        },
+        {
+            "en" : "to pick flowers",
+            "es" : "coger flores",
+            "tr" : "çiçek toplamak",
+            "type" : "verb phrase"
+        },
+        {
+            "en" : "a bunch of flowers",
+            "es" : "un manojo de flores",
+            "tr" : "bir demet çiçek",
+            "type" : "noun phrase"
+        },
+        {
+            "en" : "daisy",
+            "es" : "la margarita",
+            "tr" : "papatya",
+            "type" : "noun"
+        },
+        {
+            "en" : "poppy",
+            "es" : "la amapola",
+            "tr" : "gelincik",
+            "type" : "noun"
+        },
+        {
+            "en" : "woods",
+            "es" : "el bosque",
+            "tr" : "orman",
+            "type" : "noun"
+        },
+        {
+            "en" : "oak",
+            "es" : "el roble",
+            "tr" : "meşe",
+            "type" : "noun"
+        },
+        {
+            "en" : "pine",
+            "es" : "el pino",
+            "tr" : "çam",
+            "type" : "noun"
+        },
+        {
+            "en" : "leaf",
+            "es" : "la hoja",
+            "tr" : "yaprak",
+            "type" : "noun"
+        },
+        {
+            "en" : "branch",
+            "es" : "la rama",
+            "tr" : "dal",
+            "type" : "noun"
+        },
+        {
+            "en" : "owl",
+            "es" : "el buho",
+            "tr" : "baykuş",
+            "type" : "noun"
+        },
+        {
+            "en" : "blackbird",
+            "es" : "el mirlo",
+            "tr" : "karatavuk",
+            "type" : "noun"
+        },
+        {
+            "en" : "squirrel",
+            "es" : "la ardilla",
+            "tr" : "sincap",
+            "type" : "noun"
+        },
+        {
+            "en" : "fox",
+            "es" : "el zorro",
+            "tr" : "tilki",
+            "type" : "noun"
+        },
+        {
+            "en" : "to fly",
+            "es" : "volar",
+            "tr" : "uçmak",
+            "type" : "verb"
+        },
+        {
+            "en" : "sparrow",
+            "es" : "el gorrión",
+            "tr" : "serçe",
+            "type" : "noun"
+        },
+        {
+            "en" : "valley",
+            "es" : "el valle",
+            "tr" : "vadi",
+            "type" : "noun"
+        },
+        {
+            "en" : "hill",
+            "es" : "el cerro",
+            "tr" : "tepe",
+            "type" : "noun"
+        },
+        {
+            "en" : "bridge",
+            "es" : "el puente",
+            "tr" : "köprü",
+            "type" : "noun"
+        },
+        {
+            "en" : "slope",
+            "es" : "la cuesta",
+            "tr" : "yokuş",
+            "type" : "noun"
+        },
+        {
+            "en" : "willow",
+            "es" : "el sauce",
+            "tr" : "söğüt",
+            "type" : "noun"
+        },
+        {
+            "en" : "bank",
+            "es" : "la orilla",
+            "tr" : "kıyı",
+            "type" : "noun"
+        },
+        {
+            "en" : "river",
+            "es" : "el rio",
+            "tr" : "nehir",
+            "type" : "noun"
+        },
+        {
+            "en" : "fly",
+            "es" : "la mosca",
+            "tr" : "sinek",
+            "type" : "noun"
+        },
+        {
+            "en" : "spider",
+            "es" : "la araña",
+            "tr" : "örümcek",
+            "type" : "noun"
+        }
+    ],
+    "On the farm" : [
+        {
+            "en" : "farm",
+            "es" : "la granja",
+            "tr" : "çiftlik",
+            "type" : "noun"
+        },
+        {
+            "en" : "stable",
+            "es" : "el establo",
+            "tr" : "ahır",
+            "type" : "noun"
+        },
+        {
+            "en" : "horse",
+            "es" : "el caballo",
+            "tr" : "at",
+            "type" : "noun"
+        },
+        {
+            "en" : "barn",
+            "es" : "el granero",
+            "tr" : "ambar",
+            "type" : "noun"
+        },
+        {
+            "en" : "hay",
+            "es" : "el heno",
+            "tr" : "saman",
+            "type" : "noun"
+        },
+        {
+            "en" : "cow",
+            "es" : "la vaca",
+            "tr" : "inek",
+            "type" : "noun"
+        },
+        {
+            "en" : "donkey",
+            "es" : "el burro",
+            "tr" : "eşek",
+            "type" : "noun"
+        },
+        {
+            "en" : "to milk",
+            "es" : "ordeñar",
+            "tr" : "sağmak",
+            "type" : "verb"
+        },
+        {
+            "en" : "calf",
+            "es" : "la ternera",
+            "tr" : "dana",
+            "type" : "noun"
+        },
+        {
+            "en" : "pig",
+            "es" : "el cerdo",
+            "tr" : "domuz",
+            "type" : "noun"
+        },
+        {
+            "en" : "ladder",
+            "es" : "la escalera",
+            "tr" : "merdiven",
+            "type" : "noun"
+        },
+        {
+            "en" : "farmyard",
+            "es" : "el patio de labranza",
+            "tr" : "çiftlik avlusu",
+            "type" : "noun phrase"
+        },
+        {
+            "en" : "hen",
+            "es" : "la gallina",
+            "tr" : "tavuk",
+            "type" : "noun"
+        },
+        {
+            "en" : "rooster",
+            "es" : "el gallo",
+            "tr" : "horoz",
+            "type" : "noun"
+        },
+        {
+            "en" : "chicken coop",
+            "es" : "el gallinero",
+            "tr" : "tavuk kümesi",
+            "type" : "noun"
+        },
+        {
+            "en" : "to lay eggs",
+            "es" : "poner huevos",
+            "tr" : "yumurtlamak",
+            "type" : "verb"
+        },
+        {
+            "en" : "farmer",
+            "es" : "el granjero / la granjera",
+            "tr" : "çiftçi",
+            "type" : "noun"
+        },
+        {
+            "en" : "goose",
+            "es" : "el ganso",
+            "tr" : "kaz",
+            "type" : "noun"
+        },
+        {
+            "en" : "goat",
+            "es" : "la cabra",
+            "tr" : "keçi",
+            "type" : "noun"
+        },
+        {
+            "en" : "field",
+            "es" : "el campo",
+            "tr" : "tarla",
+            "type" : "noun"
+        },
+        {
+            "en" : "flock",
+            "es" : "el rebaño",
+            "tr" : "sürü",
+            "type" : "noun"
+        },
+        {
+            "en" : "sheep",
+            "es" : "la oveja",
+            "tr" : "koyun",
+            "type" : "noun"
+        },
+        {
+            "en" : "lamb",
+            "es" : "el cordero",
+            "tr" : "kuzu",
+            "type" : "noun"
+        },
+        {
+            "en" : "gate",
+            "es" : "la puerta",
+            "tr" : "kapı",
+            "type" : "noun"
+        },
+        {
+            "en" : "shepherd dog",
+            "es" : "el perro pastor",
+            "tr" : "çoban köpeği",
+            "type" : "noun"
+        },
+        {
+            "en" : "vineyard",
+            "es" : "la viña",
+            "tr" : "bağ",
+            "type" : "noun"
+        },
+        {
+            "en" : "vine",
+            "es" : "la vid",
+            "tr" : "asma",
+            "type" : "noun"
+        },
+        {
+            "en" : "to harvest",
+            "es" : "cosechar",
+            "tr" : "hasat yapmak",
+            "type" : "verb"
+        },
+        {
+            "en" : "haystack",
+            "es" : "el almiar",
+            "tr" : "samanlık",
+            "type" : "noun"
+        },
+        {
+            "en" : "wheat",
+            "es" : "el trigo",
+            "tr" : "buğday",
+            "type" : "noun"
+        },
+        {
+            "en" : "to sow",
+            "es" : "sembrar",
+            "tr" : "ekmek",
+            "type" : "verb"
+        },
+        {
+            "en" : "orchard",
+            "es" : "el huerto",
+            "tr" : "bahçe",
+            "type" : "noun"
+        },
+        {
+            "en" : "apple tree",
+            "es" : "el manzano",
+            "tr" : "elma ağacı",
+            "type" : "noun"
+        },
+        {
+            "en" : "to pick",
+            "es" : "coger",
+            "tr" : "toplamak",
+            "type" : "verb"
+        },
+        {
+            "en" : "tractor",
+            "es" : "el tractor",
+            "tr" : "traktör",
+            "type" : "noun"
+        },
+        {
+            "en" : "to plow",
+            "es" : "arar",
+            "tr" : "sürmek",
+            "type" : "verb"
+        },
+        {
+            "en" : "scarecrow",
+            "es" : "el espantapájaros",
+            "tr" : "korkuluk",
+            "type" : "noun"
+        }
+    ],
+    "At work" : [
+        {
+            "en" : "to go to work",
+            "es" : "ir a trabajar",
+            "tr" : "işe gitmek",
+            "type" : "verb phrase"
+        },
+        {
+            "en" : "to be late",
+            "es" : "llegar tarde",
+            "tr" : "geç kalmak",
+            "type" : "verb phrase"
+        },
+        {
+            "en" : "to be on time",
+            "es" : "llegar a tiempo ",
+            "tr" : "zamanında varmak",
+            "type" : "verb phrase"
+        },
+        {
+            "en" : "lunch time",
+            "es" : "la hora de comer",
+            "tr" : "yemek saati",
+            "type" : "noun phrase"
+        },
+        {
+            "en" : "overtime",
+            "es" : "horas extraordinarias",
+            "tr" : "fazla mesai",
+            "type" : "noun phrase"
+        },
+        {
+            "en" : "office",
+            "es" : "la oficina",
+            "tr" : "ofis",
+            "type" : "noun"
+        },
+        {
+            "en" : "boss",
+            "es" : "el jefo / la jefa",
+            "tr" : "patron",
+            "type" : "noun"
+        },
+        {
+            "en" : "secretary",
+            "es" : "el secretario / la secretaria",
+            "tr" : "sekreter",
+            "type" : "noun"
+        },
+        {
+            "en" : "to employ",
+            "es" : "emplear",
+            "tr" : "iş vermek",
+            "type" : "verb"
+        },
+        {
+            "en" : "employee",
+            "es" : "el empleado / la empleada",
+            "tr" : "çalışan",
+            "type" : "noun"
+        },
+        {
+            "en" : "hardworking",
+            "es" : "trabajador(a)",
+            "tr" : "çalışkan",
+            "type" : "adjective"
+        },
+        {
+            "en" : "lazy",
+            "es" : "perezoso(a)",
+            "tr" : "tembel",
+            "type" : "adjective"
+        },
+        {
+            "en" : "to retire",
+            "es" : "jubilarse",
+            "tr" : "emekli olmak",
+            "type" : "verb"
+        },
+        {
+            "en" : "to fire",
+            "es" : "despedir",
+            "tr" : "işten çıkarmak [kovmak]",
+            "type" : "verb"
+        },
+        {
+            "en" : "profession",
+            "es" : "la profesión",
+            "tr" : "meslek",
+            "type" : "noun"
+        },
+        {
+            "en" : "bricklayer",
+            "es" : "el albañil",
+            "tr" : "duvar ustası",
+            "type" : "noun"
+        },
+        {
+            "en" : "plumber",
+            "es" : "el fontanero",
+            "tr" : "tesisatçı",
+            "type" : "noun"
+        },
+        {
+            "en" : "architect",
+            "es" : "el arquitecto / la arquitecta",
+            "tr" : "mimar",
+            "type" : "noun"
+        },
+        {
+            "en" : "judge",
+            "es" : "el juez / la jueza",
+            "tr" : "hakim",
+            "type" : "noun"
+        },
+        {
+            "en" : "lawyer",
+            "es" : "el abogado / la abogada",
+            "tr" : "avukat",
+            "type" : "noun"
+        },
+        {
+            "en" : "journalist",
+            "es" : "el periodista / la periodista",
+            "tr" : "gazeteci",
+            "type" : "noun"
+        },
+        {
+            "en" : "policeman",
+            "es" : "el guardia / la guardia",
+            "tr" : "polis",
+            "type" : "noun"
+        },
+        {
+            "en" : "vicar",
+            "es" : "el párroco",
+            "tr" : "rahip",
+            "type" : "noun"
+        },
+        {
+            "en" : "phptpgrapher",
+            "es" : "el fotógrafo / la fotógrafa",
+            "tr" : "fotoğrafçı",
+            "type" : "noun"
+        },
+        {
+            "en" : "shopkeeper",
+            "es" : "el tendero / la tendera",
+            "tr" : "tezgahtar",
+            "type" : "noun"
+        },
+        {
+            "en" : "sales representative",
+            "es" : "el representante comercial",
+            "tr" : "satış temsiclisi",
+            "type" : "noun phrase"
+        },
+        {
+            "en" : "sailor",
+            "es" : "el marinero / la marinera",
+            "tr" : "denizci",
+            "type" : "noun"
+        },
+        {
+            "en" : "soldier",
+            "es" : "el soldado / la soldada",
+            "tr" : "asker",
+            "type" : "noun"
+        },
+        {
+            "en" : "designer",
+            "es" : "el diseñador / la diseñadora",
+            "tr" : "tasarımcı",
+            "type" : "noun"
+        },
+        {
+            "en" : "hairdresser",
+            "es" : "el peluquero / la peluquera",
+            "tr" : "kuaför",
+            "type" : "noun"
+        },
+        {
+            "en" : "model",
+            "es" : "el modelo / la modelo",
+            "tr" : "model",
+            "type" : "noun"
+        },
+        {
+            "en" : "garbage collector",
+            "es" : "el basurero / la basurera",
+            "tr" : "çöpçü",
+            "type" : "noun"
+        },
+        {
+            "en" : "taxi driver",
+            "es" : "el taxista / la taxista",
+            "tr" : "taksici",
+            "type" : "noun"
+        },
+        {
+            "en" : "truck driver",
+            "es" : "el camionero / la camionera",
+            "tr" : "kamyon şoförü",
+            "type" : "noun"
+        },
+        {
+            "en" : "fireman",
+            "es" : "el bombero / la bombera",
+            "tr" : "itfaiyeci",
+            "type" : "noun"
+        },
+        {
+            "en" : "pilpt",
+            "es" : "el piloto / la pilota",
+            "tr" : "pilot",
+            "type" : "noun"
+        },
+        {
+            "en" : "stewardess",
+            "es" : "el azafato / la azafata",
+            "tr" : "hostes",
+            "type" : "noun"
+        },
+        {
+            "en" : "steward",
+            "es" : "el azafato",
+            "tr" : "host",
+            "type" : "noun"
+        }
     ]
 };
 
