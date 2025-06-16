@@ -298,6 +298,7 @@
             wordsDiv.classList.add("d-none");
             menuBtn.classList.add("d-none");
             page = "categories";
+            reset();
         });
 
         categoryButtons.forEach(button => {
@@ -343,7 +344,6 @@
         });
 
         nextButton.addEventListener("click", function () {
-            reset();
             nextWord();
         });
 
