@@ -395,15 +395,18 @@ const DICTIONARY = {
             "en" : "first name",
             "es" : "el nombre de pila",
             "tr" : "ilk isim",
+            "en_": "My first name is Yusuf.",
+            "es_": "Mi nombre de pila es Yusuf.",
+            "tr_": "Benim ilk ismim Yusuf.",
             "type" : "noun"
         },
         {
             "en" : "surname",
             "es" : "el apellido",
             "tr" : "soyadı",
-            "en_": "My first name is Yusuf.",
-            "es_": "Mi nombre de pila es Yusuf.",
-            "tr_": "Benim ilk ismim Yusuf.",
+            "en_": "Her surname is very common in Spain.",
+            "es_": "Su apellido es muy común en España.",
+            "tr_": "Onun soyadı İspanya’da çok yaygındır.",
             "type" : "noun"
         },
         {
@@ -8560,6 +8563,12 @@ const DICTIONARY = {
             "es" : "¡Feliz Año!",
             "tr" : "Mutlu Yıllar!",
             "type" : "expression"
+        },
+        {
+            "en" : "",
+            "es" : "",
+            "tr" : "",
+            "type" : "noun"
         }
     ]
 };
