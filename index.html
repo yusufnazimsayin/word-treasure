@@ -344,12 +344,16 @@
         });
 
         nextButton.addEventListener("click", function () {
+            example_from.classList.add("d-none");
+            example_to.classList.add("d-none");
             nextWord();
         });
 
         fromLang.addEventListener("change",function () {
             from = fromLang.value;
-            reset();
+            example_from.classList.add("d-none");
+            example_to.classList.add("d-none");
+            resetScore();
             if (page === "categories") {
                 categories();
             } else {
@@ -359,7 +363,9 @@
 
         toLang.addEventListener("change",function () {
             to = toLang.value;
-            reset();
+            example_from.classList.add("d-none");
+            example_to.classList.add("d-none");
+            resetScore();
             if (page !== "categories") {
                 nextWord();
             }
@@ -379,11 +385,9 @@
         let wordCount = SELECTED_WORDS.length;
         */
 
-        function reset() {
+        function resetScore() {
             successDisplay.innerHTML = "0";
             failureDisplay.innerHTML = "0";
-            example_from.classList.add("d-none");
-            example_to.classList.add("d-none");
         }
 
         function categories() {
