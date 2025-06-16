@@ -1,5 +1,238 @@
 'use strict';
 
+const CATEGORIES = [
+    {
+        "en": "Meeting people",
+        "es": "Conocer gente",
+        "tr": "İnsanlarla tanışma"
+    },
+    {
+        "en": "Family",
+        "es": "La familia",
+        "tr": "Aile"
+    },
+    {
+        "en": "Appearance and personality",
+        "es": "Apariencia y personalidad",
+        "tr": "Dış görünüş ve kişilik"
+    },
+    {
+        "en": "Body",
+        "es": "El cuerpo",
+        "tr": "Vücut"
+    },
+    {
+        "en": "Houses and homes",
+        "es": "Casas y hogares",
+        "tr": "Evler ve yaşam alanları"
+    },
+    {
+        "en": "Dining room and living room",
+        "es": "Comedor y sala de estar",
+        "tr": "Yemek odası ve oturma odası"
+    },
+    {
+        "en": "Kitchen",
+        "es": "La cocina",
+        "tr": "Mutfak"
+    },
+    {
+        "en": "Bath",
+        "es": "El baño",
+        "tr": "Banyo"
+    },
+    {
+        "en": "Garden",
+        "es": "El jardín",
+        "tr": "Bahçe"
+    },
+    {
+        "en": "Pets",
+        "es": "Mascotas",
+        "tr": "Evcil hayvanlar"
+    },
+    {
+        "en": "Getting up",
+        "es": "Levantarse",
+        "tr": "Uyanma"
+    },
+    {
+        "en": "Clothes",
+        "es": "La ropa",
+        "tr": "Kıyafetler"
+    },
+    {
+        "en": "Going to bed",
+        "es": "Irse a la cama",
+        "tr": "Yatmaya gitmek"
+    },
+    {
+        "en": "Eating and drinking",
+        "es": "Comer y beber",
+        "tr": "Yeme içme"
+    },
+    {
+        "en": "Food",
+        "es": "La comida",
+        "tr": "Yiyecek"
+    },
+    {
+        "en": "Pastimes",
+        "es": "Pasatiempos",
+        "tr": "Hobiler"
+    },
+    {
+        "en": "Going out",
+        "es": "Salir",
+        "tr": "Dışarı çıkmak"
+    },
+    {
+        "en": "At the zoo",
+        "es": "En el zoológico",
+        "tr": "Hayvanat bahçesinde"
+    },
+    {
+        "en": "In the park",
+        "es": "En el parque",
+        "tr": "Parkta"
+    },
+    {
+        "en": "In the city",
+        "es": "En la ciudad",
+        "tr": "Şehirde"
+    },
+    {
+        "en": "Shopping",
+        "es": "Ir de compras",
+        "tr": "Alışveriş"
+    },
+    {
+        "en": "Post office and bank",
+        "es": "Correos y banco",
+        "tr": "Postane ve banka"
+    },
+    {
+        "en": "Phonecalls and letters",
+        "es": "Llamadas y cartas",
+        "tr": "Telefon görüşmeleri ve mektuplar"
+    },
+    {
+        "en": "Out and about",
+        "es": "Fuera de casa",
+        "tr": "Dışarıda"
+    },
+    {
+        "en": "Driving",
+        "es": "Conducir",
+        "tr": "Araba kullanmak"
+    },
+    {
+        "en": "Travelling by train",
+        "es": "Viajar en tren",
+        "tr": "Trenle seyahat"
+    },
+    {
+        "en": "Travelling by plane and boat",
+        "es": "Viajar en avión y barco",
+        "tr": "Uçakla ve gemiyle seyahat"
+    },
+    {
+        "en": "Vacations",
+        "es": "Las vacaciones",
+        "tr": "Tatil"
+    },
+    {
+        "en": "In the countryside",
+        "es": "En el campo",
+        "tr": "Kırsalda"
+    },
+    {
+        "en": "On the farm",
+        "es": "En la granja",
+        "tr": "Çiftlikte"
+    },
+    {
+        "en": "At work",
+        "es": "En el trabajo",
+        "tr": "İşte"
+    },
+    {
+        "en": "Illness and health",
+        "es": "Enfermedad y salud",
+        "tr": "Hastalık ve sağlık"
+    },
+    {
+        "en": "School and education",
+        "es": "Escuela y educación",
+        "tr": "Okul ve eğitim"
+    },
+    {
+        "en": "Shape and sizes",
+        "es": "Formas y tamaños",
+        "tr": "Şekiller ve boyutlar"
+    },
+    {
+        "en": "Numbers",
+        "es": "Los números",
+        "tr": "Sayılar"
+    },
+    {
+        "en": "Sport",
+        "es": "El deporte",
+        "tr": "Spor"
+    },
+    {
+        "en": "Celebrations",
+        "es": "Celebraciones",
+        "tr": "Kutlamalar"
+    },
+    {
+        "en": "Days and dates",
+        "es": "Días y fechas",
+        "tr": "Günler ve tarihler"
+    },
+    {
+        "en": "Time",
+        "es": "La hora",
+        "tr": "Zaman / Saat"
+    },
+    {
+        "en": "Weather and seasons",
+        "es": "El tiempo y las estaciones",
+        "tr": "Hava durumu ve mevsimler"
+    },
+    {
+        "en": "World and universe",
+        "es": "El mundo y el universo",
+        "tr": "Dünya ve evren"
+    },
+    {
+        "en": "Politics",
+        "es": "La política",
+        "tr": "Siyaset"
+    },
+    {
+        "en": "Describing things",
+        "es": "Describir cosas",
+        "tr": "Nesneleri tanımlama"
+    },
+    {
+        "en": "Colors",
+        "es": "Los colores",
+        "tr": "Renkler"
+    },
+    {
+        "en": "In, on, under",
+        "es": "En, sobre, debajo de",
+        "tr": "İçinde, üstünde, altında"
+    },
+    {
+        "en": "Action words",
+        "es": "Verbos de acción",
+        "tr": "Eylem fiilleri"
+    }
+];
+
 const DICTIONARY = {
     "Meeting people" : [
         {
@@ -24,54 +257,81 @@ const DICTIONARY = {
             "en" : "to shake hands",
             "es" : "dar la mano",
             "tr" : "el sıkışmak",
+            "en_": "They agreed to shake hands after the match.",
+            "es_": "Acordaron dar la mano después del partido.",
+            "tr_": "Maçtan sonra el sıkışmaya karar verdiler.",
             "type" : "verb"
         },
         {
             "en" : "man",
             "es" : "el hombre",
             "tr" : "adam",
+            "en_": "The man opened the door and smiled.",
+            "es_": "El hombre abrió la puerta y sonrió.",
+            "tr_": "Adam kapıyı açtı ve gülümsedi.",
             "type" : "noun"
         },
         {
             "en" : "woman",
             "es" : "la mujer",
             "tr" : "kadın",
+            "en_": "The woman was reading a book in the park.",
+            "es_": "La mujer leía un libro en el parque.",
+            "tr_": "Kadın parkta bir kitap okuyordu.",
             "type" : "noun"
         },
         {
             "en" : "baby",
             "es" : "el bebé",
             "tr" : "bebek",
+            "en_": "The baby is sleeping in her crib.",
+            "es_": "El bebé está durmiendo en su cuna.",
+            "tr_": "Bebek beşiğinde uyuyor.",
             "type" : "noun"
         },
         {
             "en" : "boy",
             "es" : "el niño",
             "tr" : "erkek çocuğu",
+            "en_": "The boy kicked the ball across the field.",
+            "es_": "El niño pateó la pelota por el campo.",
+            "tr_": "Erkek çocuğu topu saha boyunca tekmeledi.",
             "type" : "noun"
         },
         {
             "en" : "girl",
             "es" : "la niña",
             "tr" : "kız çocuğu",
+            "en_": "The girl is drawing a picture of her cat.",
+            "es_": "La niña está dibujando un dibujo de su gato.",
+            "tr_": "Kız çocuğu kedisinin resmini çiziyor.",
             "type" : "noun"
         },
         {
             "en" : "to introduce",
             "es" : "presentar",
             "tr" : "tanıtmak",
+            "en_": "I would like to introduce my friend Yusuf.",
+            "es_": "Me gustaría presentar a mi amiga Yusuf.",
+            "tr_": "Arkadaşım Yusuf’u tanıtmak istiyorum.",
             "type" : "verb"
         },
         {
             "en" : "friend",
             "es" : "el amigo / la amiga",
             "tr" : "arkadaş",
+            "en_": "My friend is coming to visit me tomorrow.",
+            "es_": "Mi amigo viene a visitarme mañana.",
+            "tr_": "Arkadaşım yarın beni ziyarete geliyor.",
             "type" : "noun"
         },
         {
             "en" : "to meet",
             "es" : "encontrarse con",
             "tr" : "tanışmak",
+            "en_": "I will meet my new colleagues next week.",
+            "es_": "Me encontraré con mis nuevos colegas la próxima semana.",
+            "tr_": "Yeni meslektaşlarımla gelecek hafta tanışacağım.",
             "type" : "verb"
         },
         {
@@ -90,6 +350,9 @@ const DICTIONARY = {
             "en" : "to chat",
             "es" : "charlar",
             "tr" : "sohbet etmek",
+            "en_": "We like to chat online every evening.",
+            "es_": "Nos gusta charlar en línea todas las noches.",
+            "tr_": "Her akşam çevrimiçi sohbet etmeyi seviyoruz.",
             "type" : "verb"
         },
         {
@@ -108,6 +371,9 @@ const DICTIONARY = {
             "en" : "to say",
             "es" : "decir",
             "tr" : "söylemek",
+            "en_": "She wanted to say something important.",
+            "es_": "Ella quería decir algo importante.",
+            "tr_": "O önemli bir şey söylemek istedi.",
             "type" : "verb"
         },
         {
@@ -120,6 +386,9 @@ const DICTIONARY = {
             "en" : "name",
             "es" : "el nombre",
             "tr" : "ad",
+            "en_": "My name is Yusuf.",
+            "es_": "Mi nombre es Yusuf.",
+            "tr_": "Benim adım Yusuf.",
             "type" : "noun"
         },
         {
@@ -132,6 +401,9 @@ const DICTIONARY = {
             "en" : "surname",
             "es" : "el apellido",
             "tr" : "soyadı",
+            "en_": "My first name is Yusuf.",
+            "es_": "Mi nombre de pila es Yusuf.",
+            "tr_": "Benim ilk ismim Yusuf.",
             "type" : "noun"
         },
         {
@@ -156,6 +428,9 @@ const DICTIONARY = {
             "en" : "age",
             "es" : "la edad",
             "tr" : "yaş",
+            "en_": "What is your age?",
+            "es_": "¿Cuál es tu edad?",
+            "tr_": "Senin yaşın kaç?",
             "type" : "noun"
         },
         {
@@ -174,30 +449,45 @@ const DICTIONARY = {
             "en" : "small",
             "es" : "pequeño(a)",
             "tr" : "küçük",
+            "en_": "The small dog barked loudly.",
+            "es_": "El perro pequeño ladró fuerte.",
+            "tr_": "Küçük köpek yüksek sesle havladı.",
             "type" : "adjective"
         },
         {
             "en" : "old",
             "es" : "mayor",
             "tr" : "yaşlı",
+            "en_": "The old man walked slowly.",
+            "es_": "El hombre mayor caminaba despacio.",
+            "tr_": "Yaşlı adam yavaş yürüdü.",
             "type" : "adjective"
         },
         {
             "en" : "older than",
             "es" : "mayor que",
             "tr" : "...den yaşlı",
+            "en_": "She is older than her brother.",
+            "es_": "Ella es mayor que su hermano.",
+            "tr_": "O, erkek kardeşinden yaşlı.",
             "type" : "phrase"
         },
         {
             "en" : "smaller than",
             "es" : "más pequeño(a) que",
             "tr" : "...den küçük",
+            "en_": "This house is smaller than the other one.",
+            "es_": "Esta casa es más pequeño que la otra.",
+            "tr_": "Bu ev diğerinden küçük.",
             "type" : "phrase"
         },
         {
             "en" : "the same age",
             "es" : "la misma edad",
             "tr" : "aynı yaşta",
+            "en_": "She is the same age as her sister.",
+            "es_": "Ella tiene la misma edad que su hermana.",
+            "tr_": "O, kız kardeşiyle aynı yaşta.",
             "type" : "phrase"
         }
     ],
@@ -206,228 +496,342 @@ const DICTIONARY = {
             "en" : "family",
             "es" : "la familia",
             "tr" : "aile",
+            "en_": "My family is very important to me.",
+            "es_": "Mi familia es muy importante para mí.",
+            "tr_": "Ailem benim için çok önemli.",
             "type" : "noun"
         },
         {
             "en" : "father",
             "es" : "el padre",
             "tr" : "baba",
+            "en_": "My father works in a hospital.",
+            "es_": "Mi padre trabaja en un hospital.",
+            "tr_": "Babam bir hastanede çalışıyor.",
             "type" : "noun"
         },
         {
             "en" : "mother",
             "es" : "la madre",
             "tr" : "anne",
+            "en_": "My mother cooks delicious meals.",
+            "es_": "Mi madre cocina comidas deliciosas.",
+            "tr_": "Annem lezzetli yemekler yapar.",
             "type" : "noun"
         },
         {
             "en" : "brother",
             "es" : "el hermano",
             "tr" : "erkek kardeş",
+            "en_": "My brother plays football every weekend.",
+            "es_": "Mi hermano juega al fútbol todos los fines de semana.",
+            "tr_": "Erkek kardeşim her hafta sonu futbol oynar.",
             "type" : "noun"
         },
         {
             "en" : "sister",
             "es" : "la hermana",
             "tr" : "kız kardeş",
+            "en_": "My sister loves to read books.",
+            "es_": "Mi hermana ama leer libros.",
+            "tr_": "Kız kardeşim kitap okumayı çok sever.",
             "type" : "noun"
         },
         {
             "en" : "grandfather",
             "es" : "el abuelo",
             "tr" : "büyükbaba",
+            "en_": "My grandfather tells interesting stories.",
+            "es_": "Mi abuelo cuenta historias interesantes.",
+            "tr_": "Büyükbabam ilginç hikayeler anlatır.",
             "type" : "noun"
         },
         {
             "en" : "grandmother",
             "es" : "la abuela",
             "tr" : "büyükanne",
+            "en_": "My grandmother bakes the best cookies.",
+            "es_": "Mi abuela hornea las mejores galletas.",
+            "tr_": "Büyükanne en iyi kurabiyeleri yapar.",
             "type" : "noun"
         },
         {
             "en" : "uncle",
             "es" : "el tío",
             "tr" : "amca",
+            "en_": "My uncle loves fishing on weekends.",
+            "es_": "Mi tío ama la pesca los fines de semana.",
+            "tr_": "Amcam hafta sonları balık tutmayı sever.",
             "type" : "noun"
         },
         {
             "en" : "aunt",
             "es" : "la tía",
             "tr" : "teyze",
+            "en_": "My aunt visits us every summer.",
+            "es_": "Mi tía nos visita cada verano.",
+            "tr_": "Teyzem her yaz bizi ziyaret eder.",
             "type" : "noun"
         },
         {
             "en" : "cousin",
             "es" : "el primo / la prima",
             "tr" : "kuzen",
+            "en_": "My cousin is coming to the party.",
+            "es_": "Mi primo viene a la fiesta.",
+            "tr_": "Kuzenim partiye geliyor.",
             "type" : "nount"
         },
         {
             "en" : "to be related",
             "es" : "ser parientes",
             "tr" : "akraba olmak",
+            "en_": "They are related through their grandparents.",
+            "es_": "Ellos son parientes por parte de sus abuelos.",
+            "tr_": "Onlar büyükanneleri ve büyükbabaları sayesinde akrabadırlar.",
             "type" : "verb"
         },
         {
             "en" : "son",
             "es" : "el hijo",
             "tr" : "erkek evlat [oğul]",
+            "en_": "Their son is studying at university.",
+            "es_": "Su hijo está estudiando en la universidad.",
+            "tr_": "Onların oğlu üniversitede okuyor.",
             "type" : "noun"
         },
         {
             "en" : "daughter",
             "es" : "la hija",
             "tr" : "kız evlat",
+            "en_": "Their daughter loves painting.",
+            "es_": "Su hija ama la pintura.",
+            "tr_": "Onların kızı resim yapmayı çok seviyor.",
             "type" : "noun"
         },
         {
             "en" : "to bring up",
             "es" : "criar",
             "tr" : "büyütmek",
+            "en_": "They decided to bring up their children with love.",
+            "es_": "Decidieron criar a sus hijos con amor.",
+            "tr_": "Çocuklarını sevgiyle büyütmeye karar verdiler.",
             "type" : "verb"
         },
         {
             "en" : "grandson",
             "es" : "el nieto",
             "tr" : "erkek torun",
+            "en_": "My grandson loves playing soccer.",
+            "es_": "Mi nieto ama jugar al fútbol.",
+            "tr_": "Erkek torunum futbol oynamayı çok seviyor.",
             "type" : "noun"
         },
         {
             "en" : "granddaughter",
             "es" : "la nieta",
             "tr" : "kız torun",
+            "en_": "My granddaughter enjoys painting.",
+            "es_": "Mi nieta disfruta pintar.",
+            "tr_": "Kız torunum resim yapmaktan hoşlanır.",
             "type" : "noun"
         },
         {
             "en" : "to be fond of",
             "es" : "tenerle cariño",
             "tr" : "düşkün olmak",
+            "en_": "She is very fond of her pet dog.",
+            "es_": "Ella le tiene mucho cariño a su perro.",
+            "tr_": "O, evcil köpeğine çok düşkündür.",
             "type" : "verb"
         },
         {
             "en" : "nephew",
             "es" : "el sobrino",
             "tr" : "erkek yeğen",
+            "en_": "My nephew is learning to ride a bike.",
+            "es_": "Mi sobrino está aprendiendo a montar en bicicleta.",
+            "tr_": "Erkek yeğenim bisiklet sürmeyi öğreniyor.",
             "type" : "noun"
         },
         {
             "en" : "niece",
             "es" : "la sobrina",
             "tr" : "kız yeğen",
+            "en_": "My niece loves to dance.",
+            "es_": "Mi sobrina ama bailar.",
+            "tr_": "Kız yeğenim dans etmeyi çok sever.",
             "type" : "noun"
         },
         {
             "en" : "husband",
             "es" : "el marido",
             "tr" : "koca [eş]",
+            "en_": "Her husband is a great chef.",
+            "es_": "Su marido es un gran chef.",
+            "tr_": "Onun kocası harika bir aşçı.",
             "type" : "noun"
         },
         {
             "en" : "wife",
             "es" : "la mujer",
             "tr" : "eş",
+            "en_": "His wife is a talented artist.",
+            "es_": "Su mujer es una artista talentosa.",
+            "tr_": "Onun eşi yetenekli bir sanatçıdır.",
             "type" : "noun"
         },
         {
             "en" : "parents",
             "es" : "los padres",
             "tr" : "ebeveynler",
+            "en_": "Parents play a big role in children’s lives.",
+            "es_": "Los padres juegan un papel importante en la vida de los niños.",
+            "tr_": "Ebeveynler çocukların hayatında büyük rol oynar.",
             "type" : "noun"
         },
         {
             "en" : "to love",
             "es" : "querer",
             "tr" : "sevmek",
+            "en_": "I love spending time with my family.",
+            "es_": "Quiero pasar tiempo con mi familia.",
+            "tr_": "Ailemle vakit geçirmeyi seviyorum.",
             "type" : "verb"
         },
         {
             "en" : "children",
             "es" : "los hijos",
             "tr" : "çocuklar [evlatlar]",
+            "en_": "The children are playing in the park.",
+            "es_": "Los hijos están jugando en el parque.",
+            "tr_": "Çocuklar parkta oynuyor.",
             "type" : "noun"
         },
         {
             "en" : "twin",
             "es" : "el gemelo / la gemela",
             "tr" : "ikiz",
+            "en_": "My twin brother and I look very similar.",
+            "es_": "Mi gemelo y yo nos parecemos mucho.",
+            "tr_": "İkiz erkek kardeşimle çok benzeriz.",
             "type" : "noun"
         },
         {
             "en" : "only son",
             "es" : "el hijo único",
             "tr" : "tek erkek çocuk",
+            "en_": "He is the only son in his family.",
+            "es_": "Él es el hijo único en su familia.",
+            "tr_": "O, ailesindeki tek erkek çocuktur.",
             "type" : "noun"
         },
         {
             "en" : "life",
             "es" : "la vida",
             "tr" : "hayat",
+            "en_": "Life is full of surprises.",
+            "es_": "La vida está llena de sorpresas.",
+            "tr_": "Hayat sürprizlerle doludur.",
             "type" : "noun"
         },
         {
             "en" : "birth",
             "es" : "el nacimiento",
             "tr" : "doğum",
+            "en_": "The birth of the baby was a joyful event.",
+            "es_": "El nacimiento del bebé fue un evento alegre.",
+            "tr_": "Bebeğin doğumu sevinçli bir olaydı.",
             "type" : "noun"
         },
         {
             "en" : "to be born",
             "es" : "nacer",
             "tr" : "doğmak",
+            "en_": "She was born in June.",
+            "es_": "Ella nació en junio.",
+            "tr_": "O, Haziran ayında doğdu.",
             "type" : "verb"
         },
         {
             "en" : "childhood",
             "es" : "la niñez",
             "tr" : "çocukluk",
+            "en_": "She has fond memories of her childhood.",
+            "es_": "Ella tiene recuerdos cariñosos de su niñez.",
+            "tr_": "Onun çocukluğuna dair güzel anıları var.",
             "type" : "noun"
         },
         {
             "en" : "marriage",
             "es" : "el casamiento",
             "tr" : "evlilik",
+            "en_": "Their marriage lasted for many years.",
+            "es_": "Su casamiento duró muchos años.",
+            "tr_": "Onların evliliği uzun yıllar sürdü.",
             "type" : "noun"
         },
         {
             "en" : "to get married",
             "es" : "casarse",
             "tr" : "evlenmek",
+            "en_": "They decided to get married next year.",
+            "es_": "Decidieron casarse el próximo año.",
+            "tr_": "Gelecek yıl evlenmeye karar verdiler.",
             "type" : "verb"
         },
         {
             "en" : "wedding",
             "es" : "la boda",
             "tr" : "düğün",
+            "en_": "The wedding was beautiful and full of joy.",
+            "es_": "La boda fue hermosa y llena de alegría.",
+            "tr_": "Düğün güzel ve neşeyle doluydu.",
             "type" : "noun"
         },
         {
             "en" : "to work",
             "es" : "trabajar",
             "tr" : "çalışmak",
+            "en_": "He works in a bank.",
+            "es_": "Él trabaja en un banco.",
+            "tr_": "O, bir bankada çalışıyor.",
             "type" : "verb"
         },
         {
             "en" : "old age",
             "es" : "la vejez",
             "tr" : "yaşlılık",
+            "en_": "Many people enjoy their old age peacefully.",
+            "es_": "Muchas personas disfrutan de su vejez en paz.",
+            "tr_": "Birçok insan yaşlılığını huzur içinde geçirir.",
             "type" : "noun"
         },
         {
             "en" : "death",
             "es" : "la muerte",
             "tr" : "ölüm",
+            "en_": "The death of a loved one is always hard.",
+            "es_": "La muerte de un ser querido siempre es difícil.",
+            "tr_": "Sevilen birinin ölümü her zaman zordur.",
             "type" : "noun"
         },
         {
             "en" : "to die",
             "es" : "morirse",
             "tr" : "ölmek",
+            "en_": "Many plants die without enough water.",
+            "es_": "Muchas plantas se mueren sin suficiente agua.",
+            "tr_": "Birçok bitki yeterince su olmazsa ölür.",
             "type" : "verb"
         },
         {
             "en" : "funeral",
             "es" : "el entierro",
             "tr" : "cenaze",
+            "en_": "The funeral was held in the local church.",
+            "es_": "El entierro se celebró en la iglesia local.",
+            "tr_": "Cenaze yerel kilisede yapıldı.",
             "type" : "noun"
         }
     ],
@@ -1773,7 +2177,7 @@ const DICTIONARY = {
             "en" : "to open the curtains",
             "es" : "descorrer las cortinas",
             "tr" : "perdeleri açmak",
-            "type" : "verb phrase"
+            "type" : "verb"
         },
         {
             "en" : "robe",
@@ -1887,13 +2291,13 @@ const DICTIONARY = {
             "en" : "to clean teeth",
             "es" : "limpiarse los dientes",
             "tr" : "dişleri temizlemek",
-            "type" : "verb phrase"
+            "type" : "verb"
         },
         {
             "en" : "to dry your hair",
             "es" : "secarse el pelo",
             "tr" : "saçını kurutmak",
-            "type" : "verb phrase"
+            "type" : "verb"
         },
         {
             "en" : "brush",
@@ -1911,13 +2315,13 @@ const DICTIONARY = {
             "en" : "to comb your hair",
             "es" : "peinarse",
             "tr" : "saçını taramak",
-            "type" : "verb phrase"
+            "type" : "verb"
         },
         {
             "en" : "to brush your hair",
             "es" : "cepillarse el pelo",
             "tr" : "saçını fırçalamak",
-            "type" : "verb phrase"
+            "type" : "verb"
         },
         {
             "en" : "to make up",
@@ -2203,7 +2607,7 @@ const DICTIONARY = {
             "en" : "to turn on the light",
             "es" : "encender la luz",
             "tr" : "ışığı açmak",
-            "type" : "verb phrase"
+            "type" : "verb"
         },
         {
             "en" : "to tidy up",
@@ -2215,7 +2619,7 @@ const DICTIONARY = {
             "en" : "to take off clothes",
             "es" : "quitarse la ropa",
             "tr" : "elbesileri çıkarmak",
-            "type" : "verb phrase"
+            "type" : "verb"
         },
         {
             "en" : "to go to bed",
@@ -2263,7 +2667,7 @@ const DICTIONARY = {
             "en" : "to fall asleep",
             "es" : "dormirse",
             "tr" : "uykuya dalmak",
-            "type" : "verb phrase"
+            "type" : "verb"
         },
         {
             "en" : "Sleep well!",
@@ -2349,7 +2753,7 @@ const DICTIONARY = {
             "en" : "to set the table",
             "es" : "poner la mesa",
             "tr" : "masayı kurmak",
-            "type" : "verb phrase"
+            "type" : "verb"
         },
         {
             "en" : "coffee-pot",
@@ -3085,7 +3489,7 @@ const DICTIONARY = {
             "en" : "to watch television",
             "es" : "mirar la televisión",
             "tr" : "televizyon izlemek",
-            "type" : "verb phrase"
+            "type" : "verb"
         },
         {
             "en" : "channel",
@@ -3103,7 +3507,7 @@ const DICTIONARY = {
             "en" : "to listen to radio",
             "es" : "escuchar la radio",
             "tr" : "radyo dinlemek",
-            "type" : "verb phrase"
+            "type" : "verb"
         },
         {
             "en" : "headphones",
@@ -3115,7 +3519,7 @@ const DICTIONARY = {
             "en" : "to listen to music",
             "es" : "escuchar música",
             "tr" : "müzik dinlemek",
-            "type" : "verb phrase"
+            "type" : "verb"
         },
         {
             "en" : "to read",
@@ -3271,7 +3675,7 @@ const DICTIONARY = {
             "en" : "to take a photograph",
             "es" : "tomar una foto",
             "tr" : "fotoğraf çekmek",
-            "type" : "verb phrase"
+            "type" : "verb"
         },
         {
             "en" : "camera",
@@ -3373,7 +3777,7 @@ const DICTIONARY = {
             "en" : "to collect stamps",
             "es" : "coleccionar sellos",
             "tr" : "pul toplamak",
-            "type" : "verb phrase"
+            "type" : "verb"
         },
         {
             "en" : "musician",
@@ -3463,19 +3867,19 @@ const DICTIONARY = {
             "en" : "to play cards",
             "es" : "jugar a las cartas",
             "tr" : "iskambil oynamak",
-            "type" : "verb phrase"
+            "type" : "verb"
         },
         {
             "en" : "to play checkers",
             "es" : "jugar a las damas",
             "tr" : "dama oynamak",
-            "type" : "verb phrase"
+            "type" : "verb"
         },
         {
             "en" : "to play chess",
             "es" : "ugar al ajedrez",
             "tr" : "satranç oynamak",
-            "type" : "verb phrase"
+            "type" : "verb"
         },
         {
             "en" : "board games",
@@ -3495,7 +3899,7 @@ const DICTIONARY = {
             "en" : "to go to cinema",
             "es" : "ir al cine",
             "tr" : "sinemaya gitmek",
-            "type" : "verb phrase"
+            "type" : "verb"
         },
         {
             "en" : "film",
@@ -3877,7 +4281,7 @@ const DICTIONARY = {
             "en" : "to keep an eye on",
             "es" : "vigilar",
             "tr" : "göz kulak olmak",
-            "type" : "verb phrase"
+            "type" : "verb"
         },
         {
             "en" : "to climb",
@@ -4047,7 +4451,7 @@ const DICTIONARY = {
             "en" : "to cross street",
             "es" : "atravesar la calle",
             "tr" : "sokağı geçmek",
-            "type" : "verb phrase"
+            "type" : "verb"
         },
         {
             "en" : "pedestrian crossing",
@@ -4091,7 +4495,7 @@ const DICTIONARY = {
             "en" : "to make a list",
             "es" : "hacer una lista",
             "tr" : "alışveriş listesi yapmak",
-            "type" : "verb phrase"
+            "type" : "verb"
         },
         {
             "en" : "shopping bag",
@@ -4109,7 +4513,7 @@ const DICTIONARY = {
             "en" : "to go shopping",
             "es" : "ir de tiendas",
             "tr" : "alışverişe gitmek",
-            "type" : "verb phrase"
+            "type" : "verb"
         },
         {
             "en" : "butcher",
@@ -4187,7 +4591,7 @@ const DICTIONARY = {
             "en" : "to do shopping",
             "es" : "hacer las compras",
             "tr" : "alışveriş yapmak",
-            "type" : "verb phrase"
+            "type" : "verb"
         },
         {
             "en" : "to line up",
@@ -4313,7 +4717,7 @@ const DICTIONARY = {
             "en" : "to spend money",
             "es" : "gastar dinero",
             "tr" : "para harcamak",
-            "type" : "verb phrase"
+            "type" : "verb"
         },
         {
             "en" : "price",
@@ -4429,7 +4833,7 @@ const DICTIONARY = {
             "en" : "to send mail",
             "es" : "echar al correo",
             "tr" : "postaya vermek",
-            "type" : "verb phrase"
+            "type" : "verb"
         },
         {
             "en" : "letter",
@@ -4507,7 +4911,7 @@ const DICTIONARY = {
             "en" : "to exchange money",
             "es" : "cambiar dinero",
             "tr" : "para bozdurmak",
-            "type" : "verb phrase"
+            "type" : "verb"
         },
         {
             "en" : "exchange rate",
@@ -4593,7 +4997,7 @@ const DICTIONARY = {
             "en" : "to make a call",
             "es" : "hacer una llamada",
             "tr" : "arana yapmak",
-            "type" : "verb phrase"
+            "type" : "verb"
         },
         {
             "en" : "telephone",
@@ -4605,7 +5009,7 @@ const DICTIONARY = {
             "en" : "to dial number",
             "es" : "marcar el numero",
             "tr" : "numarayı çevirmek",
-            "type" : "verb phrase"
+            "type" : "verb"
         },
         {
             "en" : "phone number",
@@ -4635,7 +5039,7 @@ const DICTIONARY = {
             "en" : "to answer telephone",
             "es" : "contestar al teléfono",
             "tr" : "telefonu cevaplamak",
-            "type" : "verb phrase"
+            "type" : "verb"
         },
         {
             "en" : "telephone box",
@@ -4653,7 +5057,7 @@ const DICTIONARY = {
             "en" : "to write letter",
             "es" : "escribir una carta",
             "tr" : "mektup yazmak",
-            "type" : "verb phrase"
+            "type" : "verb"
         },
         {
             "en" : "Yours sincerely",
@@ -4677,7 +5081,7 @@ const DICTIONARY = {
             "en" : "to send a postcard",
             "es" : "mandar una postal",
             "tr" : "kartpostal göndermek",
-            "type" : "verb phrase"
+            "type" : "verb"
         }
     ],
     "Out and about" : [
@@ -4685,7 +5089,7 @@ const DICTIONARY = {
             "en" : "to go on foot",
             "es" : "ir a pie",
             "tr" : "yürüyerek gitmek",
-            "type" : "verb phrase"
+            "type" : "verb"
         },
         {
             "en" : "to walk",
@@ -4715,7 +5119,7 @@ const DICTIONARY = {
             "en" : "to ask for directions",
             "es" : "preguntar el camino",
             "tr" : "yol tarifi sormak",
-            "type" : "verb phrase"
+            "type" : "verb"
         },
         {
             "en" : "map",
@@ -4841,7 +5245,7 @@ const DICTIONARY = {
             "en" : "to ride bicycle",
             "es" : "ir en bicicleta",
             "tr" : "bisiklete binmek",
-            "type" : "verb phrase"
+            "type" : "verb"
         },
         {
             "en" : "motorbike",
@@ -4883,7 +5287,7 @@ const DICTIONARY = {
             "en" : "to hail taxi",
             "es" : "parar un taxi",
             "tr" : "taksi çevirmek",
-            "type" : "verb phrase"
+            "type" : "verb"
         },
         {
             "en" : "fare",
@@ -4915,7 +5319,7 @@ const DICTIONARY = {
             "en" : "to slow down",
             "es" : "reducir velocidad",
             "tr" : "hızı azaltmak",
-            "type" : "verb phrase"
+            "type" : "verb"
         },
         {
             "en" : "highway [motorway]",
@@ -4939,19 +5343,19 @@ const DICTIONARY = {
             "en" : "to turn left",
             "es" : "torcer a la izquierda",
             "tr" : "sola dönmek",
-            "type" : "verb phrase"
+            "type" : "verb"
         },
         {
             "en" : "to tun right",
             "es" : "torcer a la derecha",
             "tr" : "sağa dönmek",
-            "type" : "verb phrase"
+            "type" : "verb"
         },
         {
             "en" : "to go straight ahead",
             "es" : "seguir todo derecho",
             "tr" : "dosdoğru gitmek",
-            "type" : "verb phrase"
+            "type" : "verb"
         },
         {
             "en" : "side street",
@@ -4963,19 +5367,19 @@ const DICTIONARY = {
             "en" : "one-way",
             "es" : "dirección única",
             "tr" : "tek yön",
-            "type" : "noun phrase"
+            "type" : "noun"
         },
         {
             "en" : "no entry",
             "es" : "dirección prohibida",
             "tr" : "giriş yok",
-            "type" : "noun phrase"
+            "type" : "noun"
         },
         {
             "en" : "parking area",
             "es" : "el aparcamiento",
             "tr" : "park yeri",
-            "type" : "noun phrase"
+            "type" : "noun"
         },
         {
             "en" : "to park",
@@ -5071,7 +5475,7 @@ const DICTIONARY = {
             "en" : "flat tire [deflated tire]",
             "es" : "la rueda deshinchada",
             "tr" : "inmiş lastik",
-            "type" : "noun phrase"
+            "type" : "noun"
         },
         {
             "en" : "breakdown",
@@ -5095,7 +5499,7 @@ const DICTIONARY = {
             "en" : "fill up with gas",
             "es" : "llenar de gasolina",
             "tr" : "benzin doldurmak",
-            "type" : "verb phrase"
+            "type" : "verb"
         },
         {
             "en" : "gasolin",
@@ -5150,20 +5554,20 @@ const DICTIONARY = {
         {
             "en" : "timetable [schedule]",
             "es" : "el horario",
-            "tr" : "çalışma saatleri",
+            "tr" : "çalışma saatleri [saat çizelgesi]",
             "type" : "noun"
         },
         {
             "en" : "the train to ...",
             "es" : "el tren para ...",
             "tr" : "... treni",
-            "type" : "noun phrase"
+            "type" : "noun"
         },
         {
             "en" : "the train from ...",
             "es" : "el tren desde ...",
             "tr" : "... den gelen tren",
-            "type" : "noun phrase"
+            "type" : "noun"
         },
         {
             "en" : "ticket office [box office]",
@@ -5181,25 +5585,25 @@ const DICTIONARY = {
             "en" : "return ticket",
             "es" : "el billete de ida y vuelta",
             "tr" : "gidiş-dönüş bileti",
-            "type" : "noun phrase"
+            "type" : "noun"
         },
         {
             "en" : "season ticket",
             "es" : "el billete de abono",
             "tr" : "abonman bileti",
-            "type" : "noun phrase"
+            "type" : "noun"
         },
         {
             "en" : "ticket machine",
             "es" : "la máquina de billetes",
             "tr" : "bilet makinesi",
-            "type" : "noun phrase"
+            "type" : "noun"
         },
         {
             "en" : "to reserve a seat",
             "es" : "reservar un asiento",
             "tr" : "koltuk ayırtmak",
-            "type" : "verb phrase"
+            "type" : "verb"
         },
         {
             "en" : "railway",
@@ -5217,25 +5621,25 @@ const DICTIONARY = {
             "en" : "first class",
             "es" : "primera clase",
             "tr" : "birinci sınıf",
-            "type" : "noun phrase"
+            "type" : "noun"
         },
         {
             "en" : "to be delayed",
             "es" : "llevar retraso",
             "tr" : "gecikme yaşamak",
-            "type" : "verb phrase"
+            "type" : "verb"
         },
         {
             "en" : "to arrive on time",
             "es" : "llegar a la hora",
             "tr" : "zamanında varmak",
-            "type" : "verb phrase"
+            "type" : "verb"
         },
         {
             "en" : "sleeping-car",
             "es" : "el coche-cama",
             "tr" : "yataklı vagon",
-            "type" : "noun phrase"
+            "type" : "noun"
         },
         {
             "en" : "carriage [railcar]",
@@ -5247,13 +5651,13 @@ const DICTIONARY = {
             "en" : "to catch train",
             "es" : "coger el tren",
             "tr" : "trene yetişmek",
-            "type" : "verb phrase"
+            "type" : "verb"
         },
         {
             "en" : "to miss train",
             "es" : "perder el tren",
             "tr" : "treni kaçırmak",
-            "type" : "verb phrase"
+            "type" : "verb"
         },
         {
             "en" : "engine",
@@ -5277,13 +5681,13 @@ const DICTIONARY = {
             "en" : "ticket inspector [conductor]",
             "es" : "el interventor / la interventora",
             "tr" : "tren görevlisi [kondüktör]",
-            "type" : "noun phrase"
+            "type" : "noun"
         },
         {
             "en" : "freight train",
             "es" : "el tren de mercancías",
             "tr" : "yük treni",
-            "type" : "noun phrase"
+            "type" : "noun"
         },
         {
             "en" : "seat",
@@ -5295,7 +5699,7 @@ const DICTIONARY = {
             "en" : "reserved seat",
             "es" : "asiento reservado",
             "tr" : "ayrılmış koltuk",
-            "type" : "noun phrase"
+            "type" : "noun"
         },
         {
             "en" : "No smoking",
@@ -5563,7 +5967,7 @@ const DICTIONARY = {
             "en" : "to go on vacation",
             "es" : "ir de vacaciones",
             "tr" : "tatile gitmek",
-            "type" : "verb phrase"
+            "type" : "verb"
         },
         {
             "en" : "tourist",
@@ -5575,19 +5979,19 @@ const DICTIONARY = {
             "en" : "to pack",
             "es" : "hacer la maleta",
             "tr" : "bavul hazırlamak",
-            "type" : "verb phrase"
+            "type" : "verb"
         },
         {
             "en" : "suntan oil",
             "es" : "el aceite para el sol",
             "tr" : "güneş yağı",
-            "type" : "noun phrase"
+            "type" : "noun"
         },
         {
             "en" : "sunglasses",
             "es" : "las gafas de sol",
             "tr" : "güneş gözlüğü",
-            "type" : "noun phrase"
+            "type" : "noun"
         },
         {
             "en" : "hotel",
@@ -5599,7 +6003,7 @@ const DICTIONARY = {
             "en" : "to stay in a hotel",
             "es" : "quedarse en un hotel",
             "tr" : "otelde kalmak",
-            "type" : "verb phrase"
+            "type" : "verb"
         },
         {
             "en" : "reception",
@@ -5623,25 +6027,25 @@ const DICTIONARY = {
             "en" : "single room",
             "es" : "la habitación individual",
             "tr" : "tek kişilik oda",
-            "type" : "noun phrase"
+            "type" : "noun"
         },
         {
             "en" : "double room",
             "es" : "la habitación doble",
             "tr" : "çift kişilik oda",
-            "type" : "noun phrase"
+            "type" : "noun"
         },
         {
             "en" : "to reserve a room",
             "es" : "reservar una habitación",
             "tr" : "oda ayırtmak",
-            "type" : "verb phrase"
+            "type" : "verb"
         },
         {
             "en" : "to be full",
             "es" : "estar completo",
             "tr" : "dolu olmak",
-            "type" : "verb phrase"
+            "type" : "verb"
         },
         {
             "en" : "guesthouse [boarding house]",
@@ -5731,7 +6135,7 @@ const DICTIONARY = {
             "en" : "to go to mountaineering",
             "es" : "hacer el alpinismo",
             "tr" : "dağcılığa gitmek",
-            "type" : "verb phrase"
+            "type" : "verb"
         },
         {
             "en" : "mountain",
@@ -5785,7 +6189,7 @@ const DICTIONARY = {
             "en" : "ski resort [ski center]",
             "es" : "el centro de esquí",
             "tr" : "kayak merkezi",
-            "type" : "noun phrase"
+            "type" : "noun"
         },
         {
             "en" : "chairlift",
@@ -5803,13 +6207,13 @@ const DICTIONARY = {
             "en" : "ski pole",
             "es" : "el bastón de esquí",
             "tr" : "kayak sopası",
-            "type" : "noun phrase"
+            "type" : "noun"
         },
         {
             "en" : "ski boats",
             "es" : "las botas de esqui",
             "tr" : "kayak botu",
-            "type" : "noun phrase"
+            "type" : "noun"
         },
         {
             "en" : "skis",
@@ -5821,7 +6225,7 @@ const DICTIONARY = {
             "en" : "to go to camping",
             "es" : "ir de camping",
             "tr" : "kampa gitmek",
-            "type" : "verb phrase"
+            "type" : "verb"
         },
         {
             "en" : "campsite",
@@ -5845,19 +6249,19 @@ const DICTIONARY = {
             "en" : "to pitch the tent",
             "es" : "montar la tienda de campaña",
             "tr" : "çadır kurmak",
-            "type" : "verb phrase"
+            "type" : "verb"
         },
         {
             "en" : "camping stove",
             "es" : "el infiernillo",
             "tr" : "kamp ocağı ",
-            "type" : "verb phrase"
+            "type" : "verb"
         },
         {
             "en" : "sleeping bag",
             "es" : "el saco de dormir",
             "tr" : "uyku tulumu",
-            "type" : "noun phrase"
+            "type" : "noun"
         },
         {
             "en" : "lake",
@@ -5881,7 +6285,7 @@ const DICTIONARY = {
             "en" : "fishing boat",
             "es" : "la barca de pesca",
             "tr" : "balıkçı teknesi",
-            "type" : "noun phrase"
+            "type" : "noun"
         },
         {
             "en" : "bait",
@@ -5905,7 +6309,7 @@ const DICTIONARY = {
             "en" : "to catch a fish",
             "es" : "coger un pez",
             "tr" : "balık tutmak",
-            "type" : "verb phrase"
+            "type" : "verb"
         },
         {
             "en" : "canoe",
@@ -5985,7 +6389,7 @@ const DICTIONARY = {
             "en" : "to go for a walk",
             "es" : "dar un paseo",
             "tr" : "yürüyüşe çıkmak",
-            "type" : "verb phrase"
+            "type" : "verb"
         },
         {
             "en" : "path",
@@ -6015,25 +6419,25 @@ const DICTIONARY = {
             "en" : "to climb a tree",
             "es" : "trepar un arbol",
             "tr" : "ağaca tırmanmak",
-            "type" : "verb phrase"
+            "type" : "verb"
         },
         {
             "en" : "wild flowers",
             "es" : "las flores del campo",
             "tr" : "kır çiçekleri",
-            "type" : "noun phrase"
+            "type" : "noun"
         },
         {
             "en" : "to pick flowers",
             "es" : "coger flores",
             "tr" : "çiçek toplamak",
-            "type" : "verb phrase"
+            "type" : "verb"
         },
         {
             "en" : "a bunch of flowers",
             "es" : "un manojo de flores",
             "tr" : "bir demet çiçek",
-            "type" : "noun phrase"
+            "type" : "noun"
         },
         {
             "en" : "daisy",
@@ -6239,7 +6643,7 @@ const DICTIONARY = {
             "en" : "farmyard",
             "es" : "el patio de labranza",
             "tr" : "çiftlik avlusu",
-            "type" : "noun phrase"
+            "type" : "noun"
         },
         {
             "en" : "hen",
@@ -6397,31 +6801,31 @@ const DICTIONARY = {
             "en" : "to go to work",
             "es" : "ir a trabajar",
             "tr" : "işe gitmek",
-            "type" : "verb phrase"
+            "type" : "verb"
         },
         {
             "en" : "to be late",
             "es" : "llegar tarde",
             "tr" : "geç kalmak",
-            "type" : "verb phrase"
+            "type" : "verb"
         },
         {
             "en" : "to be on time",
             "es" : "llegar a tiempo ",
             "tr" : "zamanında varmak",
-            "type" : "verb phrase"
+            "type" : "verb"
         },
         {
             "en" : "lunch time",
             "es" : "la hora de comer",
             "tr" : "yemek saati",
-            "type" : "noun phrase"
+            "type" : "noun"
         },
         {
             "en" : "overtime",
             "es" : "horas extraordinarias",
             "tr" : "fazla mesai",
-            "type" : "noun phrase"
+            "type" : "noun"
         },
         {
             "en" : "office",
@@ -6547,7 +6951,7 @@ const DICTIONARY = {
             "en" : "sales representative",
             "es" : "el representante comercial",
             "tr" : "satış temsiclisi",
-            "type" : "noun phrase"
+            "type" : "noun"
         },
         {
             "en" : "sailor",
@@ -6620,6 +7024,1542 @@ const DICTIONARY = {
             "es" : "el azafato",
             "tr" : "host",
             "type" : "noun"
+        }
+    ],
+    "Illness and health" : [
+        {
+            "en" : "to feel ill",
+            "es" : "sentirse mal",
+            "tr" : "hasta hissetmek",
+            "type" : "verb"
+        },
+        {
+            "en" : "to feel better",
+            "es" : "sentirse mejor",
+            "tr" : "daha iyi hissetmek",
+            "type" : "verb"
+        },
+        {
+            "en" : "to take temperature",
+            "es" : "tomar la temperatura",
+            "tr" : "ateşi ölçmek",
+            "type" : "verb"
+        },
+        {
+            "en" : "thermometer",
+            "es" : "el termómetro",
+            "tr" : "termometre",
+            "type" : "noun"
+        },
+        {
+            "en" : "to have a fever",
+            "es" : "tener fiebre",
+            "tr" : "ateşi olmak",
+            "type" : "verb"
+        },
+        {
+            "en" : "doctor",
+            "es" : "el médico / la médica",
+            "tr" : "doktor",
+            "type" : "noun"
+        },
+        {
+            "en" : "prescription",
+            "es" : "la receta",
+            "tr" : "reçete",
+            "type" : "noun"
+        },
+        {
+            "en" : "to cure [to heal]",
+            "es" : "curar",
+            "tr" : "tedavi etmek",
+            "type" : "verb"
+        },
+        {
+            "en" : "pill",
+            "es" : "la pastilla",
+            "tr" : "hap",
+            "type" : "noun"
+        },
+        {
+            "en" : "healthy",
+            "es" : "sano(a)",
+            "tr" : "sağlıklı",
+            "type" : "adjective"
+        },
+        {
+            "en" : "to have cold",
+            "es" : "tener un resfriado",
+            "tr" : "nezle olmak",
+            "type" : "verb"
+        },
+        {
+            "en" : "to sneeze",
+            "es" : "estornudar",
+            "tr" : "hapşırmak",
+            "type" : "verb"
+        },
+        {
+            "en" : "to faint [to pass out]",
+            "es" : "desmayarse",
+            "tr" : "bayılmak",
+            "type" : "verb"
+        },
+        {
+            "en" : "to have stomach ache",
+            "es" : "tener dolor de estómago",
+            "tr" : "mide ağrısı olmak",
+            "type" : "verb"
+        },
+        {
+            "en" : "to vomit",
+            "es" : "vomitar",
+            "tr" : "kusmak",
+            "type" : "verb"
+        },
+        {
+            "en" : "to have a headache",
+            "es" : "tener dolor de cabeza",
+            "tr" : "baş ağrısı olmak",
+            "type" : "verb"
+        },
+        {
+            "en" : "dentist",
+            "es" : "el dentista / la dentista",
+            "tr" : "dişçi",
+            "type" : "noun"
+        },
+        {
+            "en" : "to get a tooth filled",
+            "es" : "empastarse un diente",
+            "tr" : "bir dişe dolgu yaptırmak",
+            "type" : "verb"
+        },
+        {
+            "en" : "injection",
+            "es" : "la inyección",
+            "tr" : "iğne [enjeksiyon]",
+            "type" : "noun"
+        },
+        {
+            "en" : "to have a toothache",
+            "es" : "tener dolor de muelas",
+            "tr" : "diş ağrısı olmak",
+            "type" : "verb"
+        },
+        {
+            "en" : "hospital",
+            "es" : "el hospital",
+            "tr" : "hastane",
+            "type" : "noun"
+        },
+        {
+            "en" : "emergencies",
+            "es" : "urgencias",
+            "tr" : "acil servis",
+            "type" : "noun"
+        },
+        {
+            "en" : "to brake one's leg",
+            "es" : "romperse la pierna",
+            "tr" : "bacağını kırmak",
+            "type" : "verb"
+        },
+        {
+            "en" : "bruise",
+            "es" : "la contusión",
+            "tr" : "morluk",
+            "type" : "noun"
+        },
+        {
+            "en" : "cut",
+            "es" : "la cortadura",
+            "tr" : "kesik",
+            "type" : "noun"
+        },
+        {
+            "en" : "burn",
+            "es" : "la quemadura",
+            "tr" : "yanık",
+            "type" : "noun"
+        },
+        {
+            "en" : "to dislocate one’s wrist",
+            "es" : "dislocarse la muneca",
+            "tr" : "bileği çıkmak",
+            "type" : "verb"
+        },
+        {
+            "en" : "to dislocate one’s wrist",
+            "es" : "dislocarse la muneca",
+            "tr" : "bileği çıkmak",
+            "type" : "verb"
+        },
+        {
+            "en" : "to sprain one’s wrist",
+            "es" : "torcerse la muñeca",
+            "tr" : "bileğini burkmak",
+            "type" : "verb"
+        },
+        {
+            "en" : "adhesive bandage",
+            "es" : "el esparadrapo",
+            "tr" : "yara bandı",
+            "type" : "noun"
+        },
+        {
+            "en" : "bandage",
+            "es" : "la venda",
+            "tr" : "sargı bezi",
+            "type" : "noun"
+        },
+        {
+            "en" : "ambulance",
+            "es" : "la ambulancia",
+            "tr" : "ambulans",
+            "type" : "noun"
+        },
+        {
+            "en" : "to take the pulse",
+            "es" : "tomar el pulso",
+            "tr" : "nabız ölçmek",
+            "type" : "verb"
+        },
+        {
+            "en" : "stretcher",
+            "es" : "la camilla",
+            "tr" : "sedye",
+            "type" : "noun"
+        },
+        {
+            "en" : "patient",
+            "es" : "el paciente / la paciente",
+            "tr" : "hasta",
+            "type" : "noun"
+        },
+        {
+            "en" : "operationg room",
+            "es" : "el quirofano",
+            "tr" : "ameliyathane",
+            "type" : "noun"
+        },
+        {
+            "en" : "surgeon",
+            "es" : "el cirujano / la cirujana",
+            "tr" : "cerrah",
+            "type" : "noun"
+        },
+        {
+            "en" : "surgery",
+            "es" : "la intervención cirúrgica",
+            "tr" : "ameliyat",
+            "type" : "noun"
+        },
+        {
+            "en" : "nurse",
+            "es" : "el enfermero / la enfermera",
+            "tr" : "hemşire",
+            "type" : "noun"
+        }
+    ],
+    "School and education" : [
+        {
+            "en" : "nursery school [kindergarten]",
+            "es" : "el jardin infantil",
+            "tr" : "anaokulu",
+            "type" : "noun"
+        },
+        {
+            "en" : "primary school",
+            "es" : "la escuela primaria",
+            "tr" : "ilkokul",
+            "type" : "noun"
+        },
+        {
+            "en" : "high school",
+            "es" : "el colegio",
+            "tr" : "lise",
+            "type" : "noun"
+        },
+        {
+            "en" : "headmaster",
+            "es" : "el director",
+            "tr" : "müdür",
+            "type" : "noun"
+        },
+        {
+            "en" : "headmistress",
+            "es" : "la directora",
+            "tr" : "müdire",
+            "type" : "noun"
+        },
+        {
+            "en" : "university",
+            "es" : "la universidad",
+            "tr" : "üniversite",
+            "type" : "noun"
+        },
+        {
+            "en" : "at school",
+            "es" : "en el colegio",
+            "tr" : "okulda",
+            "type" : "phrase"
+        },
+        {
+            "en" : "classroom",
+            "es" : "la clase",
+            "tr" : "sınıf",
+            "type" : "noun"
+        },
+        {
+            "en" : "map",
+            "es" : "el mapa",
+            "tr" : "harita",
+            "type" : "noun"
+        },
+        {
+            "en" : "lesson",
+            "es" : "la lección",
+            "tr" : "ders",
+            "type" : "noun"
+        },
+        {
+            "en" : "teacher",
+            "es" : "el profesor / la profesora",
+            "tr" : "öğretmen",
+            "type" : "noun"
+        },
+        {
+            "en" : "to teach",
+            "es" : "enseñar",
+            "tr" : "öğretmek",
+            "type" : "verb"
+        },
+        {
+            "en" : "student",
+            "es" : "el alumno / la alumna",
+            "tr" : "öğrenci",
+            "type" : "noun"
+        },
+        {
+            "en" : "to learn",
+            "es" : "aprender",
+            "tr" : "öğrenmek",
+            "type" : "verb"
+        },
+        {
+            "en" : "easy",
+            "es" : "fácil",
+            "tr" : "kolay",
+            "type" : "adjective"
+        },
+        {
+            "en" : "difficult",
+            "es" : "dificil",
+            "tr" : "zor",
+            "type" : "adjective"
+        },
+        {
+            "en" : "blackboard",
+            "es" : "el encerado",
+            "tr" : "kara tahta",
+            "type" : "noun"
+        },
+        {
+            "en" : "chalk",
+            "es" : "la tiza",
+            "tr" : "tebeşir",
+            "type" : "noun"
+        },
+        {
+            "en" : "to read",
+            "es" : "leer",
+            "tr" : "okumak",
+            "type" : "verb"
+        },
+        {
+            "en" : "to write",
+            "es" : "escribir",
+            "tr" : "yazmak",
+            "type" : "verb"
+        },
+        {
+            "en" : "to ask",
+            "es" : "preguntar",
+            "tr" : "sormak",
+            "type" : "verb"
+        },
+        {
+            "en" : "satchel",
+            "es" : "la cartera",
+            "tr" : "okul çantası",
+            "type" : "noun"
+        },
+        {
+            "en" : "notebook",
+            "es" : "el cuaderno",
+            "tr" : "defter",
+            "type" : "noun"
+        },
+        {
+            "en" : "pencil case",
+            "es" : "la caja de lápices",
+            "tr" : "kalem kutusu",
+            "type" : "noun"
+        },
+        {
+            "en" : "pen",
+            "es" : "la pluma",
+            "tr" : "dolma kalem",
+            "type" : "noun"
+        },
+        {
+            "en" : "ballpoint pen",
+            "es" : "el boligrafo",
+            "tr" : "tükenmez kalem",
+            "type" : "noun"
+        },
+        {
+            "en" : "pencil",
+            "es" : "el lápiz",
+            "tr" : "kurşun kalem",
+            "type" : "noun"
+        },
+        {
+            "en" : "toy",
+            "es" : "el juquete",
+            "tr" : "oyuncak",
+            "type" : "noun"
+        },
+        {
+            "en" : "colored pencil",
+            "es" : "el lápiz de color",
+            "tr" : "boya kalemi",
+            "type" : "noun"
+        },
+        {
+            "en" : "picture book",
+            "es" : "el libro de imágenes",
+            "tr" : "resim kitabı",
+            "type" : "nou phrasen"
+        },
+        {
+            "en" : "to play",
+            "es" : "jugar",
+            "tr" : "oynamak",
+            "type" : "to play"
+        },
+        {
+            "en" : "playground",
+            "es" : "el patio de juego",
+            "tr" : "oyun alanı",
+            "type" : "noun"
+        },
+        {
+            "en" : "break",
+            "es" : "el descanso",
+            "tr" : "mola",
+            "type" : "noun"
+        },
+        {
+            "en" : "bell",
+            "es" : "la campana",
+            "tr" : "zil",
+            "type" : "noun"
+        },
+        {
+            "en" : "coatroom [wardrobe]",
+            "es" : "el guardarropa",
+            "tr" : "kıyafet dolabı",
+            "type" : "noun"
+        },
+        {
+            "en" : "course",
+            "es" : "el curso",
+            "tr" : "kurs",
+            "type" : "noun"
+        },
+        {
+            "en" : "subject",
+            "es" : "la asignatura",
+            "tr" : "konu",
+            "type" : "noun"
+        },
+        {
+            "en" : "Spanish",
+            "es" : "el español",
+            "tr" : "İspanyolca",
+            "type" : "noun"
+        },
+        {
+            "en" : "French",
+            "es" : "el francés",
+            "tr" : "Fransızca",
+            "type" : "noun"
+        },
+        {
+            "en" : "English",
+            "es" : "el inglés",
+            "tr" : "İngilizce",
+            "type" : "noun"
+        },
+        {
+            "en" : "German",
+            "es" : "el alemán",
+            "tr" : "Almanca",
+            "type" : "noun"
+        },
+        {
+            "en" : "math",
+            "es" : "las matemáticas",
+            "tr" : "matematik",
+            "type" : "noun"
+        },
+        {
+            "en" : "physics",
+            "es" : "la física",
+            "tr" : "fizik",
+            "type" : "noun"
+        },
+        {
+            "en" : "chemistry",
+            "es" : "la química",
+            "tr" : "kimya",
+            "type" : "noun"
+        },
+        {
+            "en" : "biology",
+            "es" : "la biología",
+            "tr" : "biyoloji",
+            "type" : "noun"
+        },
+        {
+            "en" : "history",
+            "es" : "la historia",
+            "tr" : "tarih",
+            "type" : "noun"
+        },
+        {
+            "en" : "geography",
+            "es" : "la geografia",
+            "tr" : "coğrafya",
+            "type" : "noun"
+        },
+        {
+            "en" : "music",
+            "es" : "la música",
+            "tr" : "müzik",
+            "type" : "noun"
+        },
+        {
+            "en" : "computer science",
+            "es" : "la informática",
+            "tr" : "bilişim",
+            "type" : "noun"
+        },
+        {
+            "en" : "gymnastics",
+            "es" : "la gimnasia",
+            "tr" : "jimnastik",
+            "type" : "noun"
+        },
+        {
+            "en" : "letter",
+            "es" : "la letra",
+            "tr" : "harf",
+            "type" : "noun"
+        },
+        {
+            "en" : "alphabet",
+            "es" : "el alfabeto",
+            "tr" : "alfabe",
+            "type" : "noun"
+        },
+        {
+            "en" : "grammar",
+            "es" : "la gramática",
+            "tr" : "gramer",
+            "type" : "noun"
+        },
+        {
+            "en" : "spelling",
+            "es" : "la ortografía",
+            "tr" : "yazım",
+            "type" : "noun"
+        },
+        {
+            "en" : "capital letter",
+            "es" : "la mayúscula",
+            "tr" : "büyük harf",
+            "type" : "noun"
+        },
+        {
+            "en" : "word",
+            "es" : "lа palabra",
+            "tr" : "kelime",
+            "type" : "noun"
+        },
+        {
+            "en" : "sentence",
+            "es" : "la frase",
+            "tr" : "",
+            "type" : "noun"
+        },
+        {
+            "en" : "period",
+            "es" : "el punto",
+            "tr" : "nokta",
+            "type" : "noun"
+        },
+        {
+            "en" : "to calculate",
+            "es" : "hacer cuentas",
+            "tr" : "hesap yapmak",
+            "type" : "verb"
+        },
+        {
+            "en" : "to add",
+            "es" : "sumar",
+            "tr" : "toplamak",
+            "type" : "verb"
+        },
+        {
+            "en" : "plus",
+            "es" : "más",
+            "tr" : "artı",
+            "type" : "other"
+        },
+        {
+            "en" : "to subtract",
+            "es" : "restar",
+            "tr" : "çıkarmak",
+            "type" : "verb"
+        },
+        {
+            "en" : "minus",
+            "es" : "menos",
+            "tr" : "eksi",
+            "type" : "other"
+        },
+        {
+            "en" : "to multiply",
+            "es" : "multiplicar",
+            "tr" : "çarpmak",
+            "type" : "verb"
+        },
+        {
+            "en" : "kimes [mulitplied by]",
+            "es" : "por",
+            "tr" : "other",
+            "type" : "noun"
+        },
+        {
+            "en" : "to divide",
+            "es" : "dividir",
+            "tr" : "bölmek",
+            "type" : "verb"
+        },
+        {
+            "en" : "divided by",
+            "es" : "entre",
+            "tr" : "bölü",
+            "type" : "other"
+        },
+        {
+            "en" : "computer",
+            "es" : "la computadora",
+            "tr" : "bilgisayar",
+            "type" : "noun"
+        },
+        {
+            "en" : "keyboard",
+            "es" : "el teclado",
+            "tr" : "klavye",
+            "type" : "noun"
+        },
+        {
+            "en" : "calculator",
+            "es" : "la calculadora",
+            "tr" : "hesap makinesi",
+            "type" : "noun"
+        },
+        {
+            "en" : "fraction",
+            "es" : "la fracción",
+            "tr" : "kesir",
+            "type" : "noun"
+        },
+        {
+            "en" : "quarter",
+            "es" : "cuarto",
+            "tr" : "çeyrek",
+            "type" : "noun"
+        },
+        {
+            "en" : "half",
+            "es" : "medio",
+            "tr" : "yarım",
+            "type" : "noun"
+        },
+        {
+            "en" : "one third",
+            "es" : "una tercera parte",
+            "tr" : "üçte bir",
+            "type" : "noun"
+        },
+        {
+            "en" : "student",
+            "es" : "el estudiante / la estudiante",
+            "tr" : "öğrenci",
+            "type" : "noun"
+        },
+        {
+            "en" : "to study",
+            "es" : "estudiar",
+            "tr" : "ders çalışmak",
+            "type" : "verb"
+        },
+        {
+            "en" : "exam",
+            "es" : "el examen",
+            "tr" : "sınav",
+            "type" : "noun"
+        },
+        {
+            "en" : "to take an exam",
+            "es" : "examinarse",
+            "tr" : "sınava girmek",
+            "type" : "verb"
+        },
+        {
+            "en" : "to fail an exam",
+            "es" : "suspender un examen",
+            "tr" : "sınavda kalmak",
+            "type" : "verb"
+        },
+        {
+            "en" : "to pass an exam",
+            "es" : "suspender un examen",
+            "tr" : "sınavı geçmek",
+            "type" : "verb"
+        }
+    ],
+    "Shape and sizes" : [
+        {
+            "en" : "shape",
+            "es" : "la forma",
+            "tr" : "şekil",
+            "type" : "noun"
+        },
+        {
+            "en" : "circle",
+            "es" : "el circulo",
+            "tr" : "çember [daire]",
+            "type" : "noun"
+        },
+        {
+            "en" : "square",
+            "es" : "el cuadrado",
+            "tr" : "kare",
+            "type" : "noun"
+        },
+        {
+            "en" : "triangle",
+            "es" : "el triángulo",
+            "tr" : "üçgen",
+            "type" : "noun"
+        },
+        {
+            "en" : "cone",
+            "es" : "el cono",
+            "tr" : "koni",
+            "type" : "noun"
+        },
+        {
+            "en" : "rectangle",
+            "es" : "el rectangulo",
+            "tr" : "dikdörtgen",
+            "type" : "noun"
+        },
+        {
+            "en" : "enormous",
+            "es" : "enorme",
+            "tr" : "kocaman",
+            "type" : "adjective"
+        },
+        {
+            "en" : "big",
+            "es" : "grande",
+            "tr" : "büyük",
+            "type" : "adjective"
+        },
+        {
+            "en" : "small",
+            "es" : "pequeño(a)",
+            "tr" : "küçük",
+            "type" : "adjective"
+        },
+        {
+            "en" : "tiny",
+            "es" : "diminuto(a)",
+            "tr" : "minik",
+            "type" : "adjective"
+        },
+        {
+            "en" : "height",
+            "es" : "la altura",
+            "tr" : "yükseklik",
+            "type" : "noun"
+        },
+        {
+            "en" : "to measure",
+            "es" : "medir",
+            "tr" : "ölçmek",
+            "type" : "verb"
+        },
+        {
+            "en" : "meter",
+            "es" : "el metro",
+            "tr" : "metre",
+            "type" : "noun"
+        },
+        {
+            "en" : "centimeter",
+            "es" : "el centímetro",
+            "tr" : "santimetre",
+            "type" : "noun"
+        },
+        {
+            "en" : "length",
+            "es" : "el largo",
+            "tr" : "uzunluk",
+            "type" : "noun"
+        },
+        {
+            "en" : "width",
+            "es" : "el ancho",
+            "tr" : "genişlik",
+            "type" : "noun"
+        },
+        {
+            "en" : "volume",
+            "es" : "el volumen",
+            "tr" : "hacim",
+            "type" : "noun"
+        },
+        {
+            "en" : "liter",
+            "es" : "el litro",
+            "tr" : "litre",
+            "type" : "noun"
+        },
+        {
+            "en" : "half a liter",
+            "es" : "medio litro",
+            "tr" : "yarım litre",
+            "type" : "noun"
+        },
+        {
+            "en" : "weight",
+            "es" : "el peso",
+            "tr" : "ağırlık",
+            "type" : "noun"
+        },
+        {
+            "en" : "kilo",
+            "es" : "el kilo",
+            "tr" : "kilo",
+            "type" : "noun"
+        },
+        {
+            "en" : "half a kilo",
+            "es" : "medio kilo",
+            "tr" : "yarım kilo",
+            "type" : "noun"
+        }
+    ],
+    "Numbers" : [
+        {
+            "en" : "zero",
+            "es" : "сего",
+            "tr" : "sıfır",
+            "type" : "noun"
+        },
+        {
+            "en" : "one",
+            "es" : "uno",
+            "tr" : "bir",
+            "type" : "noun"
+        },
+        {
+            "en" : "two",
+            "es" : "dos",
+            "tr" : "iki",
+            "type" : "noun"
+        },
+        {
+            "en" : "three",
+            "es" : "tres",
+            "tr" : "üç",
+            "type" : "noun"
+        },
+        {
+            "en" : "four",
+            "es" : "cuatro",
+            "tr" : "dört",
+            "type" : "noun"
+        },
+        {
+            "en" : "five",
+            "es" : "cinco",
+            "tr" : "beş",
+            "type" : "noun"
+        },
+        {
+            "en" : "six",
+            "es" : "seis",
+            "tr" : "altı",
+            "type" : "noun"
+        },
+        {
+            "en" : "seven",
+            "es" : "siete",
+            "tr" : "yedi",
+            "type" : "noun"
+        },
+        {
+            "en" : "eight",
+            "es" : "ocho",
+            "tr" : "sekiz",
+            "type" : "noun"
+        },
+        {
+            "en" : "nine",
+            "es" : "nueve",
+            "tr" : "dokuz",
+            "type" : "noun"
+        },
+        {
+            "en" : "ten",
+            "es" : "diez",
+            "tr" : "on",
+            "type" : "noun"
+        },
+        {
+            "en" : "eleven",
+            "es" : "once",
+            "tr" : "on bir",
+            "type" : "noun"
+        },
+        {
+            "en" : "twelve",
+            "es" : "doce",
+            "tr" : "on iki",
+            "type" : "noun"
+        },
+        {
+            "en" : "thirteen",
+            "es" : "trece",
+            "tr" : "on üç",
+            "type" : "noun"
+        },
+        {
+            "en" : "fourteen",
+            "es" : "catorce",
+            "tr" : "on dört",
+            "type" : "noun"
+        },
+        {
+            "en" : "fifteen",
+            "es" : "quince",
+            "tr" : "on beş",
+            "type" : "noun"
+        },
+        {
+            "en" : "sixteen",
+            "es" : "dieciséis",
+            "tr" : "on altı",
+            "type" : "noun"
+        },
+        {
+            "en" : "seventeen",
+            "es" : "diecisiete",
+            "tr" : "on yedi",
+            "type" : "noun"
+        },
+        {
+            "en" : "eighteen",
+            "es" : "dieciocho",
+            "tr" : "on sekiz",
+            "type" : "noun"
+        },
+        {
+            "en" : "nineteen",
+            "es" : "diecinueve",
+            "tr" : "on dokuz",
+            "type" : "noun"
+        },
+        {
+            "en" : "twenty",
+            "es" : "veinte",
+            "tr" : "yirmi",
+            "type" : "noun"
+        },
+        {
+            "en" : "twenty one",
+            "es" : "veintiuno",
+            "tr" : "yirmi bir",
+            "type" : "noun"
+        },
+        {
+            "en" : "twenty two",
+            "es" : "veintidós",
+            "tr" : "yirmi iki",
+            "type" : "noun"
+        },
+        {
+            "en" : "twenty three",
+            "es" : "veintitrés",
+            "tr" : "yirmi üç",
+            "type" : "noun"
+        },
+        {
+            "en" : "twenty four",
+            "es" : "veinticuatro",
+            "tr" : "yirmi dört",
+            "type" : "noun"
+        },
+        {
+            "en" : "twenty five",
+            "es" : "veinticinco",
+            "tr" : "yirmi beş",
+            "type" : "noun"
+        },
+        {
+            "en" : "thirty",
+            "es" : "treinta",
+            "tr" : "otuz",
+            "type" : "noun"
+        },
+        {
+            "en" : "thirty one",
+            "es" : "treinta y uno",
+            "tr" : "otuz bir",
+            "type" : "noun"
+        },
+        {
+            "en" : "thirty two",
+            "es" : "treinta y dos",
+            "tr" : "otuz iki",
+            "type" : "noun"
+        },
+        {
+            "en" : "thirty three",
+            "es" : "treinta y tres",
+            "tr" : "otuz üç",
+            "type" : "noun"
+        },
+        {
+            "en" : "fourty",
+            "es" : "cuarenta",
+            "tr" : "kırk",
+            "type" : "noun"
+        },
+        {
+            "en" : "fifty",
+            "es" : "cinquenta",
+            "tr" : "elli",
+            "type" : "noun"
+        },
+        {
+            "en" : "sixty",
+            "es" : "sesenta",
+            "tr" : "altmış",
+            "type" : "noun"
+        },
+        {
+            "en" : "seventy",
+            "es" : "setenta",
+            "tr" : "yetmiş",
+            "type" : "noun"
+        },
+        {
+            "en" : "eighty",
+            "es" : "ochenta",
+            "tr" : "seksen",
+            "type" : "noun"
+        },
+        {
+            "en" : "ninety",
+            "es" : "noventa",
+            "tr" : "doksan",
+            "type" : "noun"
+        },
+        {
+            "en" : "hundred",
+            "es" : "ciento",
+            "tr" : "yüz",
+            "type" : "noun"
+        },
+        {
+            "en" : "thousand",
+            "es" : "mil",
+            "tr" : "bin",
+            "type" : "noun"
+        },
+        {
+            "en" : "million",
+            "es" : "un millón",
+            "tr" : "milyon",
+            "type" : "noun"
+        }
+    ],
+    "Sport" : [
+        {
+            "en" : "to keep fit",
+            "es" : "mantenerse en forma",
+            "tr" : "formda kalmak",
+            "type" : "verb"
+        },
+        {
+            "en" : "to jog",
+            "es" : "hacer footing",
+            "tr" : "koşu yapmak",
+            "type" : "verb"
+        },
+        {
+            "en" : "to train",
+            "es" : "entrenarse",
+            "tr" : "antrenman yapmak",
+            "type" : "verb"
+        },
+        {
+            "en" : "running shoes",
+            "es" : "los zapatos de corredor",
+            "tr" : "koşu ayakkabısı",
+            "type" : "noun"
+        },
+        {
+            "en" : "tracksuit",
+            "es" : "el traje de entrenamiento",
+            "tr" : "eşofman takımı",
+            "type" : "noun"
+        },
+        {
+            "en" : "to play tennis",
+            "es" : "jugar al tenis",
+            "tr" : "tenis oynamak",
+            "type" : "verb"
+        },
+        {
+            "en" : "tennis court",
+            "es" : "la pista de tenis",
+            "tr" : "tenis kortu",
+            "type" : "noun"
+        },
+        {
+            "en" : "tennis player",
+            "es" : "el tenista / la tenista",
+            "tr" : "tenisçi",
+            "type" : "noun"
+        },
+        {
+            "en" : "tp serve",
+            "es" : "servir",
+            "tr" : "servis atmak",
+            "type" : "verb"
+        },
+        {
+            "en" : "in",
+            "es" : "dentro",
+            "tr" : "içeri",
+            "type" : "adverb"
+        },
+        {
+            "en" : "out",
+            "es" : "fuera",
+            "tr" : "dışarı",
+            "type" : "adverb"
+        },
+        {
+            "en" : "net",
+            "es" : "la red",
+            "tr" : "net",
+            "type" : "isim"
+        },
+        {
+            "en" : "ball",
+            "es" : "la pelota",
+            "tr" : "top",
+            "type" : "noun"
+        },
+        {
+            "en" : "racket",
+            "es" : "la raqueta",
+            "tr" : "raket",
+            "type" : "noun"
+        },
+        {
+            "en" : "to play golf",
+            "es" : "jugar al golf",
+            "tr" : "golf oynamak",
+            "type" : "verb"
+        },
+        {
+            "en" : "golf club",
+            "es" : "el palo de golf",
+            "tr" : "golf kulübü",
+            "type" : "noun"
+        },
+        {
+            "en" : "to play football",
+            "es" : "jugar al fútbol",
+            "tr" : "futbol oynamak",
+            "type" : "verb"
+        },
+        {
+            "en" : "referee",
+            "es" : "el árbitro / la árbitra",
+            "tr" : "hakem",
+            "type" : "noun"
+        },
+        {
+            "en" : "team",
+            "es" : "el equipo",
+            "tr" : "takım [ekip]",
+            "type" : "noun"
+        },
+        {
+            "en" : "soccer field",
+            "es" : "el campo de fútbol",
+            "tr" : "futbol sahası",
+            "type" : "noun"
+        },
+        {
+            "en" : "goalkeeper",
+            "es" : "el portero",
+            "tr" : "kaleci",
+            "type" : "noun"
+        },
+        {
+            "en" : "ball [soccer ball]",
+            "es" : "el balón",
+            "tr" : "futbol topu",
+            "type" : "noun"
+        },
+        {
+            "en" : "to score a goal",
+            "es" : "marcar un gol",
+            "tr" : "gol atmak",
+            "type" : "verb"
+        },
+        {
+            "en" : "swimming pool",
+            "es" : "la piscina",
+            "tr" : "yüzme havuzu",
+            "type" : "noun"
+        },
+        {
+            "en" : "to swim",
+            "es" : "nadar",
+            "tr" : "yüzmek",
+            "type" : "verb"
+        },
+        {
+            "en" : "to swim the backstroke ",
+            "es" : "hacer la brazada de espalda",
+            "tr" : "sırtüstü yüzmek",
+            "type" : "verb"
+        },
+        {
+            "en" : "to swim breaststroke",
+            "es" : "hacer la braza de pecho",
+            "tr" : "kurbağalama yüzmek",
+            "type" : "verb"
+        },
+        {
+            "en" : "to dive",
+            "es" : "tirarse",
+            "tr" : "atlamak",
+            "type" : "verb"
+        },
+        {
+            "en" : "trampoline [diving board]",
+            "es" : "el trampolin",
+            "tr" : "trambolin",
+            "type" : "noun"
+        },
+        {
+            "en" : "horse racing",
+            "es" : "las carreras de caballos",
+            "tr" : "at yarışı",
+            "type" : "noun"
+        },
+        {
+            "en" : "car racing",
+            "es" : "las carreras de coches",
+            "tr" : "araba yarışı",
+            "type" : "noun"
+        },
+        {
+            "en" : "gymnastics",
+            "es" : "la gimnasia",
+            "tr" : "jimnastik",
+            "type" : "noun"
+        },
+        {
+            "en" : "athletics",
+            "es" : "el atletismo",
+            "tr" : "atletizm",
+            "type" : "noun"
+        }
+    ],
+    "Celebrations" : [
+        {
+            "en" : "birthday",
+            "es" : "el cumpleaños",
+            "tr" : "doğum günü",
+            "type" : "noun"
+        },
+        {
+            "en" : "party",
+            "es" : "la fiesta",
+            "tr" : "parti [eğlence]",
+            "type" : "noun"
+        },
+        {
+            "en" : "balloon",
+            "es" : "el globo",
+            "tr" : "balon",
+            "type" : "noun"
+        },
+        {
+            "en" : "Congratulations!",
+            "es" : "¡Felicidades!",
+            "tr" : "Tebrikler! ",
+            "type" : "interjection"
+        },
+        {
+            "en" : "to invite",
+            "es" : "Invitar",
+            "tr" : "davet etmek",
+            "type" : "verb"
+        },
+        {
+            "en" : "[to have fun [to enjoy oneself]",
+            "es" : "divertirse",
+            "tr" : "eğlenmek",
+            "type" : "verb"
+        },
+        {
+            "en" : "",
+            "es" : "",
+            "tr" : "",
+            "type" : "noun"
+        },
+        {
+            "en" : "",
+            "es" : "",
+            "tr" : "",
+            "type" : "noun"
+        },
+        {
+            "en" : "",
+            "es" : "",
+            "tr" : "",
+            "type" : "noun"
+        },
+        {
+            "en" : "",
+            "es" : "",
+            "tr" : "",
+            "type" : "noun"
+        },
+        {
+            "en" : "",
+            "es" : "",
+            "tr" : "",
+            "type" : "noun"
+        },
+        {
+            "en" : "",
+            "es" : "",
+            "tr" : "",
+            "type" : "noun"
+        },
+        {
+            "en" : "",
+            "es" : "",
+            "tr" : "",
+            "type" : "noun"
+        },
+        {
+            "en" : "",
+            "es" : "",
+            "tr" : "",
+            "type" : "noun"
+        },
+        {
+            "en" : "cake",
+            "es" : "la tarta",
+            "tr" : "turta",
+            "type" : "noun"
+        },
+        {
+            "en" : "candle",
+            "es" : "la vela",
+            "tr" : "mum",
+            "type" : "noun"
+        },
+        {
+            "en" : "present [gift]",
+            "es" : "el regalo",
+            "tr" : "hediye",
+            "type" : "noun"
+        },
+        {
+            "en" : "card",
+            "es" : "la tarjeta",
+            "tr" : "tebrik kartı",
+            "type" : "noun"
+        },
+        {
+            "en" : "wrapping",
+            "es" : "la envoltura",
+            "tr" : "ambalaj",
+            "type" : "noun"
+        },
+        {
+            "en" : "Easter",
+            "es" : "Pascua",
+            "tr" : "Paskalya",
+            "type" : "noun"
+        },
+        {
+            "en" : "Christmas",
+            "es" : "las Navidades",
+            "tr" : "Noel",
+            "type" : "noun"
+        },
+        {
+            "en" : "Christmas Day",
+            "es" : "el Día de Navidad",
+            "tr" : "Noel Günü",
+            "type" : "noun"
+        },
+        {
+            "en" : "Christnas tree",
+            "es" : "el árbol de Navidad",
+            "tr" : "Noel ağacı",
+            "type" : "noun"
+        },
+        {
+            "en" : "to start dating",
+            "es" : "hacerse novios",
+            "tr" : "sevgili olmak",
+            "type" : "verb"
+        },
+        {
+            "en" : "wedding",
+            "es" : "la boda",
+            "tr" : "düğün",
+            "type" : "noun"
+        },
+        {
+            "en" : "to get married",
+            "es" : "casarse",
+            "tr" : "evlenmek",
+            "type" : "verb"
+        },
+        {
+            "en" : "bridegroom",
+            "es" : "el novio",
+            "tr" : "damat",
+            "type" : "noun"
+        },
+        {
+            "en" : "bride",
+            "es" : "la novia",
+            "tr" : "gelin",
+            "type" : "noun"
+        },
+        {
+            "en" : "guest",
+            "es" : "el invitado / la invitada",
+            "tr" : "misafir",
+            "type" : "noun"
+        },
+        {
+            "en" : "to congratulate",
+            "es" : "felicitar",
+            "tr" : "tebrik etmek",
+            "type" : "verb"
+        },
+        {
+            "en" : "bouquet",
+            "es" : "el ramode flores",
+            "tr" : "çiçek buketi",
+            "type" : "noun"
+        },
+        {
+            "en" : "to be happy",
+            "es" : "ser teliz",
+            "tr" : "mutlu olmak",
+            "type" : "verb"
+        },
+        {
+            "en" : "honeymoon",
+            "es" : "el viaje de novios",
+            "tr" : "balayı",
+            "type" : "noun"
+        },
+        {
+            "en" : "carol",
+            "es" : "el villancico",
+            "tr" : "ilahi",
+            "type" : "noun"
+        },
+        {
+            "en" : "to give as a gift",
+            "es" : "regalar",
+            "tr" : "hediye vermek",
+            "type" : "verb"
+        },
+        {
+            "en" : "to receive",
+            "es" : "recibir",
+            "tr" : "almak",
+            "type" : "verb"
+        },
+        {
+            "en" : "to thank",
+            "es" : "dar las gracias",
+            "tr" : "teşekkür etmek",
+            "type" : "verb"
+        },
+        {
+            "en" : "New Year's Eve",
+            "es" : "Nochevieja",
+            "tr" : "yılbaşı gecesi",
+            "type" : "noun"
+        },
+        {
+            "en" : "New Year's Day",
+            "es" : "el Día de Año Nuevo",
+            "tr" : "yeni yıl günü",
+            "type" : "noun"
+        },
+        {
+            "en" : "to celebrate",
+            "es" : "celebrar",
+            "tr" : "kutlamak",
+            "type" : "verb"
+        },
+        {
+            "en" : "Happy New Year!",
+            "es" : "¡Feliz Año!",
+            "tr" : "Mutlu Yıllar!",
+            "type" : "expression"
         }
     ]
 };
