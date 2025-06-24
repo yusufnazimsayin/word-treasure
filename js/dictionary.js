@@ -215,6 +215,11 @@ const CATEGORIES = [
         "en": "Action words",
         "es": "Verbos de acción",
         "tr": "Eylem fiilleri"
+    },
+    {
+        "en": "Phrases and expressions",
+        "es": "Frases y expresiones",
+        "tr": "Cümleler ve ifadeler"
     }
 ];
 
@@ -320,18 +325,6 @@ const DICTIONARY = {
             "type" : "verb"
         },
         {
-            "en" : "How are you?",
-            "es" : "¿Qué tal?",
-            "tr" : "Nasılsın?",
-            "type" : "phrase"
-        },
-        {
-            "en" : "Very well, thank you",
-            "es" : "Muy bien, ¡gracias!",
-            "tr" : "Çok iyiyim teşekkür ederim",
-            "type" : "expression"
-        },
-        {
             "en" : "to chat",
             "es" : "charlar",
             "tr" : "sohbet etmek",
@@ -377,30 +370,6 @@ const DICTIONARY = {
             "type" : "noun"
         },
         {
-            "en" : "What is your name?",
-            "es" : "¿Cómo te llamas?",
-            "tr" : "Adın ne?",
-            "type" : "phrase"
-        },
-        {
-            "en" : "My name is ...",
-            "es" : "Me llamo ...",
-            "tr" : "Benim adım ...",
-            "en_": "My name is Maria.",
-            "es_": "Me llamo Maria.",
-            "tr_": "Benim adım Maria.",
-            "type" : "expression"
-        },
-        {
-            "en" : "His name is ...",
-            "es" : "El se llama ...",
-            "tr" : "Onun adı ...",
-            "en_": "His name is Alex.",
-            "es_": "El llamo Alex.",
-            "tr_": "Onun adı Alex.",
-            "type" : "expression"
-        },
-        {
             "en" : "age",
             "es" : "la edad",
             "tr" : "yaş",
@@ -408,18 +377,6 @@ const DICTIONARY = {
             "es_": "¿Cuál es tu edad?",
             "tr_": "Senin yaşın kaç?",
             "type" : "noun"
-        },
-        {
-            "en" : "How old are you?",
-            "es" : "¿Cuántos años tienes?",
-            "tr" : "Kaç yaşındasın?",
-            "type" : "expression"
-        },
-        {
-            "en" : "I am nineteen",
-            "es" : "Tengo diecinueve años",
-            "tr" : "Ondokuz yaşındayım",
-            "type" : "expression"
         },
         {
             "en" : "small",
@@ -6430,24 +6387,6 @@ const DICTIONARY = {
             "type": "verb"
         },
         {
-            "en": "a kilo of ...",
-            "es": "un kilo de ...",
-            "tr": "bir kilo ...",
-            "en_": "I want to buy a kilo of apples.",
-            "es_": "Quiero comprar un kilo de manzanas.",
-            "tr_": "Bir kilo elma almak istiyorum.",
-            "type": "phrase"
-        },
-        {
-            "en": "half a kilo of ...",
-            "es": "medio kilo de ...",
-            "tr": "yarım kilo ...",
-            "en_": "She needs half a kilo of tomatoes.",
-            "es_": "Ella necesita medio kilo de tomates.",
-            "tr_": "Yarım kilo domatese ihtiyacı var.",
-            "type": "phrase"
-        },
-        {
             "en": "to weigh",
             "es": "pesar",
             "tr": "tartmak",
@@ -6653,15 +6592,6 @@ const DICTIONARY = {
             "es_": "Viven en una casa grande.",
             "tr_": "Onlar büyük bir evde yaşıyor.",
             "type": "adjective"
-        },
-        {
-            "en": "How much is ...?",
-            "es": "¿Cuánto cuesta ...?",
-            "tr": "Kaç para?",
-            "en_": "How much is this book?",
-            "es_": "¿Cuánto cuesta este libro?",
-            "tr_": "Bu kitap kaç para?",
-            "type": "phrase"
         },
         {
             "en": "the stationery store",
@@ -6927,15 +6857,6 @@ const DICTIONARY = {
             "type": "noun"
         },
         {
-            "en": "Do you have change?",
-            "es": "¿Tiene cambio?",
-            "tr": "Bozuk paranız var mı?",
-            "en_": "Do you have change for a ten-dollar bill?",
-            "es_": "¿Tiene cambio para un billete de diez dólares?",
-            "tr_": "On dolarlık bozuk paranız var mı?",
-            "type": "phrase"
-        },
-        {
             "en": "coin",
             "es": "la moneda",
             "tr": "madeni para",
@@ -7118,33 +7039,6 @@ const DICTIONARY = {
             "type": "verb"
         },
         {
-            "en": "Yours sincerely",
-            "es": "Le saluda atentamente",
-            "tr": "Saygılarımla",
-            "en_": "Yours sincerely, John Smith.",
-            "es_": "Le saluda atentamente, John Smith.",
-            "tr_": "Saygılarımla, John Smith.",
-            "type": "phrase"
-        },
-        {
-            "en": "Dear sir / madam",
-            "es": "Muy señor mío / Estimada señora",
-            "tr": "Sayın bay / bayan",
-            "en_": "Dear sir / madam, I am writing to complain.",
-            "es_": "Muy señor mío, le escribo para quejarme.",
-            "tr_": "Sayın bay / bayan, şikayet etmek için yazıyorum.",
-            "type": "phrase"
-        },
-        {
-            "en": "Dear ...",
-            "es": "Querida ...",
-            "tr": "Değerli ...",
-            "en_": "Dear Maria, thank you for your letter.",
-            "es_": "Querida Maria, gracias por tu carta.",
-            "tr_": "Değerli Maria, mektubun için teşekkür ederim.",
-            "type": "phrase"
-        },
-        {
             "en": "to send a postcard",
             "es": "mandar una postal",
             "tr": "kartpostal göndermek",
@@ -7226,15 +7120,6 @@ const DICTIONARY = {
             "es_": "El poste indicador muestra la dirección a la ciudad.",
             "tr_": "Yol tabelası şehre giden yönü gösteriyor.",
             "type": "noun"
-        },
-        {
-            "en": "How far is ...?",
-            "es": "¿A qué distancia está ...?",
-            "tr": "... ne kadar uzakta?",
-            "en_": "How far is the train station from here?",
-            "es_": "¿A qué distancia está la estación de tren desde aquí?",
-            "tr_": "Tren istasyonu buradan ne kadar uzakta?",
-            "type": "phrase"
         },
         {
             "en": "take the bus",
@@ -8076,15 +7961,6 @@ const DICTIONARY = {
             "es_": "Tengo un asiento reservado junto a la ventana.",
             "tr_": "Pencere kenarında ayrılmış bir koltuğum var.",
             "type": "noun"
-        },
-        {
-            "en": "No smoking",
-            "es": "Prohibido fumar",
-            "tr": "Sigara içmek yasaktır",
-            "en_": "No smoking is allowed on the train.",
-            "es_": "Prohibido fumar en el tren.",
-            "tr_": "Trende sigara içmek yasaktır.",
-            "type": "phrase"
         }
     ],
     "Travelling by plane and boat" : [
@@ -8213,15 +8089,6 @@ const DICTIONARY = {
             "es_": "Coloca la etiqueta de equipaje en tu maleta.",
             "tr_": "Bagaj etiketini bavuluna yapıştır.",
             "type": "noun"
-        },
-        {
-            "en": "Fasten your seatbelts!",
-            "es": "¡Abrocharse el cinturón!",
-            "tr": "Emniyet kemerinizi bağlayın!",
-            "en_": "Fasten your seatbelts before takeoff.",
-            "es_": "¡Abrocharse el cinturón antes del despegue!",
-            "tr_": "Kalkıştan önce emniyet kemerinizi bağlayın!",
-            "type": "phrase"
         },
         {
             "en": "pilot",
@@ -8943,7 +8810,7 @@ const DICTIONARY = {
             "en_": "We like to go fishing on weekends.",
             "es_": "Nos gusta ir de pesca los fines de semana.",
             "tr_": "Hafta sonları balığa gitmeyi severiz.",
-            "type": "verb phrase"
+            "type": "verb"
         },
         {
             "en": "fishing boat",
@@ -10672,7 +10539,7 @@ const DICTIONARY = {
             "en_": "He loves reading picture books.",
             "es_": "Le encanta leer libros de imágenes.",
             "tr_": "Resim kitaplarını okumayı çok sever.",
-            "type": "noun phrase"
+            "type": "noun"
         },
         {
             "en": "to play",
@@ -12763,24 +12630,6 @@ const DICTIONARY = {
             "type": "noun"
         },
         {
-            "en": "it’s one o’clock",
-            "es": "es la una",
-            "tr": "saat bir",
-            "en_": "It’s one o’clock now.",
-            "es_": "Es la una ahora.",
-            "tr_": "Şu an saat bir.",
-            "type": "expression"
-        },
-        {
-            "en": "it’s three o’clock",
-            "es": "son las tres",
-            "tr": "saat üç",
-            "en_": "It’s three o’clock in the afternoon.",
-            "es_": "Son las tres de la tarde.",
-            "tr_": "Öğleden sonra saat üç.",
-            "type": "expression"
-        },
-        {
             "en": "noon [midday]",
             "es": "mediodía",
             "tr": "öğle [gün ortası]",
@@ -12972,15 +12821,6 @@ const DICTIONARY = {
             "type": "noun"
         },
         {
-            "en": "It's raining.",
-            "es": "Llueve.",
-            "tr": "Yağmur yağıyor",
-            "en_": "It's raining outside.",
-            "es_": "Está lloviendo afuera.",
-            "tr_": "Dışarıda yağmur yağıyor.",
-            "type": "expression"
-        },
-        {
             "en": "rain",
             "es": "la lluvia",
             "tr": "yağmur",
@@ -13107,33 +12947,6 @@ const DICTIONARY = {
             "type": "noun"
         },
         {
-            "en": "What’s the weather like?",
-            "es": "¿Qué tiempo hace?",
-            "tr": "Hava nasıl?",
-            "en_": "What's the weather like today?",
-            "es_": "¿Qué tiempo hace hoy?",
-            "tr_": "Bugün hava nasıl?",
-            "type": "expression"
-        },
-        {
-            "en": "The weather is nice.",
-            "es": "Hace bueno.",
-            "tr": "Hava güzel.",
-            "en_": "The weather is nice for a walk.",
-            "es_": "Hace bueno para dar un paseo.",
-            "tr_": "Yürüyüş için hava güzel.",
-            "type": "expression"
-        },
-        {
-            "en": "The sun is shining.",
-            "es": "Brilla el sol.",
-            "tr": "Güneş parlıyor.",
-            "en_": "The sun is shining brightly today.",
-            "es_": "Brilla el sol intensamente hoy.",
-            "tr_": "Bugün güneş parlak parlıyor.",
-            "type": "expression"
-        },
-        {
             "en": "to sweat",
             "es": "sudar",
             "tr": "terlemek",
@@ -13141,15 +12954,6 @@ const DICTIONARY = {
             "es_": "Empiezo a sudar cuando corro.",
             "tr_": "Koşunca terlemeye başlarım.",
             "type": "verb"
-        },
-        {
-            "en": "I'm hot",
-            "es": "Tengo calor.",
-            "tr": "Sıcakladım.",
-            "en_": "I'm hot because of the sun.",
-            "es_": "Tengo calor por el sol.",
-            "tr_": "Güneşten sıcakladım.",
-            "type": "expression"
         },
         {
             "en": "wind",
@@ -13161,15 +12965,6 @@ const DICTIONARY = {
             "type": "noun"
         },
         {
-            "en": "It's windy.",
-            "es": "Hace viento.",
-            "tr": "Hava rüzgârlı.",
-            "en_": "It's windy outside.",
-            "es_": "Hace viento afuera.",
-            "tr_": "Dışarıda hava rüzgârlı.",
-            "type": "expression"
-        },
-        {
             "en": "fog",
             "es": "la niebla",
             "tr": "sis",
@@ -13177,24 +12972,6 @@ const DICTIONARY = {
             "es_": "La niebla está densa esta mañana.",
             "tr_": "Bu sabah sis yoğundu.",
             "type": "noun"
-        },
-        {
-            "en": "It's foggy",
-            "es": "Hay niebla.",
-            "tr": "Hava sisli.",
-            "en_": "It's foggy in the mountains.",
-            "es_": "Hay niebla en las montañas.",
-            "tr_": "Dağlarda hava sisli.",
-            "type": "expression"
-        },
-        {
-            "en": "It's cold.",
-            "es": "Hace frío.",
-            "tr": "Hava soğuk.",
-            "en_": "It's cold outside today.",
-            "es_": "Hace frío afuera hoy.",
-            "tr_": "Bugün dışarıda hava soğuk.",
-            "type": "expression"
         },
         {
             "en": "to be freezing",
@@ -13242,6 +13019,17 @@ const DICTIONARY = {
             "type": "noun"
         },
         {
+            "en": "to thaw [to melt]",
+            "es": "deshielar",
+            "tr": "erimek",
+            "en_": "The ice will thaw in the sun.",
+            "es_": "El hielo deshielará al sol.",
+            "tr_": "Buz güneşte eriyecek.",
+            "type": "verb"
+        }
+    ],
+    "Phrases and expressions" : [
+        {
             "en": "It's snowing.",
             "es": "Nieva.",
             "tr": "Kar yağıyor.",
@@ -13251,13 +13039,232 @@ const DICTIONARY = {
             "type": "expression"
         },
         {
-            "en": "to thaw [to melt]",
-            "es": "deshielar",
-            "tr": "erimek",
-            "en_": "The ice will thaw in the sun.",
-            "es_": "El hielo deshielará al sol.",
-            "tr_": "Buz güneşte eriyecek.",
-            "type": "verb"
+            "en": "It's cold.",
+            "es": "Hace frío.",
+            "tr": "Hava soğuk.",
+            "en_": "It's cold outside today.",
+            "es_": "Hace frío afuera hoy.",
+            "tr_": "Bugün dışarıda hava soğuk.",
+            "type": "expression"
+        },
+        {
+            "en": "It's foggy",
+            "es": "Hay niebla.",
+            "tr": "Hava sisli.",
+            "en_": "It's foggy in the mountains.",
+            "es_": "Hay niebla en las montañas.",
+            "tr_": "Dağlarda hava sisli.",
+            "type": "expression"
+        },
+        {
+            "en": "It's windy.",
+            "es": "Hace viento.",
+            "tr": "Hava rüzgârlı.",
+            "en_": "It's windy outside.",
+            "es_": "Hace viento afuera.",
+            "tr_": "Dışarıda hava rüzgârlı.",
+            "type": "expression"
+        },
+        {
+            "en": "I'm hot",
+            "es": "Tengo calor.",
+            "tr": "Sıcakladım.",
+            "en_": "I'm hot because of the sun.",
+            "es_": "Tengo calor por el sol.",
+            "tr_": "Güneşten sıcakladım.",
+            "type": "expression"
+        },
+        {
+            "en": "What’s the weather like?",
+            "es": "¿Qué tiempo hace?",
+            "tr": "Hava nasıl?",
+            "en_": "What's the weather like today?",
+            "es_": "¿Qué tiempo hace hoy?",
+            "tr_": "Bugün hava nasıl?",
+            "type": "expression"
+        },
+        {
+            "en": "The weather is nice.",
+            "es": "Hace bueno.",
+            "tr": "Hava güzel.",
+            "en_": "The weather is nice for a walk.",
+            "es_": "Hace bueno para dar un paseo.",
+            "tr_": "Yürüyüş için hava güzel.",
+            "type": "expression"
+        },
+        {
+            "en": "The sun is shining.",
+            "es": "Brilla el sol.",
+            "tr": "Güneş parlıyor.",
+            "en_": "The sun is shining brightly today.",
+            "es_": "Brilla el sol intensamente hoy.",
+            "tr_": "Bugün güneş parlak parlıyor.",
+            "type": "expression"
+        },
+        {
+            "en": "It's raining.",
+            "es": "Llueve.",
+            "tr": "Yağmur yağıyor",
+            "en_": "It's raining outside.",
+            "es_": "Está lloviendo afuera.",
+            "tr_": "Dışarıda yağmur yağıyor.",
+            "type": "expression"
+        },
+        {
+            "en": "It’s one o’clock",
+            "es": "es la una",
+            "tr": "saat bir",
+            "en_": "It’s one o’clock now.",
+            "es_": "Es la una ahora.",
+            "tr_": "Şu an saat bir.",
+            "type": "expression"
+        },
+        {
+            "en": "It’s three o’clock",
+            "es": "son las tres",
+            "tr": "saat üç",
+            "en_": "It’s three o’clock in the afternoon.",
+            "es_": "Son las tres de la tarde.",
+            "tr_": "Öğleden sonra saat üç.",
+            "type": "expression"
+        },
+        {
+            "en" : "How old are you?",
+            "es" : "¿Cuántos años tienes?",
+            "tr" : "Kaç yaşındasın?",
+            "type" : "expression"
+        },
+        {
+            "en" : "I am nineteen",
+            "es" : "Tengo diecinueve años",
+            "tr" : "Ondokuz yaşındayım",
+            "type" : "expression"
+        },
+        {
+            "en" : "My name is ...",
+            "es" : "Me llamo ...",
+            "tr" : "Benim adım ...",
+            "en_": "My name is Maria.",
+            "es_": "Me llamo Maria.",
+            "tr_": "Benim adım Maria.",
+            "type" : "expression"
+        },
+        {
+            "en" : "His name is ...",
+            "es" : "El se llama ...",
+            "tr" : "Onun adı ...",
+            "en_": "His name is Alex.",
+            "es_": "El llamo Alex.",
+            "tr_": "Onun adı Alex.",
+            "type" : "expression"
+        },
+        {
+            "en" : "How are you?",
+            "es" : "¿Qué tal?",
+            "tr" : "Nasılsın?",
+            "type" : "phrase"
+        },
+        {
+            "en" : "Very well, thank you",
+            "es" : "Muy bien, ¡gracias!",
+            "tr" : "Çok iyiyim teşekkür ederim",
+            "type" : "expression"
+        },
+        {
+            "en" : "What is your name?",
+            "es" : "¿Cómo te llamas?",
+            "tr" : "Adın ne?",
+            "type" : "phrase"
+        },
+        {
+            "en": "a kilo of ...",
+            "es": "un kilo de ...",
+            "tr": "bir kilo ...",
+            "en_": "I want to buy a kilo of apples.",
+            "es_": "Quiero comprar un kilo de manzanas.",
+            "tr_": "Bir kilo elma almak istiyorum.",
+            "type": "phrase"
+        },
+        {
+            "en": "half a kilo of ...",
+            "es": "medio kilo de ...",
+            "tr": "yarım kilo ...",
+            "en_": "She needs half a kilo of tomatoes.",
+            "es_": "Ella necesita medio kilo de tomates.",
+            "tr_": "Yarım kilo domatese ihtiyacı var.",
+            "type": "phrase"
+        },
+        {
+            "en": "How much is ...?",
+            "es": "¿Cuánto cuesta ...?",
+            "tr": "Kaç para?",
+            "en_": "How much is this book?",
+            "es_": "¿Cuánto cuesta este libro?",
+            "tr_": "Bu kitap kaç para?",
+            "type": "phrase"
+        },
+        {
+            "en": "Do you have change?",
+            "es": "¿Tiene cambio?",
+            "tr": "Bozuk paranız var mı?",
+            "en_": "Do you have change for a ten-dollar bill?",
+            "es_": "¿Tiene cambio para un billete de diez dólares?",
+            "tr_": "On dolarlık bozuk paranız var mı?",
+            "type": "phrase"
+        },
+        {
+            "en": "Yours sincerely",
+            "es": "Le saluda atentamente",
+            "tr": "Saygılarımla",
+            "en_": "Yours sincerely, John Smith.",
+            "es_": "Le saluda atentamente, John Smith.",
+            "tr_": "Saygılarımla, John Smith.",
+            "type": "phrase"
+        },
+        {
+            "en": "Dear sir / madam",
+            "es": "Muy señor mío / Estimada señora",
+            "tr": "Sayın bay / bayan",
+            "en_": "Dear sir / madam, I am writing to complain.",
+            "es_": "Muy señor mío, le escribo para quejarme.",
+            "tr_": "Sayın bay / bayan, şikayet etmek için yazıyorum.",
+            "type": "phrase"
+        },
+        {
+            "en": "Dear ...",
+            "es": "Querida ...",
+            "tr": "Değerli ...",
+            "en_": "Dear Maria, thank you for your letter.",
+            "es_": "Querida Maria, gracias por tu carta.",
+            "tr_": "Değerli Maria, mektubun için teşekkür ederim.",
+            "type": "phrase"
+        },
+        {
+            "en": "How far is ...?",
+            "es": "¿A qué distancia está ...?",
+            "tr": "... ne kadar uzakta?",
+            "en_": "How far is the train station from here?",
+            "es_": "¿A qué distancia está la estación de tren desde aquí?",
+            "tr_": "Tren istasyonu buradan ne kadar uzakta?",
+            "type": "phrase"
+        },
+        {
+            "en": "No smoking",
+            "es": "Prohibido fumar",
+            "tr": "Sigara içmek yasaktır",
+            "en_": "No smoking is allowed on the train.",
+            "es_": "Prohibido fumar en el tren.",
+            "tr_": "Trende sigara içmek yasaktır.",
+            "type": "phrase"
+        },
+        {
+            "en": "Fasten your seatbelts!",
+            "es": "¡Abrocharse el cinturón!",
+            "tr": "Emniyet kemerinizi bağlayın!",
+            "en_": "Fasten your seatbelts before takeoff.",
+            "es_": "¡Abrocharse el cinturón antes del despegue!",
+            "tr_": "Kalkıştan önce emniyet kemerinizi bağlayın!",
+            "type": "phrase"
         }
     ]
 };
