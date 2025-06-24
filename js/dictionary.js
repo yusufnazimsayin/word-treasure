@@ -228,20 +228,17 @@ const DICTIONARY = {
         {
             "en" : "Hello",
             "es" : "¡Hola!",
-            "tr" : "Merhaba",
-            "type" : "interjection"
+            "tr" : "Merhaba"
         },
         {
             "en" : "Goodbye!",
             "es" : "¡Adiós!",
-            "tr" : "Hoşçakal!",
-            "type" : "interjection"
+            "tr" : "Hoşçakal!"
         },
         {
             "en" : "See you later",
             "es" : "¡Hasta pronto!",
-            "tr" : "Görüşmek üzere",
-            "type" : "interjection"
+            "tr" : "Görüşmek üzere"
         },
         {
             "en" : "to shake hands",
@@ -249,8 +246,7 @@ const DICTIONARY = {
             "tr" : "el sıkışmak",
             "en_": "They shook hands after signing the contract.",
             "es_": "Se dieron la mano después de firmar el contrato.",
-            "tr_": "Sözleşmeyi imzaladıktan sonra el sıkıştılar.",
-            "type" : "verb"
+            "tr_": "Sözleşmeyi imzaladıktan sonra el sıkıştılar."
         },
         {
             "en" : "man",
@@ -258,8 +254,7 @@ const DICTIONARY = {
             "tr" : "adam",
             "en_": "The man opened the door and smiled.",
             "es_": "El hombre abrió la puerta y sonrió.",
-            "tr_": "Adam kapıyı açtı ve gülümsedi.",
-            "type" : "noun"
+            "tr_": "Adam kapıyı açtı ve gülümsedi."
         },
         {
             "en" : "woman",
@@ -267,8 +262,7 @@ const DICTIONARY = {
             "tr" : "kadın",
             "en_": "Women love to wear make-up.",
             "es_": "A las mujeres les encanta usar maquillaje.",
-            "tr_": "Kadınlar makyaj yapmayı severler.",
-            "type" : "noun"
+            "tr_": "Kadınlar makyaj yapmayı severler."
         },
         {
             "en" : "baby",
@@ -276,8 +270,7 @@ const DICTIONARY = {
             "tr" : "bebek",
             "en_": "The baby is sleeping in her crib.",
             "es_": "El bebé está durmiendo en su cuna.",
-            "tr_": "Bebek beşiğinde uyuyor.",
-            "type" : "noun"
+            "tr_": "Bebek beşiğinde uyuyor."
         },
         {
             "en" : "boy",
@@ -285,8 +278,7 @@ const DICTIONARY = {
             "tr" : "erkek çocuğu",
             "en_": "The boy is playing ball in the garden.",
             "es_": "El niño está jugando a la pelota en el jardín.",
-            "tr_": "Erkek çocuğu bahçede top oynuyor.",
-            "type" : "noun"
+            "tr_": "Erkek çocuğu bahçede top oynuyor."
         },
         {
             "en" : "girl",
@@ -294,8 +286,7 @@ const DICTIONARY = {
             "tr" : "kız çocuğu",
             "en_": "The girl is drawing a picture of her cat.",
             "es_": "La niña está dibujando un dibujo de su gato.",
-            "tr_": "Kız çocuğu kedisinin resmini çiziyor.",
-            "type" : "noun"
+            "tr_": "Kız çocuğu kedisinin resmini çiziyor."
         },
         {
             "en" : "to introduce",
@@ -303,8 +294,7 @@ const DICTIONARY = {
             "tr" : "tanıtmak",
             "en_": "I would like to introduce my friend Yusuf.",
             "es_": "Me gustaría presentar a mi amiga Yusuf.",
-            "tr_": "Arkadaşım Yusuf'u tanıştırmak istiyorum.",
-            "type" : "verb"
+            "tr_": "Arkadaşım Yusuf'u tanıştırmak istiyorum."
         },
         {
             "en" : "friend",
@@ -312,8 +302,7 @@ const DICTIONARY = {
             "tr" : "arkadaş",
             "en_": "My friend is going to to visit me tomorrow.",
             "es_": "Mi amigo vendrá a visitarme mañana.",
-            "tr_": "Arkadaşım yarın beni ziyarete gelecek.",
-            "type" : "noun"
+            "tr_": "Arkadaşım yarın beni ziyarete gelecek."
         },
         {
             "en" : "to meet",
@@ -321,8 +310,7 @@ const DICTIONARY = {
             "tr" : "tanışmak",
             "en_": "I will meet my new colleagues next week.",
             "es_": "Me encontraré con mis nuevos colegas la próxima semana.",
-            "tr_": "Gelecek hafta yeni iş arkadaşlarımla tanışacağım.",
-            "type" : "verb"
+            "tr_": "Gelecek hafta yeni iş arkadaşlarımla tanışacağım."
         },
         {
             "en" : "to chat",
@@ -330,8 +318,7 @@ const DICTIONARY = {
             "tr" : "sohbet etmek",
             "en_": "We like to chat online every evening.",
             "es_": "Nos gusta charlar en línea todas las noches.",
-            "tr_": "Her akşam çevrimiçi sohbet etmeyi seviyoruz.",
-            "type" : "verb"
+            "tr_": "Her akşam çevrimiçi sohbet etmeyi seviyoruz."
         },
         {
             "en" : "to say",
@@ -339,8 +326,7 @@ const DICTIONARY = {
             "tr" : "söylemek",
             "en_": "She wanted to say something important.",
             "es_": "Ella quería decir algo importante.",
-            "tr_": "O önemli bir şey söylemek istedi.",
-            "type" : "verb"
+            "tr_": "O önemli bir şey söylemek istedi."
         },
         {
             "en" : "name",
@@ -348,8 +334,7 @@ const DICTIONARY = {
             "tr" : "ad",
             "en_": "My name is Yusuf.",
             "es_": "Mi nombre es Yusuf.",
-            "tr_": "Benim adım Yusuf.",
-            "type" : "noun"
+            "tr_": "Benim adım Yusuf."
         },
         {
             "en" : "first name",
@@ -357,8 +342,7 @@ const DICTIONARY = {
             "tr" : "ilk isim",
             "en_": "My first name is Yusuf.",
             "es_": "Mi nombre de pila es Yusuf.",
-            "tr_": "Benim ilk ismim Yusuf.",
-            "type" : "noun"
+            "tr_": "Benim ilk ismim Yusuf."
         },
         {
             "en" : "surname",
@@ -366,8 +350,7 @@ const DICTIONARY = {
             "tr" : "soyadı",
             "en_": "Her surname is very common in Spain.",
             "es_": "Su apellido es muy común en España.",
-            "tr_": "Onun soyadı İspanya’da çok yaygındır.",
-            "type" : "noun"
+            "tr_": "Onun soyadı İspanya’da çok yaygındır."
         },
         {
             "en" : "age",
@@ -375,8 +358,7 @@ const DICTIONARY = {
             "tr" : "yaş",
             "en_": "What is your age?",
             "es_": "¿Cuál es tu edad?",
-            "tr_": "Senin yaşın kaç?",
-            "type" : "noun"
+            "tr_": "Senin yaşın kaç?"
         },
         {
             "en" : "small",
@@ -384,8 +366,7 @@ const DICTIONARY = {
             "tr" : "küçük",
             "en_": "The small dog barked loudly.",
             "es_": "El perro pequeño ladró fuerte.",
-            "tr_": "Küçük köpek yüksek sesle havladı.",
-            "type" : "adjective"
+            "tr_": "Küçük köpek yüksek sesle havladı."
         },
         {
             "en" : "old",
@@ -393,8 +374,7 @@ const DICTIONARY = {
             "tr" : "yaşlı",
             "en_": "The old man walked slowly.",
             "es_": "El hombre mayor caminaba despacio.",
-            "tr_": "Yaşlı adam yavaşça yürüdü.",
-            "type" : "adjective"
+            "tr_": "Yaşlı adam yavaşça yürüdü."
         },
         {
             "en" : "older than",
@@ -402,8 +382,7 @@ const DICTIONARY = {
             "tr" : "...den yaşlı",
             "en_": "She is older than her brother.",
             "es_": "Ella es mayor que su hermano.",
-            "tr_": "O, erkek kardeşinden yaşlı.",
-            "type" : "phrase"
+            "tr_": "O, erkek kardeşinden yaşlı."
         },
         {
             "en" : "smaller than",
@@ -411,8 +390,7 @@ const DICTIONARY = {
             "tr" : "...den küçük",
             "en_": "This house is smaller than the other one.",
             "es_": "Esta casa es más pequeña que la otra.",
-            "tr_": "Bu ev diğerinden küçük.",
-            "type" : "phrase"
+            "tr_": "Bu ev diğerinden küçük."
         },
         {
             "en" : "the same age",
@@ -420,8 +398,7 @@ const DICTIONARY = {
             "tr" : "aynı yaşta",
             "en_": "She is the same age as her sister.",
             "es_": "Ella tiene la misma edad que su hermana.",
-            "tr_": "O, kız kardeşiyle aynı yaşta.",
-            "type" : "phrase"
+            "tr_": "O, kız kardeşiyle aynı yaşta."
         }
     ],
     "Family" : [
@@ -431,8 +408,7 @@ const DICTIONARY = {
             "tr" : "aile",
             "en_": "My family is very important to me.",
             "es_": "Mi familia es muy importante para mí.",
-            "tr_": "Ailem benim için çok önemli.",
-            "type" : "noun"
+            "tr_": "Ailem benim için çok önemli."
         },
         {
             "en" : "father",
@@ -440,8 +416,7 @@ const DICTIONARY = {
             "tr" : "baba",
             "en_": "My father works in a hospital.",
             "es_": "Mi padre trabaja en un hospital.",
-            "tr_": "Babam bir hastanede çalışıyor.",
-            "type" : "noun"
+            "tr_": "Babam bir hastanede çalışıyor."
         },
         {
             "en" : "mother",
@@ -449,8 +424,7 @@ const DICTIONARY = {
             "tr" : "anne",
             "en_": "My mother cooks delicious meals.",
             "es_": "Mi madre cocina comidas deliciosas.",
-            "tr_": "Annem lezzetli yemekler yapar.",
-            "type" : "noun"
+            "tr_": "Annem lezzetli yemekler yapar."
         },
         {
             "en" : "brother",
@@ -458,8 +432,7 @@ const DICTIONARY = {
             "tr" : "erkek kardeş",
             "en_": "My brother plays football every weekend.",
             "es_": "Mi hermano juega al fútbol todos los fines de semana.",
-            "tr_": "Erkek kardeşim her hafta sonu futbol oynar.",
-            "type" : "noun"
+            "tr_": "Erkek kardeşim her hafta sonu futbol oynar."
         },
         {
             "en" : "sister",
@@ -467,8 +440,7 @@ const DICTIONARY = {
             "tr" : "kız kardeş",
             "en_": "My sister loves to read books.",
             "es_": "Mi hermana ama leer libros.",
-            "tr_": "Kız kardeşim kitap okumayı çok sever.",
-            "type" : "noun"
+            "tr_": "Kız kardeşim kitap okumayı çok sever."
         },
         {
             "en" : "grandfather",
@@ -476,8 +448,7 @@ const DICTIONARY = {
             "tr" : "büyükbaba",
             "en_": "My grandfather tells interesting stories.",
             "es_": "Mi abuelo cuenta historias interesantes.",
-            "tr_": "Büyükbabam ilginç hikayeler anlatır.",
-            "type" : "noun"
+            "tr_": "Büyükbabam ilginç hikayeler anlatır."
         },
         {
             "en" : "grandmother",
@@ -485,8 +456,7 @@ const DICTIONARY = {
             "tr" : "büyükanne",
             "en_": "My grandmother bakes the best cookies.",
             "es_": "Mi abuela hornea las mejores galletas.",
-            "tr_": "Büyükanne en iyi kurabiyeleri yapar.",
-            "type" : "noun"
+            "tr_": "Büyükanne en iyi kurabiyeleri yapar."
         },
         {
             "en" : "uncle",
@@ -494,8 +464,7 @@ const DICTIONARY = {
             "tr" : "amca",
             "en_": "My uncle loves fishing on weekends.",
             "es_": "Mi tío ama la pesca los fines de semana.",
-            "tr_": "Amcam hafta sonları balık tutmayı sever.",
-            "type" : "noun"
+            "tr_": "Amcam hafta sonları balık tutmayı sever."
         },
         {
             "en" : "aunt",
@@ -503,8 +472,7 @@ const DICTIONARY = {
             "tr" : "teyze",
             "en_": "My aunt visits us every summer.",
             "es_": "Mi tía nos visita cada verano.",
-            "tr_": "Teyzem her yaz bizi ziyaret eder.",
-            "type" : "noun"
+            "tr_": "Teyzem her yaz bizi ziyaret eder."
         },
         {
             "en" : "cousin",
@@ -521,8 +489,7 @@ const DICTIONARY = {
             "tr" : "akraba olmak",
             "en_": "They are related through their grandparents.",
             "es_": "Ellos son parientes por parte de sus abuelos.",
-            "tr_": "Onlar büyükanneleri ve büyükbabaları sayesinde akrabadırlar.",
-            "type" : "verb"
+            "tr_": "Onlar büyükanneleri ve büyükbabaları sayesinde akrabadırlar."
         },
         {
             "en" : "son",
@@ -530,8 +497,7 @@ const DICTIONARY = {
             "tr" : "erkek evlat [oğul]",
             "en_": "Their son is studying at university.",
             "es_": "Su hijo está estudiando en la universidad.",
-            "tr_": "Onların oğlu üniversitede okuyor.",
-            "type" : "noun"
+            "tr_": "Onların oğlu üniversitede okuyor."
         },
         {
             "en" : "daughter",
@@ -539,8 +505,7 @@ const DICTIONARY = {
             "tr" : "kız evlat",
             "en_": "Their daughter loves painting.",
             "es_": "Su hija ama la pintura.",
-            "tr_": "Onların kızı resim yapmayı çok seviyor.",
-            "type" : "noun"
+            "tr_": "Onların kızı resim yapmayı çok seviyor."
         },
         {
             "en" : "to bring up",
@@ -548,8 +513,7 @@ const DICTIONARY = {
             "tr" : "büyütmek",
             "en_": "They decided to bring up their children with love.",
             "es_": "Decidieron criar a sus hijos con amor.",
-            "tr_": "Çocuklarını sevgiyle büyütmeye karar verdiler.",
-            "type" : "verb"
+            "tr_": "Çocuklarını sevgiyle büyütmeye karar verdiler."
         },
         {
             "en" : "grandson",
@@ -557,8 +521,7 @@ const DICTIONARY = {
             "tr" : "erkek torun",
             "en_": "My grandson loves playing soccer.",
             "es_": "Mi nieto ama jugar al fútbol.",
-            "tr_": "Erkek torunum futbol oynamayı çok seviyor.",
-            "type" : "noun"
+            "tr_": "Erkek torunum futbol oynamayı çok seviyor."
         },
         {
             "en" : "granddaughter",
@@ -566,8 +529,7 @@ const DICTIONARY = {
             "tr" : "kız torun",
             "en_": "My granddaughter enjoys painting.",
             "es_": "Mi nieta disfruta pintar.",
-            "tr_": "Kız torunum resim yapmaktan hoşlanır.",
-            "type" : "noun"
+            "tr_": "Kız torunum resim yapmaktan hoşlanır."
         },
         {
             "en" : "to be fond of",
@@ -575,8 +537,7 @@ const DICTIONARY = {
             "tr" : "düşkün olmak",
             "en_": "She is very fond of her pet dog.",
             "es_": "Ella le tiene mucho cariño a su perro.",
-            "tr_": "O, evcil köpeğine çok düşkündür.",
-            "type" : "verb"
+            "tr_": "O, evcil köpeğine çok düşkündür."
         },
         {
             "en" : "nephew",
@@ -584,8 +545,7 @@ const DICTIONARY = {
             "tr" : "erkek yeğen",
             "en_": "My nephew is learning to ride a bike.",
             "es_": "Mi sobrino está aprendiendo a montar en bicicleta.",
-            "tr_": "Erkek yeğenim bisiklet sürmeyi öğreniyor.",
-            "type" : "noun"
+            "tr_": "Erkek yeğenim bisiklet sürmeyi öğreniyor."
         },
         {
             "en" : "niece",
@@ -593,8 +553,7 @@ const DICTIONARY = {
             "tr" : "kız yeğen",
             "en_": "My niece loves to dance.",
             "es_": "Mi sobrina ama bailar.",
-            "tr_": "Kız yeğenim dans etmeyi çok sever.",
-            "type" : "noun"
+            "tr_": "Kız yeğenim dans etmeyi çok sever."
         },
         {
             "en" : "husband",
@@ -602,8 +561,7 @@ const DICTIONARY = {
             "tr" : "koca [eş]",
             "en_": "Her husband is a great chef.",
             "es_": "Su marido es un gran chef.",
-            "tr_": "Onun kocası harika bir aşçı.",
-            "type" : "noun"
+            "tr_": "Onun kocası harika bir aşçı."
         },
         {
             "en" : "wife",
@@ -611,8 +569,7 @@ const DICTIONARY = {
             "tr" : "eş",
             "en_": "His wife is a talented artist.",
             "es_": "Su mujer es una artista talentosa.",
-            "tr_": "Onun eşi yetenekli bir sanatçıdır.",
-            "type" : "noun"
+            "tr_": "Onun eşi yetenekli bir sanatçıdır."
         },
         {
             "en" : "parents",
@@ -620,8 +577,7 @@ const DICTIONARY = {
             "tr" : "ebeveynler",
             "en_": "Parents play a big role in children’s lives.",
             "es_": "Los padres juegan un papel importante en la vida de los niños.",
-            "tr_": "Ebeveynler çocukların hayatında büyük rol oynar.",
-            "type" : "noun"
+            "tr_": "Ebeveynler çocukların hayatında büyük rol oynar."
         },
         {
             "en" : "to love",
@@ -629,8 +585,7 @@ const DICTIONARY = {
             "tr" : "sevmek",
             "en_": "I love spending time with my family.",
             "es_": "Quiero pasar tiempo con mi familia.",
-            "tr_": "Ailemle vakit geçirmeyi seviyorum.",
-            "type" : "verb"
+            "tr_": "Ailemle vakit geçirmeyi seviyorum."
         },
         {
             "en" : "children",
@@ -638,8 +593,7 @@ const DICTIONARY = {
             "tr" : "çocuklar [evlatlar]",
             "en_": "The children are playing in the park.",
             "es_": "Los hijos están jugando en el parque.",
-            "tr_": "Çocuklar parkta oynuyor.",
-            "type" : "noun"
+            "tr_": "Çocuklar parkta oynuyor."
         },
         {
             "en" : "twin",
@@ -647,8 +601,7 @@ const DICTIONARY = {
             "tr" : "ikiz",
             "en_": "My twin brother and I look very similar.",
             "es_": "Mi gemelo y yo nos parecemos mucho.",
-            "tr_": "İkiz erkek kardeşimle çok benzeriz.",
-            "type" : "noun"
+            "tr_": "İkiz erkek kardeşimle çok benzeriz."
         },
         {
             "en" : "only son",
@@ -656,8 +609,7 @@ const DICTIONARY = {
             "tr" : "tek erkek çocuk",
             "en_": "He is the only son in his family.",
             "es_": "Él es el hijo único en su familia.",
-            "tr_": "O, ailesindeki tek erkek çocuktur.",
-            "type" : "noun"
+            "tr_": "O, ailesindeki tek erkek çocuktur."
         },
         {
             "en" : "life",
@@ -665,8 +617,7 @@ const DICTIONARY = {
             "tr" : "hayat",
             "en_": "Life is full of surprises.",
             "es_": "La vida está llena de sorpresas.",
-            "tr_": "Hayat sürprizlerle doludur.",
-            "type" : "noun"
+            "tr_": "Hayat sürprizlerle doludur."
         },
         {
             "en" : "birth",
@@ -674,8 +625,7 @@ const DICTIONARY = {
             "tr" : "doğum",
             "en_": "The birth of the baby was a joyful event.",
             "es_": "El nacimiento del bebé fue un evento alegre.",
-            "tr_": "Bebeğin doğumu sevinçli bir olaydı.",
-            "type" : "noun"
+            "tr_": "Bebeğin doğumu sevinçli bir olaydı."
         },
         {
             "en" : "to be born",
@@ -683,8 +633,7 @@ const DICTIONARY = {
             "tr" : "doğmak",
             "en_": "She was born in June.",
             "es_": "Ella nació en junio.",
-            "tr_": "O, Haziran ayında doğdu.",
-            "type" : "verb"
+            "tr_": "O, Haziran ayında doğdu."
         },
         {
             "en" : "childhood",
@@ -692,8 +641,7 @@ const DICTIONARY = {
             "tr" : "çocukluk",
             "en_": "She has fond memories of her childhood.",
             "es_": "Ella tiene recuerdos cariñosos de su niñez.",
-            "tr_": "Onun çocukluğuna dair güzel anıları var.",
-            "type" : "noun"
+            "tr_": "Onun çocukluğuna dair güzel anıları var."
         },
         {
             "en" : "marriage",
@@ -701,8 +649,7 @@ const DICTIONARY = {
             "tr" : "evlilik",
             "en_": "Their marriage lasted for many years.",
             "es_": "Su casamiento duró muchos años.",
-            "tr_": "Onların evliliği uzun yıllar sürdü.",
-            "type" : "noun"
+            "tr_": "Onların evliliği uzun yıllar sürdü."
         },
         {
             "en" : "to get married",
@@ -710,8 +657,7 @@ const DICTIONARY = {
             "tr" : "evlenmek",
             "en_": "They decided to get married next year.",
             "es_": "Decidieron casarse el próximo año.",
-            "tr_": "Gelecek yıl evlenmeye karar verdiler.",
-            "type" : "verb"
+            "tr_": "Gelecek yıl evlenmeye karar verdiler."
         },
         {
             "en" : "wedding",
@@ -719,8 +665,7 @@ const DICTIONARY = {
             "tr" : "düğün",
             "en_": "The wedding was beautiful and full of joy.",
             "es_": "La boda fue hermosa y llena de alegría.",
-            "tr_": "Düğün güzel ve neşeyle doluydu.",
-            "type" : "noun"
+            "tr_": "Düğün güzel ve neşeyle doluydu."
         },
         {
             "en" : "to work",
@@ -728,8 +673,7 @@ const DICTIONARY = {
             "tr" : "çalışmak",
             "en_": "He works in a bank.",
             "es_": "Él trabaja en un banco.",
-            "tr_": "O, bir bankada çalışıyor.",
-            "type" : "verb"
+            "tr_": "O, bir bankada çalışıyor."
         },
         {
             "en" : "old age",
@@ -737,8 +681,7 @@ const DICTIONARY = {
             "tr" : "yaşlılık",
             "en_": "Many people enjoy their old age peacefully.",
             "es_": "Muchas personas disfrutan de su vejez en paz.",
-            "tr_": "Birçok insan yaşlılığını huzur içinde geçirir.",
-            "type" : "noun"
+            "tr_": "Birçok insan yaşlılığını huzur içinde geçirir."
         },
         {
             "en" : "death",
@@ -746,8 +689,7 @@ const DICTIONARY = {
             "tr" : "ölüm",
             "en_": "The death of a loved one is always hard.",
             "es_": "La muerte de un ser querido siempre es difícil.",
-            "tr_": "Sevilen birinin ölümü her zaman zordur.",
-            "type" : "noun"
+            "tr_": "Sevilen birinin ölümü her zaman zordur."
         },
         {
             "en" : "to die",
@@ -755,8 +697,7 @@ const DICTIONARY = {
             "tr" : "ölmek",
             "en_": "Many plants die without enough water.",
             "es_": "Muchas plantas se mueren sin suficiente agua.",
-            "tr_": "Birçok bitki yeterince su olmazsa ölür.",
-            "type" : "verb"
+            "tr_": "Birçok bitki yeterince su olmazsa ölür."
         },
         {
             "en" : "funeral",
@@ -764,8 +705,7 @@ const DICTIONARY = {
             "tr" : "cenaze",
             "en_": "The funeral was held in the local church.",
             "es_": "El entierro se celebró en la iglesia local.",
-            "tr_": "Cenaze yerel kilisede yapıldı.",
-            "type" : "noun"
+            "tr_": "Cenaze yerel kilisede yapıldı."
         }
     ],
     "Appearance and personality" : [
@@ -775,8 +715,7 @@ const DICTIONARY = {
             "tr" : "sevimli",
             "en_": "The girl wore a pretty dress.",
             "es_": "La niña llevaba un vestido bonito.",
-            "tr_": "Kız çocuğu sevimli bir elbise giymişti.",
-            "type" : "adjective"
+            "tr_": "Kız çocuğu sevimli bir elbise giymişti."
         },
         {
             "en" : "handsome",
@@ -784,8 +723,7 @@ const DICTIONARY = {
             "tr" : "yakışıklı",
             "en_": "The man is very handsome.",
             "es_": "El hombre es muy guapo.",
-            "tr_": "Adam çok yakışıklı.",
-            "type" : "adjective"
+            "tr_": "Adam çok yakışıklı."
         },
         {
             "en" : "strong",
@@ -793,8 +731,7 @@ const DICTIONARY = {
             "tr" : "güçlü",
             "en_": "She is a strong and independent woman.",
             "es_": "Ella es una mujer fuerte e independiente.",
-            "tr_": "O, güçlü ve bağımsız bir kadındır.",
-            "type" : "adjective"
+            "tr_": "O, güçlü ve bağımsız bir kadındır."
         },
         {
             "en" : "weak",
@@ -802,8 +739,7 @@ const DICTIONARY = {
             "tr" : "güçsüz",
             "en_": "After the illness, he felt very weak.",
             "es_": "Después de la enfermedad, se sintió muy débil.",
-            "tr_": "Hastalıktan sonra kendini çok güçsüz hissetti.",
-            "type" : "adjective"
+            "tr_": "Hastalıktan sonra kendini çok güçsüz hissetti."
         },
         {
             "en" : "thin",
@@ -811,8 +747,7 @@ const DICTIONARY = {
             "tr" : "sıska",
             "en_": "The boy is very thin but energetic.",
             "es_": "El niño es muy flaco pero enérgico.",
-            "tr_": "Erkek çocuk çok sıska ama enerjik.",
-            "type" : "adjective"
+            "tr_": "Erkek çocuk çok sıska ama enerjik."
         },
         {
             "en" : "slim",
@@ -820,8 +755,7 @@ const DICTIONARY = {
             "tr" : "zayıf",
             "en_": "The woman is slim and tall.",
             "es_": "La mujer es delgada y alta.",
-            "tr_": "Kadın zayıf ve uzundur.",
-            "type" : "adjective"
+            "tr_": "Kadın zayıf ve uzundur."
         },
         {
             "en" : "fat",
@@ -829,8 +763,7 @@ const DICTIONARY = {
             "tr" : "şişman",
             "en_": "The cat is fat and lazy.",
             "es_": "El gato es gordo y perezoso.",
-            "tr_": "Kedi şişman ve tembel.",
-            "type" : "adjective"
+            "tr_": "Kedi şişman ve tembel."
         },
         {
             "en" : "well educated",
@@ -838,8 +771,7 @@ const DICTIONARY = {
             "tr" : "iyi eğitimli",
             "en_": "She is a well-educated and respectful person.",
             "es_": "Ella es una persona bien educada y respetuosa.",
-            "tr_": "O, iyi eğitimli ve saygılı bir kişidir.",
-            "type" : "adjective"
+            "tr_": "O, iyi eğitimli ve saygılı bir kişidir."
         },
         {
             "en" : "rude",
@@ -847,8 +779,7 @@ const DICTIONARY = {
             "tr" : "kaba",
             "en_": "The boy was rude to his teacher.",
             "es_": "El niño fue maleducado con su maestro.",
-            "tr_": "Erkek çocuk öğretmenine karşı kabaydı.",
-            "type" : "adjective"
+            "tr_": "Erkek çocuk öğretmenine karşı kabaydı."
         },
         {
             "en" : "generous",
@@ -856,8 +787,7 @@ const DICTIONARY = {
             "tr" : "cömert",
             "en_": "She is generous with her time and money.",
             "es_": "Ella es generosa con su tiempo y su dinero.",
-            "tr_": "Zamanı ve parası konusunda cömerttir.",
-            "type" : "adjective"
+            "tr_": "Zamanı ve parası konusunda cömerttir."
         },
         {
             "en" : "silly",
@@ -865,8 +795,7 @@ const DICTIONARY = {
             "tr" : "aptal",
             "en_": "The boy said a silly joke.",
             "es_": "El niño dijo un chiste tonto.",
-            "tr_": "Erkek çocuk aptalca bir şaka yaptı.",
-            "type" : "adjective"
+            "tr_": "Erkek çocuk aptalca bir şaka yaptı."
         },
         {
             "en" : "friendly",
@@ -874,8 +803,7 @@ const DICTIONARY = {
             "tr" : "arkadaşça",
             "en_": "She gave a friendly smile to the new student.",
             "es_": "Ella dio una sonrisa amistosa al nuevo estudiante.",
-            "tr_": "O, yeni öğrenciye arkadaşça bir gülümseme verdi.",
-            "type" : "adjective"
+            "tr_": "O, yeni öğrenciye arkadaşça bir gülümseme verdi."
         },
         {
             "en" : "funny",
@@ -883,8 +811,7 @@ const DICTIONARY = {
             "tr" : "eğlenceli",
             "en_": "He told a funny story at the party.",
             "es_": "Él contó una historia graciosa en la fiesta.",
-            "tr_": "Partide eğlenceli bir hikaye anlattı.",
-            "type" : "adjective"
+            "tr_": "Partide eğlenceli bir hikaye anlattı."
         },
         {
             "en" : "cheerful",
@@ -892,8 +819,7 @@ const DICTIONARY = {
             "tr" : "neşeli",
             "en_": "She is always cheerful and full of energy.",
             "es_": "Ella siempre está alegre y llena de energía.",
-            "tr_": "O her zaman neşeli ve enerji doludur.",
-            "type" : "adjective"
+            "tr_": "O her zaman neşeli ve enerji doludur."
         },
         {
             "en" : "miserable",
@@ -901,8 +827,7 @@ const DICTIONARY = {
             "tr" : "üzgün",
             "en_": "She felt miserable after hearing the bad news.",
             "es_": "Ella se sintió triste después de escuchar las malas noticias.",
-            "tr_": "Kötü haberleri duyduktan sonra üzgün hissetti.",
-            "type" : "adjective"
+            "tr_": "Kötü haberleri duyduktan sonra üzgün hissetti."
         },
         {
             "en" : "to have blonde hair",
@@ -910,8 +835,7 @@ const DICTIONARY = {
             "tr" : "sarı saçlı olmak",
             "en_": "He has blonde hair and blue eyes.",
             "es_": "Él tiene el pelo rubio y los ojos azules.",
-            "tr_": "O sarı saçlı ve mavi gözlüdür.",
-            "type" : "verb"
+            "tr_": "O sarı saçlı ve mavi gözlüdür."
         },
         {
             "en" : "brown hair",
@@ -919,8 +843,7 @@ const DICTIONARY = {
             "tr" : "kahverengi saç",
             "en_": "He has brown hair and green eyes.",
             "es_": "Él tiene el pelo castaño y los ojos verdes.",
-            "tr_": "O kahverengi saçlı ve yeşil gözlüdür.",
-            "type" : "noun"
+            "tr_": "O kahverengi saçlı ve yeşil gözlüdür."
         },
         {
             "en" : "straight hair",
@@ -928,8 +851,7 @@ const DICTIONARY = {
             "tr" : "düz saç",
             "en_": "She has long straight hair.",
             "es_": "Ella tiene el pelo liso y largo.",
-            "tr_": "Onun uzun düz saçları var.",
-            "type" : "noun"
+            "tr_": "Onun uzun düz saçları var."
         },
         {
             "en" : "red hair",
@@ -937,8 +859,7 @@ const DICTIONARY = {
             "tr" : "kızıl saç",
             "en_": "He has bright red hair that stands out.",
             "es_": "Él tiene el pelo rojo brillante que destaca.",
-            "tr_": "Onun parlak kızıl saçları dikkat çekiyor.",
-            "type" : "noun"
+            "tr_": "Onun parlak kızıl saçları dikkat çekiyor."
         },
         {
             "en" : "curly hair",
@@ -946,8 +867,7 @@ const DICTIONARY = {
             "tr" : "kıvırcık saç",
             "en_": "She has beautiful curly hair.",
             "es_": "Ella tiene el pelo rizado y hermoso.",
-            "tr_": "Onun güzel kıvırcık saçları var.",
-            "type" : "noun"
+            "tr_": "Onun güzel kıvırcık saçları var."
         },
         {
             "en" : "braid",
@@ -955,8 +875,7 @@ const DICTIONARY = {
             "tr" : "örgü",
             "en_": "He wore his hair in braids for the festival.",
             "es_": "Él llevó el pelo con trenzas para el festival.",
-            "tr_": "O, festival için saçlarını örgü yaptı.",
-            "type" : "noun"
+            "tr_": "O, festival için saçlarını örgü yaptı."
         },
         {
             "en" : "bald",
@@ -964,8 +883,7 @@ const DICTIONARY = {
             "tr" : "kel",
             "en_": "She is bald but confident and strong.",
             "es_": "Ella es calva pero segura y fuerte.",
-            "tr_": "O kelliğine rağmen kendinden emin ve güçlüdür.",
-            "type" : "adjective"
+            "tr_": "O kelliğine rağmen kendinden emin ve güçlüdür."
         },
         {
             "en" : "complexion",
@@ -973,8 +891,7 @@ const DICTIONARY = {
             "tr" : "ten rengi",
             "en_": "He has a fair complexion that tans easily.",
             "es_": "Él tiene una tez clara que se broncea fácilmente.",
-            "tr_": "Onun ten rengi açık ve kolay bronzlaşır.",
-            "type" : "noun"
+            "tr_": "Onun ten rengi açık ve kolay bronzlaşır."
         },
         {
             "en" : "dark",
@@ -982,8 +899,7 @@ const DICTIONARY = {
             "tr" : "koyu",
             "en_": "She has dark hair and eyes.",
             "es_": "Ella tiene el pelo moreno y los ojos oscuros.",
-            "tr_": "Onun koyu renk saçları ve gözleri var.",
-            "type" : "adjective"
+            "tr_": "Onun koyu renk saçları ve gözleri var."
         },
         {
             "en" : "fair",
@@ -991,8 +907,7 @@ const DICTIONARY = {
             "tr" : "açık",
             "en_": "She has fair skin that glows in the sunlight.",
             "es_": "Ella tiene la piel blanca que brilla con la luz del sol.",
-            "tr_": "Onun güneş ışığında parlayan açık teni var.",
-            "type" : "adjective"
+            "tr_": "Onun güneş ışığında parlayan açık teni var."
         },
         {
             "en" : "frekles",
@@ -1000,8 +915,7 @@ const DICTIONARY = {
             "tr" : "çiller",
             "en_": "She has freckles on her nose and cheeks.",
             "es_": "Ella tiene pecas en la nariz y las mejillas.",
-            "tr_": "Onun burun ve yanaklarında çilleri var.",
-            "type" : "noun"
+            "tr_": "Onun burun ve yanaklarında çilleri var."
         },
         {
             "en" : "moustache",
@@ -1009,8 +923,7 @@ const DICTIONARY = {
             "tr" : "bıyık",
             "en_": "He has a thick moustache that suits him well.",
             "es_": "Él tiene un bigote espeso que le queda bien.",
-            "tr_": "Onun kalın bir bıyığı var ve ona çok yakışıyor.",
-            "type" : "noun"
+            "tr_": "Onun kalın bir bıyığı var ve ona çok yakışıyor."
         },
         {
             "en" : "beard",
@@ -1018,8 +931,7 @@ const DICTIONARY = {
             "tr" : "sakal",
             "en_": "She does not have a beard, but her brother does.",
             "es_": "Ella no tiene barba, pero su hermano sí.",
-            "tr_": "Onun sakalı yok ama erkek kardeşinin var.",
-            "type" : "noun"
+            "tr_": "Onun sakalı yok ama erkek kardeşinin var."
         },
         {
             "en" : "to wear glasses",
@@ -1027,8 +939,7 @@ const DICTIONARY = {
             "tr" : "gözlük takmak",
             "en_": "He wears glasses to read books more clearly.",
             "es_": "Él lleva gafas para leer libros más claramente.",
-            "tr_": "O, kitapları daha net okuyabilmek için gözlük takar.",
-            "type" : "verb"
+            "tr_": "O, kitapları daha net okuyabilmek için gözlük takar."
         },
         {
             "en" : "to frown",
@@ -1036,8 +947,7 @@ const DICTIONARY = {
             "tr" : "kaşlarını çatmak",
             "en_": "She frowned when she heard the bad news.",
             "es_": "Ella frunció el ceño al escuchar las malas noticias.",
-            "tr_": "Kötü haberi duyunca kaşlarını çattı.",
-            "type" : "verb"
+            "tr_": "Kötü haberi duyunca kaşlarını çattı."
         },
         {
             "en" : "to smile",
@@ -1045,8 +955,7 @@ const DICTIONARY = {
             "tr" : "gülümsemek",
             "en_": "He smiled warmly when he saw his old friend.",
             "es_": "Él se sonrió cálidamente al ver a su viejo amigo.",
-            "tr_": "Eski arkadaşını görünce sıcak bir şekilde gülümsedi.",
-            "type" : "verb"
+            "tr_": "Eski arkadaşını görünce sıcak bir şekilde gülümsedi."
         },
         {
             "en" : "to laugh",
@@ -1054,8 +963,7 @@ const DICTIONARY = {
             "tr" : "gülmek",
             "en_": "She laughed heartily at the funny joke.",
             "es_": "Ella se rió con ganas del chiste gracioso.",
-            "tr_": "Komik şakaya yürekten güldü.",
-            "type" : "verb"
+            "tr_": "Komik şakaya yürekten güldü."
         },
         {
             "en" : "to cry",
@@ -1063,8 +971,7 @@ const DICTIONARY = {
             "tr" : "ağlamak",
             "en_": "He started to cry after watching the sad movie.",
             "es_": "Él comenzó a llorar después de ver la película triste.",
-            "tr_": "Üzücü filmi izledikten sonra ağlamaya başladı.",
-            "type" : "verb"
+            "tr_": "Üzücü filmi izledikten sonra ağlamaya başladı."
         }
     ],
     "Body" : [
@@ -1074,8 +981,7 @@ const DICTIONARY = {
             "tr" : "kafa",
             "en_": "She hit her head on the low door frame.",
             "es_": "Ella se golpeó la cabeza con el marco bajo de la puerta.",
-            "tr_": "Alçak kapı pervazına kafasını çarptı.",
-            "type" : "noun"
+            "tr_": "Alçak kapı pervazına kafasını çarptı."
         },
         {
             "en" : "hair",
@@ -1083,8 +989,7 @@ const DICTIONARY = {
             "tr" : "saç",
             "en_": "He combed his hair before going to the party.",
             "es_": "Él se peinó el pelo antes de ir a la fiesta.",
-            "tr_": "Partiye gitmeden önce saçını taradı.",
-            "type" : "noun"
+            "tr_": "Partiye gitmeden önce saçını taradı."
         },
         {
             "en" : "face",
@@ -1092,8 +997,7 @@ const DICTIONARY = {
             "tr" : "yüz",
             "en_": "She washed her face with cold water.",
             "es_": "Ella se lavó la cara con agua fría.",
-            "tr_": "Yüzünü soğuk suyla yıkadı.",
-            "type" : "noun"
+            "tr_": "Yüzünü soğuk suyla yıkadı."
         },
         {
             "en" : "skin",
@@ -1101,8 +1005,7 @@ const DICTIONARY = {
             "tr" : "cilt [ten]",
             "en_": "He takes care of his skin with natural products.",
             "es_": "Él cuida su piel con productos naturales.",
-            "tr_": "Cildine doğal ürünlerle bakım yapar.",
-            "type" : "noun"
+            "tr_": "Cildine doğal ürünlerle bakım yapar."
         },
         {
             "en" : "eye",
@@ -1110,8 +1013,7 @@ const DICTIONARY = {
             "tr" : "göz",
             "en_": "She has green eyes that shine in the sunlight.",
             "es_": "Ella tiene los ojos verdes que brillan al sol.",
-            "tr_": "Güneşte parlayan yeşil gözleri var.",
-            "type" : "noun"
+            "tr_": "Güneşte parlayan yeşil gözleri var."
         },
         {
             "en" : "cheek",
@@ -1119,8 +1021,7 @@ const DICTIONARY = {
             "tr" : "yanak",
             "en_": "He kissed his mother on the cheek before leaving.",
             "es_": "Él besó a su madre en la mejilla antes de irse.",
-            "tr_": "Gitmeden önce annesinin yanağından öptü.",
-            "type" : "noun"
+            "tr_": "Gitmeden önce annesinin yanağından öptü."
         },
         {
             "en" : "nose",
@@ -1128,8 +1029,7 @@ const DICTIONARY = {
             "tr" : "burun",
             "en_": "She touched her nose because it was cold.",
             "es_": "Ella se tocó la nariz porque estaba fría.",
-            "tr_": "Burnu soğuk olduğu için ona dokundu.",
-            "type" : "noun"
+            "tr_": "Burnu soğuk olduğu için ona dokundu."
         },
         {
             "en" : "ear",
@@ -1137,8 +1037,7 @@ const DICTIONARY = {
             "tr" : "kulak",
             "en_": "He wore headphones that covered his ears completely.",
             "es_": "Él llevaba auriculares que le cubrían completamente las orejas.",
-            "tr_": "Kulaklarını tamamen kapatan kulaklıklar taktı.",
-            "type" : "noun"
+            "tr_": "Kulaklarını tamamen kapatan kulaklıklar taktı."
         },
         {
             "en" : "mouth",
@@ -1146,8 +1045,7 @@ const DICTIONARY = {
             "tr" : "ağız",
             "en_": "She covered her mouth when she yawned.",
             "es_": "Ella se tapó la boca cuando bostezó.",
-            "tr_": "Esnerken ağzını kapattı.",
-            "type" : "noun"
+            "tr_": "Esnerken ağzını kapattı."
         },
         {
             "en" : "tooth",
@@ -1155,14 +1053,12 @@ const DICTIONARY = {
             "tr" : "diş",
             "en_": "He brushed his tooth carefully after eating sweets.",
             "es_": "Él se cepilló el diente con cuidado después de comer dulces.",
-            "tr_": "Tatlı yedikten sonra dişini özenle fırçaladı.",
-            "type" : "noun"
+            "tr_": "Tatlı yedikten sonra dişini özenle fırçaladı."
         },
         {
             "en" : "tongue",
             "es" : "la lengua",
-            "tr" : "dil",
-            "type" : "noun"
+            "tr" : "dil"
         },
         {
             "en" : "lip",
@@ -1170,8 +1066,7 @@ const DICTIONARY = {
             "tr" : "dudak",
             "en_": "She bit her tongue accidentally while eating.",
             "es_": "Ella se mordió la lengua accidentalmente mientras comía.",
-            "tr_": "Yemek yerken yanlışlıkla dilini ısırdı.",
-            "type" : "noun"
+            "tr_": "Yemek yerken yanlışlıkla dilini ısırdı."
         },
         {
             "en" : "neck",
@@ -1179,8 +1074,7 @@ const DICTIONARY = {
             "tr" : "boyun",
             "en_": "He wore a scarf around his neck to stay warm.",
             "es_": "Él llevaba una bufanda alrededor del cuello para mantenerse caliente.",
-            "tr_": "Sıcak kalmak için boynuna atkı sardı.",
-            "type" : "noun"
+            "tr_": "Sıcak kalmak için boynuna atkı sardı."
         },
         {
             "en" : "chin",
@@ -1188,8 +1082,7 @@ const DICTIONARY = {
             "tr" : "çene",
             "en_": "She rested her chin on her hand while thinking.",
             "es_": "Ella apoyó la barbilla en la mano mientras pensaba.",
-            "tr_": "Düşünürken çenesini eline dayadı.",
-            "type" : "noun"
+            "tr_": "Düşünürken çenesini eline dayadı."
         },
         {
             "en" : "body",
@@ -1197,8 +1090,7 @@ const DICTIONARY = {
             "tr" : "vücut",
             "en_": "He exercises every day to keep his body healthy.",
             "es_": "Él hace ejercicio todos los días para mantener su cuerpo saludable.",
-            "tr_": "Vücudunu sağlıklı tutmak için her gün egzersiz yapar.",
-            "type" : "noun"
+            "tr_": "Vücudunu sağlıklı tutmak için her gün egzersiz yapar."
         },
         {
             "en" : "shoulder",
@@ -1206,8 +1098,7 @@ const DICTIONARY = {
             "tr" : "omuz",
             "en_": "He carried the heavy bag on his shoulder.",
             "es_": "Él llevó la bolsa pesada en el hombro.",
-            "tr_": "Ağır çantayı omzunda taşıdı.",
-            "type" : "noun"
+            "tr_": "Ağır çantayı omzunda taşıdı."
         },
         {
             "en" : "chest",
@@ -1215,8 +1106,7 @@ const DICTIONARY = {
             "tr" : "göğüs",
             "en_": "She placed her hand on her chest when she heard the good news.",
             "es_": "Ella puso su mano en el pecho cuando escuchó las buenas noticias.",
-            "tr_": "İyi haberi duyduğunda elini göğsüne koydu.",
-            "type" : "noun"
+            "tr_": "İyi haberi duyduğunda elini göğsüne koydu."
         },
         {
             "en" : "arm",
@@ -1224,8 +1114,7 @@ const DICTIONARY = {
             "tr" : "kol",
             "en_": "He broke his arm while playing soccer.",
             "es_": "Él se rompió el brazo mientras jugaba al fútbol.",
-            "tr_": "Futbol oynarken kolunu kırdı.",
-            "type" : "noun"
+            "tr_": "Futbol oynarken kolunu kırdı."
         },
         {
             "en" : "elbow",
@@ -1233,8 +1122,7 @@ const DICTIONARY = {
             "tr" : "dirsek",
             "en_": "She rested her elbow on the table while reading.",
             "es_": "Ella apoyó el codo en la mesa mientras leía.",
-            "tr_": "Okurken dirseğini masaya dayadı.",
-            "type" : "noun"
+            "tr_": "Okurken dirseğini masaya dayadı."
         },
         {
             "en" : "hand",
@@ -1242,8 +1130,7 @@ const DICTIONARY = {
             "tr" : "el",
             "en_": "She held the book tightly in her hand.",
             "es_": "Ella sostuvo el libro firmemente en la mano.",
-            "tr_": "Kitabı elinde sıkıca tuttu.",
-            "type" : "noun"
+            "tr_": "Kitabı elinde sıkıca tuttu."
         },
         {
             "en" : "finger",
@@ -1251,8 +1138,7 @@ const DICTIONARY = {
             "tr" : "parmak",
             "en_": "He cut his finger while cooking dinner.",
             "es_": "Él se cortó el dedo mientras cocinaba la cena.",
-            "tr_": "Akşam yemeğini yaparken parmağını kesti.",
-            "type" : "noun"
+            "tr_": "Akşam yemeğini yaparken parmağını kesti."
         },
         {
             "en" : "thumb",
@@ -1260,8 +1146,7 @@ const DICTIONARY = {
             "tr" : "başparmak",
             "en_": "She gave a thumbs-up to show her approval.",
             "es_": "Ella levantó el pulgar para mostrar su aprobación.",
-            "tr_": "Onayını göstermek için başparmağını kaldırdı.",
-            "type" : "noun"
+            "tr_": "Onayını göstermek için başparmağını kaldırdı."
         },
         {
             "en" : "wrist",
@@ -1269,8 +1154,7 @@ const DICTIONARY = {
             "tr" : "el bileği",
             "en_": "He wore a watch tightly around his wrist.",
             "es_": "Él llevaba un reloj ajustado alrededor de la muñeca.",
-            "tr_": "Kol bileğine sıkıca bir saat taktı.",
-            "type" : "noun"
+            "tr_": "Kol bileğine sıkıca bir saat taktı."
         },
         {
             "en" : "back",
@@ -1278,8 +1162,7 @@ const DICTIONARY = {
             "tr" : "sırt",
             "en_": "She hurt her back while lifting the heavy box.",
             "es_": "Ella se lastimó la espalda al levantar la caja pesada.",
-            "tr_": "Ağır kutuyu kaldırırken sırtını incitti.",
-            "type" : "noun"
+            "tr_": "Ağır kutuyu kaldırırken sırtını incitti."
         },
         {
             "en" : "stomach",
@@ -1287,8 +1170,7 @@ const DICTIONARY = {
             "tr" : "karın",
             "en_": "He had a stomach ache after eating too much.",
             "es_": "Él tuvo dolor de estómago después de comer demasiado.",
-            "tr_": "Çok yedikten sonra karın ağrısı çekti.",
-            "type" : "noun"
+            "tr_": "Çok yedikten sonra karın ağrısı çekti."
         },
         {
             "en" : "leg",
@@ -1296,8 +1178,7 @@ const DICTIONARY = {
             "tr" : "bacak",
             "en_": "She injured her leg while hiking in the mountains.",
             "es_": "Ella se lastimó la pierna mientras caminaba en las montañas.",
-            "tr_": "Dağlarda yürüyüş yaparken bacağını incitti.",
-            "type" : "noun"
+            "tr_": "Dağlarda yürüyüş yaparken bacağını incitti."
         },
         {
             "en" : "knee",
@@ -1305,8 +1186,7 @@ const DICTIONARY = {
             "tr" : "diz",
             "en_": "She hurt her knee while playing basketball.",
             "es_": "Ella se lastimó la rodilla mientras jugaba al baloncesto.",
-            "tr_": "Basketbol oynarken dizini incitti.",
-            "type" : "noun"
+            "tr_": "Basketbol oynarken dizini incitti."
         },
         {
             "en" : "toe",
@@ -1314,8 +1194,7 @@ const DICTIONARY = {
             "tr" : "ayak parmağı",
             "en_": "He stubbed his toe on the table leg.",
             "es_": "Él se golpeó el dedo del pie contra la pata de la mesa.",
-            "tr_": "Ayak parmağını masa ayağına çarptı.",
-            "type" : "noun"
+            "tr_": "Ayak parmağını masa ayağına çarptı."
         },
         {
             "en" : "foot",
@@ -1323,8 +1202,7 @@ const DICTIONARY = {
             "tr" : "ayak",
             "en_": "She injured her foot while running in the park.",
             "es_": "Ella se lesionó el pie mientras corría en el parque.",
-            "tr_": "Parkta koşarken ayağını incitti.",
-            "type" : "noun"
+            "tr_": "Parkta koşarken ayağını incitti."
         },
         {
             "en" : "ankle",
@@ -1332,8 +1210,7 @@ const DICTIONARY = {
             "tr" : "ayak bileği",
             "en_": "He twisted his ankle while playing football.",
             "es_": "Él se torció el tobillo mientras jugaba al fútbol.",
-            "tr_": "Futbol oynarken ayak bileğini burktu.",
-            "type" : "noun"
+            "tr_": "Futbol oynarken ayak bileğini burktu."
         },
         {
             "en" : "heel",
@@ -1341,8 +1218,7 @@ const DICTIONARY = {
             "tr" : "topuk",
             "en_": "She hurt her heel while dancing last night.",
             "es_": "Ella se lastimó el talón mientras bailaba anoche.",
-            "tr_": "Dün gece dans ederken topuğunu incitti.",
-            "type" : "noun"
+            "tr_": "Dün gece dans ederken topuğunu incitti."
         },
         {
             "en" : "tall",
@@ -1350,8 +1226,7 @@ const DICTIONARY = {
             "tr" : "uzun",
             "en_": "He is very tall and can easily reach the top shelf.",
             "es_": "Él es muy alto y puede alcanzar fácilmente la estantería superior.",
-            "tr_": "O çok uzun boylu ve üst raflara kolayca ulaşabiliyor.",
-            "type" : "adjective"
+            "tr_": "O çok uzun boylu ve üst raflara kolayca ulaşabiliyor."
         },
         {
             "en" : "short",
@@ -1359,8 +1234,7 @@ const DICTIONARY = {
             "tr" : "kısa",
             "en_": "She is shorter than her older sister.",
             "es_": "Ella es más baja que su hermana mayor.",
-            "tr_": "O, ablasından daha kısa.",
-            "type" : "adjective"
+            "tr_": "O, ablasından daha kısa."
         },
         {
             "en" : "light",
@@ -1368,8 +1242,7 @@ const DICTIONARY = {
             "tr" : "hafif",
             "en_": "He prefers to carry a light backpack during his travels.",
             "es_": "Él prefiere llevar una mochila ligera durante sus viajes.",
-            "tr_": "Seyahatleri sırasında hafif bir sırt çantası taşımayı tercih ediyor.",
-            "type" : "adjective"
+            "tr_": "Seyahatleri sırasında hafif bir sırt çantası taşımayı tercih ediyor."
         },
         {
             "en" : "heavy",
@@ -1377,8 +1250,7 @@ const DICTIONARY = {
             "tr" : "ağır",
             "en_": "She lifted a heavy box with great effort.",
             "es_": "Ella levantó una caja pesada con mucho esfuerzo.",
-            "tr_": "Büyük bir çabayla ağır bir kutuyu kaldırdı.",
-            "type" : "adjective"
+            "tr_": "Büyük bir çabayla ağır bir kutuyu kaldırdı."
         },
         {
             "en" : "left side",
@@ -1386,8 +1258,7 @@ const DICTIONARY = {
             "tr" : "sol taraf",
             "en_": "He sat on the left side of the room during the meeting.",
             "es_": "Él se sentó en el lado izquierdo de la sala durante la reunión.",
-            "tr_": "Toplantı sırasında odanın sol tarafına oturdu.",
-            "type" : "noun"
+            "tr_": "Toplantı sırasında odanın sol tarafına oturdu."
         },
         {
             "en" : "right side",
@@ -1395,8 +1266,7 @@ const DICTIONARY = {
             "tr" : "sağ taraf",
             "en_": "She placed the vase on the right side of the table.",
             "es_": "Ella colocó el jarrón en el lado derecho de la mesa.",
-            "tr_": "Çiçek vazosunu masanın sağ tarafına koydu.",
-            "type" : "noun"
+            "tr_": "Çiçek vazosunu masanın sağ tarafına koydu."
         },
         {
             "en" : "to stand up",
@@ -1404,8 +1274,7 @@ const DICTIONARY = {
             "tr" : "ayağa kalkmak",
             "en_": "He quickly stood up when the teacher called his name.",
             "es_": "Él se puso de pie rápidamente cuando la maestra llamó su nombre.",
-            "tr_": "Öğretmen ismini söylediğinde hemen ayağa kalktı.",
-            "type" : "verb"
+            "tr_": "Öğretmen ismini söylediğinde hemen ayağa kalktı."
         },
         {
             "en" : "to be standing",
@@ -1413,8 +1282,7 @@ const DICTIONARY = {
             "tr" : "ayakta durmak",
             "en_": "She was standing near the window waiting for the bus.",
             "es_": "Ella estaba de pie cerca de la ventana esperando el autobús.",
-            "tr_": "Otobüsü beklerken pencerenin yanında ayakta duruyordu.",
-            "type" : "verb"
+            "tr_": "Otobüsü beklerken pencerenin yanında ayakta duruyordu."
         },
         {
             "en" : "to kneel down",
@@ -1422,8 +1290,7 @@ const DICTIONARY = {
             "tr" : "diz çökmek",
             "en_": "He knelt down to tie his shoe.",
             "es_": "Él se arrodilló para atarse el zapato.",
-            "tr_": "Ayakkabısını bağlamak için diz çöktü.",
-            "type" : "verb"
+            "tr_": "Ayakkabısını bağlamak için diz çöktü."
         },
         {
             "en" : "to be kneeling",
@@ -1431,8 +1298,7 @@ const DICTIONARY = {
             "tr" : "dizüstü durmak",
             "en_": "She was kneeling by the garden to plant flowers.",
             "es_": "Ella estaba de rodillas en el jardín para plantar flores.",
-            "tr_": "Çiçek dikmek için bahçede dizüstü duruyordu.",
-            "type" : "verb"
+            "tr_": "Çiçek dikmek için bahçede dizüstü duruyordu."
         },
         {
             "en" : "to lie down",
@@ -1440,8 +1306,7 @@ const DICTIONARY = {
             "tr" : "uzanmak",
             "en_": "He decided to lie down and rest after a long day.",
             "es_": "Él decidió tumbarse y descansar después de un día largo.",
-            "tr_": "Uzun bir günün ardından uzanıp dinlenmeye karar verdi.",
-            "type" : "verb"
+            "tr_": "Uzun bir günün ardından uzanıp dinlenmeye karar verdi."
         },
         {
             "en" : "to be lying down",
@@ -1449,8 +1314,7 @@ const DICTIONARY = {
             "tr" : "uzanmış olmak",
             "en_": "She is lying down on the sofa watching TV.",
             "es_": "Ella está echada en el sofá viendo la televisión.",
-            "tr_": "Televizyon izlerken kanepede uzanmış durumda.",
-            "type" : "verb"
+            "tr_": "Televizyon izlerken kanepede uzanmış durumda."
         },
         {
             "en" : "to sit down",
@@ -1458,8 +1322,7 @@ const DICTIONARY = {
             "tr" : "oturmak",
             "en_": "He sat down at the table to eat his lunch.",
             "es_": "Él se sentó en la mesa para comer su almuerzo.",
-            "tr_": "Öğle yemeğini yemek için masaya oturdu.",
-            "type" : "verb"
+            "tr_": "Öğle yemeğini yemek için masaya oturdu."
         },
         {
             "en" : "to be sitting down",
@@ -1467,8 +1330,7 @@ const DICTIONARY = {
             "tr" : "oturmuş olmak",
             "en_": "She is sitting down by the window reading a book.",
             "es_": "Ella está sentada junto a la ventana leyendo un libro.",
-            "tr_": "Pencerenin yanında oturmuş kitap okuyor.",
-            "type" : "verb"
+            "tr_": "Pencerenin yanında oturmuş kitap okuyor."
         }
     ],
     "Houses and homes" : [
@@ -1478,8 +1340,7 @@ const DICTIONARY = {
             "tr" : "apartman",
             "en_": "He lives in a tall apartment building near the city center.",
             "es_": "Él vive en una casa de pisos alta cerca del centro de la ciudad.",
-            "tr_": "Şehir merkezine yakın yüksek bir apartmanda yaşıyor.",
-            "type" : "noun"
+            "tr_": "Şehir merkezine yakın yüksek bir apartmanda yaşıyor."
         },
         {
             "en" : "apartment",
@@ -1487,8 +1348,7 @@ const DICTIONARY = {
             "tr" : "daire",
             "en_": "She decorated her new apartment with plants and paintings.",
             "es_": "Ella decoró su nuevo piso con plantas y cuadros.",
-            "tr_": "Yeni dairesini bitkiler ve tablolarla süsledi.",
-            "type" : "noun"
+            "tr_": "Yeni dairesini bitkiler ve tablolarla süsledi."
         },
         {
             "en" : "second floor",
@@ -1496,8 +1356,7 @@ const DICTIONARY = {
             "tr" : "ikinci kat",
             "en_": "He moved to an apartment on the second floor last week.",
             "es_": "Él se mudó a un apartamento en el segundo piso la semana pasada.",
-            "tr_": "Geçen hafta ikinci kattaki bir daireye taşındı.",
-            "type" : "noun"
+            "tr_": "Geçen hafta ikinci kattaki bir daireye taşındı."
         },
         {
             "en" : "front door",
@@ -1505,8 +1364,7 @@ const DICTIONARY = {
             "tr" : "giriş kapısı",
             "en_": "She forgot her keys and knocked on the front door.",
             "es_": "Ella olvidó sus llaves y llamó a la puerta de entrada.",
-            "tr_": "Anahtarlarını unuttu ve giriş kapısını çaldı.",
-            "type" : "noun"
+            "tr_": "Anahtarlarını unuttu ve giriş kapısını çaldı."
         },
         {
             "en" : "doorbell",
@@ -1514,8 +1372,7 @@ const DICTIONARY = {
             "tr" : "kapı zili",
             "en_": "He rang the doorbell and waited patiently.",
             "es_": "Él tocó el timbre y esperó pacientemente.",
-            "tr_": "Kapı zilini çaldı ve sabırla bekledi.",
-            "type" : "noun"
+            "tr_": "Kapı zilini çaldı ve sabırla bekledi."
         },
         {
             "en" : "to ring the bell",
@@ -1523,8 +1380,7 @@ const DICTIONARY = {
             "tr" : "kapı zilini çalmak",
             "en_": "She went up to the house and rang the bell.",
             "es_": "Ella se acercó a la casa y tocó el timbre.",
-            "tr_": "Evin önüne geldi ve kapı zilini çaldı.",
-            "type" : "verb"
+            "tr_": "Evin önüne geldi ve kapı zilini çaldı."
         },
         {
             "en" : "mailbox",
@@ -1532,8 +1388,7 @@ const DICTIONARY = {
             "tr" : "posta kutusu",
             "en_": "He opened the mailbox and found a letter from his friend.",
             "es_": "Él abrió el buzón y encontró una carta de su amigo.",
-            "tr_": "Posta kutusunu açtı ve arkadaşından bir mektup buldu.",
-            "type" : "noun"
+            "tr_": "Posta kutusunu açtı ve arkadaşından bir mektup buldu."
         },
         {
             "en" : "doormat",
@@ -1541,8 +1396,7 @@ const DICTIONARY = {
             "tr" : "paspas",
             "en_": "She wiped her shoes on the doormat before entering the house.",
             "es_": "Ella se limpió los zapatos en el felpudo antes de entrar en la casa.",
-            "tr_": "Eve girmeden önce ayakkabılarını paspasa sildi.",
-            "type" : "noun"
+            "tr_": "Eve girmeden önce ayakkabılarını paspasa sildi."
         },
         {
             "en" : "balcony",
@@ -1550,8 +1404,7 @@ const DICTIONARY = {
             "tr" : "balkon",
             "en_": "He stood on the balcony and watched the sunset.",
             "es_": "Él se paró en el balcón y miró la puesta de sol.",
-            "tr_": "Balkonda durup gün batımını izledi.",
-            "type" : "noun"
+            "tr_": "Balkonda durup gün batımını izledi."
         },
         {
             "en" : "first floor",
@@ -1559,8 +1412,7 @@ const DICTIONARY = {
             "tr" : "birinci kat",
             "en_": "She lives on the first floor, just above the bakery.",
             "es_": "Ella vive en el primer piso, justo encima de la panadería.",
-            "tr_": "Fırının hemen üstündeki birinci katta yaşıyor.",
-            "type" : "noun"
+            "tr_": "Fırının hemen üstündeki birinci katta yaşıyor."
         },
         {
             "en" : "caretaker",
@@ -1568,8 +1420,7 @@ const DICTIONARY = {
             "tr" : "kapıcı",
             "en_": "The caretaker fixed the broken elevator quickly.",
             "es_": "El portero arregló el ascensor roto rápidamente.",
-            "tr_": "Kapıcı bozuk asansörü hızlıca tamir etti.",
-            "type" : "noun"
+            "tr_": "Kapıcı bozuk asansörü hızlıca tamir etti."
         },
         {
             "en" : "ground floor",
@@ -1577,8 +1428,7 @@ const DICTIONARY = {
             "tr" : "zemin kat",
             "en_": "She keeps her shoes on the ground floor near the entrance.",
             "es_": "Ella guarda sus zapatos en el piso bajo cerca de la entrada.",
-            "tr_": "Ayakkabılarını girişin yakınındaki zemin katta tutuyor.",
-            "type" : "noun"
+            "tr_": "Ayakkabılarını girişin yakınındaki zemin katta tutuyor."
         },
         {
             "en" : "house",
@@ -1586,8 +1436,7 @@ const DICTIONARY = {
             "tr" : "ev",
             "en_": "She invited us to her house for dinner.",
             "es_": "Ella nos invitó a su casa para cenar.",
-            "tr_": "Bizi akşam yemeği için evine davet etti.",
-            "type" : "noun"
+            "tr_": "Bizi akşam yemeği için evine davet etti."
         },
         {
             "en" : "to live in a house",
@@ -1595,8 +1444,7 @@ const DICTIONARY = {
             "tr" : "evde yaşamak",
             "en_": "He prefers to live in a house rather than an apartment.",
             "es_": "Él prefiere vivir en una casa en lugar de un apartamento.",
-            "tr_": "Apartman yerine evde yaşamayı tercih ediyor.",
-            "type" : "verb"
+            "tr_": "Apartman yerine evde yaşamayı tercih ediyor."
         },
         {
             "en" : "neighbor",
@@ -1604,8 +1452,7 @@ const DICTIONARY = {
             "tr" : "komşu",
             "en_": "She is a friendly neighbor who often helps others.",
             "es_": "Ella es una vecina amigable que a menudo ayuda a los demás.",
-            "tr_": "O, sık sık başkalarına yardım eden dost canlısı bir komşudur.",
-            "type" : "noun"
+            "tr_": "O, sık sık başkalarına yardım eden dost canlısı bir komşudur."
         },
         {
             "en" : "move",
@@ -1613,8 +1460,7 @@ const DICTIONARY = {
             "tr" : "taşınmak",
             "en_": "He decided to move to a new city for work.",
             "es_": "Él decidió mudarse a una nueva ciudad por trabajo.",
-            "tr_": "İş için yeni bir şehre taşınmaya karar verdi.",
-            "type" : "verb"
+            "tr_": "İş için yeni bir şehre taşınmaya karar verdi."
         },
         {
             "en" : "guest",
@@ -1622,8 +1468,7 @@ const DICTIONARY = {
             "tr" : "misaifr",
             "en_": "She was a gracious guest at the wedding.",
             "es_": "Ella fue una huésped amable en la boda.",
-            "tr_": "Düğünde nazik bir misafir oldu.",
-            "type" : "noun"
+            "tr_": "Düğünde nazik bir misafir oldu."
         },
         {
             "en" : "basement",
@@ -1631,8 +1476,7 @@ const DICTIONARY = {
             "tr" : "bodrum",
             "en_": "He stores old furniture in the basement.",
             "es_": "Él guarda muebles viejos en el sótano.",
-            "tr_": "Eski mobilyaları bodrumda saklar.",
-            "type" : "noun"
+            "tr_": "Eski mobilyaları bodrumda saklar."
         },
         {
             "en" : "smoke",
@@ -1640,8 +1484,7 @@ const DICTIONARY = {
             "tr" : "duman",
             "en_": "The smoke from the fire covered the entire village yesterday.",
             "es_": "El humo del incendio cubrió todo el pueblo ayer.",
-            "tr_": "Dün yangının dumanı tüm köyü kapladı.",
-            "type" : "noun"
+            "tr_": "Dün yangının dumanı tüm köyü kapladı."
         },
         {
             "en" : "roof",
@@ -1649,8 +1492,7 @@ const DICTIONARY = {
             "tr" : "çatı",
             "en_": "The workers have repaired the roof after the storm.",
             "es_": "Los trabajadores han reparado el tejado después de la tormenta.",
-            "tr_": "İşçiler fırtınadan sonra çatıyı tamir etti.",
-            "type" : "noun"
+            "tr_": "İşçiler fırtınadan sonra çatıyı tamir etti."
         },
         {
             "en" : "chimney",
@@ -1658,8 +1500,7 @@ const DICTIONARY = {
             "tr" : "baca",
             "en_": "She cleaned the chimney before the winter came.",
             "es_": "Ella limpió la chimenea antes de que llegara el invierno.",
-            "tr_": "Kış gelmeden önce bacayı temizledi.",
-            "type" : "noun"
+            "tr_": "Kış gelmeden önce bacayı temizledi."
         },
         {
             "en" : "attic",
@@ -1667,8 +1508,7 @@ const DICTIONARY = {
             "tr" : "çatı katı",
             "en_": "They stored old furniture in the attic last summer.",
             "es_": "Ellos guardaron muebles viejos en el desván el verano pasado.",
-            "tr_": "Geçen yaz eski mobilyaları çatı katında sakladılar.",
-            "type" : "noun"
+            "tr_": "Geçen yaz eski mobilyaları çatı katında sakladılar."
         },
         {
             "en" : "window",
@@ -1676,8 +1516,7 @@ const DICTIONARY = {
             "tr" : "pencere",
             "en_": "They opened the window to let fresh air in.",
             "es_": "Ellas abrieron la ventana para dejar entrar aire fresco.",
-            "tr_": "Temiz hava girmesi için pencereyi açtılar.",
-            "type" : "noun"
+            "tr_": "Temiz hava girmesi için pencereyi açtılar."
         },
         {
             "en" : "wall",
@@ -1685,8 +1524,7 @@ const DICTIONARY = {
             "tr" : "duvar",
             "en_": "The painters had already painted the walls before we moved in.",
             "es_": "Las pintoras ya habían pintado las paredes antes de que nos mudáramos.",
-            "tr_": "Taşınmadan önce boyacılar duvarları çoktan boyamıştı.",
-            "type" : "noun"
+            "tr_": "Taşınmadan önce boyacılar duvarları çoktan boyamıştı."
         },
         {
             "en" : "door",
@@ -1694,8 +1532,7 @@ const DICTIONARY = {
             "tr" : "kapı",
             "en_": "She closed the door quietly after leaving the room.",
             "es_": "Ella cerró la puerta silenciosamente después de salir de la habitación.",
-            "tr_": "Oda çıkarken kapıyı sessizce kapattı.",
-            "type" : "noun"
+            "tr_": "Oda çıkarken kapıyı sessizce kapattı."
         },
         {
             "en" : "toilet",
@@ -1703,8 +1540,7 @@ const DICTIONARY = {
             "tr" : "tuvalet",
             "en_": "They cleaned the toilet thoroughly before the guests arrived.",
             "es_": "Ellos limpiaron el baño a fondo antes de que llegaran los invitados.",
-            "tr_": "Misafirler gelmeden önce tuvaleti iyice temizlediler.",
-            "type" : "noun"
+            "tr_": "Misafirler gelmeden önce tuvaleti iyice temizlediler."
         },
         {
             "en" : "bedroom",
@@ -1712,8 +1548,7 @@ const DICTIONARY = {
             "tr" : "yatak odası",
             "en_": "They decorated the bedroom with new furniture last weekend.",
             "es_": "Ellos decoraron el dormitorio con muebles nuevos el fin de semana pasado.",
-            "tr_": "Geçen hafta sonu yatak odasını yeni mobilyalarla dekore ettiler.",
-            "type" : "noun"
+            "tr_": "Geçen hafta sonu yatak odasını yeni mobilyalarla dekore ettiler."
         },
         {
             "en" : "bathroom",
@@ -1721,8 +1556,7 @@ const DICTIONARY = {
             "tr" : "banyo",
             "en_": "They cleaned the bathroom thoroughly every weekend.",
             "es_": "Ellas limpiaban el baño a fondo cada fin de semana.",
-            "tr_": "Onlar her hafta sonu banyoyu iyice temizlerdi.",
-            "type" : "noun"
+            "tr_": "Onlar her hafta sonu banyoyu iyice temizlerdi."
         },
         {
             "en" : "kitchen",
@@ -1730,8 +1564,7 @@ const DICTIONARY = {
             "tr" : "mutfak",
             "en_": "They cooked delicious meals in the kitchen every evening.",
             "es_": "Ellas cocinaban comidas deliciosas en la cocina cada tarde.",
-            "tr_": "Onlar her akşam mutfakta lezzetli yemekler pişirirdi.",
-            "type" : "noun"
+            "tr_": "Onlar her akşam mutfakta lezzetli yemekler pişirirdi."
         },
         {
             "en" : "dining room",
@@ -1739,8 +1572,7 @@ const DICTIONARY = {
             "tr" : "yemek odası",
             "en_": "They set the table in the dining room before the guests arrived.",
             "es_": "Ellos pusieron la mesa en el comedor antes de que llegaran los invitados.",
-            "tr_": "Misafirler gelmeden önce yemek odasında masayı hazırladılar.",
-            "type" : "noun"
+            "tr_": "Misafirler gelmeden önce yemek odasında masayı hazırladılar."
         },
         {
             "en" : "garage",
@@ -1748,8 +1580,7 @@ const DICTIONARY = {
             "tr" : "garaj",
             "en_": "He parked the car in the garage last night.",
             "es_": "Él aparcó el coche en el garaje anoche.",
-            "tr_": "Dün gece arabayı garaja park etti.",
-            "type" : "noun"
+            "tr_": "Dün gece arabayı garaja park etti."
         },
         {
             "en" : "upstairs",
@@ -1766,8 +1597,7 @@ const DICTIONARY = {
             "tr" : "yukarı çıkmak",
             "en_": "She goes upstairs to read every evening.",
             "es_": "Ella sube arriba para leer cada noche.",
-            "tr_": "O, her akşam okumak için yukarı çıkar.",
-            "type" : "verb"
+            "tr_": "O, her akşam okumak için yukarı çıkar."
         },
         {
             "en" : "to go downstairs",
@@ -1775,8 +1605,7 @@ const DICTIONARY = {
             "tr" : "aşağı inmek",
             "en_": "They go downstairs to answer the door.",
             "es_": "Ellos bajan para abrir la puerta.",
-            "tr_": "Onlar kapıyı açmak için aşağı inerler.",
-            "type" : "verb"
+            "tr_": "Onlar kapıyı açmak için aşağı inerler."
         },
         {
             "en" : "stairs",
@@ -1784,8 +1613,7 @@ const DICTIONARY = {
             "tr" : "merdiven",
             "en_": "They ran down the stairs when they heard the alarm.",
             "es_": "Ellas bajaron corriendo por las escaleras cuando oyeron la alarma.",
-            "tr_": "Alarmı duyunca merdivenlerden koşarak indiler.",
-            "type" : "noun"
+            "tr_": "Alarmı duyunca merdivenlerden koşarak indiler."
         },
         {
             "en" : "downstairs",
@@ -1802,8 +1630,7 @@ const DICTIONARY = {
             "tr" : "oturma odası",
             "en_": "They were watching a movie together in the living room.",
             "es_": "Ellas estaban viendo una película juntas en la sala de estar.",
-            "tr_": "Oturma odasında birlikte film izliyorlardı.",
-            "type" : "noun"
+            "tr_": "Oturma odasında birlikte film izliyorlardı."
         },
         {
             "en" : "light",
@@ -1811,8 +1638,7 @@ const DICTIONARY = {
             "tr" : "ışık",
             "en_": "They turned off the light before going to bed.",
             "es_": "Ellos apagaron la luz antes de irse a dormir.",
-            "tr_": "Yatmadan önce ışığı kapattılar.",
-            "type" : "noun"
+            "tr_": "Yatmadan önce ışığı kapattılar."
         },
         {
             "en" : "radiator",
@@ -1820,8 +1646,7 @@ const DICTIONARY = {
             "tr" : "radyatör",
             "en_": "She always puts her wet towel on the radiator to dry.",
             "es_": "Ella siempre pone su toalla mojada sobre el radiador para que se seque.",
-            "tr_": "Islanmış havlusunu kuruması için her zaman radyatöre koyar.",
-            "type" : "noun"
+            "tr_": "Islanmış havlusunu kuruması için her zaman radyatöre koyar."
         },
         {
             "en" : "table",
@@ -1829,8 +1654,7 @@ const DICTIONARY = {
             "tr" : "masa",
             "en_": "They are setting the table for dinner.",
             "es_": "Ellos están poniendo la mesa para la cena.",
-            "tr_": "Akşam yemeği için masayı hazırlıyorlar.",
-            "type" : "noun"
+            "tr_": "Akşam yemeği için masayı hazırlıyorlar."
         },
         {
             "en" : "chair",
@@ -1838,8 +1662,7 @@ const DICTIONARY = {
             "tr" : "sandalye",
             "en_": "She sat on the chair near the window to read a book.",
             "es_": "Ella se sentó en la silla cerca de la ventana para leer un libro.",
-            "tr_": "Kitap okumak için pencere kenarındaki sandalyeye oturdu.",
-            "type" : "noun"
+            "tr_": "Kitap okumak için pencere kenarındaki sandalyeye oturdu."
         },
         {
             "en" : "floor",
@@ -1847,8 +1670,7 @@ const DICTIONARY = {
             "tr" : "zemin",
             "en_": "He cleaned the floor after spilling the juice.",
             "es_": "Él limpió el suelo después de derramar el jugo.",
-            "tr_": "Suyu döktükten sonra zemini temizledi.",
-            "type" : "noun"
+            "tr_": "Suyu döktükten sonra zemini temizledi."
         },
         {
             "en" : "carpet [rug]",
@@ -1856,8 +1678,7 @@ const DICTIONARY = {
             "tr" : "halı [kilim]",
             "en_": "They vacuum the carpet every Sunday.",
             "es_": "Ellas aspiran la alfombra todos los domingos.",
-            "tr_": "Her pazar halıyı süpürürler.",
-            "type" : "noun"
+            "tr_": "Her pazar halıyı süpürürler."
         },
         {
             "en" : "clock",
@@ -1865,8 +1686,7 @@ const DICTIONARY = {
             "tr" : "saat",
             "en_": "He looked at the clock and realized he was late.",
             "es_": "Él miró el reloj y se dio cuenta de que llegaba tarde.",
-            "tr_": "Saatine baktı ve geç kaldığını fark etti.",
-            "type" : "noun"
+            "tr_": "Saatine baktı ve geç kaldığını fark etti."
         },
         {
             "en" : "curtain",
@@ -1874,8 +1694,7 @@ const DICTIONARY = {
             "tr" : "perde",
             "en_": "They close the curtain every evening before bedtime.",
             "es_": "Ellas cierran la cortina cada noche antes de acostarse.",
-            "tr_": "Her akşam yatmadan önce perdeleri kapatırlar.",
-            "type" : "noun"
+            "tr_": "Her akşam yatmadan önce perdeleri kapatırlar."
         },
         {
             "en" : "fire",
@@ -1883,8 +1702,7 @@ const DICTIONARY = {
             "tr" : "ateş",
             "en_": "He started the fire to warm up the room.",
             "es_": "Él encendió el fuego para calentar la habitación.",
-            "tr_": "Odayı ısıtmak için ateşi yaktı.",
-            "type" : "noun"
+            "tr_": "Odayı ısıtmak için ateşi yaktı."
         },
         {
             "en" : "armchair",
@@ -1892,8 +1710,7 @@ const DICTIONARY = {
             "tr" : "koltuk",
             "en_": "She is sitting comfortably in the armchair reading a book.",
             "es_": "Ella está sentada cómodamente en el sillón leyendo un libro.",
-            "tr_": "O, koltukta rahatça oturup kitap okuyor.",
-            "type" : "noun"
+            "tr_": "O, koltukta rahatça oturup kitap okuyor."
         },
         {
             "en" : "sofa",
@@ -1901,8 +1718,7 @@ const DICTIONARY = {
             "tr" : "kanepe",
             "en_": "They usually relax on the sofa after dinner.",
             "es_": "Ellos suelen relajarse en el sofá después de la cena.",
-            "tr_": "Akşam yemeğinden sonra genellikle kanepede dinlenirler.",
-            "type" : "noun"
+            "tr_": "Akşam yemeğinden sonra genellikle kanepede dinlenirler."
         },
         {
             "en" : "television",
@@ -1910,8 +1726,7 @@ const DICTIONARY = {
             "tr" : "televizyon",
             "en_": "They watched a documentary on television last night.",
             "es_": "Ellas vieron un documental en la televisión anoche.",
-            "tr_": "Dün gece televizyonda bir belgesel izlediler.",
-            "type" : "noun"
+            "tr_": "Dün gece televizyonda bir belgesel izlediler."
         },
 
         {
@@ -1920,8 +1735,7 @@ const DICTIONARY = {
             "tr" : "radyo",
             "en_": "He is listening to the radio in the car.",
             "es_": "Él está escuchando la radio en el coche.",
-            "tr_": "Arabada radyo dinliyor.",
-            "type" : "noun"
+            "tr_": "Arabada radyo dinliyor."
         },
         {
             "en" : "cupboard",
@@ -1929,8 +1743,7 @@ const DICTIONARY = {
             "tr" : "mutfak dolabı",
             "en_": "She is organizing the dishes in the cupboard.",
             "es_": "Ella está organizando los platos en la alacena.",
-            "tr_": "O, mutfak dolabındaki tabakları düzenliyor.",
-            "type" : "noun"
+            "tr_": "O, mutfak dolabındaki tabakları düzenliyor."
         },
         {
             "en" : "washing machine",
@@ -1938,8 +1751,7 @@ const DICTIONARY = {
             "tr" : "çamaşır makinesi",
             "en_": "They repaired the washing machine last weekend.",
             "es_": "Ellos repararon la lavadora el fin de semana pasado.",
-            "tr_": "Geçen hafta sonu çamaşır makinesini tamir ettiler.",
-            "type" : "noun"
+            "tr_": "Geçen hafta sonu çamaşır makinesini tamir ettiler."
         },
         {
             "en": "refrigerator",
@@ -1947,8 +1759,7 @@ const DICTIONARY = {
             "tr": "buzdolabı",
             "en_": "The refrigerator is full of fresh vegetables.",
             "es_": "La nevera está llena de verduras frescas.",
-            "tr_": "Buzdolabı taze sebzelerle dolu.",
-            "type": "noun"
+            "tr_": "Buzdolabı taze sebzelerle dolu."
         },
         {
             "en": "oven",
@@ -1956,8 +1767,7 @@ const DICTIONARY = {
             "tr": "fırın",
             "en_": "She baked a cake in the oven yesterday.",
             "es_": "Ella horneó un pastel en el horno ayer.",
-            "tr_": "O, dün fırında kek pişirdi.",
-            "type": "noun"
+            "tr_": "O, dün fırında kek pişirdi."
         },
         {
             "en": "to cook",
@@ -1965,8 +1775,7 @@ const DICTIONARY = {
             "tr": "pişirmek",
             "en_": "We often cook dinner together on weekends.",
             "es_": "A menudo cocinamos la cena juntos los fines de semana.",
-            "tr_": "Hafta sonları sık sık birlikte yemek pişiririz.",
-            "type": "verb"
+            "tr_": "Hafta sonları sık sık birlikte yemek pişiririz."
         },
         {
             "en": "saucepan",
@@ -1974,8 +1783,7 @@ const DICTIONARY = {
             "tr": "tencere",
             "en_": "He put water to boil in the saucepan.",
             "es_": "Él puso agua a hervir en la cacerola.",
-            "tr_": "O, tencereye su koyup kaynattı.",
-            "type": "noun"
+            "tr_": "O, tencereye su koyup kaynattı."
         },
         {
             "en": "gas",
@@ -1983,8 +1791,7 @@ const DICTIONARY = {
             "tr": "gaz",
             "en_": "The gas stove was turned off after cooking.",
             "es_": "La estufa de gas se apagó después de cocinar.",
-            "tr_": "Yemekten sonra gazlı ocak kapatıldı.",
-            "type": "noun"
+            "tr_": "Yemekten sonra gazlı ocak kapatıldı."
         },
         {
             "en": "thrash can",
@@ -1992,8 +1799,7 @@ const DICTIONARY = {
             "tr": "çöp kovası",
             "en_": "Please throw the paper into the thrash can.",
             "es_": "Por favor, tira el papel en la lata de la basura.",
-            "tr_": "Lütfen kağıdı çöp kovasına at.",
-            "type": "noun"
+            "tr_": "Lütfen kağıdı çöp kovasına at."
         },
         {
             "en": "to iron",
@@ -2001,8 +1807,7 @@ const DICTIONARY = {
             "tr": "ütülemek",
             "en_": "She irons her clothes every Sunday.",
             "es_": "Ella plancha su ropa todos los domingos.",
-            "tr_": "O, her pazar kıyafetlerini ütüler.",
-            "type": "verb"
+            "tr_": "O, her pazar kıyafetlerini ütüler."
         },
         {
             "en": "plug",
@@ -2010,8 +1815,7 @@ const DICTIONARY = {
             "tr": "fiş",
             "en_": "He unplugged the charger before leaving.",
             "es_": "Él desenchufó el cargador antes de salir.",
-            "tr_": "O, çıkmadan önce şarj cihazının fişini çekti.",
-            "type": "noun"
+            "tr_": "O, çıkmadan önce şarj cihazının fişini çekti."
         },
         {
             "en": "electricity",
@@ -2019,8 +1823,7 @@ const DICTIONARY = {
             "tr": "elektrik",
             "en_": "The electricity went out during the storm.",
             "es_": "La electricidad se cortó durante la tormenta.",
-            "tr_": "Fırtına sırasında elektrik kesildi.",
-            "type": "noun"
+            "tr_": "Fırtına sırasında elektrik kesildi."
         },
         {
             "en": "to do the dishes",
@@ -2028,8 +1831,7 @@ const DICTIONARY = {
             "tr": "bulaşıkları yıkamak",
             "en_": "I did the dishes after dinner last night.",
             "es_": "Lavé los platos después de la cena anoche.",
-            "tr_": "Dün gece yemekten sonra bulaşıkları yıkadım.",
-            "type": "verb"
+            "tr_": "Dün gece yemekten sonra bulaşıkları yıkadım."
         },
         {
             "en": "dirty",
@@ -2037,8 +1839,7 @@ const DICTIONARY = {
             "tr": "kirli",
             "en_": "The kitchen floor is dirty and needs cleaning.",
             "es_": "El suelo de la cocina está sucio y necesita limpieza.",
-            "tr_": "Mutfak zemini kirli ve temizlenmesi gerekiyor.",
-            "type": "adjective"
+            "tr_": "Mutfak zemini kirli ve temizlenmesi gerekiyor."
         },
         {
             "en": "sink",
@@ -2046,8 +1847,7 @@ const DICTIONARY = {
             "tr": "lavabo",
             "en_": "She washed the vegetables in the sink.",
             "es_": "Ella lavó las verduras en el fregadero.",
-            "tr_": "O, sebzeleri lavaboda yıkadı.",
-            "type": "noun"
+            "tr_": "O, sebzeleri lavaboda yıkadı."
         },
         {
             "en": "to dry",
@@ -2055,8 +1855,7 @@ const DICTIONARY = {
             "tr": "kurutmak",
             "en_": "They dried the clothes outside in the sun.",
             "es_": "Ellos secaron la ropa afuera al sol.",
-            "tr_": "Onlar kıyafetleri dışarıda güneşte kuruttular.",
-            "type": "verb"
+            "tr_": "Onlar kıyafetleri dışarıda güneşte kuruttular."
         },
         {
             "en": "clean",
@@ -2064,8 +1863,7 @@ const DICTIONARY = {
             "tr": "temiz",
             "en_": "The house is clean after the weekend cleaning.",
             "es_": "La casa está limpia después de la limpieza del fin de semana.",
-            "tr_": "Hafta sonu temizliğinden sonra ev temiz oldu.",
-            "type": "adjective"
+            "tr_": "Hafta sonu temizliğinden sonra ev temiz oldu."
         },
         {
             "en": "to take bath",
@@ -2073,8 +1871,7 @@ const DICTIONARY = {
             "tr": "banyo yapmak",
             "en_": "He takes a bath every evening before dinner.",
             "es_": "Él se baña todas las tardes antes de la cena.",
-            "tr_": "O, her akşam yemekten önce banyo yapar.",
-            "type": "verb"
+            "tr_": "O, her akşam yemekten önce banyo yapar."
         },
         {
             "en": "bathtub",
@@ -2082,8 +1879,7 @@ const DICTIONARY = {
             "tr": "küvet",
             "en_": "The bathtub is filled with warm water.",
             "es_": "La bañera está llena de agua tibia.",
-            "tr_": "Küvet sıcak su ile dolu.",
-            "type": "noun"
+            "tr_": "Küvet sıcak su ile dolu."
         },
         {
             "en": "the bathtub plug",
@@ -2091,8 +1887,7 @@ const DICTIONARY = {
             "tr": "küvet tıpası",
             "en_": "Don't forget to put the bathtub plug before filling the tub.",
             "es_": "No olvides poner el tapón de bañera antes de llenar la tina.",
-            "tr_": "Küveti doldurmadan önce tıpayı takmayı unutma.",
-            "type": "noun"
+            "tr_": "Küveti doldurmadan önce tıpayı takmayı unutma."
         },
         {
             "en": "bathrobe",
@@ -2100,8 +1895,7 @@ const DICTIONARY = {
             "tr": "bornoz",
             "en_": "She wears a bathrobe after her shower.",
             "es_": "Ella lleva un albornoz después de su ducha.",
-            "tr_": "O, duşundan sonra bornoz giyer.",
-            "type": "noun"
+            "tr_": "O, duşundan sonra bornoz giyer."
         },
         {
             "en": "scales",
@@ -2109,8 +1903,7 @@ const DICTIONARY = {
             "tr": "baskül",
             "en_": "He checks his weight on the scales every morning.",
             "es_": "Él se pesa en la báscula todas las mañanas.",
-            "tr_": "O, her sabah baskülde tartılır.",
-            "type": "noun"
+            "tr_": "O, her sabah baskülde tartılır."
         },
         {
             "en": "to splash",
@@ -2118,8 +1911,7 @@ const DICTIONARY = {
             "tr": "sıçramak",
             "en_": "The children splashed water while playing in the pool.",
             "es_": "Los niños salpicaron agua mientras jugaban en la piscina.",
-            "tr_": "Çocuklar havuzda oynarken su sıçrattılar.",
-            "type": "verb"
+            "tr_": "Çocuklar havuzda oynarken su sıçrattılar."
         }
     ],
     "Garden" : [
@@ -2129,8 +1921,7 @@ const DICTIONARY = {
             "tr": "çimen",
             "en_": "The children are playing on the lawn.",
             "es_": "Los niños están jugando en el césped.",
-            "tr_": "Çocuklar çimenlerin üzerinde oynuyor.",
-            "type": "noun"
+            "tr_": "Çocuklar çimenlerin üzerinde oynuyor."
         },
         {
             "en": "path",
@@ -2138,8 +1929,7 @@ const DICTIONARY = {
             "tr": "patika",
             "en_": "We walked along the forest path.",
             "es_": "Caminamos por el sendero del bosque.",
-            "tr_": "Ormandaki patikada yürüdük.",
-            "type": "noun"
+            "tr_": "Ormandaki patikada yürüdük."
         },
         {
             "en": "gardener",
@@ -2147,8 +1937,7 @@ const DICTIONARY = {
             "tr": "bahçıvan",
             "en_": "The gardener is planting new flowers.",
             "es_": "El jardinero está plantando flores nuevas.",
-            "tr_": "Bahçıvan yeni çiçekler dikiyor.",
-            "type": "noun"
+            "tr_": "Bahçıvan yeni çiçekler dikiyor."
         },
         {
             "en": "lawnmower",
@@ -2156,8 +1945,7 @@ const DICTIONARY = {
             "tr": "çim biçme makinesi",
             "en_": "He bought a new lawnmower last week.",
             "es_": "Compró un cortacésped nuevo la semana pasada.",
-            "tr_": "Geçen hafta yeni bir çim biçme makinesi aldı.",
-            "type": "noun"
+            "tr_": "Geçen hafta yeni bir çim biçme makinesi aldı."
         },
         {
             "en": "to mow the lawn",
@@ -2165,8 +1953,7 @@ const DICTIONARY = {
             "tr": "çimleri biçmek",
             "en_": "I need to mow the lawn this weekend.",
             "es_": "Necesito cortar el césped este fin de semana.",
-            "tr_": "Bu hafta sonu çimleri biçmem gerekiyor.",
-            "type": "verb"
+            "tr_": "Bu hafta sonu çimleri biçmem gerekiyor."
         },
         {
             "en": "soil",
@@ -2174,8 +1961,7 @@ const DICTIONARY = {
             "tr": "toprak",
             "en_": "The soil is rich and perfect for planting.",
             "es_": "La tierra es rica y perfecta para plantar.",
-            "tr_": "Toprak verimli ve ekim için mükemmel.",
-            "type": "noun"
+            "tr_": "Toprak verimli ve ekim için mükemmel."
         },
         {
             "en": "herb",
@@ -2183,8 +1969,7 @@ const DICTIONARY = {
             "tr": "bitki",
             "en_": "She grows fresh herbs in the garden.",
             "es_": "Ella cultiva hierbas frescas en el jardín.",
-            "tr_": "Bahçede taze bitkiler yetiştiriyor.",
-            "type": "noun"
+            "tr_": "Bahçede taze bitkiler yetiştiriyor."
         },
         {
             "en": "tree",
@@ -2192,8 +1977,7 @@ const DICTIONARY = {
             "tr": "ağaç",
             "en_": "There is a tall tree in front of the house.",
             "es_": "Hay un árbol alto frente a la casa.",
-            "tr_": "Evin önünde uzun bir ağaç var.",
-            "type": "noun"
+            "tr_": "Evin önünde uzun bir ağaç var."
         },
         {
             "en": "greenhouse",
@@ -2201,8 +1985,7 @@ const DICTIONARY = {
             "tr": "sera",
             "en_": "Tomatoes grow well in the greenhouse.",
             "es_": "Los tomates crecen bien en el invernadero.",
-            "tr_": "Domatesler serada iyi yetişir.",
-            "type": "noun"
+            "tr_": "Domatesler serada iyi yetişir."
         },
         {
             "en": "bird",
@@ -2210,8 +1993,7 @@ const DICTIONARY = {
             "tr": "kuş",
             "en_": "A small bird is singing in the tree.",
             "es_": "Un pequeño pájaro canta en el árbol.",
-            "tr_": "Ağaçta küçük bir kuş ötüyor.",
-            "type": "noun"
+            "tr_": "Ağaçta küçük bir kuş ötüyor."
         },
         {
             "en": "nest",
@@ -2219,8 +2001,7 @@ const DICTIONARY = {
             "tr": "yuva",
             "en_": "The bird built a nest in the tree.",
             "es_": "El pájaro construyó un nido en el árbol.",
-            "tr_": "Kuş ağaçta bir yuva yaptı.",
-            "type": "noun"
+            "tr_": "Kuş ağaçta bir yuva yaptı."
         },
         {
             "en": "bush",
@@ -2228,8 +2009,7 @@ const DICTIONARY = {
             "tr": "çalı",
             "en_": "He trimmed the bush in the backyard.",
             "es_": "Recortó el arbusto en el patio trasero.",
-            "tr_": "Arka bahçedeki çalıyı budadı.",
-            "type": "noun"
+            "tr_": "Arka bahçedeki çalıyı budadı."
         },
         {
             "en": "shade",
@@ -2237,8 +2017,7 @@ const DICTIONARY = {
             "tr": "gölge",
             "en_": "We sat in the shade of the tree.",
             "es_": "Nos sentamos a la sombra del árbol.",
-            "tr_": "Ağacın gölgesinde oturduk.",
-            "type": "noun"
+            "tr_": "Ağacın gölgesinde oturduk."
         },
         {
             "en": "bee",
@@ -2246,8 +2025,7 @@ const DICTIONARY = {
             "tr": "arı",
             "en_": "A bee landed on the flower.",
             "es_": "Una abeja se posó en la flor.",
-            "tr_": "Bir arı çiçeğe kondu.",
-            "type": "noun"
+            "tr_": "Bir arı çiçeğe kondu."
         },
         {
             "en": "butterfly",
@@ -2255,8 +2033,7 @@ const DICTIONARY = {
             "tr": "kelebek",
             "en_": "A colorful butterfly flew by.",
             "es_": "Una mariposa colorida voló cerca.",
-            "tr_": "Renkli bir kelebek uçup geçti.",
-            "type": "noun"
+            "tr_": "Renkli bir kelebek uçup geçti."
         },
         {
             "en": "wasp",
@@ -2264,8 +2041,7 @@ const DICTIONARY = {
             "tr": "eşek arısı",
             "en_": "A wasp stung him on the arm.",
             "es_": "Una avispa lo picó en el brazo.",
-            "tr_": "Bir eşek arısı onu kolundan soktu.",
-            "type": "noun"
+            "tr_": "Bir eşek arısı onu kolundan soktu."
         },
         {
             "en": "rose",
@@ -2273,8 +2049,7 @@ const DICTIONARY = {
             "tr": "gül",
             "en_": "She gave me a red rose.",
             "es_": "Ella me dio una rosa roja.",
-            "tr_": "Bana kırmızı bir gül verdi.",
-            "type": "noun"
+            "tr_": "Bana kırmızı bir gül verdi."
         },
         {
             "en": "to smell sweet",
@@ -2282,8 +2057,7 @@ const DICTIONARY = {
             "tr": "güzel kokmak",
             "en_": "The flowers smell sweet in the morning.",
             "es_": "Las flores huelen bien por la mañana.",
-            "tr_": "Sabahları çiçekler güzel kokar.",
-            "type": "verb"
+            "tr_": "Sabahları çiçekler güzel kokar."
         },
         {
             "en": "lovely",
@@ -2291,8 +2065,7 @@ const DICTIONARY = {
             "tr": "güzel",
             "en_": "What a lovely garden you have!",
             "es_": "¡Qué bonito jardín tienes!",
-            "tr_": "Ne güzel bir bahçen var!",
-            "type": "noun"
+            "tr_": "Ne güzel bir bahçen var!"
         },
         {
             "en": "chrysanthemum",
@@ -2300,8 +2073,7 @@ const DICTIONARY = {
             "tr": "kasımpatı [krizantem]",
             "en_": "I planted a chrysanthemum in the front yard.",
             "es_": "Planté un crisantemo en el jardín delantero.",
-            "tr_": "Ön bahçeye bir kasımpatı diktim.",
-            "type": "noun"
+            "tr_": "Ön bahçeye bir kasımpatı diktim."
         },
         {
             "en": "geranium",
@@ -2309,8 +2081,7 @@ const DICTIONARY = {
             "tr": "sardunya",
             "en_": "She planted a red geranium in the pot.",
             "es_": "Ella plantó un geranio rojo en la maceta.",
-            "tr_": "Saksıya kırmızı bir sardunya dikti.",
-            "type": "noun"
+            "tr_": "Saksıya kırmızı bir sardunya dikti."
         },
         {
             "en": "tulip",
@@ -2318,8 +2089,7 @@ const DICTIONARY = {
             "tr": "lale",
             "en_": "The tulip blooms in spring.",
             "es_": "El tulipán florece en primavera.",
-            "tr_": "Lale ilkbaharda açar.",
-            "type": "noun"
+            "tr_": "Lale ilkbaharda açar."
         },
         {
             "en": "forget-me-not",
@@ -2327,8 +2097,7 @@ const DICTIONARY = {
             "tr": "unutma beni",
             "en_": "Forget-me-nots are small and blue.",
             "es_": "Las nomeolvides son pequeñas y azules.",
-            "tr_": "Unutma beniler küçük ve mavidir.",
-            "type": "noun"
+            "tr_": "Unutma beniler küçük ve mavidir."
         },
         {
             "en": "carnation",
@@ -2336,8 +2105,7 @@ const DICTIONARY = {
             "tr": "karanfil",
             "en_": "He gave her a white carnation.",
             "es_": "Le dio un clavel blanco.",
-            "tr_": "Ona beyaz bir karanfil verdi.",
-            "type": "noun"
+            "tr_": "Ona beyaz bir karanfil verdi."
         },
         {
             "en": "seed",
@@ -2345,8 +2113,7 @@ const DICTIONARY = {
             "tr": "tohum",
             "en_": "They planted tomato seeds in the garden.",
             "es_": "Plantaron semillas de tomate en el jardín.",
-            "tr_": "Bahçeye domates tohumu ektiler.",
-            "type": "noun"
+            "tr_": "Bahçeye domates tohumu ektiler."
         },
         {
             "en": "to plant",
@@ -2354,8 +2121,7 @@ const DICTIONARY = {
             "tr": "dikmek",
             "en_": "We want to plant flowers near the fence.",
             "es_": "Queremos plantar flores cerca de la valla.",
-            "tr_": "Çitin yanına çiçek dikmek istiyoruz.",
-            "type": "verb"
+            "tr_": "Çitin yanına çiçek dikmek istiyoruz."
         },
         {
             "en": "bulb",
@@ -2363,8 +2129,7 @@ const DICTIONARY = {
             "tr": "ampul",
             "en_": "He buried the flower bulbs before winter.",
             "es_": "Enterró los bulbos de flores antes del invierno.",
-            "tr_": "Çiçek ampullerini kıştan önce gömdü.",
-            "type": "noun"
+            "tr_": "Çiçek ampullerini kıştan önce gömdü."
         },
         {
             "en": "weed",
@@ -2372,8 +2137,7 @@ const DICTIONARY = {
             "tr": "ot",
             "en_": "She pulled the weeds from the flowerbed.",
             "es_": "Ella quitó los hierbajos del parterre.",
-            "tr_": "Çiçeklikteki yabani otları temizledi.",
-            "type": "noun"
+            "tr_": "Çiçeklikteki yabani otları temizledi."
         },
         {
             "en": "shovel [spade]",
@@ -2381,8 +2145,7 @@ const DICTIONARY = {
             "tr": "kürek",
             "en_": "He dug a hole with a shovel.",
             "es_": "Cavó un hoyo con una pala.",
-            "tr_": "Bir kürekle çukur kazdı.",
-            "type": "noun"
+            "tr_": "Bir kürekle çukur kazdı."
         },
         {
             "en": "wheelbarrow",
@@ -2390,8 +2153,7 @@ const DICTIONARY = {
             "tr": "el arabası",
             "en_": "She moved the soil using a wheelbarrow.",
             "es_": "Ella movió la tierra con una carretilla.",
-            "tr_": "Toprağı el arabasıyla taşıdı.",
-            "type": "noun"
+            "tr_": "Toprağı el arabasıyla taşıdı."
         },
         {
             "en": "trowel",
@@ -2399,8 +2161,7 @@ const DICTIONARY = {
             "tr": "mala",
             "en_": "He used a trowel to dig small holes.",
             "es_": "Usó un desplantador para cavar hoyos pequeños.",
-            "tr_": "Küçük çukurlar kazmak için mala kullandı.",
-            "type": "noun"
+            "tr_": "Küçük çukurlar kazmak için mala kullandı."
         },
         {
             "en": "rake",
@@ -2408,8 +2169,7 @@ const DICTIONARY = {
             "tr": "tırmık",
             "en_": "She cleaned the leaves with a rake.",
             "es_": "Ella limpió las hojas con un rastrillo.",
-            "tr_": "Yaprakları tırmıkla temizledi.",
-            "type": "noun"
+            "tr_": "Yaprakları tırmıkla temizledi."
         },
         {
             "en": "watering can",
@@ -2417,8 +2177,7 @@ const DICTIONARY = {
             "tr": "sulama kabı",
             "en_": "He filled the watering can with water.",
             "es_": "Llenó la regadera con agua.",
-            "tr_": "Sulama kabını suyla doldurdu.",
-            "type": "noun"
+            "tr_": "Sulama kabını suyla doldurdu."
         }
     ],
     "Pets" : [
@@ -2428,8 +2187,7 @@ const DICTIONARY = {
             "tr": "hayvan",
             "en_": "The zoo has many different animals.",
             "es_": "El zoológico tiene muchos animales diferentes.",
-            "tr_": "Hayvanat bahçesinde birçok farklı hayvan var.",
-            "type": "noun"
+            "tr_": "Hayvanat bahçesinde birçok farklı hayvan var."
         },
         {
             "en": "dog",
@@ -2437,8 +2195,7 @@ const DICTIONARY = {
             "tr": "köpek",
             "en_": "The dog barked loudly at the stranger.",
             "es_": "El perro ladró fuerte al desconocido.",
-            "tr_": "Köpek yabancıya yüksek sesle havladı.",
-            "type": "noun"
+            "tr_": "Köpek yabancıya yüksek sesle havladı."
         },
         {
             "en": "kennel",
@@ -2446,8 +2203,7 @@ const DICTIONARY = {
             "tr": "kulübe",
             "en_": "The dog sleeps in its kennel at night.",
             "es_": "El perro duerme en su perrera por la noche.",
-            "tr_": "Köpek geceleri kulübesinde uyur.",
-            "type": "noun"
+            "tr_": "Köpek geceleri kulübesinde uyur."
         },
         {
             "en": "puppy",
@@ -2455,8 +2211,7 @@ const DICTIONARY = {
             "tr": "yavru köpek",
             "en_": "The puppy is chewing on a toy.",
             "es_": "El cachorro está mordiendo un juguete.",
-            "tr_": "Yavru köpek bir oyuncağı kemiriyor.",
-            "type": "noun"
+            "tr_": "Yavru köpek bir oyuncağı kemiriyor."
         },
         {
             "en": "fur",
@@ -2464,8 +2219,7 @@ const DICTIONARY = {
             "tr": "kürk",
             "en_": "The cat has soft white fur.",
             "es_": "El gato tiene un pelo blanco y suave.",
-            "tr_": "Kedinin yumuşak beyaz kürkü var.",
-            "type": "noun"
+            "tr_": "Kedinin yumuşak beyaz kürkü var."
         },
         {
             "en": "paw",
@@ -2473,8 +2227,7 @@ const DICTIONARY = {
             "tr": "pati",
             "en_": "The dog lifted its paw for a treat.",
             "es_": "El perro levantó la pata por una golosina.",
-            "tr_": "Köpek ödül için patisini kaldırdı.",
-            "type": "noun"
+            "tr_": "Köpek ödül için patisini kaldırdı."
         },
         {
             "en": "playful",
@@ -2482,8 +2235,7 @@ const DICTIONARY = {
             "tr": "oyuncu",
             "en_": "The puppy is very playful and active.",
             "es_": "El cachorro es muy juguetón y activo.",
-            "tr_": "Yavru köpek çok oyuncu ve hareketli.",
-            "type": "adjective"
+            "tr_": "Yavru köpek çok oyuncu ve hareketli."
         },
         {
             "en": "to bark",
@@ -2491,8 +2243,7 @@ const DICTIONARY = {
             "tr": "havlamak",
             "en_": "Dogs often bark when they hear a noise.",
             "es_": "Los perros a menudo ladran cuando oyen un ruido.",
-            "tr_": "Köpekler bir ses duyunca sıkça havlar.",
-            "type": "verb"
+            "tr_": "Köpekler bir ses duyunca sıkça havlar."
         },
         {
             "en": "to chase",
@@ -2500,8 +2251,7 @@ const DICTIONARY = {
             "tr": "kovalamak",
             "en_": "The dog chased the ball across the yard.",
             "es_": "El perro persiguió la pelota por el patio.",
-            "tr_": "Köpek topu bahçede kovaladı.",
-            "type": "verb"
+            "tr_": "Köpek topu bahçede kovaladı."
         },
         {
             "en": "to bring",
@@ -2509,8 +2259,7 @@ const DICTIONARY = {
             "tr": "getirmek",
             "en_": "He brought the newspaper every morning.",
             "es_": "Traía el periódico todas las mañanas.",
-            "tr_": "Her sabah gazeteyi getirirdi.",
-            "type": "verb"
+            "tr_": "Her sabah gazeteyi getirirdi."
         },
         {
             "en": "tail",
@@ -2518,8 +2267,7 @@ const DICTIONARY = {
             "tr": "kuyruk",
             "en_": "The dog wagged its tail happily.",
             "es_": "El perro movió su rabo con alegría.",
-            "tr_": "Köpek kuyruğunu sevinçle salladı.",
-            "type": "noun"
+            "tr_": "Köpek kuyruğunu sevinçle salladı."
         },
         {
             "en": "to growl",
@@ -2527,8 +2275,7 @@ const DICTIONARY = {
             "tr": "hırlamak",
             "en_": "The dog growled when it saw the stranger.",
             "es_": "El perro gruñó al ver al desconocido.",
-            "tr_": "Köpek yabancıyı görünce hırladı.",
-            "type": "verb"
+            "tr_": "Köpek yabancıyı görünce hırladı."
         },
         {
             "en": "cat",
@@ -2536,8 +2283,7 @@ const DICTIONARY = {
             "tr": "kedi",
             "en_": "The cat jumped onto the windowsill.",
             "es_": "El gato saltó al alféizar de la ventana.",
-            "tr_": "Kedi pencere pervazına atladı.",
-            "type": "noun"
+            "tr_": "Kedi pencere pervazına atladı."
         },
         {
             "en": "basket",
@@ -2545,8 +2291,7 @@ const DICTIONARY = {
             "tr": "sepet",
             "en_": "The kitten is sleeping in the basket.",
             "es_": "El gatito está durmiendo en el cesto.",
-            "tr_": "Yavru kedi sepetin içinde uyuyor.",
-            "type": "noun"
+            "tr_": "Yavru kedi sepetin içinde uyuyor."
         },
         {
             "en": "to purr",
@@ -2554,8 +2299,7 @@ const DICTIONARY = {
             "tr": "mırıldanmak",
             "en_": "The cat purred as I petted it.",
             "es_": "El gato ronroneó mientras lo acariciaba.",
-            "tr_": "Kedi onu severken mırıldandı.",
-            "type": "verb"
+            "tr_": "Kedi onu severken mırıldandı."
         },
         {
             "en": "kitten",
@@ -2563,8 +2307,7 @@ const DICTIONARY = {
             "tr": "yavru kedi",
             "en_": "The kitten chased a piece of string.",
             "es_": "El gatito persiguió un trozo de cuerda.",
-            "tr_": "Yavru kedi bir ip parçasını kovaladı.",
-            "type": "noun"
+            "tr_": "Yavru kedi bir ip parçasını kovaladı."
         },
         {
             "en": "to mew",
@@ -2572,8 +2315,7 @@ const DICTIONARY = {
             "tr": "miyavlamak",
             "en_": "The kitten mewed softly.",
             "es_": "El gatito maulló suavemente.",
-            "tr_": "Yavru kedi yavaşça miyavladı.",
-            "type": "verb"
+            "tr_": "Yavru kedi yavaşça miyavladı."
         },
         {
             "en": "claw",
@@ -2581,8 +2323,7 @@ const DICTIONARY = {
             "tr": "pençe",
             "en_": "The cat scratched the sofa with its claws.",
             "es_": "El gato arañó el sofá con sus garras.",
-            "tr_": "Kedi koltuğu pençeleriyle tırmaladı.",
-            "type": "noun"
+            "tr_": "Kedi koltuğu pençeleriyle tırmaladı."
         },
         {
             "en": "soft",
@@ -2590,8 +2331,7 @@ const DICTIONARY = {
             "tr": "yumuşak",
             "en_": "The pillow feels very soft.",
             "es_": "La almohada se siente muy suave.",
-            "tr_": "Yastık çok yumuşak hissettiriyor.",
-            "type": "adjective"
+            "tr_": "Yastık çok yumuşak hissettiriyor."
         },
         {
             "en": "sweet",
@@ -2599,8 +2339,7 @@ const DICTIONARY = {
             "tr": "tatlı",
             "en_": "She has a sweet and gentle voice.",
             "es_": "Ella tiene una voz encantadora y suave.",
-            "tr_": "Tatlı ve yumuşak bir sesi var.",
-            "type": "adjective"
+            "tr_": "Tatlı ve yumuşak bir sesi var."
         },
         {
             "en": "canary",
@@ -2608,8 +2347,7 @@ const DICTIONARY = {
             "tr": "kanarya",
             "en_": "The canary sings beautifully in the morning.",
             "es_": "El canario canta hermosamente por la mañana.",
-            "tr_": "Kanarya sabahları çok güzel şarkı söyler.",
-            "type": "noun"
+            "tr_": "Kanarya sabahları çok güzel şarkı söyler."
         },
         {
             "en": "to perch",
@@ -2617,8 +2355,7 @@ const DICTIONARY = {
             "tr": "tünemek",
             "en_": "The bird perched on the tree branch.",
             "es_": "El pájaro se posó en la rama del árbol.",
-            "tr_": "Kuş ağaç dalına tünedi.",
-            "type": "verb"
+            "tr_": "Kuş ağaç dalına tünedi."
         },
         {
             "en": "wing",
@@ -2626,8 +2363,7 @@ const DICTIONARY = {
             "tr": "kanat",
             "en_": "The bird spread its wings and flew away.",
             "es_": "El pájaro extendió sus alas y voló.",
-            "tr_": "Kuş kanatlarını açıp uçtu.",
-            "type": "noun"
+            "tr_": "Kuş kanatlarını açıp uçtu."
         },
         {
             "en": "beak",
@@ -2635,8 +2371,7 @@ const DICTIONARY = {
             "tr": "gaga",
             "en_": "The bird pecked with its beak.",
             "es_": "El pájaro picoteó con su pico.",
-            "tr_": "Kuş gagasıyla gagaladı.",
-            "type": "noun"
+            "tr_": "Kuş gagasıyla gagaladı."
         },
         {
             "en": "feather",
@@ -2644,8 +2379,7 @@ const DICTIONARY = {
             "tr": "tüy",
             "en_": "A white feather fell from the bird.",
             "es_": "Una pluma blanca cayó del pájaro.",
-            "tr_": "Kuştan beyaz bir tüy düştü.",
-            "type": "noun"
+            "tr_": "Kuştan beyaz bir tüy düştü."
         },
         {
             "en": "hedgehog",
@@ -2653,8 +2387,7 @@ const DICTIONARY = {
             "tr": "kirpi",
             "en_": "The hedgehog curled into a ball.",
             "es_": "El erizo se hizo una bola.",
-            "tr_": "Kirpi top gibi kıvrıldı.",
-            "type": "noun"
+            "tr_": "Kirpi top gibi kıvrıldı."
         },
         {
             "en": "rabbit",
@@ -2662,8 +2395,7 @@ const DICTIONARY = {
             "tr": "tavşan",
             "en_": "The rabbit hopped across the garden.",
             "es_": "El conejo saltó por el jardín.",
-            "tr_": "Tavşan bahçede zıplayarak ilerledi.",
-            "type": "noun"
+            "tr_": "Tavşan bahçede zıplayarak ilerledi."
         },
         {
             "en": "turtle",
@@ -2671,8 +2403,7 @@ const DICTIONARY = {
             "tr": "kaplumbağa",
             "en_": "The turtle moved slowly on the sand.",
             "es_": "La tortuga se movía lentamente sobre la arena.",
-            "tr_": "Kaplumbağa kumda yavaşça ilerledi.",
-            "type": "noun"
+            "tr_": "Kaplumbağa kumda yavaşça ilerledi."
         },
         {
             "en": "cage",
@@ -2680,8 +2411,7 @@ const DICTIONARY = {
             "tr": "kafes",
             "en_": "The bird lives in a small cage.",
             "es_": "El pájaro vive en una jaula pequeña.",
-            "tr_": "Kuş küçük bir kafeste yaşıyor.",
-            "type": "noun"
+            "tr_": "Kuş küçük bir kafeste yaşıyor."
         },
         {
             "en": "to feed",
@@ -2689,8 +2419,7 @@ const DICTIONARY = {
             "tr": "yem vermek [beslemek]",
             "en_": "She feeds the animals every morning.",
             "es_": "Ella da de comer a los animales cada mañana.",
-            "tr_": "Her sabah hayvanlara yem verir.",
-            "type": "verb"
+            "tr_": "Her sabah hayvanlara yem verir."
         },
         {
             "en": "fish",
@@ -2698,8 +2427,7 @@ const DICTIONARY = {
             "tr": "balık",
             "en_": "The fish swims quickly in the tank.",
             "es_": "El pez nada rápido en el acuario.",
-            "tr_": "Balık akvaryumda hızlıca yüzer.",
-            "type": "noun"
+            "tr_": "Balık akvaryumda hızlıca yüzer."
         },
         {
             "en": "mouse",
@@ -2707,8 +2435,7 @@ const DICTIONARY = {
             "tr": "fare",
             "en_": "The mouse ran under the table.",
             "es_": "El ratón corrió debajo de la mesa.",
-            "tr_": "Fare masanın altından geçti.",
-            "type": "noun"
+            "tr_": "Fare masanın altından geçti."
         }
     ],
     "Getting up" : [
@@ -2718,8 +2445,7 @@ const DICTIONARY = {
             "tr": "uyanmak",
             "en_": "I usually wake up at 7 a.m.",
             "es_": "Normalmente me despierto a las 7 a.m.",
-            "tr_": "Genellikle sabah 7'de uyanırım.",
-            "type": "verb"
+            "tr_": "Genellikle sabah 7'de uyanırım."
         },
         {
             "en": "Good morning!",
@@ -2727,8 +2453,7 @@ const DICTIONARY = {
             "tr": "Günaydın",
             "en_": "Good morning! How did you sleep?",
             "es_": "¡Buenos días! ¿Cómo dormiste?",
-            "tr_": "Günaydın! Nasıl uyudun?",
-            "type": "interjection"
+            "tr_": "Günaydın! Nasıl uyudun?"
         },
         {
             "en": "to yawn",
@@ -2736,8 +2461,7 @@ const DICTIONARY = {
             "tr": "esnemek",
             "en_": "He yawned loudly during the meeting.",
             "es_": "Bostezó fuertemente durante la reunión.",
-            "tr_": "Toplantı sırasında yüksek sesle esnedi.",
-            "type": "verb"
+            "tr_": "Toplantı sırasında yüksek sesle esnedi."
         },
         {
             "en": "alarm clock",
@@ -2745,8 +2469,7 @@ const DICTIONARY = {
             "tr": "çalar saat",
             "en_": "My alarm clock rings at 6 every morning.",
             "es_": "Mi despertador suena a las 6 todas las mañanas.",
-            "tr_": "Çalar saatim her sabah saat 6'da çalar.",
-            "type": "noun"
+            "tr_": "Çalar saatim her sabah saat 6'da çalar."
         },
         {
             "en": "to get up",
@@ -2754,8 +2477,7 @@ const DICTIONARY = {
             "tr": "yataktan kalkmak",
             "en_": "She gets up as soon as the alarm goes off.",
             "es_": "Ella se levanta en cuanto suena el despertador.",
-            "tr_": "Alarm çalar çalmaz yataktan kalkar.",
-            "type": "verb"
+            "tr_": "Alarm çalar çalmaz yataktan kalkar."
         },
         {
             "en": "to open the curtains",
@@ -2763,8 +2485,7 @@ const DICTIONARY = {
             "tr": "perdeleri açmak",
             "en_": "He opens the curtains to let the sunlight in.",
             "es_": "Él descorre las cortinas para dejar entrar la luz del sol.",
-            "tr_": "Güneş ışığı girsin diye perdeleri açar.",
-            "type": "verb"
+            "tr_": "Güneş ışığı girsin diye perdeleri açar."
         },
         {
             "en": "robe",
@@ -2772,8 +2493,7 @@ const DICTIONARY = {
             "tr": "sabahlık",
             "en_": "She wears a warm robe after showering.",
             "es_": "Ella usa una bata cálida después de ducharse.",
-            "tr_": "Duştan sonra sıcak bir sabahlık giyer.",
-            "type": "noun"
+            "tr_": "Duştan sonra sıcak bir sabahlık giyer."
         },
         {
             "en": "shower",
@@ -2781,8 +2501,7 @@ const DICTIONARY = {
             "tr": "duş",
             "en_": "I take a quick shower every morning.",
             "es_": "Me doy una ducha rápida cada mañana.",
-            "tr_": "Her sabah hızlı bir duş alırım.",
-            "type": "noun"
+            "tr_": "Her sabah hızlı bir duş alırım."
         },
         {
             "en": "to have shower",
@@ -2790,8 +2509,7 @@ const DICTIONARY = {
             "tr": "duş almak",
             "en_": "They shower before going to work.",
             "es_": "Ellos se duchan antes de ir al trabajo.",
-            "tr_": "İşe gitmeden önce duş alırlar.",
-            "type": "verb"
+            "tr_": "İşe gitmeden önce duş alırlar."
         },
         {
             "en": "shampoo",
@@ -2799,8 +2517,7 @@ const DICTIONARY = {
             "tr": "şampuan",
             "en_": "This shampoo makes my hair shiny.",
             "es_": "Este champú deja mi cabello brillante.",
-            "tr_": "Bu şampuan saçımı parlak yapıyor.",
-            "type": "noun"
+            "tr_": "Bu şampuan saçımı parlak yapıyor."
         },
         {
             "en": "to wash",
@@ -2808,8 +2525,7 @@ const DICTIONARY = {
             "tr": "yıkanmak",
             "en_": "He washes with cold water.",
             "es_": "Él se lava con agua fría.",
-            "tr_": "Soğuk suyla yıkanır.",
-            "type": "verb"
+            "tr_": "Soğuk suyla yıkanır."
         },
         {
             "en": "soap",
@@ -2817,8 +2533,7 @@ const DICTIONARY = {
             "tr": "sabun",
             "en_": "Use this soap to clean your hands.",
             "es_": "Usa este jabón para limpiarte las manos.",
-            "tr_": "Ellerini temizlemek için bu sabunu kullan.",
-            "type": "noun"
+            "tr_": "Ellerini temizlemek için bu sabunu kullan."
         },
         {
             "en": "towel",
@@ -2826,8 +2541,7 @@ const DICTIONARY = {
             "tr": "havlu",
             "en_": "I dry myself with a soft towel.",
             "es_": "Me seco con una toalla suave.",
-            "tr_": "Kendimi yumuşak bir havluyla kurularım.",
-            "type": "noun"
+            "tr_": "Kendimi yumuşak bir havluyla kurularım."
         },
         {
             "en": "naked",
@@ -2835,8 +2549,7 @@ const DICTIONARY = {
             "tr": "çıplak",
             "en_": "The baby ran around naked.",
             "es_": "El bebé corrió desnudo por la casa.",
-            "tr_": "Bebek evin içinde çıplak koştu.",
-            "type": "adjective"
+            "tr_": "Bebek evin içinde çıplak koştu."
         },
         {
             "en": "to dry vourself",
@@ -2844,8 +2557,7 @@ const DICTIONARY = {
             "tr": "kurulanmak",
             "en_": "After showering, she dries herself quickly.",
             "es_": "Después de ducharse, ella se seca rápidamente.",
-            "tr_": "Duştan sonra hızla kurulanır.",
-            "type": "verb"
+            "tr_": "Duştan sonra hızla kurulanır."
         },
         {
             "en": "to shave",
@@ -2853,8 +2565,7 @@ const DICTIONARY = {
             "tr": "tıraş olmak",
             "en_": "He shaves every morning before work.",
             "es_": "Él se afeita cada mañana antes del trabajo.",
-            "tr_": "Her sabah işe gitmeden önce tıraş olur.",
-            "type": "verb"
+            "tr_": "Her sabah işe gitmeden önce tıraş olur."
         },
         {
             "en": "mirror",
@@ -2862,8 +2573,7 @@ const DICTIONARY = {
             "tr": "ayna",
             "en_": "She looked at herself in the mirror.",
             "es_": "Se miró en el espejo.",
-            "tr_": "Kendine aynada baktı.",
-            "type": "noun"
+            "tr_": "Kendine aynada baktı."
         },
         {
             "en": "razor",
@@ -2871,8 +2581,7 @@ const DICTIONARY = {
             "tr": "jilet",
             "en_": "He changed the blade in his razor.",
             "es_": "Cambió la cuchilla de su maquinilla.",
-            "tr_": "Jiletinin bıçağını değiştirdi.",
-            "type": "noun"
+            "tr_": "Jiletinin bıçağını değiştirdi."
         },
         {
             "en": "shaving foam",
@@ -2880,8 +2589,7 @@ const DICTIONARY = {
             "tr": "tıraş köpüğü",
             "en_": "He applied shaving foam before shaving.",
             "es_": "Aplicó espuma de afeitar antes de afeitarse.",
-            "tr_": "Tıraş olmadan önce tıraş köpüğü sürdü.",
-            "type": "noun"
+            "tr_": "Tıraş olmadan önce tıraş köpüğü sürdü."
         },
         {
             "en": "tap",
@@ -2889,8 +2597,7 @@ const DICTIONARY = {
             "tr": "musluk",
             "en_": "The tap is leaking again.",
             "es_": "El grifo está goteando otra vez.",
-            "tr_": "Musluk yine damlatıyor.",
-            "type": "noun"
+            "tr_": "Musluk yine damlatıyor."
         },
         {
             "en": "hot water",
@@ -2898,8 +2605,7 @@ const DICTIONARY = {
             "tr": "sıcak su",
             "en_": "Be careful, the hot water is very hot.",
             "es_": "Ten cuidado, el agua caliente está muy caliente.",
-            "tr_": "Dikkat et, sıcak su çok sıcak.",
-            "type": "noun"
+            "tr_": "Dikkat et, sıcak su çok sıcak."
         },
         {
             "en": "cold water",
@@ -2907,8 +2613,7 @@ const DICTIONARY = {
             "tr": "soğuk su",
             "en_": "I drink a glass of cold water every morning.",
             "es_": "Bebo un vaso de agua fría cada mañana.",
-            "tr_": "Her sabah bir bardak soğuk su içerim.",
-            "type": "noun"
+            "tr_": "Her sabah bir bardak soğuk su içerim."
         },
         {
             "en": "toothpaste",
@@ -2916,8 +2621,7 @@ const DICTIONARY = {
             "tr": "diş macunu",
             "en_": "Use a mint toothpaste for fresh breath.",
             "es_": "Usa una pasta de dientes de menta para un aliento fresco.",
-            "tr_": "Ferahlık için naneli bir diş macunu kullan.",
-            "type": "noun"
+            "tr_": "Ferahlık için naneli bir diş macunu kullan."
         },
         {
             "en": "toothbrush",
@@ -2925,8 +2629,7 @@ const DICTIONARY = {
             "tr": "diş fırçası",
             "en_": "I bought a new toothbrush yesterday.",
             "es_": "Compré un cepillo de dientes nuevo ayer.",
-            "tr_": "Dün yeni bir diş fırçası aldım.",
-            "type": "noun"
+            "tr_": "Dün yeni bir diş fırçası aldım."
         },
         {
             "en": "to clean teeth",
@@ -2934,8 +2637,7 @@ const DICTIONARY = {
             "tr": "dişleri temizlemek",
             "en_": "I always clean my teeth before going to bed.",
             "es_": "Siempre me limpio los dientes antes de acostarme.",
-            "tr_": "Yatmadan önce her zaman dişlerimi temizlerim.",
-            "type": "verb"
+            "tr_": "Yatmadan önce her zaman dişlerimi temizlerim."
         },
         {
             "en": "to dry your hair",
@@ -2943,8 +2645,7 @@ const DICTIONARY = {
             "tr": "saçını kurutmak",
             "en_": "She dries her hair after taking a shower.",
             "es_": "Ella se seca el pelo después de ducharse.",
-            "tr_": "Duş aldıktan sonra saçını kurutur.",
-            "type": "verb"
+            "tr_": "Duş aldıktan sonra saçını kurutur."
         },
         {
             "en": "brush",
@@ -2952,8 +2653,7 @@ const DICTIONARY = {
             "tr": "fırça",
             "en_": "I can't find my hair brush.",
             "es_": "No puedo encontrar mi cepillo para el pelo.",
-            "tr_": "Saç fırçamı bulamıyorum.",
-            "type": "noun"
+            "tr_": "Saç fırçamı bulamıyorum."
         },
         {
             "en": "comb",
@@ -2961,8 +2661,7 @@ const DICTIONARY = {
             "tr": "tarak",
             "en_": "He forgot his comb at the hotel.",
             "es_": "Él olvidó su peine en el hotel.",
-            "tr_": "Tarağını otelde unuttu.",
-            "type": "noun"
+            "tr_": "Tarağını otelde unuttu."
         },
         {
             "en": "to comb your hair",
@@ -2970,8 +2669,7 @@ const DICTIONARY = {
             "tr": "saçını taramak",
             "en_": "I always comb my hair before leaving the house.",
             "es_": "Siempre me peino antes de salir de casa.",
-            "tr_": "Evden çıkmadan önce her zaman saçımı tararım.",
-            "type": "verb"
+            "tr_": "Evden çıkmadan önce her zaman saçımı tararım."
         },
         {
             "en": "to brush your hair",
@@ -2979,8 +2677,7 @@ const DICTIONARY = {
             "tr": "saçını fırçalamak",
             "en_": "She brushes her hair every morning.",
             "es_": "Ella se cepilla el pelo cada mañana.",
-            "tr_": "Her sabah saçını fırçalar.",
-            "type": "verb"
+            "tr_": "Her sabah saçını fırçalar."
         },
         {
             "en": "to make up",
@@ -2988,8 +2685,7 @@ const DICTIONARY = {
             "tr": "makyaj yapmak",
             "en_": "She takes 20 minutes to make up before work.",
             "es_": "Ella tarda 20 minutos en maquillarse antes del trabajo.",
-            "tr_": "İşe gitmeden önce makyaj yapmak için 20 dakika harcıyor.",
-            "type": "verb"
+            "tr_": "İşe gitmeden önce makyaj yapmak için 20 dakika harcıyor."
         },
         {
             "en": "mascara",
@@ -2997,8 +2693,7 @@ const DICTIONARY = {
             "tr": "maskara",
             "en_": "I need a new mascara for the party tonight.",
             "es_": "Necesito un nuevo rímel para la fiesta de esta noche.",
-            "tr_": "Bu geceki parti için yeni bir maskaraya ihtiyacım var.",
-            "type": "noun"
+            "tr_": "Bu geceki parti için yeni bir maskaraya ihtiyacım var."
         },
         {
             "en": "lipstick",
@@ -3006,8 +2701,7 @@ const DICTIONARY = {
             "tr": "ruj",
             "en_": "She wore red lipstick to the wedding.",
             "es_": "Ella usó lápiz labial rojo para la boda.",
-            "tr_": "Düğünde kırmızı ruj sürdü.",
-            "type": "noun"
+            "tr_": "Düğünde kırmızı ruj sürdü."
         },
         {
             "en": "perfume",
@@ -3015,8 +2709,7 @@ const DICTIONARY = {
             "tr": "parfüm",
             "en_": "His perfume smells amazing.",
             "es_": "Su perfume huele increíble.",
-            "tr_": "Parfümü harika kokuyor.",
-            "type": "noun"
+            "tr_": "Parfümü harika kokuyor."
         }
     ],
     "Clothes" : [
@@ -3026,8 +2719,7 @@ const DICTIONARY = {
             "tr": "sütyen",
             "en_": "She bought a new bra yesterday.",
             "es_": "Ella compró un nuevo sostén ayer.",
-            "tr_": "Dün yeni bir sütyen aldı.",
-            "type": "noun"
+            "tr_": "Dün yeni bir sütyen aldı."
         },
         {
             "en": "panties",
@@ -3035,8 +2727,7 @@ const DICTIONARY = {
             "tr": "külot",
             "en_": "I packed ten pairs of panties for the trip.",
             "es_": "Empaqué diez pares de bragas para el viaje.",
-            "tr_": "Seyahat için on adet külot hazırladım.",
-            "type": "noun"
+            "tr_": "Seyahat için on adet külot hazırladım."
         },
         {
             "en": "socks",
@@ -3044,8 +2735,7 @@ const DICTIONARY = {
             "tr": "çorap",
             "en_": "Don't forget to pack some socks.",
             "es_": "No olvides empacar unos calcetines.",
-            "tr_": "Biraz çorap almayı unutma.",
-            "type": "noun"
+            "tr_": "Biraz çorap almayı unutma."
         },
         {
             "en": "undershirt",
@@ -3053,8 +2743,7 @@ const DICTIONARY = {
             "tr": "atlet",
             "en_": "He always wears an undershirt under his shirt.",
             "es_": "Siempre lleva una camiseta debajo de la camisa.",
-            "tr_": "Gömleğinin altına her zaman atlet giyer.",
-            "type": "noun"
+            "tr_": "Gömleğinin altına her zaman atlet giyer."
         },
         {
             "en": "petticoat",
@@ -3062,8 +2751,7 @@ const DICTIONARY = {
             "tr": "kombinezon",
             "en_": "She wore a silk petticoat under her dress.",
             "es_": "Llevaba una combinación de seda debajo del vestido.",
-            "tr_": "Elbisesinin altına ipek bir kombinezon giymişti.",
-            "type": "noun"
+            "tr_": "Elbisesinin altına ipek bir kombinezon giymişti."
         },
         {
             "en": "underpants",
@@ -3071,8 +2759,7 @@ const DICTIONARY = {
             "tr": "külot",
             "en_": "He bought a new set of underpants.",
             "es_": "Compró un nuevo conjunto de calzoncillos.",
-            "tr_": "Yeni bir külot takımı aldı.",
-            "type": "noun"
+            "tr_": "Yeni bir külot takımı aldı."
         },
         {
             "en": "to get dressed",
@@ -3080,8 +2767,7 @@ const DICTIONARY = {
             "tr": "giyinmek",
             "en_": "I need ten minutes to get dressed.",
             "es_": "Necesito diez minutos para vestirme.",
-            "tr_": "Giyinmek için on dakikaya ihtiyacım var.",
-            "type": "verb"
+            "tr_": "Giyinmek için on dakikaya ihtiyacım var."
         },
         {
             "en": "blouse",
@@ -3089,8 +2775,7 @@ const DICTIONARY = {
             "tr": "bluz",
             "en_": "She wore a white blouse to the meeting.",
             "es_": "Llevaba una blusa blanca a la reunión.",
-            "tr_": "Toplantıya beyaz bir bluz giymişti.",
-            "type": "noun"
+            "tr_": "Toplantıya beyaz bir bluz giymişti."
         },
         {
             "en": "skirt",
@@ -3098,8 +2783,7 @@ const DICTIONARY = {
             "tr": "etek",
             "en_": "Her red skirt matched her shoes.",
             "es_": "Su falda roja combinaba con sus zapatos.",
-            "tr_": "Kırmızı eteği ayakkabılarıyla uyumluydu.",
-            "type": "noun"
+            "tr_": "Kırmızı eteği ayakkabılarıyla uyumluydu."
         },
         {
             "en": "dress",
@@ -3107,8 +2791,7 @@ const DICTIONARY = {
             "tr": "elbise",
             "en_": "She wore a beautiful dress to the party.",
             "es_": "Llevaba un vestido hermoso a la fiesta.",
-            "tr_": "Partiye güzel bir elbise giymişti.",
-            "type": "noun"
+            "tr_": "Partiye güzel bir elbise giymişti."
         },
         {
             "en": "cardigan",
@@ -3116,8 +2799,7 @@ const DICTIONARY = {
             "tr": "hırka",
             "en_": "She wore a cozy cardigan at the office.",
             "es_": "Llevaba una chaqueta de punto cómoda en la oficina.",
-            "tr_": "Ofiste rahat bir hırka giymişti.",
-            "type": "noun"
+            "tr_": "Ofiste rahat bir hırka giymişti."
         },
         {
             "en": "jeans",
@@ -3125,8 +2807,7 @@ const DICTIONARY = {
             "tr": "kot pantolon",
             "en_": "He always wears jeans on weekends.",
             "es_": "Él siempre lleva vaqueros los fines de semana.",
-            "tr_": "Hafta sonları hep kot pantolon giyer.",
-            "type": "noun"
+            "tr_": "Hafta sonları hep kot pantolon giyer."
         },
         {
             "en": "shirt",
@@ -3134,8 +2815,7 @@ const DICTIONARY = {
             "tr": "gömlek",
             "en_": "This blue shirt goes well with your jacket.",
             "es_": "Esta camisa azul combina bien con tu chaqueta.",
-            "tr_": "Bu mavi gömlek ceketine çok yakışıyor.",
-            "type": "noun"
+            "tr_": "Bu mavi gömlek ceketine çok yakışıyor."
         },
         {
             "en": "t-shirt",
@@ -3143,8 +2823,7 @@ const DICTIONARY = {
             "tr": "tişört",
             "en_": "I bought a black T-shirt at the concert.",
             "es_": "Compré una camiseta negra en el concierto.",
-            "tr_": "Konserde siyah bir tişört aldım.",
-            "type": "noun"
+            "tr_": "Konserde siyah bir tişört aldım."
         },
         {
             "en": "cotton",
@@ -3152,8 +2831,7 @@ const DICTIONARY = {
             "tr": "pamuklu",
             "en_": "I prefer cotton clothes in the summer.",
             "es_": "Prefiero la ropa de algodón en verano.",
-            "tr_": "Yazın pamuklu kıyafetleri tercih ederim.",
-            "type": "adjective"
+            "tr_": "Yazın pamuklu kıyafetleri tercih ederim."
         },
         {
             "en": "tie",
@@ -3161,8 +2839,7 @@ const DICTIONARY = {
             "tr": "kıravat",
             "en_": "He wore a red tie to the interview.",
             "es_": "Llevaba una corbata roja a la entrevista.",
-            "tr_": "Mülakata kırmızı bir kravat takarak gitti.",
-            "type": "noun"
+            "tr_": "Mülakata kırmızı bir kravat takarak gitti."
         },
         {
             "en": "sweater",
@@ -3170,8 +2847,7 @@ const DICTIONARY = {
             "tr": "kazak",
             "en_": "I knitted a sweater for my brother.",
             "es_": "Tejí un jersey para mi hermano.",
-            "tr_": "Kardeşime bir kazak ördüm.",
-            "type": "noun"
+            "tr_": "Kardeşime bir kazak ördüm."
         },
         {
             "en": "woollen",
@@ -3179,8 +2855,7 @@ const DICTIONARY = {
             "tr": "yün",
             "en_": "She wore a woollen scarf in the cold weather.",
             "es_": "Llevaba una bufanda de lana en el frío.",
-            "tr_": "Soğuk havada yün bir atkı takmıştı.",
-            "type": "adjective"
+            "tr_": "Soğuk havada yün bir atkı takmıştı."
         },
         {
             "en": "trousers",
@@ -3188,8 +2863,7 @@ const DICTIONARY = {
             "tr": "pantolon",
             "en_": "He forgot to iron his trousers.",
             "es_": "Se olvidó de planchar los pantalones.",
-            "tr_": "Pantolonunu ütülemeyi unuttu.",
-            "type": "noun"
+            "tr_": "Pantolonunu ütülemeyi unuttu."
         },
         {
             "en": "dungarees",
@@ -3197,8 +2871,7 @@ const DICTIONARY = {
             "tr": "tulum",
             "en_": "She wore denim dungarees while painting.",
             "es_": "Llevaba un mono de mezclilla mientras pintaba.",
-            "tr_": "Boyama yaparken kot tulum giymişti.",
-            "type": "noun"
+            "tr_": "Boyama yaparken kot tulum giymişti."
         },
         {
             "en": "jewelry",
@@ -3206,8 +2879,7 @@ const DICTIONARY = {
             "tr": "mücevher",
             "en_": "She keeps her jewelry in a small box.",
             "es_": "Guarda sus joyas en una cajita.",
-            "tr_": "Mücevherlerini küçük bir kutuda saklar.",
-            "type": "noun"
+            "tr_": "Mücevherlerini küçük bir kutuda saklar."
         },
         {
             "en": "earrings",
@@ -3215,8 +2887,7 @@ const DICTIONARY = {
             "tr": "küpe",
             "en_": "These gold earrings were a gift from my mother.",
             "es_": "Estos pendientes de oro fueron un regalo de mi madre.",
-            "tr_": "Bu altın küpeler annemden bir hediyeydi.",
-            "type": "noun"
+            "tr_": "Bu altın küpeler annemden bir hediyeydi."
         },
         {
             "en": "brooch",
@@ -3224,8 +2895,7 @@ const DICTIONARY = {
             "tr": "broş",
             "en_": "She wore a vintage brooch on her jacket.",
             "es_": "Llevaba un prendedor antiguo en su chaqueta.",
-            "tr_": "Ceketine eski bir broş takmıştı.",
-            "type": "noun"
+            "tr_": "Ceketine eski bir broş takmıştı."
         },
         {
             "en": "bracelet",
@@ -3233,8 +2903,7 @@ const DICTIONARY = {
             "tr": "bilezik",
             "en_": "He gave her a silver bracelet for her birthday.",
             "es_": "Le regaló una pulsera de plata por su cumpleaños.",
-            "tr_": "Ona doğum gününde gümüş bir bilezik hediye etti.",
-            "type": "noun"
+            "tr_": "Ona doğum gününde gümüş bir bilezik hediye etti."
         },
         {
             "en": "watch",
@@ -3242,8 +2911,7 @@ const DICTIONARY = {
             "tr": "kol saati",
             "en_": "My grandfather's watch still works perfectly.",
             "es_": "El reloj de mi abuelo todavía funciona perfectamente.",
-            "tr_": "Dedemin kol saati hâlâ mükemmel çalışıyor.",
-            "type": "noun"
+            "tr_": "Dedemin kol saati hâlâ mükemmel çalışıyor."
         },
         {
             "en": "ring",
@@ -3251,8 +2919,7 @@ const DICTIONARY = {
             "tr": "yüzük",
             "en_": "He bought a diamond ring for the proposal.",
             "es_": "Compró una sortija de diamantes para la propuesta.",
-            "tr_": "Teklif için bir pırlanta yüzük aldı.",
-            "type": "noun"
+            "tr_": "Teklif için bir pırlanta yüzük aldı."
         },
         {
             "en": "wedding ring",
@@ -3260,8 +2927,7 @@ const DICTIONARY = {
             "tr": "alyans",
             "en_": "They exchanged wedding rings at the ceremony.",
             "es_": "Intercambiaron anillos en la ceremonia.",
-            "tr_": "Törende alyanslarını taktılar.",
-            "type": "noun"
+            "tr_": "Törende alyanslarını taktılar."
         },
         {
             "en": "necklace",
@@ -3269,8 +2935,7 @@ const DICTIONARY = {
             "tr": "kolye",
             "en_": "She wore a pearl necklace with her dress.",
             "es_": "Llevaba un collar de perlas con su vestido.",
-            "tr_": "Elbisesiyle birlikte inci bir kolye takmıştı.",
-            "type": "noun"
+            "tr_": "Elbisesiyle birlikte inci bir kolye takmıştı."
         },
         {
             "en": "coat",
@@ -3278,8 +2943,7 @@ const DICTIONARY = {
             "tr": "ceket",
             "en_": "Don't forget your coat, it's cold outside.",
             "es_": "No olvides tu abrigo, hace frío afuera.",
-            "tr_": "Ceketini unutma, dışarısı soğuk.",
-            "type": "noun"
+            "tr_": "Ceketini unutma, dışarısı soğuk."
         },
         {
             "en": "hat",
@@ -3287,8 +2951,7 @@ const DICTIONARY = {
             "tr": "şapka",
             "en_": "He wore a stylish hat to the event.",
             "es_": "Llevaba un sombrero elegante al evento.",
-            "tr_": "Etkinliğe şık bir şapka takarak geldi.",
-            "type": "noun"
+            "tr_": "Etkinliğe şık bir şapka takarak geldi."
         },
         {
             "en": "pocket",
@@ -3296,8 +2959,7 @@ const DICTIONARY = {
             "tr": "cep",
             "en_": "He put the keys in his pocket.",
             "es_": "Puso las llaves en su bolsillo.",
-            "tr_": "Anahtarları cebine koydu.",
-            "type": "noun"
+            "tr_": "Anahtarları cebine koydu."
         },
         {
             "en": "gloves",
@@ -3305,8 +2967,7 @@ const DICTIONARY = {
             "tr": "eldiven",
             "en_": "She wore wool gloves in the snow.",
             "es_": "Llevaba guantes de lana en la nieve.",
-            "tr_": "Karda yün eldivenler takmıştı.",
-            "type": "noun"
+            "tr_": "Karda yün eldivenler takmıştı."
         },
         {
             "en": "belt",
@@ -3314,8 +2975,7 @@ const DICTIONARY = {
             "tr": "kemer",
             "en_": "He tightened his belt before leaving.",
             "es_": "Se apretó el cinturón antes de salir.",
-            "tr_": "Çıkmadan önce kemerini sıktı.",
-            "type": "noun"
+            "tr_": "Çıkmadan önce kemerini sıktı."
         },
         {
             "en": "button",
@@ -3323,8 +2983,7 @@ const DICTIONARY = {
             "tr": "düğme",
             "en_": "The last button on his shirt is missing.",
             "es_": "Falta el último botón de su camisa.",
-            "tr_": "Gömleğinin son düğmesi eksik.",
-            "type": "noun"
+            "tr_": "Gömleğinin son düğmesi eksik."
         },
         {
             "en": "boots",
@@ -3332,8 +2991,7 @@ const DICTIONARY = {
             "tr": "çizme",
             "en_": "She wore black boots to the party.",
             "es_": "Llevaba botas negras a la fiesta.",
-            "tr_": "Partiye siyah çizmelerle gitti.",
-            "type": "noun"
+            "tr_": "Partiye siyah çizmelerle gitti."
         },
         {
             "en": "cap",
@@ -3341,8 +2999,7 @@ const DICTIONARY = {
             "tr": "şapka",
             "en_": "He wore a cap to protect himself from the sun.",
             "es_": "Llevaba una gorra para protegerse del sol.",
-            "tr_": "Güneşten korunmak için şapka taktı.",
-            "type": "noun"
+            "tr_": "Güneşten korunmak için şapka taktı."
         },
         {
             "en": "raincoat",
@@ -3350,8 +3007,7 @@ const DICTIONARY = {
             "tr": "yağmurluk",
             "en_": "Take your raincoat, it might rain today.",
             "es_": "Lleva tu impermeable, puede llover hoy.",
-            "tr_": "Yağmurluğunu al, bugün yağmur yağabilir.",
-            "type": "noun"
+            "tr_": "Yağmurluğunu al, bugün yağmur yağabilir."
         },
         {
             "en": "scarf",
@@ -3359,8 +3015,7 @@ const DICTIONARY = {
             "tr": "atkı",
             "en_": "She wrapped a red scarf around her neck.",
             "es_": "Se envolvió una bufanda roja alrededor del cuello.",
-            "tr_": "Boynuna kırmızı bir atkı sardı.",
-            "type": "noun"
+            "tr_": "Boynuna kırmızı bir atkı sardı."
         },
         {
             "en": "jacket",
@@ -3368,8 +3023,7 @@ const DICTIONARY = {
             "tr": "ceket",
             "en_": "He forgot his jacket at the restaurant.",
             "es_": "Olvidó su chaqueta en el restaurante.",
-            "tr_": "Ceketini restoranda unuttu.",
-            "type": "noun"
+            "tr_": "Ceketini restoranda unuttu."
         },
         {
             "en": "zipper",
@@ -3377,8 +3031,7 @@ const DICTIONARY = {
             "tr": "fermuar",
             "en_": "The zipper on my bag is broken.",
             "es_": "La cremallera de mi bolso está rota.",
-            "tr_": "Çantamın fermuarı bozulmuş.",
-            "type": "noun"
+            "tr_": "Çantamın fermuarı bozulmuş."
         },
         {
             "en": "shoes",
@@ -3386,8 +3039,7 @@ const DICTIONARY = {
             "tr": "ayakkabı",
             "en_": "He polished his shoes before the meeting.",
             "es_": "Se lustró los zapatos antes de la reunión.",
-            "tr_": "Toplantıdan önce ayakkabılarını parlattı.",
-            "type": "noun"
+            "tr_": "Toplantıdan önce ayakkabılarını parlattı."
         },
         {
             "en": "sandals",
@@ -3395,8 +3047,7 @@ const DICTIONARY = {
             "tr": "sandalet",
             "en_": "She wore sandals to the beach.",
             "es_": "Llevaba sandalias a la playa.",
-            "tr_": "Plaja sandaletle gitti.",
-            "type": "noun"
+            "tr_": "Plaja sandaletle gitti."
         }
     ],
     "Going to bed" : [
@@ -3406,8 +3057,7 @@ const DICTIONARY = {
             "tr": "ışığı açmak",
             "en_": "He turned on the light when he entered the room.",
             "es_": "Encendió la luz al entrar en la habitación.",
-            "tr_": "Odaya girince ışığı açtı.",
-            "type": "verb"
+            "tr_": "Odaya girince ışığı açtı."
         },
         {
             "en": "to tidy up",
@@ -3415,8 +3065,7 @@ const DICTIONARY = {
             "tr": "düzene sokmak",
             "en_": "She tidied up her room before sleeping.",
             "es_": "Puso orden en su habitación antes de dormir.",
-            "tr_": "Uyumadan önce odasını düzene soktu.",
-            "type": "verb"
+            "tr_": "Uyumadan önce odasını düzene soktu."
         },
         {
             "en": "to take off clothes",
@@ -3424,8 +3073,7 @@ const DICTIONARY = {
             "tr": "elbiseleri çıkarmak",
             "en_": "He took off his clothes and put on pajamas.",
             "es_": "Se quitó la ropa y se puso el pijama.",
-            "tr_": "Elbiselerini çıkarıp pijamasını giydi.",
-            "type": "verb"
+            "tr_": "Elbiselerini çıkarıp pijamasını giydi."
         },
         {
             "en": "to go to bed",
@@ -3433,8 +3081,7 @@ const DICTIONARY = {
             "tr": "yatmak",
             "en_": "I usually go to bed at eleven.",
             "es_": "Normalmente me acuesto a las once.",
-            "tr_": "Genellikle saat on birde yatarım.",
-            "type": "verb"
+            "tr_": "Genellikle saat on birde yatarım."
         },
         {
             "en": "pajamas",
@@ -3442,8 +3089,7 @@ const DICTIONARY = {
             "tr": "pijama",
             "en_": "These pajamas are very comfortable.",
             "es_": "Este pijama es muy cómodo.",
-            "tr_": "Bu pijama çok rahat.",
-            "type": "noun"
+            "tr_": "Bu pijama çok rahat."
         },
         {
             "en": "nightgown",
@@ -3451,8 +3097,7 @@ const DICTIONARY = {
             "tr": "gecelik",
             "en_": "She wore a silk nightgown to sleep.",
             "es_": "Llevaba un camisón de seda para dormir.",
-            "tr_": "Uyumak için ipek bir gecelik giydi.",
-            "type": "noun"
+            "tr_": "Uyumak için ipek bir gecelik giydi."
         },
         {
             "en": "slippers",
@@ -3460,8 +3105,7 @@ const DICTIONARY = {
             "tr": "terlik",
             "en_": "He put on his slippers and went to the kitchen.",
             "es_": "Se puso las zapatillas y fue a la cocina.",
-            "tr_": "Terliklerini giyip mutfağa gitti.",
-            "type": "noun"
+            "tr_": "Terliklerini giyip mutfağa gitti."
         },
         {
             "en": "lullaby",
@@ -3469,8 +3113,7 @@ const DICTIONARY = {
             "tr": "ninni",
             "en_": "She sang a lullaby to her baby.",
             "es_": "Cantó una canción de cuna a su bebé.",
-            "tr_": "Bebeğine bir ninni söyledi.",
-            "type": "noun"
+            "tr_": "Bebeğine bir ninni söyledi."
         },
         {
             "en": "tale",
@@ -3478,8 +3121,7 @@ const DICTIONARY = {
             "tr": "masal",
             "en_": "He told a bedtime tale to his daughter.",
             "es_": "Contó un cuento antes de dormir a su hija.",
-            "tr_": "Kızına uyumadan önce bir masal anlattı.",
-            "type": "noun"
+            "tr_": "Kızına uyumadan önce bir masal anlattı."
         },
         {
             "en": "crib",
@@ -3487,8 +3129,7 @@ const DICTIONARY = {
             "tr": "beşik",
             "en_": "The baby is sleeping in the crib.",
             "es_": "El bebé está durmiendo en la cuna.",
-            "tr_": "Bebek beşikte uyuyor.",
-            "type": "noun"
+            "tr_": "Bebek beşikte uyuyor."
         },
         {
             "en": "to fall asleep",
@@ -3496,8 +3137,7 @@ const DICTIONARY = {
             "tr": "uykuya dalmak",
             "en_": "He fell asleep while watching TV.",
             "es_": "Se durmió viendo la televisión.",
-            "tr_": "Televizyon izlerken uykuya daldı.",
-            "type": "verb"
+            "tr_": "Televizyon izlerken uykuya daldı."
         },
         {
             "en": "Sleep well!",
@@ -3505,8 +3145,7 @@ const DICTIONARY = {
             "tr": "İyi uykular!",
             "en_": "Sleep well! You have a big day tomorrow.",
             "es_": "¡Qué duermas bien! Mañana tienes un gran día.",
-            "tr_": "İyi uykular! Yarın büyük bir gün seni bekliyor.",
-            "type": "interjection"
+            "tr_": "İyi uykular! Yarın büyük bir gün seni bekliyor."
         },
         {
             "en": "Goodnight!",
@@ -3514,8 +3153,7 @@ const DICTIONARY = {
             "tr": "İyi geceler!",
             "en_": "Goodnight! See you in the morning.",
             "es_": "¡Buenas noches! Nos vemos por la mañana.",
-            "tr_": "İyi geceler! Sabah görüşürüz.",
-            "type": "interjection"
+            "tr_": "İyi geceler! Sabah görüşürüz."
         },
         {
             "en": "to dream",
@@ -3523,8 +3161,7 @@ const DICTIONARY = {
             "tr": "rüya görmek",
             "en_": "I dreamed about flying last night.",
             "es_": "Anoche soñé que volaba.",
-            "tr_": "Dün gece uçtuğumu rüya gördüm.",
-            "type": "verb"
+            "tr_": "Dün gece uçtuğumu rüya gördüm."
         },
         {
             "en": "to sleep",
@@ -3532,8 +3169,7 @@ const DICTIONARY = {
             "tr": "uyumak",
             "en_": "He usually sleeps eight hours a night.",
             "es_": "Normalmente duerme ocho horas por noche.",
-            "tr_": "Genellikle geceleri sekiz saat uyur.",
-            "type": "verb"
+            "tr_": "Genellikle geceleri sekiz saat uyur."
         },
         {
             "en": "to turn off",
@@ -3541,8 +3177,7 @@ const DICTIONARY = {
             "tr": "kapamak",
             "en_": "She turned off the TV before bed.",
             "es_": "Apagó la televisión antes de acostarse.",
-            "tr_": "Yatmadan önce televizyonu kapattı.",
-            "type": "verb"
+            "tr_": "Yatmadan önce televizyonu kapattı."
         },
         {
             "en": "lamp",
@@ -3550,8 +3185,7 @@ const DICTIONARY = {
             "tr": "lamba",
             "en_": "The lamp on the desk is too bright.",
             "es_": "La lámpara del escritorio es demasiado brillante.",
-            "tr_": "Masanın üzerindeki lamba çok parlak.",
-            "type": "noun"
+            "tr_": "Masanın üzerindeki lamba çok parlak."
         },
         {
             "en": "bedside table",
@@ -3559,8 +3193,7 @@ const DICTIONARY = {
             "tr": "komodin",
             "en_": "I keep my book on the bedside table.",
             "es_": "Guardo mi libro en la mesita de noche.",
-            "tr_": "Kitabımı komodinin üzerine koyuyorum.",
-            "type": "noun"
+            "tr_": "Kitabımı komodinin üzerine koyuyorum."
         },
         {
             "en": "quilt [duvet]",
@@ -3568,8 +3201,7 @@ const DICTIONARY = {
             "tr": "yorgan",
             "en_": "She covered herself with a thick quilt.",
             "es_": "Se cubrió con un edredón grueso.",
-            "tr_": "Kendini kalın bir yorganla örttü.",
-            "type": "noun"
+            "tr_": "Kendini kalın bir yorganla örttü."
         },
         {
             "en": "bed",
@@ -3577,8 +3209,7 @@ const DICTIONARY = {
             "tr": "yatak",
             "en_": "He lay down on the bed and closed his eyes.",
             "es_": "Se acostó en la cama y cerró los ojos.",
-            "tr_": "Yatağa uzandı ve gözlerini kapattı.",
-            "type": "noun"
+            "tr_": "Yatağa uzandı ve gözlerini kapattı."
         },
         {
             "en": "pillow",
@@ -3586,8 +3217,7 @@ const DICTIONARY = {
             "tr": "yastık",
             "en_": "I need a softer pillow to sleep well.",
             "es_": "Necesito una almohada más suave para dormir bien.",
-            "tr_": "İyi uyuyabilmek için daha yumuşak bir yastığa ihtiyacım var.",
-            "type": "noun"
+            "tr_": "İyi uyuyabilmek için daha yumuşak bir yastığa ihtiyacım var."
         },
         {
             "en": "bedspread",
@@ -3595,8 +3225,7 @@ const DICTIONARY = {
             "tr": "yatak örtüsü",
             "en_": "She folded the bedspread in the morning.",
             "es_": "Dobló la colcha por la mañana.",
-            "tr_": "Sabah yatak örtüsünü katladı.",
-            "type": "noun"
+            "tr_": "Sabah yatak örtüsünü katladı."
         },
         {
             "en": "sheet",
@@ -3604,8 +3233,7 @@ const DICTIONARY = {
             "tr": "çarşaf",
             "en_": "I changed the bed sheets yesterday.",
             "es_": "Cambié las sábanas ayer.",
-            "tr_": "Dün çarşafları değiştirdim.",
-            "type": "noun"
+            "tr_": "Dün çarşafları değiştirdim."
         },
         {
             "en": "to snore",
@@ -3613,8 +3241,7 @@ const DICTIONARY = {
             "tr": "horlamak",
             "en_": "He snores loudly when he is tired.",
             "es_": "Ronca fuerte cuando está cansado.",
-            "tr_": "Yorgun olduğunda yüksek sesle horlar.",
-            "type": "verb"
+            "tr_": "Yorgun olduğunda yüksek sesle horlar."
         }
     ],
     "Eating and drinking" : [
@@ -3624,8 +3251,7 @@ const DICTIONARY = {
             "tr": "masayı kurmak",
             "en_": "He always sets the table before dinner.",
             "es_": "Siempre pone la mesa antes de la cena.",
-            "tr_": "Akşam yemeğinden önce hep masayı kurar.",
-            "type": "verb"
+            "tr_": "Akşam yemeğinden önce hep masayı kurar."
         },
         {
             "en": "coffee-pot",
@@ -3633,8 +3259,7 @@ const DICTIONARY = {
             "tr": "kahve makinesi",
             "en_": "The coffee-pot is already brewing.",
             "es_": "La cafetera ya está preparando el café.",
-            "tr_": "Kahve makinesi çoktan çalışmaya başladı.",
-            "type": "noun"
+            "tr_": "Kahve makinesi çoktan çalışmaya başladı."
         },
         {
             "en": "teapot",
@@ -3642,8 +3267,7 @@ const DICTIONARY = {
             "tr": "çaydanlık",
             "en_": "She poured hot water into the teapot.",
             "es_": "Vertió agua caliente en la tetera.",
-            "tr_": "Sıcak suyu çaydanlığa döktü.",
-            "type": "noun"
+            "tr_": "Sıcak suyu çaydanlığa döktü."
         },
         {
             "en": "napkin",
@@ -3651,8 +3275,7 @@ const DICTIONARY = {
             "tr": "peçete",
             "en_": "He wiped his mouth with a napkin.",
             "es_": "Se limpió la boca con una servilleta.",
-            "tr_": "Ağzını bir peçeteyle sildi.",
-            "type": "noun"
+            "tr_": "Ağzını bir peçeteyle sildi."
         },
         {
             "en": "glass",
@@ -3660,8 +3283,7 @@ const DICTIONARY = {
             "tr": "bardak",
             "en_": "She filled the glass with orange juice.",
             "es_": "Llenó el vaso con jugo de naranja.",
-            "tr_": "Bardağı portakal suyuyla doldurdu.",
-            "type": "noun"
+            "tr_": "Bardağı portakal suyuyla doldurdu."
         },
         {
             "en": "cup",
@@ -3669,8 +3291,7 @@ const DICTIONARY = {
             "tr": "fincan",
             "en_": "I drank a cup of coffee this morning.",
             "es_": "Tomé una taza de café esta mañana.",
-            "tr_": "Bu sabah bir fincan kahve içtim.",
-            "type": "noun"
+            "tr_": "Bu sabah bir fincan kahve içtim."
         },
         {
             "en": "plate",
@@ -3678,8 +3299,7 @@ const DICTIONARY = {
             "tr": "tabak",
             "en_": "He broke a plate while washing the dishes.",
             "es_": "Rompió un plato mientras lavaba los platos.",
-            "tr_": "Bulaşıkları yıkarken bir tabak kırdı.",
-            "type": "noun"
+            "tr_": "Bulaşıkları yıkarken bir tabak kırdı."
         },
         {
             "en": "bowl",
@@ -3687,8 +3307,7 @@ const DICTIONARY = {
             "tr": "kase",
             "en_": "She served the soup in a large bowl.",
             "es_": "Sirvió la sopa en un tazón grande.",
-            "tr_": "Çorbayı büyük bir kaseye koydu.",
-            "type": "noun"
+            "tr_": "Çorbayı büyük bir kaseye koydu."
         },
         {
             "en": "saucer",
@@ -3696,8 +3315,7 @@ const DICTIONARY = {
             "tr": "fincan tabağı",
             "en_": "There was a small cookie on the saucer.",
             "es_": "Había una galleta pequeña en el platillo.",
-            "tr_": "Fincan tabağının üstünde küçük bir kurabiye vardı.",
-            "type": "noun"
+            "tr_": "Fincan tabağının üstünde küçük bir kurabiye vardı."
         },
         {
             "en": "spoon",
@@ -3705,8 +3323,7 @@ const DICTIONARY = {
             "tr": "kaşık",
             "en_": "He stirred his tea with a spoon.",
             "es_": "Revolvió su té con una cuchara.",
-            "tr_": "Çayını bir kaşıkla karıştırdı.",
-            "type": "noun"
+            "tr_": "Çayını bir kaşıkla karıştırdı."
         },
         {
             "en": "fork",
@@ -3714,8 +3331,7 @@ const DICTIONARY = {
             "tr": "çatal",
             "en_": "She picked up the salad with a fork.",
             "es_": "Recogió la ensalada con un tenedor.",
-            "tr_": "Salatayı çatalla aldı.",
-            "type": "noun"
+            "tr_": "Salatayı çatalla aldı."
         },
         {
             "en": "knife",
@@ -3723,8 +3339,7 @@ const DICTIONARY = {
             "tr": "bıçak",
             "en_": "He cut the meat with a sharp knife.",
             "es_": "Cortó la carne con un cuchillo afilado.",
-            "tr_": "Eti keskin bir bıçakla kesti.",
-            "type": "noun"
+            "tr_": "Eti keskin bir bıçakla kesti."
         },
         {
             "en": "jug",
@@ -3732,8 +3347,7 @@ const DICTIONARY = {
             "tr": "sürahi",
             "en_": "The jug is full of cold water.",
             "es_": "El jarro está lleno de agua fría.",
-            "tr_": "Sürahi soğuk suyla dolu.",
-            "type": "noun"
+            "tr_": "Sürahi soğuk suyla dolu."
         },
         {
             "en": "tablecloth",
@@ -3741,8 +3355,7 @@ const DICTIONARY = {
             "tr": "masa örtüsü",
             "en_": "She spread a clean tablecloth on the table.",
             "es_": "Extendió un mantel limpio sobre la mesa.",
-            "tr_": "Masaya temiz bir masa örtüsü serdi.",
-            "type": "noun"
+            "tr_": "Masaya temiz bir masa örtüsü serdi."
         },
         {
             "en": "Enjoy your meal",
@@ -3750,8 +3363,7 @@ const DICTIONARY = {
             "tr": "Afiyet olsun!",
             "en_": "Enjoy your meal! Everything looks delicious.",
             "es_": "¡Que aproveche! Todo se ve delicioso.",
-            "tr_": "Afiyet olsun! Her şey harika görünüyor.",
-            "type": "interjection"
+            "tr_": "Afiyet olsun! Her şey harika görünüyor."
         },
         {
             "en": "to be thirsty",
@@ -3759,8 +3371,7 @@ const DICTIONARY = {
             "tr": "susamak",
             "en_": "After the run, I was really thirsty.",
             "es_": "Después de correr, tenía mucha sed.",
-            "tr_": "Koştuktan sonra çok susamıştım.",
-            "type": "verb"
+            "tr_": "Koştuktan sonra çok susamıştım."
         },
         {
             "en": "to drink",
@@ -3768,8 +3379,7 @@ const DICTIONARY = {
             "tr": "içmek",
             "en_": "He drank a glass of cold water.",
             "es_": "Bebió un vaso de agua fría.",
-            "tr_": "Bir bardak soğuk su içti.",
-            "type": "verb"
+            "tr_": "Bir bardak soğuk su içti."
         },
         {
             "en": "to be hungry",
@@ -3777,8 +3387,7 @@ const DICTIONARY = {
             "tr": "acıkmak",
             "en_": "I didn’t eat all day and now I’m hungry.",
             "es_": "No comí en todo el día y ahora tengo hambre.",
-            "tr_": "Tüm gün hiçbir şey yemedim ve şimdi acıktım.",
-            "type": "verb"
+            "tr_": "Tüm gün hiçbir şey yemedim ve şimdi acıktım."
         },
         {
             "en": "to eat",
@@ -3786,8 +3395,7 @@ const DICTIONARY = {
             "tr": "yemek",
             "en_": "We usually eat dinner at seven.",
             "es_": "Normalmente comemos la cena a las siete.",
-            "tr_": "Genellikle akşam yemeğini yedide yeriz.",
-            "type": "verb"
+            "tr_": "Genellikle akşam yemeğini yedide yeriz."
         },
         {
             "en": "tasty",
@@ -3795,8 +3403,7 @@ const DICTIONARY = {
             "tr": "lezzetli",
             "en_": "This soup is really tasty.",
             "es_": "Esta sopa está realmente sabrosa.",
-            "tr_": "Bu çorba gerçekten çok lezzetli.",
-            "type": "adjective"
+            "tr_": "Bu çorba gerçekten çok lezzetli."
         },
         {
             "en": "breakfast",
@@ -3804,8 +3411,7 @@ const DICTIONARY = {
             "tr": "kahvaltı",
             "en_": "We had a big breakfast this morning.",
             "es_": "Tuvimos un gran desayuno esta mañana.",
-            "tr_": "Bu sabah büyük bir kahvaltı yaptık.",
-            "type": "noun"
+            "tr_": "Bu sabah büyük bir kahvaltı yaptık."
         },
         {
             "en": "juice",
@@ -3813,8 +3419,7 @@ const DICTIONARY = {
             "tr": "meyve suyu",
             "en_": "Would you like some orange juice?",
             "es_": "¿Quieres un poco de jugo de naranja?",
-            "tr_": "Biraz portakal suyu ister misin?",
-            "type": "noun"
+            "tr_": "Biraz portakal suyu ister misin?"
         },
         {
             "en": "coffee",
@@ -3822,8 +3427,7 @@ const DICTIONARY = {
             "tr": "kahve",
             "en_": "I can't start my day without coffee.",
             "es_": "No puedo empezar el día sin café.",
-            "tr_": "Kahvesiz güne başlayamam.",
-            "type": "noun"
+            "tr_": "Kahvesiz güne başlayamam."
         },
         {
             "en": "tea",
@@ -3831,8 +3435,7 @@ const DICTIONARY = {
             "tr": "çay",
             "en_": "We drank tea after dinner.",
             "es_": "Bebimos té después de la cena.",
-            "tr_": "Akşam yemeğinden sonra çay içtik.",
-            "type": "noun"
+            "tr_": "Akşam yemeğinden sonra çay içtik."
         },
         {
             "en": "bread",
@@ -3840,8 +3443,7 @@ const DICTIONARY = {
             "tr": "ekmek",
             "en_": "He baked fresh bread this morning.",
             "es_": "Horneó pan fresco esta mañana.",
-            "tr_": "Bu sabah taze ekmek pişirdi.",
-            "type": "noun"
+            "tr_": "Bu sabah taze ekmek pişirdi."
         },
         {
             "en": "cheese",
@@ -3849,8 +3451,7 @@ const DICTIONARY = {
             "tr": "peynir",
             "en_": "She sliced some cheese for the sandwich.",
             "es_": "Cortó un poco de queso para el sándwich.",
-            "tr_": "Sandviç için biraz peynir kesti.",
-            "type": "noun"
+            "tr_": "Sandviç için biraz peynir kesti."
         },
         {
             "en": "butter",
@@ -3858,8 +3459,7 @@ const DICTIONARY = {
             "tr": "tereyağı",
             "en_": "I spread butter on the toast.",
             "es_": "Unté mantequilla en la tostada.",
-            "tr_": "Kızarmış ekmeğe tereyağı sürdüm.",
-            "type": "noun"
+            "tr_": "Kızarmış ekmeğe tereyağı sürdüm."
         },
         {
             "en": "lunch",
@@ -3867,8 +3467,7 @@ const DICTIONARY = {
             "tr": "öğle yemeği",
             "en_": "We had lunch at a small café.",
             "es_": "Almorzamos en un pequeño café.",
-            "tr_": "Küçük bir kafede öğle yemeği yedik.",
-            "type": "noun"
+            "tr_": "Küçük bir kafede öğle yemeği yedik."
         },
         {
             "en": "salad",
@@ -3876,8 +3475,7 @@ const DICTIONARY = {
             "tr": "salata",
             "en_": "She made a fresh salad with tomatoes and cucumbers.",
             "es_": "Hizo una ensalada fresca con tomates y pepinos.",
-            "tr_": "Domates ve salatalıkla taze bir salata yaptı.",
-            "type": "noun"
+            "tr_": "Domates ve salatalıkla taze bir salata yaptı."
         },
         {
             "en": "soup",
@@ -3885,8 +3483,7 @@ const DICTIONARY = {
             "tr": "çorba",
             "en_": "They served hot soup before the main course.",
             "es_": "Sirvieron sopa caliente antes del plato principal.",
-            "tr_": "Ana yemekten önce sıcak çorba servis ettiler.",
-            "type": "noun"
+            "tr_": "Ana yemekten önce sıcak çorba servis ettiler."
         },
         {
             "en": "meat",
@@ -3894,8 +3491,7 @@ const DICTIONARY = {
             "tr": "et",
             "en_": "They grilled the meat over charcoal.",
             "es_": "Asaron la carne sobre carbón.",
-            "tr_": "Eti kömür ateşinde ızgarada pişirdiler.",
-            "type": "noun"
+            "tr_": "Eti kömür ateşinde ızgarada pişirdiler."
         },
         {
             "en": "main meal",
@@ -3903,8 +3499,7 @@ const DICTIONARY = {
             "tr": "ana yemek",
             "en_": "The main meal was served at noon.",
             "es_": "La comida se sirvió al mediodía.",
-            "tr_": "Ana yemek öğle vakti servis edildi.",
-            "type": "noun"
+            "tr_": "Ana yemek öğle vakti servis edildi."
         },
         {
             "en": "wine",
@@ -3912,8 +3507,7 @@ const DICTIONARY = {
             "tr": "şarap",
             "en_": "They opened a bottle of red wine.",
             "es_": "Abrieron una botella de vino tinto.",
-            "tr_": "Bir şişe kırmızı şarap açtılar.",
-            "type": "noun"
+            "tr_": "Bir şişe kırmızı şarap açtılar."
         },
         {
             "en": "beer",
@@ -3921,8 +3515,7 @@ const DICTIONARY = {
             "tr": "bira",
             "en_": "He drank a cold beer after work.",
             "es_": "Bebió una cerveza fría después del trabajo.",
-            "tr_": "İşten sonra soğuk bir bira içti.",
-            "type": "noun"
+            "tr_": "İşten sonra soğuk bir bira içti."
         },
         {
             "en": "mineral water",
@@ -3930,8 +3523,7 @@ const DICTIONARY = {
             "tr": "maden suyu",
             "en_": "She ordered a glass of mineral water.",
             "es_": "Pidió un vaso de agua mineral.",
-            "tr_": "Bir bardak maden suyu sipariş etti.",
-            "type": "noun"
+            "tr_": "Bir bardak maden suyu sipariş etti."
         },
         {
             "en": "desert",
@@ -3939,8 +3531,7 @@ const DICTIONARY = {
             "tr": "tatlı",
             "en_": "We had ice cream for dessert.",
             "es_": "Tomamos helado de postre.",
-            "tr_": "Tatlı olarak dondurma yedik.",
-            "type": "noun"
+            "tr_": "Tatlı olarak dondurma yedik."
         }
     ],
     "Food" : [
@@ -3950,8 +3541,7 @@ const DICTIONARY = {
             "tr": "et",
             "en_": "He bought some fresh meat from the butcher.",
             "es_": "Compró carne fresca en la carnicería.",
-            "tr_": "Kasaptan biraz taze et aldı.",
-            "type": "noun"
+            "tr_": "Kasaptan biraz taze et aldı."
         },
         {
             "en": "chicken",
@@ -3959,8 +3549,7 @@ const DICTIONARY = {
             "tr": "tavuk [piliç]",
             "en_": "She roasted a chicken for dinner.",
             "es_": "Asó un pollo para la cena.",
-            "tr_": "Akşam yemeği için tavuk kızarttı.",
-            "type": "noun"
+            "tr_": "Akşam yemeği için tavuk kızarttı."
         },
         {
             "en": "steak",
@@ -3968,8 +3557,7 @@ const DICTIONARY = {
             "tr": "biftek",
             "en_": "He ordered a medium steak at the restaurant.",
             "es_": "Pidió un filete a término medio en el restaurante.",
-            "tr_": "Restoranda orta pişmiş bir biftek sipariş etti.",
-            "type": "noun"
+            "tr_": "Restoranda orta pişmiş bir biftek sipariş etti."
         },
         {
             "en": "ham",
@@ -3977,8 +3565,7 @@ const DICTIONARY = {
             "tr": "jambon",
             "en_": "We made sandwiches with cheese and ham.",
             "es_": "Hicimos bocadillos con queso y jamón.",
-            "tr_": "Peynir ve jambonla sandviç yaptık.",
-            "type": "noun"
+            "tr_": "Peynir ve jambonla sandviç yaptık."
         },
         {
             "en": "veal",
@@ -3986,8 +3573,7 @@ const DICTIONARY = {
             "tr": "dana eti",
             "en_": "The stew was made with tender veal.",
             "es_": "El guiso se hizo con ternera tierna.",
-            "tr_": "Güveç yumuşak dana etiyle yapıldı.",
-            "type": "noun"
+            "tr_": "Güveç yumuşak dana etiyle yapıldı."
         },
         {
             "en": "lamb meat",
@@ -3995,8 +3581,7 @@ const DICTIONARY = {
             "tr": "kuzu eti",
             "en_": "She cooked lamb meat with rosemary.",
             "es_": "Cocinó carne de cordero con romero.",
-            "tr_": "Kuzu etini biberiye ile pişirdi.",
-            "type": "noun"
+            "tr_": "Kuzu etini biberiye ile pişirdi."
         },
         {
             "en": "sausage",
@@ -4004,8 +3589,7 @@ const DICTIONARY = {
             "tr": "sosis",
             "en_": "They had sausage and eggs for breakfast.",
             "es_": "Desayunaron salchicha con huevos.",
-            "tr_": "Kahvaltıda sosis ve yumurta yediler.",
-            "type": "noun"
+            "tr_": "Kahvaltıda sosis ve yumurta yediler."
         },
         {
             "en": "vegetables",
@@ -4013,8 +3597,7 @@ const DICTIONARY = {
             "tr": "sebzeler",
             "en_": "She always buys fresh vegetables from the market.",
             "es_": "Siempre compra verduras frescas en el mercado.",
-            "tr_": "Her zaman pazardan taze sebzeler alır.",
-            "type": "noun"
+            "tr_": "Her zaman pazardan taze sebzeler alır."
         },
         {
             "en": "fresh",
@@ -4022,8 +3605,7 @@ const DICTIONARY = {
             "tr": "taze",
             "en_": "These strawberries are very fresh.",
             "es_": "Estas fresas están muy frescas.",
-            "tr_": "Bu çilekler çok taze.",
-            "type": "adjective"
+            "tr_": "Bu çilekler çok taze."
         },
         {
             "en": "cabbage",
@@ -4031,8 +3613,7 @@ const DICTIONARY = {
             "tr": "lahana",
             "en_": "She chopped the cabbage for the salad.",
             "es_": "Cortó la col para la ensalada.",
-            "tr_": "Salata için lahanayı doğradı.",
-            "type": "noun"
+            "tr_": "Salata için lahanayı doğradı."
         },
         {
             "en": "garlic",
@@ -4040,8 +3621,7 @@ const DICTIONARY = {
             "tr": "sarımsak",
             "en_": "He added garlic to the sauce.",
             "es_": "Añadió ajo a la salsa.",
-            "tr_": "Sosa sarımsak ekledi.",
-            "type": "noun"
+            "tr_": "Sosa sarımsak ekledi."
         },
         {
             "en": "onion",
@@ -4049,8 +3629,7 @@ const DICTIONARY = {
             "tr": "soğan",
             "en_": "She fried onion in olive oil.",
             "es_": "Sofrió cebolla en aceite de oliva.",
-            "tr_": "Zeytinyağında soğan kavurdu.",
-            "type": "noun"
+            "tr_": "Zeytinyağında soğan kavurdu."
         },
         {
             "en": "pea",
@@ -4058,8 +3637,7 @@ const DICTIONARY = {
             "tr": "bezelye",
             "en_": "The soup contains peas and carrots.",
             "es_": "La sopa lleva guisantes y zanahorias.",
-            "tr_": "Çorbanın içinde bezelye ve havuç var.",
-            "type": "noun"
+            "tr_": "Çorbanın içinde bezelye ve havuç var."
         },
         {
             "en": "carrot",
@@ -4067,8 +3645,7 @@ const DICTIONARY = {
             "tr": "havuç",
             "en_": "He sliced the carrot into thin strips.",
             "es_": "Cortó la zanahoria en tiras finas.",
-            "tr_": "Havucu ince şeritler halinde doğradı.",
-            "type": "noun"
+            "tr_": "Havucu ince şeritler halinde doğradı."
         },
         {
             "en": "spinach",
@@ -4076,8 +3653,7 @@ const DICTIONARY = {
             "tr": "ıspanak",
             "en_": "I made a spinach pie for lunch.",
             "es_": "Hice una tarta de espinaca para el almuerzo.",
-            "tr_": "Öğle yemeği için ıspanaklı börek yaptım.",
-            "type": "noun"
+            "tr_": "Öğle yemeği için ıspanaklı börek yaptım."
         },
         {
             "en": "cauliflower",
@@ -4085,8 +3661,7 @@ const DICTIONARY = {
             "tr": "karnıbahar",
             "en_": "We steamed the cauliflower until soft.",
             "es_": "Cocinamos al vapor la coliflor hasta que esté blanda.",
-            "tr_": "Karnabaharı yumuşayana kadar buharda pişirdik.",
-            "type": "noun"
+            "tr_": "Karnabaharı yumuşayana kadar buharda pişirdik."
         },
         {
             "en": "Brussels sprouts",
@@ -4094,8 +3669,7 @@ const DICTIONARY = {
             "tr": "Brüksel lahanası",
             "en_": "He roasted Brussels sprouts with olive oil.",
             "es_": "Asó coles de Bruselas con aceite de oliva.",
-            "tr_": "Brüksel lahanasını zeytinyağıyla fırınladı.",
-            "type": "noun"
+            "tr_": "Brüksel lahanasını zeytinyağıyla fırınladı."
         },
         {
             "en": "raw",
@@ -4103,8 +3677,7 @@ const DICTIONARY = {
             "tr": "çiğ",
             "en_": "The fish is served raw in this dish.",
             "es_": "El pescado se sirve crudo en este plato.",
-            "tr_": "Bu yemekte balık çiğ servis edilir.",
-            "type": "adjective"
+            "tr_": "Bu yemekte balık çiğ servis edilir."
         },
         {
             "en": "tomato",
@@ -4112,8 +3685,7 @@ const DICTIONARY = {
             "tr": "domates",
             "en_": "She sliced the tomato for the sandwich.",
             "es_": "Cortó el tomate para el sándwich.",
-            "tr_": "Sandviç için domatesi dilimledi.",
-            "type": "noun"
+            "tr_": "Sandviç için domatesi dilimledi."
         },
         {
             "en": "green bean",
@@ -4121,8 +3693,7 @@ const DICTIONARY = {
             "tr": "yeşil fasulye",
             "en_": "He cooked green beans with garlic.",
             "es_": "Cocinó judías verdes con ajo.",
-            "tr_": "Yeşil fasulyeyi sarımsakla pişirdi.",
-            "type": "noun"
+            "tr_": "Yeşil fasulyeyi sarımsakla pişirdi."
         },
         {
             "en": "potato",
@@ -4130,8 +3701,7 @@ const DICTIONARY = {
             "tr": "patates",
             "en_": "She peeled a potato for the soup.",
             "es_": "Peló una patata para la sopa.",
-            "tr_": "Çorba için bir patates soydu.",
-            "type": "noun"
+            "tr_": "Çorba için bir patates soydu."
         },
         {
             "en": "fish",
@@ -4139,8 +3709,7 @@ const DICTIONARY = {
             "tr": "balık",
             "en_": "He grilled the fish with lemon.",
             "es_": "Asó el pescado con limón.",
-            "tr_": "Balığı limonla ızgarada pişirdi.",
-            "type": "noun"
+            "tr_": "Balığı limonla ızgarada pişirdi."
         },
         {
             "en": "sea bream",
@@ -4148,8 +3717,7 @@ const DICTIONARY = {
             "tr": "çipura",
             "en_": "We had grilled sea bream for dinner.",
             "es_": "Cenamos besugo a la parrilla.",
-            "tr_": "Akşam yemeğinde ızgara çipura yedik.",
-            "type": "noun"
+            "tr_": "Akşam yemeğinde ızgara çipura yedik."
         },
         {
             "en": "shellfish",
@@ -4157,8 +3725,7 @@ const DICTIONARY = {
             "tr": "kabuklu deniz ürünleri",
             "en_": "She is allergic to shellfish.",
             "es_": "Es alérgica a los mariscos.",
-            "tr_": "Kabuklu deniz ürünlerine alerjisi var.",
-            "type": "noun"
+            "tr_": "Kabuklu deniz ürünlerine alerjisi var."
         },
         {
             "en": "cod",
@@ -4166,8 +3733,7 @@ const DICTIONARY = {
             "tr": "morina",
             "en_": "They served cod with garlic sauce.",
             "es_": "Sirvieron bacalao con salsa de ajo.",
-            "tr_": "Morinayı sarımsaklı sosla servis ettiler.",
-            "type": "noun"
+            "tr_": "Morinayı sarımsaklı sosla servis ettiler."
         },
         {
             "en": "cucumber",
@@ -4175,8 +3741,7 @@ const DICTIONARY = {
             "tr": "salatalık",
             "en_": "I added cucumber to the salad.",
             "es_": "Añadí pepino a la ensalada.",
-            "tr_": "Salataya salatalık ekledim.",
-            "type": "noun"
+            "tr_": "Salataya salatalık ekledim."
         },
         {
             "en": "eggplant",
@@ -4184,8 +3749,7 @@ const DICTIONARY = {
             "tr": "patlıcan",
             "en_": "He grilled eggplant for lunch.",
             "es_": "Asó berenjena para el almuerzo.",
-            "tr_": "Öğle yemeği için patlıcan ızgara yaptı.",
-            "type": "noun"
+            "tr_": "Öğle yemeği için patlıcan ızgara yaptı."
         },
         {
             "en": "mint",
@@ -4193,8 +3757,7 @@ const DICTIONARY = {
             "tr": "nane",
             "en_": "I love mint in my tea.",
             "es_": "Me encanta la menta en el té.",
-            "tr_": "Çayımda naneyi çok severim.",
-            "type": "noun"
+            "tr_": "Çayımda naneyi çok severim."
         },
         {
             "en": "chilli",
@@ -4202,8 +3765,7 @@ const DICTIONARY = {
             "tr": "acı biber",
             "en_": "He added chilli to the stew.",
             "es_": "Añadió chile al guiso.",
-            "tr_": "Güvece acı biber ekledi.",
-            "type": "noun"
+            "tr_": "Güvece acı biber ekledi."
         },
         {
             "en": "sweet",
@@ -4211,8 +3773,7 @@ const DICTIONARY = {
             "tr": "tatlı",
             "en_": "This cake is very sweet.",
             "es_": "Este pastel está muy dulce.",
-            "tr_": "Bu kek çok tatlı.",
-            "type": "adjective"
+            "tr_": "Bu kek çok tatlı."
         },
         {
             "en": "sour",
@@ -4220,8 +3781,7 @@ const DICTIONARY = {
             "tr": "ekşi",
             "en_": "The lemon juice is too sour.",
             "es_": "El jugo de limón está demasiado agrio.",
-            "tr_": "Limon suyu çok ekşi.",
-            "type": "adjective"
+            "tr_": "Limon suyu çok ekşi."
         },
         {
             "en": "fruit",
@@ -4229,8 +3789,7 @@ const DICTIONARY = {
             "tr": "meyve",
             "en_": "He eats fruit every morning.",
             "es_": "Come fruta cada mañana.",
-            "tr_": "Her sabah meyve yer.",
-            "type": "noun"
+            "tr_": "Her sabah meyve yer."
         },
         {
             "en": "ripe",
@@ -4238,8 +3797,7 @@ const DICTIONARY = {
             "tr": "olgun",
             "en_": "These peaches are perfectly ripe.",
             "es_": "Estos melocotones están perfectamente maduros.",
-            "tr_": "Bu şeftaliler tam anlamıyla olgun.",
-            "type": "noun"
+            "tr_": "Bu şeftaliler tam anlamıyla olgun."
         },
         {
             "en": "grape",
@@ -4247,8 +3805,7 @@ const DICTIONARY = {
             "tr": "üzüm",
             "en_": "She picked a bunch of grapes.",
             "es_": "Cogió un racimo de uvas.",
-            "tr_": "Bir salkım üzüm kopardı.",
-            "type": "noun"
+            "tr_": "Bir salkım üzüm kopardı."
         },
         {
             "en": "banana",
@@ -4256,8 +3813,7 @@ const DICTIONARY = {
             "tr": "muz",
             "en_": "He eats a banana after his workout.",
             "es_": "Come un plátano después del entrenamiento.",
-            "tr_": "Antrenmandan sonra bir muz yer.",
-            "type": "noun"
+            "tr_": "Antrenmandan sonra bir muz yer."
         },
         {
             "en": "peach",
@@ -4265,8 +3821,7 @@ const DICTIONARY = {
             "tr": "şeftali",
             "en_": "I bought some juicy peaches.",
             "es_": "Compré unos melocotones jugosos.",
-            "tr_": "Sulu şeftaliler aldım.",
-            "type": "noun"
+            "tr_": "Sulu şeftaliler aldım."
         },
         {
             "en": "lemon",
@@ -4274,8 +3829,7 @@ const DICTIONARY = {
             "tr": "limon",
             "en_": "She squeezed a lemon into her tea.",
             "es_": "Exprimió un limón en su té.",
-            "tr_": "Çayına bir limon sıktı.",
-            "type": "noun"
+            "tr_": "Çayına bir limon sıktı."
         },
         {
             "en": "melon",
@@ -4283,8 +3837,7 @@ const DICTIONARY = {
             "tr": "kavun",
             "en_": "He cut the melon into slices.",
             "es_": "Cortó el melón en rodajas.",
-            "tr_": "Kavunu dilimlere ayırdı.",
-            "type": "noun"
+            "tr_": "Kavunu dilimlere ayırdı."
         },
         {
             "en": "watermelon",
@@ -4292,8 +3845,7 @@ const DICTIONARY = {
             "tr": "karpuz",
             "en_": "We ate watermelon at the picnic.",
             "es_": "Comimos sandía en el picnic.",
-            "tr_": "Piknikte karpuz yedik.",
-            "type": "noun"
+            "tr_": "Piknikte karpuz yedik."
         },
         {
             "en": "cherry",
@@ -4301,8 +3853,7 @@ const DICTIONARY = {
             "tr": "kiraz",
             "en_": "She put a cherry on top of the cake.",
             "es_": "Puso una cereza encima del pastel.",
-            "tr_": "Pastanın üzerine bir kiraz koydu.",
-            "type": "noun"
+            "tr_": "Pastanın üzerine bir kiraz koydu."
         },
         {
             "en": "apricot",
@@ -4310,8 +3861,7 @@ const DICTIONARY = {
             "tr": "kayısı",
             "en_": "I ate a sweet apricot this morning.",
             "es_": "Comí un albaricoque dulce esta mañana.",
-            "tr_": "Bu sabah tatlı bir kayısı yedim.",
-            "type": "noun"
+            "tr_": "Bu sabah tatlı bir kayısı yedim."
         },
         {
             "en": "plum",
@@ -4319,8 +3869,7 @@ const DICTIONARY = {
             "tr": "erik",
             "en_": "The plum was sour but tasty.",
             "es_": "La ciruela estaba agria pero sabrosa.",
-            "tr_": "Erik ekşiydi ama lezzetliydi.",
-            "type": "noun"
+            "tr_": "Erik ekşiydi ama lezzetliydi."
         },
         {
             "en": "apple",
@@ -4328,8 +3877,7 @@ const DICTIONARY = {
             "tr": "elma",
             "en_": "An apple a day keeps the doctor away.",
             "es_": "Una manzana al día mantiene al médico en la lejanía.",
-            "tr_": "Günde bir elma, doktoru uzak tutar.",
-            "type": "noun"
+            "tr_": "Günde bir elma, doktoru uzak tutar."
         },
         {
             "en": "pear",
@@ -4337,8 +3885,7 @@ const DICTIONARY = {
             "tr": "armut",
             "en_": "She sliced a ripe pear.",
             "es_": "Cortó una pera madura.",
-            "tr_": "Olgun bir armut dilimledi.",
-            "type": "noun"
+            "tr_": "Olgun bir armut dilimledi."
         },
         {
             "en": "orange",
@@ -4346,8 +3893,7 @@ const DICTIONARY = {
             "tr": "portakal",
             "en_": "He drank fresh orange juice.",
             "es_": "Bebió jugo de naranja fresco.",
-            "tr_": "Taze portakal suyu içti.",
-            "type": "noun"
+            "tr_": "Taze portakal suyu içti."
         },
         {
             "en": "tangerine",
@@ -4355,8 +3901,7 @@ const DICTIONARY = {
             "tr": "mandalina",
             "en_": "Tangerines are easy to peel.",
             "es_": "Las mandarinas son fáciles de pelar.",
-            "tr_": "Mandalinalar kolay soyulur.",
-            "type": "noun"
+            "tr_": "Mandalinalar kolay soyulur."
         },
         {
             "en": "grapefruit",
@@ -4364,8 +3909,7 @@ const DICTIONARY = {
             "tr": "greyfurt",
             "en_": "She added grapefruit to her salad.",
             "es_": "Agregó pomelo a su ensalada.",
-            "tr_": "Salatasına greyfurt ekledi.",
-            "type": "noun"
+            "tr_": "Salatasına greyfurt ekledi."
         },
         {
             "en": "mulberry",
@@ -4373,8 +3917,7 @@ const DICTIONARY = {
             "tr": "dut",
             "en_": "The mulberries stained my fingers.",
             "es_": "Las moras mancharon mis dedos.",
-            "tr_": "Dutlar parmaklarımı boyadı.",
-            "type": "noun"
+            "tr_": "Dutlar parmaklarımı boyadı."
         },
         {
             "en": "blackberry",
@@ -4382,8 +3925,7 @@ const DICTIONARY = {
             "tr": "böğürtlen",
             "en_": "He made blackberry jam.",
             "es_": "Hizo mermelada de zarzamora.",
-            "tr_": "Böğürtlen reçeli yaptı.",
-            "type": "noun"
+            "tr_": "Böğürtlen reçeli yaptı."
         },
         {
             "en": "raspberry",
@@ -4391,8 +3933,7 @@ const DICTIONARY = {
             "tr": "ahududu",
             "en_": "I love raspberry tarts.",
             "es_": "Me encantan las tartas de frambuesa.",
-            "tr_": "Ahududulu tartları çok severim.",
-            "type": "noun"
+            "tr_": "Ahududulu tartları çok severim."
         },
         {
             "en": "blueberry",
@@ -4400,8 +3941,7 @@ const DICTIONARY = {
             "tr": "yabanmersini",
             "en_": "Blueberries are rich in antioxidants.",
             "es_": "Los arándanos son ricos en antioxidantes.",
-            "tr_": "Yaban mersini antioksidan bakımından zengindir.",
-            "type": "noun"
+            "tr_": "Yaban mersini antioksidan bakımından zengindir."
         },
         {
             "en": "walnut",
@@ -4409,8 +3949,7 @@ const DICTIONARY = {
             "tr": "ceviz",
             "en_": "She sprinkled walnuts on the salad.",
             "es_": "Espolvoreó nueces en la ensalada.",
-            "tr_": "Salatanın üzerine ceviz serpti.",
-            "type": "noun"
+            "tr_": "Salatanın üzerine ceviz serpti."
         },
         {
             "en": "hazelnut",
@@ -4418,8 +3957,7 @@ const DICTIONARY = {
             "tr": "fındık",
             "en_": "He eats hazelnuts as a snack.",
             "es_": "Come avellanas como merienda.",
-            "tr_": "Ara öğün olarak fındık yer.",
-            "type": "noun"
+            "tr_": "Ara öğün olarak fındık yer."
         },
         {
             "en": "peanut",
@@ -4427,8 +3965,7 @@ const DICTIONARY = {
             "tr": "fıstık",
             "en_": "Peanuts are often used in sauces.",
             "es_": "Los maníes se usan a menudo en salsas.",
-            "tr_": "Fıstıklar genellikle soslarda kullanılır.",
-            "type": "noun"
+            "tr_": "Fıstıklar genellikle soslarda kullanılır."
         },
         {
             "en": "almond",
@@ -4436,8 +3973,7 @@ const DICTIONARY = {
             "tr": "badem",
             "en_": "She added almonds to the cake.",
             "es_": "Agregó almendras al pastel.",
-            "tr_": "Pastaya badem ekledi.",
-            "type": "noun"
+            "tr_": "Pastaya badem ekledi."
         },
         {
             "en": "quince",
@@ -4445,8 +3981,7 @@ const DICTIONARY = {
             "tr": "ayva",
             "en_": "They made quince jam.",
             "es_": "Hicieron mermelada de membrillo.",
-            "tr_": "Ayva reçeli yaptılar.",
-            "type": "noun"
+            "tr_": "Ayva reçeli yaptılar."
         },
         {
             "en": "noodle",
@@ -4454,8 +3989,7 @@ const DICTIONARY = {
             "tr": "erişte",
             "en_": "She prepared homemade noodles.",
             "es_": "Preparó fideos caseros.",
-            "tr_": "Ev yapımı erişte hazırladı.",
-            "type": "noun"
+            "tr_": "Ev yapımı erişte hazırladı."
         },
         {
             "en": "chickpea",
@@ -4463,8 +3997,7 @@ const DICTIONARY = {
             "tr": "nohut",
             "en_": "Chickpeas are used in hummus.",
             "es_": "Los garbanzos se usan en el hummus.",
-            "tr_": "Humusta nohut kullanılır.",
-            "type": "noun"
+            "tr_": "Humusta nohut kullanılır."
         },
         {
             "en": "bean",
@@ -4472,8 +4005,7 @@ const DICTIONARY = {
             "tr": "fasulye",
             "en_": "Beans are rich in protein.",
             "es_": "Las judías son ricas en proteínas.",
-            "tr_": "Fasulyeler protein açısından zengindir.",
-            "type": "noun"
+            "tr_": "Fasulyeler protein açısından zengindir."
         },
         {
             "en": "cream",
@@ -4481,8 +4013,7 @@ const DICTIONARY = {
             "tr": "krema",
             "en_": "He poured cream into his coffee.",
             "es_": "Vertió nata en su café.",
-            "tr_": "Kahvesine krema döktü.",
-            "type": "noun"
+            "tr_": "Kahvesine krema döktü."
         },
         {
             "en": "milk",
@@ -4490,8 +4021,7 @@ const DICTIONARY = {
             "tr": "süt",
             "en_": "She drinks a glass of milk every night.",
             "es_": "Bebe un vaso de leche cada noche.",
-            "tr_": "Her gece bir bardak süt içer.",
-            "type": "noun"
+            "tr_": "Her gece bir bardak süt içer."
         },
         {
             "en": "margarine",
@@ -4499,8 +4029,7 @@ const DICTIONARY = {
             "tr": "margarin",
             "en_": "Margarine is often used as a butter substitute.",
             "es_": "La margarina se usa a menudo como sustituto de la mantequilla.",
-            "tr_": "Margarin genellikle tereyağı yerine kullanılır.",
-            "type": "noun"
+            "tr_": "Margarin genellikle tereyağı yerine kullanılır."
         },
         {
             "en": "yogurt",
@@ -4508,8 +4037,7 @@ const DICTIONARY = {
             "tr": "yoğurt",
             "en_": "He eats yogurt with fruit for breakfast.",
             "es_": "Come yogur con fruta en el desayuno.",
-            "tr_": "Kahvaltıda meyveli yoğurt yer.",
-            "type": "noun"
+            "tr_": "Kahvaltıda meyveli yoğurt yer."
         },
         {
             "en": "honey",
@@ -4517,8 +4045,7 @@ const DICTIONARY = {
             "tr": "bal",
             "en_": "I like honey in my tea.",
             "es_": "Me gusta la miel en mi té.",
-            "tr_": "Çayıma bal koymayı severim.",
-            "type": "noun"
+            "tr_": "Çayıma bal koymayı severim."
         },
         {
             "en": "egg",
@@ -4526,8 +4053,7 @@ const DICTIONARY = {
             "tr": "yumurta",
             "en_": "He boiled two eggs.",
             "es_": "Hirvió dos huevos.",
-            "tr_": "İki yumurta haşladı.",
-            "type": "noun"
+            "tr_": "İki yumurta haşladı."
         },
         {
             "en": "jam",
@@ -4535,8 +4061,7 @@ const DICTIONARY = {
             "tr": "reçel",
             "en_": "She spread strawberry jam on the toast.",
             "es_": "Untó mermelada de fresa en la tostada.",
-            "tr_": "Kızarmış ekmeğe çilek reçeli sürdü.",
-            "type": "noun"
+            "tr_": "Kızarmış ekmeğe çilek reçeli sürdü."
         },
         {
             "en": "sugar",
@@ -4544,8 +4069,7 @@ const DICTIONARY = {
             "tr": "şeker",
             "en_": "Do you want sugar in your coffee?",
             "es_": "¿Quieres azúcar en tu café?",
-            "tr_": "Kahvene şeker ister misin?",
-            "type": "noun"
+            "tr_": "Kahvene şeker ister misin?"
         },
         {
             "en": "flour",
@@ -4553,8 +4077,7 @@ const DICTIONARY = {
             "tr": "un",
             "en_": "She needs flour to bake the cake.",
             "es_": "Necesita harina para hornear el pastel.",
-            "tr_": "Kek yapmak için una ihtiyacı var.",
-            "type": "noun"
+            "tr_": "Kek yapmak için una ihtiyacı var."
         },
         {
             "en": "oil",
@@ -4562,8 +4085,7 @@ const DICTIONARY = {
             "tr": "yağ",
             "en_": "Heat the oil before adding the vegetables.",
             "es_": "Calienta el aceite antes de añadir las verduras.",
-            "tr_": "Sebzeleri eklemeden önce yağı ısıt.",
-            "type": "noun"
+            "tr_": "Sebzeleri eklemeden önce yağı ısıt."
         },
         {
             "en": "salt",
@@ -4571,8 +4093,7 @@ const DICTIONARY = {
             "tr": "tuz",
             "en_": "Add a pinch of salt.",
             "es_": "Agrega una pizca de sal.",
-            "tr_": "Bir tutam tuz ekle.",
-            "type": "noun"
+            "tr_": "Bir tutam tuz ekle."
         },
         {
             "en": "vinegar",
@@ -4580,8 +4101,7 @@ const DICTIONARY = {
             "tr": "sirke",
             "en_": "Add some vinegar to the salad.",
             "es_": "Agrega un poco de vinagre a la ensalada.",
-            "tr_": "Salataya biraz sirke ekle.",
-            "type": "noun"
+            "tr_": "Salataya biraz sirke ekle."
         },
         {
             "en": "pepper",
@@ -4589,8 +4109,7 @@ const DICTIONARY = {
             "tr": "biber",
             "en_": "She put black pepper on her eggs.",
             "es_": "Le puso pimienta negra a sus huevos.",
-            "tr_": "Yumurtasının üzerine karabiber koydu.",
-            "type": "noun"
+            "tr_": "Yumurtasının üzerine karabiber koydu."
         },
         {
             "en": "seasoning",
@@ -4598,8 +4117,7 @@ const DICTIONARY = {
             "tr": "çeşni",
             "en_": "This soup needs more seasoning.",
             "es_": "A esta sopa le faltan condimentos.",
-            "tr_": "Bu çorbanın biraz daha çeşniye ihtiyacı var.",
-            "type": "noun"
+            "tr_": "Bu çorbanın biraz daha çeşniye ihtiyacı var."
         },
         {
             "en": "mustard",
@@ -4607,8 +4125,7 @@ const DICTIONARY = {
             "tr": "hardal",
             "en_": "Would you like mustard on your sandwich?",
             "es_": "¿Quieres mostaza en tu sándwich?",
-            "tr_": "Sandviçine hardal ister misin?",
-            "type": "noun"
+            "tr_": "Sandviçine hardal ister misin?"
         },
         {
             "en": "frozen food",
@@ -4616,8 +4133,7 @@ const DICTIONARY = {
             "tr": "dondurulmuş gıda",
             "en_": "He always buys frozen food for quick meals.",
             "es_": "Siempre compra productos congelados para comidas rápidas.",
-            "tr_": "Hızlı yemekler için hep dondurulmuş gıda alır.",
-            "type": "noun"
+            "tr_": "Hızlı yemekler için hep dondurulmuş gıda alır."
         },
         {
             "en": "spices",
@@ -4625,8 +4141,7 @@ const DICTIONARY = {
             "tr": "baharatlar",
             "en_": "Indian food uses a lot of spices.",
             "es_": "La comida india usa muchas especias.",
-            "tr_": "Hint yemekleri çok fazla baharat kullanır.",
-            "type": "noun"
+            "tr_": "Hint yemekleri çok fazla baharat kullanır."
         },
         {
             "en": "rice",
@@ -4634,8 +4149,7 @@ const DICTIONARY = {
             "tr": "pirinç",
             "en_": "Rice is a common side dish.",
             "es_": "El arroz es un acompañamiento común.",
-            "tr_": "Pirinç yaygın bir yan yemektir.",
-            "type": "noun"
+            "tr_": "Pirinç yaygın bir yan yemektir."
         },
         {
             "en": "canned products",
@@ -4643,8 +4157,7 @@ const DICTIONARY = {
             "tr": "konserve ürünler",
             "en_": "Canned products are convenient for storage.",
             "es_": "Los productos en lata son prácticos para guardar.",
-            "tr_": "Konserve ürünler saklama açısından kullanışlıdır.",
-            "type": "noun"
+            "tr_": "Konserve ürünler saklama açısından kullanışlıdır."
         },
         {
             "en": "chocolate",
@@ -4652,8 +4165,7 @@ const DICTIONARY = {
             "tr": "çikolata",
             "en_": "Children love chocolate.",
             "es_": "A los niños les encanta el chocolate.",
-            "tr_": "Çocuklar çikolatayı çok sever.",
-            "type": "noun"
+            "tr_": "Çocuklar çikolatayı çok sever."
         },
         {
             "en": "cookie",
@@ -4661,8 +4173,7 @@ const DICTIONARY = {
             "tr": "kurabiye",
             "en_": "She baked chocolate chip cookies.",
             "es_": "Hizo galletas con chispas de chocolate.",
-            "tr_": "Çikolata parçacıklı kurabiyeler yaptı.",
-            "type": "noun"
+            "tr_": "Çikolata parçacıklı kurabiyeler yaptı."
         },
         {
             "en": "icecream",
@@ -4670,8 +4181,7 @@ const DICTIONARY = {
             "tr": "dondurma",
             "en_": "I want a scoop of vanilla ice cream.",
             "es_": "Quiero una bola de helado de vainilla.",
-            "tr_": "Bir top vanilyalı dondurma istiyorum.",
-            "type": "noun"
+            "tr_": "Bir top vanilyalı dondurma istiyorum."
         },
         {
             "en": "receipe",
@@ -4679,8 +4189,7 @@ const DICTIONARY = {
             "tr": "reçete",
             "en_": "This recipe is easy to follow.",
             "es_": "Esta receta es fácil de seguir.",
-            "tr_": "Bu tarif uygulanması kolay.",
-            "type": "noun"
+            "tr_": "Bu tarif uygulanması kolay."
         },
         {
             "en": "ingredient",
@@ -4688,8 +4197,7 @@ const DICTIONARY = {
             "tr": "içerik",
             "en_": "Flour is a basic ingredient in baking.",
             "es_": "La harina es un ingrediente básico en la repostería.",
-            "tr_": "Un, pastacılıkta temel bir içeriktir.",
-            "type": "noun"
+            "tr_": "Un, pastacılıkta temel bir içeriktir."
         },
         {
             "en": "to taste",
@@ -4697,8 +4205,7 @@ const DICTIONARY = {
             "tr": "tadına bakmak",
             "en_": "Would you like to taste the soup?",
             "es_": "¿Quieres probar la sopa?",
-            "tr_": "Çorbanın tadına bakmak ister misin?",
-            "type": "verb"
+            "tr_": "Çorbanın tadına bakmak ister misin?"
         },
         {
             "en": "flavor [taste]",
@@ -4706,8 +4213,7 @@ const DICTIONARY = {
             "tr": "tat [lezzet]",
             "en_": "This cake has a rich flavor.",
             "es_": "Este pastel tiene un sabor intenso.",
-            "tr_": "Bu pastanın yoğun bir tadı var.",
-            "type": "noun"
+            "tr_": "Bu pastanın yoğun bir tadı var."
         },
         {
             "en": "delicious",
@@ -4715,8 +4221,7 @@ const DICTIONARY = {
             "tr": "lezzetli",
             "en_": "The pasta was delicious!",
             "es_": "¡La pasta estaba riquísima!",
-            "tr_": "Makarna çok lezzetliydi!",
-            "type": "adjective"
+            "tr_": "Makarna çok lezzetliydi!"
         }
     ],
     "Pastimes" : [
@@ -4726,8 +4231,7 @@ const DICTIONARY = {
             "tr": "televizyon izlemek",
             "en_": "We usually watch television after dinner.",
             "es_": "Normalmente miramos la televisión después de cenar.",
-            "tr_": "Genellikle akşam yemeğinden sonra televizyon izleriz.",
-            "type": "verb"
+            "tr_": "Genellikle akşam yemeğinden sonra televizyon izleriz."
         },
         {
             "en": "channel",
@@ -4735,8 +4239,7 @@ const DICTIONARY = {
             "tr": "kanal",
             "en_": "I changed the channel during the commercials.",
             "es_": "Cambié la cadena durante los comerciales.",
-            "tr_": "Reklamlar sırasında kanalı değiştirdim.",
-            "type": "noun"
+            "tr_": "Reklamlar sırasında kanalı değiştirdim."
         },
         {
             "en": "program",
@@ -4744,8 +4247,7 @@ const DICTIONARY = {
             "tr": "program",
             "en_": "This program is very popular among teenagers.",
             "es_": "Este programa es muy popular entre los adolescentes.",
-            "tr_": "Bu program gençler arasında çok popüler.",
-            "type": "noun"
+            "tr_": "Bu program gençler arasında çok popüler."
         },
         {
             "en": "to listen to radio",
@@ -4753,8 +4255,7 @@ const DICTIONARY = {
             "tr": "radyo dinlemek",
             "en_": "My dad listens to the radio while driving.",
             "es_": "Mi padre escucha la radio mientras conduce.",
-            "tr_": "Babam araba sürerken radyo dinler.",
-            "type": "verb"
+            "tr_": "Babam araba sürerken radyo dinler."
         },
         {
             "en": "headphones",
@@ -4762,8 +4263,7 @@ const DICTIONARY = {
             "tr": "kulaklık",
             "en_": "I always carry my headphones in my bag.",
             "es_": "Siempre llevo mis auriculares en mi bolso.",
-            "tr_": "Kulaklığımı her zaman çantamda taşırım.",
-            "type": "noun"
+            "tr_": "Kulaklığımı her zaman çantamda taşırım."
         },
         {
             "en": "to listen to music",
@@ -4771,8 +4271,7 @@ const DICTIONARY = {
             "tr": "müzik dinlemek",
             "en_": "She listens to music to relax.",
             "es_": "Escucha música para relajarse.",
-            "tr_": "Rahatlamak için müzik dinler.",
-            "type": "verb"
+            "tr_": "Rahatlamak için müzik dinler."
         },
         {
             "en": "to read",
@@ -4780,8 +4279,7 @@ const DICTIONARY = {
             "tr": "okumak",
             "en_": "I like to read before going to sleep.",
             "es_": "Me gusta leer antes de dormir.",
-            "tr_": "Uyumadan önce okumayı severim.",
-            "type": "verb"
+            "tr_": "Uyumadan önce okumayı severim."
         },
         {
             "en": "novel",
@@ -4789,8 +4287,7 @@ const DICTIONARY = {
             "tr": "roman",
             "en_": "She is reading a romantic novel.",
             "es_": "Está leyendo una novela romántica.",
-            "tr_": "Romantik bir roman okuyor.",
-            "type": "noun"
+            "tr_": "Romantik bir roman okuyor."
         },
         {
             "en": "newspaper",
@@ -4798,8 +4295,7 @@ const DICTIONARY = {
             "tr": "gazete",
             "en_": "He reads the newspaper every morning.",
             "es_": "Lee el periódico todas las mañanas.",
-            "tr_": "Her sabah gazete okur.",
-            "type": "noun"
+            "tr_": "Her sabah gazete okur."
         },
         {
             "en": "magazine",
@@ -4807,8 +4303,7 @@ const DICTIONARY = {
             "tr": "magazin",
             "en_": "She bought a fashion magazine.",
             "es_": "Compró una revista de moda.",
-            "tr_": "Bir moda dergisi aldı.",
-            "type": "noun"
+            "tr_": "Bir moda dergisi aldı."
         },
         {
             "en": "comic",
@@ -4816,8 +4311,7 @@ const DICTIONARY = {
             "tr": "çizgi roman",
             "en_": "He loves reading superhero comics.",
             "es_": "Le encanta leer tebeos de superhéroes.",
-            "tr_": "Süper kahraman çizgi romanları okumayı çok seviyor.",
-            "type": "noun"
+            "tr_": "Süper kahraman çizgi romanları okumayı çok seviyor."
         },
         {
             "en": "poetry",
@@ -4825,8 +4319,7 @@ const DICTIONARY = {
             "tr": "şiir",
             "en_": "She writes poetry in her free time.",
             "es_": "Escribe poesía en su tiempo libre.",
-            "tr_": "Boş zamanlarında şiir yazar.",
-            "type": "noun"
+            "tr_": "Boş zamanlarında şiir yazar."
         },
         {
             "en": "knit",
@@ -4834,8 +4327,7 @@ const DICTIONARY = {
             "tr": "örgü örmek",
             "en_": "My grandmother taught me how to knit.",
             "es_": "Mi abuela me enseñó a hacer punto.",
-            "tr_": "Bana örgü örmeyi büyükannem öğretti.",
-            "type": "verb"
+            "tr_": "Bana örgü örmeyi büyükannem öğretti."
         },
         {
             "en": "needle",
@@ -4843,8 +4335,7 @@ const DICTIONARY = {
             "tr": "iğne",
             "en_": "Be careful with the needle, it's sharp.",
             "es_": "Ten cuidado con la aguja, está afilada.",
-            "tr_": "İğneye dikkat et, keskindir.",
-            "type": "noun"
+            "tr_": "İğneye dikkat et, keskindir."
         },
         {
             "en": "pattern",
@@ -4852,8 +4343,7 @@ const DICTIONARY = {
             "tr": "desen",
             "en_": "She followed a pattern to make the sweater.",
             "es_": "Siguió un patrón para hacer el suéter.",
-            "tr_": "Kazağı yapmak için bir deseni takip etti.",
-            "type": "noun"
+            "tr_": "Kazağı yapmak için bir deseni takip etti."
         },
         {
             "en": "wool",
@@ -4861,8 +4351,7 @@ const DICTIONARY = {
             "tr": "yün",
             "en_": "This scarf is made of soft wool.",
             "es_": "Esta bufanda está hecha de lana suave.",
-            "tr_": "Bu atkı yumuşak yünden yapılmış.",
-            "type": "noun"
+            "tr_": "Bu atkı yumuşak yünden yapılmış."
         },
         {
             "en": "to sew",
@@ -4870,8 +4359,7 @@ const DICTIONARY = {
             "tr": "dikmek",
             "en_": "She sews her own clothes.",
             "es_": "Cose su propia ropa.",
-            "tr_": "Kendi kıyafetlerini diker.",
-            "type": "verb"
+            "tr_": "Kendi kıyafetlerini diker."
         },
         {
             "en": "fabric",
@@ -4879,8 +4367,7 @@ const DICTIONARY = {
             "tr": "kumaş",
             "en_": "I bought some fabric for a dress.",
             "es_": "Compré tela para un vestido.",
-            "tr_": "Bir elbise için kumaş aldım.",
-            "type": "noun"
+            "tr_": "Bir elbise için kumaş aldım."
         },
         {
             "en": "thread",
@@ -4888,8 +4375,7 @@ const DICTIONARY = {
             "tr": "iplik",
             "en_": "The thread broke while I was sewing.",
             "es_": "El hilo se rompió mientras cosía.",
-            "tr_": "Dikerken iplik koptu.",
-            "type": "noun"
+            "tr_": "Dikerken iplik koptu."
         },
         {
             "en": "scissors",
@@ -4897,8 +4383,7 @@ const DICTIONARY = {
             "tr": "makas",
             "en_": "Use sharp scissors to cut the paper.",
             "es_": "Usa tijeras afiladas para cortar el papel.",
-            "tr_": "Kağıdı kesmek için keskin makas kullan.",
-            "type": "noun"
+            "tr_": "Kağıdı kesmek için keskin makas kullan."
         },
         {
             "en": "pin",
@@ -4906,8 +4391,7 @@ const DICTIONARY = {
             "tr": "toplu iğne",
             "en_": "She used a pin to hold the fabric in place.",
             "es_": "Usó un alfiler para sujetar la tela.",
-            "tr_": "Kumaşı sabitlemek için toplu iğne kullandı.",
-            "type": "noun"
+            "tr_": "Kumaşı sabitlemek için toplu iğne kullandı."
         },
         {
             "en": "elastic band",
@@ -4915,8 +4399,7 @@ const DICTIONARY = {
             "tr": "lastik",
             "en_": "Tie the bundle with an elastic band.",
             "es_": "Ata el paquete con una cinta elástica.",
-            "tr_": "Demeti bir lastikle bağla.",
-            "type": "noun"
+            "tr_": "Demeti bir lastikle bağla."
         },
         {
             "en": "woodwork",
@@ -4924,8 +4407,7 @@ const DICTIONARY = {
             "tr": "marangozluk",
             "en_": "He learned woodwork in high school.",
             "es_": "Aprendió carpintería en la escuela secundaria.",
-            "tr_": "Lisede marangozluk öğrendi.",
-            "type": "noun"
+            "tr_": "Lisede marangozluk öğrendi."
         },
         {
             "en": "skillful",
@@ -4933,8 +4415,7 @@ const DICTIONARY = {
             "tr": "yetenekli",
             "en_": "She is a skillful craftswoman.",
             "es_": "Es una artesana hábil.",
-            "tr_": "O yetenekli bir zanaatkâr.",
-            "type": "adjective"
+            "tr_": "O yetenekli bir zanaatkâr."
         },
         {
             "en": "saw",
@@ -4942,8 +4423,7 @@ const DICTIONARY = {
             "tr": "testere",
             "en_": "Use a saw to cut the wood.",
             "es_": "Usa una sierra para cortar la madera.",
-            "tr_": "Odunu kesmek için testere kullan.",
-            "type": "noun"
+            "tr_": "Odunu kesmek için testere kullan."
         },
         {
             "en": "to make",
@@ -4951,8 +4431,7 @@ const DICTIONARY = {
             "tr": "yapmak",
             "en_": "We will make a wooden table.",
             "es_": "Vamos a hacer una mesa de madera.",
-            "tr_": "Ahşap bir masa yapacağız.",
-            "type": "verb"
+            "tr_": "Ahşap bir masa yapacağız."
         },
         {
             "en": "hammer",
@@ -4960,8 +4439,7 @@ const DICTIONARY = {
             "tr": "çekiç",
             "en_": "He hit the nail with a hammer.",
             "es_": "Golpeó el clavo con un martillo.",
-            "tr_": "Çiviyi çekiçle çaktı.",
-            "type": "noun"
+            "tr_": "Çiviyi çekiçle çaktı."
         },
         {
             "en": "repair",
@@ -4969,8 +4447,7 @@ const DICTIONARY = {
             "tr": "tamir etmek",
             "en_": "Can you repair this broken chair?",
             "es_": "¿Puedes reparar esta silla rota?",
-            "tr_": "Bu kırık sandalyeyi tamir edebilir misin?",
-            "type": "verb"
+            "tr_": "Bu kırık sandalyeyi tamir edebilir misin?"
         },
         {
             "en": "screw",
@@ -4978,8 +4455,7 @@ const DICTIONARY = {
             "tr": "vida",
             "en_": "I need a screw to fix the hinge.",
             "es_": "Necesito un tornillo para fijar la bisagra.",
-            "tr_": "Menteşeyi sabitlemek için bir vida lazım.",
-            "type": "noun"
+            "tr_": "Menteşeyi sabitlemek için bir vida lazım."
         },
         {
             "en": "screwdriver",
@@ -4987,8 +4463,7 @@ const DICTIONARY = {
             "tr": "tornavida",
             "en_": "Hand me the screwdriver, please.",
             "es_": "Pásame el atornillador, por favor.",
-            "tr_": "Tornavidayı uzatır mısın lütfen?",
-            "type": "noun"
+            "tr_": "Tornavidayı uzatır mısın lütfen?"
         },
         {
             "en": "photography",
@@ -4996,8 +4471,7 @@ const DICTIONARY = {
             "tr": "fotoğrafçılık",
             "en_": "Photography captures moments that last forever.",
             "es_": "La fotografía captura momentos que duran para siempre.",
-            "tr_": "Fotoğrafçılık, sonsuza dek süren anları yakalar.",
-            "type": "noun"
+            "tr_": "Fotoğrafçılık, sonsuza dek süren anları yakalar."
         },
         {
             "en": "to take a photograph",
@@ -5005,8 +4479,7 @@ const DICTIONARY = {
             "tr": "fotoğraf çekmek",
             "en_": "He likes to take a photograph of nature.",
             "es_": "Le gusta tomar una foto de la naturaleza.",
-            "tr_": "Doğanın fotoğrafını çekmeyi seviyor.",
-            "type": "verb"
+            "tr_": "Doğanın fotoğrafını çekmeyi seviyor."
         },
         {
             "en": "camera",
@@ -5014,8 +4487,7 @@ const DICTIONARY = {
             "tr": "fotoğraf makinesi",
             "en_": "She bought a new camera last week.",
             "es_": "Ella compró una nueva máquina fotográfica la semana pasada.",
-            "tr_": "Geçen hafta yeni bir fotoğraf makinesi aldı.",
-            "type": "noun"
+            "tr_": "Geçen hafta yeni bir fotoğraf makinesi aldı."
         },
         {
             "en": "video camera",
@@ -5023,8 +4495,7 @@ const DICTIONARY = {
             "tr": "kamera",
             "en_": "The video camera recorded the entire event.",
             "es_": "La máquina de vídeo grabó todo el evento.",
-            "tr_": "Kamera tüm etkinliği kaydetti.",
-            "type": "noun"
+            "tr_": "Kamera tüm etkinliği kaydetti."
         },
         {
             "en": "movie",
@@ -5032,8 +4503,7 @@ const DICTIONARY = {
             "tr": "film",
             "en_": "We watched a great movie last night.",
             "es_": "Vimos una gran película anoche.",
-            "tr_": "Dün gece harika bir film izledik.",
-            "type": "noun"
+            "tr_": "Dün gece harika bir film izledik."
         },
         {
             "en": "photograph",
@@ -5041,8 +4511,7 @@ const DICTIONARY = {
             "tr": "fotoğraf",
             "en_": "This photograph was taken during our vacation.",
             "es_": "Esta foto fue tomada durante nuestras vacaciones.",
-            "tr_": "Bu fotoğraf tatilimiz sırasında çekildi.",
-            "type": "noun"
+            "tr_": "Bu fotoğraf tatilimiz sırasında çekildi."
         },
         {
             "en": "in focus",
@@ -5050,8 +4519,7 @@ const DICTIONARY = {
             "tr": "odakta",
             "en_": "The picture is sharp and in focus.",
             "es_": "La imagen está nítida y en foco.",
-            "tr_": "Resim net ve odakta.",
-            "type": "expression"
+            "tr_": "Resim net ve odakta."
         },
         {
             "en": "out of focus",
@@ -5059,8 +4527,7 @@ const DICTIONARY = {
             "tr": "odak dışı",
             "en_": "The photo is blurry and out of focus.",
             "es_": "La foto está borrosa y fuera de foco.",
-            "tr_": "Fotoğraf bulanık ve odak dışı.",
-            "type": "expression"
+            "tr_": "Fotoğraf bulanık ve odak dışı."
         },
         {
             "en": "art gallery",
@@ -5068,8 +4535,7 @@ const DICTIONARY = {
             "tr": "sanat galerisi",
             "en_": "We visited the art gallery last weekend.",
             "es_": "Visitamos la galería de arte el fin de semana pasado.",
-            "tr_": "Geçen hafta sonu sanat galerisine gittik.",
-            "type": "noun"
+            "tr_": "Geçen hafta sonu sanat galerisine gittik."
         },
         {
             "en": "painter",
@@ -5077,8 +4543,7 @@ const DICTIONARY = {
             "tr": "ressam",
             "en_": "The painter created a beautiful portrait.",
             "es_": "El pintor creó un retrato hermoso.",
-            "tr_": "Ressam güzel bir portre yaptı.",
-            "type": "noun"
+            "tr_": "Ressam güzel bir portre yaptı."
         },
         {
             "en": "painting",
@@ -5086,8 +4551,7 @@ const DICTIONARY = {
             "tr": "tablo",
             "en_": "The painting hangs in the museum.",
             "es_": "El cuadro cuelga en el museo.",
-            "tr_": "Tablo müzede asılı duruyor.",
-            "type": "noun"
+            "tr_": "Tablo müzede asılı duruyor."
         },
         {
             "en": "to paint",
@@ -5095,8 +4559,7 @@ const DICTIONARY = {
             "tr": "boyamak",
             "en_": "She likes to paint landscapes.",
             "es_": "A ella le gusta pintar paisajes.",
-            "tr_": "O, manzara boyamayı sever.",
-            "type": "verb"
+            "tr_": "O, manzara boyamayı sever."
         },
         {
             "en": "exhibition",
@@ -5104,8 +4567,7 @@ const DICTIONARY = {
             "tr": "sergi",
             "en_": "The exhibition attracted many visitors.",
             "es_": "La exposición atrajo a muchos visitantes.",
-            "tr_": "Sergi birçok ziyaretçi çekti.",
-            "type": "noun"
+            "tr_": "Sergi birçok ziyaretçi çekti."
         },
         {
             "en": "brush",
@@ -5113,8 +4575,7 @@ const DICTIONARY = {
             "tr": "fırça",
             "en_": "He used a brush to paint the wall.",
             "es_": "Él usó un pincel para pintar la pared.",
-            "tr_": "Duvarı boyamak için fırça kullandı.",
-            "type": "noun"
+            "tr_": "Duvarı boyamak için fırça kullandı."
         },
         {
             "en": "paint",
@@ -5122,8 +4583,7 @@ const DICTIONARY = {
             "tr": "resim",
             "en_": "The paint on the canvas is fresh.",
             "es_": "La pintura en el lienzo está fresca.",
-            "tr_": "Tuvaldeki resim taze.",
-            "type": "noun"
+            "tr_": "Tuvaldeki resim taze."
         },
         {
             "en": "to sort [to arrange]",
@@ -5131,8 +4591,7 @@ const DICTIONARY = {
             "tr": "düzenlemek",
             "en_": "She sorts the photos by date.",
             "es_": "Ella ordena las fotos por fecha.",
-            "tr_": "Fotoğrafları tarihe göre düzenler.",
-            "type": "verb"
+            "tr_": "Fotoğrafları tarihe göre düzenler."
         },
         {
             "en": "to stick",
@@ -5140,8 +4599,7 @@ const DICTIONARY = {
             "tr": "yapıştırmak",
             "en_": "He sticks the poster on the wall.",
             "es_": "Él pega el póster en la pared.",
-            "tr_": "Poster duvara yapıştırıyor.",
-            "type": "verb"
+            "tr_": "Poster duvara yapıştırıyor."
         },
         {
             "en": "collection",
@@ -5149,8 +4607,7 @@ const DICTIONARY = {
             "tr": "kolleksiyon",
             "en_": "She has a large collection of stamps.",
             "es_": "Ella tiene una gran colección de sellos.",
-            "tr_": "Onun büyük bir pul kolleksiyonu var.",
-            "type": "noun"
+            "tr_": "Onun büyük bir pul kolleksiyonu var."
         },
         {
             "en": "to collect stamps",
@@ -5158,8 +4615,7 @@ const DICTIONARY = {
             "tr": "pul toplamak",
             "en_": "He likes to collect stamps as a hobby.",
             "es_": "A él le gusta coleccionar sellos como pasatiempo.",
-            "tr_": "O, hobi olarak pul toplamayı sever.",
-            "type": "verb"
+            "tr_": "O, hobi olarak pul toplamayı sever."
         },
         {
             "en": "musician",
@@ -5167,8 +4623,7 @@ const DICTIONARY = {
             "tr": "müzisyen",
             "en_": "The musician played the guitar beautifully.",
             "es_": "El músico tocó la guitarra maravillosamente.",
-            "tr_": "Müzisyen gitarı çok güzel çaldı.",
-            "type": "noun"
+            "tr_": "Müzisyen gitarı çok güzel çaldı."
         },
         {
             "en": "instrument",
@@ -5176,8 +4631,7 @@ const DICTIONARY = {
             "tr": "enstrüman",
             "en_": "She is learning to play a musical instrument.",
             "es_": "Ella está aprendiendo a tocar un instrumento musical.",
-            "tr_": "O, müzik enstrümanı çalmayı öğreniyor.",
-            "type": "noun"
+            "tr_": "O, müzik enstrümanı çalmayı öğreniyor."
         },
         {
             "en": "to play",
@@ -5185,8 +4639,7 @@ const DICTIONARY = {
             "tr": "çalmak",
             "en_": "He can play the piano very well.",
             "es_": "Él puede tocar el piano muy bien.",
-            "tr_": "O, piyano çok iyi çalabilir.",
-            "type": "verb"
+            "tr_": "O, piyano çok iyi çalabilir."
         },
         {
             "en": "violin",
@@ -5194,8 +4647,7 @@ const DICTIONARY = {
             "tr": "keman",
             "en_": "She bought a new violin yesterday.",
             "es_": "Ella compró un violín nuevo ayer.",
-            "tr_": "O, dün yeni bir keman aldı.",
-            "type": "noun"
+            "tr_": "O, dün yeni bir keman aldı."
         },
         {
             "en": "piano",
@@ -5203,8 +4655,7 @@ const DICTIONARY = {
             "tr": "piyano",
             "en_": "The piano is in the living room.",
             "es_": "El piano está en la sala de estar.",
-            "tr_": "Piyano oturma odasında.",
-            "type": "noun"
+            "tr_": "Piyano oturma odasında."
         },
         {
             "en": "guitar",
@@ -5212,8 +4663,7 @@ const DICTIONARY = {
             "tr": "gitar",
             "en_": "He plays the guitar every weekend.",
             "es_": "Él toca la guitarra todos los fines de semana.",
-            "tr_": "O, her hafta sonu gitar çalar.",
-            "type": "noun"
+            "tr_": "O, her hafta sonu gitar çalar."
         },
         {
             "en": "drums",
@@ -5221,8 +4671,7 @@ const DICTIONARY = {
             "tr": "davullar",
             "en_": "The drummer hits the drums loudly.",
             "es_": "El baterista toca los tambores fuerte.",
-            "tr_": "Davulcu davulları yüksek sesle çalar.",
-            "type": "noun"
+            "tr_": "Davulcu davulları yüksek sesle çalar."
         },
         {
             "en": "trumpet",
@@ -5230,8 +4679,7 @@ const DICTIONARY = {
             "tr": "trompet",
             "en_": "He practiced the trumpet for hours.",
             "es_": "Él practicó la trompeta por horas.",
-            "tr_": "O, saatlerce trompet çalıştı.",
-            "type": "noun"
+            "tr_": "O, saatlerce trompet çalıştı."
         },
         {
             "en": "cello",
@@ -5239,8 +4687,7 @@ const DICTIONARY = {
             "tr": "çello",
             "en_": "The cello sounds very deep and rich.",
             "es_": "El violonchelo suena muy profundo y rico.",
-            "tr_": "Çello çok derin ve zengin ses çıkarır.",
-            "type": "noun"
+            "tr_": "Çello çok derin ve zengin ses çıkarır."
         },
         {
             "en": "orchestra",
@@ -5248,8 +4695,7 @@ const DICTIONARY = {
             "tr": "orkestra",
             "en_": "The orchestra performed a classical piece.",
             "es_": "La orquesta interpretó una pieza clásica.",
-            "tr_": "Orkestra klasik bir eser seslendirdi.",
-            "type": "noun"
+            "tr_": "Orkestra klasik bir eser seslendirdi."
         },
         {
             "en": "to sing",
@@ -5257,8 +4703,7 @@ const DICTIONARY = {
             "tr": "şarkı söylemek",
             "en_": "She loves to sing in the choir.",
             "es_": "A ella le encanta cantar en el coro.",
-            "tr_": "O, koroda şarkı söylemeyi sever.",
-            "type": "verb"
+            "tr_": "O, koroda şarkı söylemeyi sever."
         },
         {
             "en": "melody",
@@ -5266,8 +4711,7 @@ const DICTIONARY = {
             "tr": "melodi",
             "en_": "The melody of the song is very catchy.",
             "es_": "La melodía de la canción es muy pegajosa.",
-            "tr_": "Şarkının melodisi çok akılda kalıcı.",
-            "type": "noun"
+            "tr_": "Şarkının melodisi çok akılda kalıcı."
         },
         {
             "en": "choir",
@@ -5275,8 +4719,7 @@ const DICTIONARY = {
             "tr": "koro",
             "en_": "The choir practiced all week for the concert.",
             "es_": "El coro practicó toda la semana para el concierto.",
-            "tr_": "Koro konser için bütün hafta prova yaptı.",
-            "type": "noun"
+            "tr_": "Koro konser için bütün hafta prova yaptı."
         },
         {
             "en": "game",
@@ -5284,8 +4727,7 @@ const DICTIONARY = {
             "tr": "oyun",
             "en_": "They played a fun game yesterday.",
             "es_": "Jugaron un juego divertido ayer.",
-            "tr_": "Dün eğlenceli bir oyun oynadılar.",
-            "type": "noun"
+            "tr_": "Dün eğlenceli bir oyun oynadılar."
         },
         {
             "en": "to play cards",
@@ -5293,8 +4735,7 @@ const DICTIONARY = {
             "tr": "iskambil oynamak",
             "en_": "We play cards every Friday night.",
             "es_": "Jugamos a las cartas todos los viernes por la noche.",
-            "tr_": "Biz her cuma gecesi iskambil oynarız.",
-            "type": "verb"
+            "tr_": "Biz her cuma gecesi iskambil oynarız."
         },
         {
             "en": "to play checkers",
@@ -5302,8 +4743,7 @@ const DICTIONARY = {
             "tr": "dama oynamak",
             "en_": "They play checkers after school.",
             "es_": "Juegan a las damas después de la escuela.",
-            "tr_": "Onlar okuldan sonra dama oynarlar.",
-            "type": "verb"
+            "tr_": "Onlar okuldan sonra dama oynarlar."
         },
         {
             "en": "to play chess",
@@ -5311,8 +4751,7 @@ const DICTIONARY = {
             "tr": "satranç oynamak",
             "en_": "He likes to play chess on weekends.",
             "es_": "Le gusta jugar al ajedrez los fines de semana.",
-            "tr_": "O, hafta sonları satranç oynamayı sever.",
-            "type": "verb"
+            "tr_": "O, hafta sonları satranç oynamayı sever."
         },
         {
             "en": "board games",
@@ -5320,8 +4759,7 @@ const DICTIONARY = {
             "tr": "masa oyunları",
             "en_": "We enjoy playing board games as a family.",
             "es_": "Disfrutamos jugar a los juegos de tablero en familia.",
-            "tr_": "Biz ailece masa oyunları oynamaktan keyif alırız.",
-            "type": "noun"
+            "tr_": "Biz ailece masa oyunları oynamaktan keyif alırız."
         }
     ],
     "Going out" : [
@@ -5331,8 +4769,7 @@ const DICTIONARY = {
             "tr": "sinema",
             "en_": "We went to the cinema last night.",
             "es_": "Fuimos al cine anoche.",
-            "tr_": "Dün gece sinemaya gittik.",
-            "type": "noun"
+            "tr_": "Dün gece sinemaya gittik."
         },
         {
             "en": "to go to cinema",
@@ -5340,8 +4777,7 @@ const DICTIONARY = {
             "tr": "sinemaya gitmek",
             "en_": "They like to go to cinema on weekends.",
             "es_": "Les gusta ir al cine los fines de semana.",
-            "tr_": "Onlar hafta sonları sinemaya gitmeyi sever.",
-            "type": "verb"
+            "tr_": "Onlar hafta sonları sinemaya gitmeyi sever."
         },
         {
             "en": "film",
@@ -5349,8 +4785,7 @@ const DICTIONARY = {
             "tr": "film",
             "en_": "The film was very exciting.",
             "es_": "La película fue muy emocionante.",
-            "tr_": "Film çok heyecanlıydı.",
-            "type": "noun"
+            "tr_": "Film çok heyecanlıydı."
         },
         {
             "en": "seat",
@@ -5358,8 +4793,7 @@ const DICTIONARY = {
             "tr": "koltuk",
             "en_": "I reserved a seat near the screen.",
             "es_": "Reservé una butaca cerca de la pantalla.",
-            "tr_": "Ekranın yakınında bir koltuk ayırttım.",
-            "type": "noun"
+            "tr_": "Ekranın yakınında bir koltuk ayırttım."
         },
         {
             "en": "box-office",
@@ -5367,8 +4801,7 @@ const DICTIONARY = {
             "tr": "gişe",
             "en_": "We bought tickets at the box-office.",
             "es_": "Compramos entradas en la taquilla.",
-            "tr_": "Biletleri gişeden aldık.",
-            "type": "noun"
+            "tr_": "Biletleri gişeden aldık."
         },
         {
             "en": "dance",
@@ -5376,8 +4809,7 @@ const DICTIONARY = {
             "tr": "dans etmek",
             "en_": "They love to dance at parties.",
             "es_": "Les encanta bailar en las fiestas.",
-            "tr_": "Partilerde dans etmeyi severler.",
-            "type": "verb"
+            "tr_": "Partilerde dans etmeyi severler."
         },
         {
             "en": "dance floor",
@@ -5385,8 +4817,7 @@ const DICTIONARY = {
             "tr": "dans pisti",
             "en_": "The dance floor was crowded last night.",
             "es_": "La pista de baile estuvo llena anoche.",
-            "tr_": "Dans pisti dün gece doluydu.",
-            "type": "noun"
+            "tr_": "Dans pisti dün gece doluydu."
         },
         {
             "en": "theatre",
@@ -5394,8 +4825,7 @@ const DICTIONARY = {
             "tr": "tiyatro",
             "en_": "We watched a play at the theatre.",
             "es_": "Vimos una obra en el teatro.",
-            "tr_": "Tiyatroda bir oyun izledik.",
-            "type": "noun"
+            "tr_": "Tiyatroda bir oyun izledik."
         },
         {
             "en": "scene set",
@@ -5403,8 +4833,7 @@ const DICTIONARY = {
             "tr": "sahne seti",
             "en_": "The scene set was very realistic.",
             "es_": "El decorado de escena fue muy realista.",
-            "tr_": "Sahne seti çok gerçekçiydi.",
-            "type": "noun"
+            "tr_": "Sahne seti çok gerçekçiydi."
         },
         {
             "en": "actress",
@@ -5412,8 +4841,7 @@ const DICTIONARY = {
             "tr": "aktris",
             "en_": "The actress received an award.",
             "es_": "La actriz recibió un premio.",
-            "tr_": "Aktris bir ödül aldı.",
-            "type": "noun"
+            "tr_": "Aktris bir ödül aldı."
         },
         {
             "en": "actor",
@@ -5421,8 +4849,7 @@ const DICTIONARY = {
             "tr": "aktör",
             "en_": "The actor performed brilliantly.",
             "es_": "El actor actuó brillantemente.",
-            "tr_": "Aktör harika performans sergiledi.",
-            "type": "noun"
+            "tr_": "Aktör harika performans sergiledi."
         },
         {
             "en": "scene",
@@ -5430,8 +4857,7 @@ const DICTIONARY = {
             "tr": "sahne",
             "en_": "The scene was very emotional.",
             "es_": "La escena fue muy emotiva.",
-            "tr_": "Sahne çok duygusaldı.",
-            "type": "noun"
+            "tr_": "Sahne çok duygusaldı."
         },
         {
             "en": "audience",
@@ -5439,8 +4865,7 @@ const DICTIONARY = {
             "tr": "seyirci",
             "en_": "The audience applauded loudly.",
             "es_": "El público aplaudió fuertemente.",
-            "tr_": "Seyirci yüksek sesle alkışladı.",
-            "type": "noun"
+            "tr_": "Seyirci yüksek sesle alkışladı."
         },
         {
             "en": "to clap",
@@ -5448,8 +4873,7 @@ const DICTIONARY = {
             "tr": "alkışlamak",
             "en_": "Everyone clapped at the end of the show.",
             "es_": "Todos aplaudieron al final del espectáculo.",
-            "tr_": "Herkes gösterinin sonunda alkışladı.",
-            "type": "verb"
+            "tr_": "Herkes gösterinin sonunda alkışladı."
         },
         {
             "en": "ballet",
@@ -5457,8 +4881,7 @@ const DICTIONARY = {
             "tr": "bale",
             "en_": "The ballet performance was amazing.",
             "es_": "La actuación de ballet fue increíble.",
-            "tr_": "Bale gösterisi harikaydı.",
-            "type": "noun"
+            "tr_": "Bale gösterisi harikaydı."
         },
         {
             "en": "dancer",
@@ -5466,8 +4889,7 @@ const DICTIONARY = {
             "tr": "dansçı",
             "en_": "The dancer practiced every day.",
             "es_": "El bailarín practicó todos los días.",
-            "tr_": "Dansçı her gün çalıştı.",
-            "type": "noun"
+            "tr_": "Dansçı her gün çalıştı."
         },
         {
             "en": "to perform",
@@ -5475,8 +4897,7 @@ const DICTIONARY = {
             "tr": "oynamak",
             "en_": "The band will perform tonight.",
             "es_": "La banda actuará esta noche.",
-            "tr_": "Grup bu gece oynayacak.",
-            "type": "verb"
+            "tr_": "Grup bu gece oynayacak."
         },
         {
             "en": "opera",
@@ -5484,8 +4905,7 @@ const DICTIONARY = {
             "tr": "opera",
             "en_": "We attended an opera last weekend.",
             "es_": "Asistimos a una ópera el fin de semana pasado.",
-            "tr_": "Geçen hafta sonu bir operaya gittik.",
-            "type": "noun"
+            "tr_": "Geçen hafta sonu bir operaya gittik."
         },
         {
             "en": "singer",
@@ -5493,8 +4913,7 @@ const DICTIONARY = {
             "tr": "şarkıcı",
             "en_": "The singer has a beautiful voice.",
             "es_": "El cantante tiene una voz hermosa.",
-            "tr_": "Şarkıcının güzel bir sesi var.",
-            "type": "noun"
+            "tr_": "Şarkıcının güzel bir sesi var."
         },
         {
             "en": "famous",
@@ -5502,8 +4921,7 @@ const DICTIONARY = {
             "tr": "ünlü",
             "en_": "She is a famous actress.",
             "es_": "Ella es una actriz famosa.",
-            "tr_": "O, ünlü bir aktris.",
-            "type": "adjective"
+            "tr_": "O, ünlü bir aktris."
         },
         {
             "en": "restaurant",
@@ -5511,8 +4929,7 @@ const DICTIONARY = {
             "tr": "restoran",
             "en_": "We went to a nice restaurant for dinner.",
             "es_": "Fuimos a un buen restaurante para cenar.",
-            "tr_": "Akşam yemeği için güzel bir restorana gittik.",
-            "type": "noun"
+            "tr_": "Akşam yemeği için güzel bir restorana gittik."
         },
         {
             "en": "waiter",
@@ -5520,8 +4937,7 @@ const DICTIONARY = {
             "tr": "garson",
             "en_": "The waiter took our order quickly.",
             "es_": "El camarero tomó nuestro pedido rápidamente.",
-            "tr_": "Garson siparişimizi hızlıca aldı.",
-            "type": "noun"
+            "tr_": "Garson siparişimizi hızlıca aldı."
         },
         {
             "en": "menu",
@@ -5529,8 +4945,7 @@ const DICTIONARY = {
             "tr": "menü",
             "en_": "The menu had many delicious options.",
             "es_": "El menú tenía muchas opciones deliciosas.",
-            "tr_": "Menüde birçok lezzetli seçenek vardı.",
-            "type": "noun"
+            "tr_": "Menüde birçok lezzetli seçenek vardı."
         },
         {
             "en": "to order",
@@ -5538,8 +4953,7 @@ const DICTIONARY = {
             "tr": "sipariş etmek",
             "en_": "I decided to order pasta for lunch.",
             "es_": "Decidí pedir pasta para el almuerzo.",
-            "tr_": "Öğle yemeği için makarna sipariş etmeye karar verdim.",
-            "type": "verb"
+            "tr_": "Öğle yemeği için makarna sipariş etmeye karar verdim."
         },
         {
             "en": "to serve",
@@ -5547,8 +4961,7 @@ const DICTIONARY = {
             "tr": "servis yapmak",
             "en_": "The restaurant serves fresh seafood.",
             "es_": "El restaurante sirve mariscos frescos.",
-            "tr_": "Restoran taze deniz ürünleri servis yapıyor.",
-            "type": "verb"
+            "tr_": "Restoran taze deniz ürünleri servis yapıyor."
         },
         {
             "en": "starter",
@@ -5556,8 +4969,7 @@ const DICTIONARY = {
             "tr": "başlangıç",
             "en_": "We ordered soup as a starter.",
             "es_": "Pedimos sopa para empezar.",
-            "tr_": "Başlangıç olarak çorba sipariş ettik.",
-            "type": "noun"
+            "tr_": "Başlangıç olarak çorba sipariş ettik."
         },
         {
             "en": "main course",
@@ -5565,8 +4977,7 @@ const DICTIONARY = {
             "tr": "ana yemek",
             "en_": "The steak was delicious as the main course.",
             "es_": "El filete estaba delicioso como el primer plato.",
-            "tr_": "Ana yemek olarak biftek çok lezzetliydi.",
-            "type": "noun"
+            "tr_": "Ana yemek olarak biftek çok lezzetliydi."
         },
         {
             "en": "dessert",
@@ -5574,8 +4985,7 @@ const DICTIONARY = {
             "tr": "tatlı",
             "en_": "She had ice cream for dessert.",
             "es_": "Ella tomó helado de postre.",
-            "tr_": "Tatlı olarak dondurma yedi.",
-            "type": "noun"
+            "tr_": "Tatlı olarak dondurma yedi."
         },
         {
             "en": "bill",
@@ -5583,8 +4993,7 @@ const DICTIONARY = {
             "tr": "hesap",
             "en_": "Could we have the bill, please?",
             "es_": "¿Nos puede traer la cuenta, por favor?",
-            "tr_": "Hesabı alabilir miyiz lütfen?",
-            "type": "noun"
+            "tr_": "Hesabı alabilir miyiz lütfen?"
         },
         {
             "en": "tip",
@@ -5592,8 +5001,7 @@ const DICTIONARY = {
             "tr": "bahşiş",
             "en_": "We left a tip for the waiter.",
             "es_": "Dejamos una propina para el camarero.",
-            "tr_": "Garsona bahşiş bıraktık.",
-            "type": "noun"
+            "tr_": "Garsona bahşiş bıraktık."
         },
         {
             "en": "tray",
@@ -5601,8 +5009,7 @@ const DICTIONARY = {
             "tr": "tepsi",
             "en_": "The waiter carried the food on a tray.",
             "es_": "El camarero llevó la comida en una bandeja.",
-            "tr_": "Garson yemeği tepsiyle taşıdı.",
-            "type": "noun"
+            "tr_": "Garson yemeği tepsiyle taşıdı."
         }
     ],
     "At the zoo" : [
@@ -5612,8 +5019,7 @@ const DICTIONARY = {
             "tr": "hayvanat bahçesi",
             "en_": "We visited the zoo last weekend.",
             "es_": "Visitamos el zoológico el fin de semana pasado.",
-            "tr_": "Geçen hafta sonu hayvanat bahçesini ziyaret ettik.",
-            "type": "noun"
+            "tr_": "Geçen hafta sonu hayvanat bahçesini ziyaret ettik."
         },
         {
             "en": "zebra",
@@ -5621,8 +5027,7 @@ const DICTIONARY = {
             "tr": "zebra",
             "en_": "The zebra has black and white stripes.",
             "es_": "La cebra tiene rayas negras y blancas.",
-            "tr_": "Zebranın siyah ve beyaz çizgileri vardır.",
-            "type": "noun"
+            "tr_": "Zebranın siyah ve beyaz çizgileri vardır."
         },
         {
             "en": "giraffe",
@@ -5630,8 +5035,7 @@ const DICTIONARY = {
             "tr": "zürafa",
             "en_": "The giraffe has a very long neck.",
             "es_": "La jirafa tiene un cuello muy largo.",
-            "tr_": "Zürafanın çok uzun bir boynu vardır.",
-            "type": "noun"
+            "tr_": "Zürafanın çok uzun bir boynu vardır."
         },
         {
             "en": "polar bear",
@@ -5639,8 +5043,7 @@ const DICTIONARY = {
             "tr": "kutup ayısı",
             "en_": "The polar bear lives in the Arctic.",
             "es_": "El oso blanco vive en el Ártico.",
-            "tr_": "Kutup ayısı Arktik’te yaşar.",
-            "type": "noun"
+            "tr_": "Kutup ayısı Arktik’te yaşar."
         },
         {
             "en": "elephant",
@@ -5648,8 +5051,7 @@ const DICTIONARY = {
             "tr": "fil",
             "en_": "The elephant is the largest land animal.",
             "es_": "El elefante es el animal terrestre más grande.",
-            "tr_": "Fil en büyük kara hayvanıdır.",
-            "type": "noun"
+            "tr_": "Fil en büyük kara hayvanıdır."
         },
         {
             "en": "trunk",
@@ -5657,8 +5059,7 @@ const DICTIONARY = {
             "tr": "fil hortumu",
             "en_": "The elephant uses its trunk to drink water.",
             "es_": "El elefante usa su trompa para beber agua.",
-            "tr_": "Fil su içmek için hortumunu kullanır.",
-            "type": "noun"
+            "tr_": "Fil su içmek için hortumunu kullanır."
         },
         {
             "en": "tusk",
@@ -5666,8 +5067,7 @@ const DICTIONARY = {
             "tr": "fildişi",
             "en_": "The elephant’s tusks are very strong.",
             "es_": "Los colmillos del elefante son muy fuertes.",
-            "tr_": "Filin fildişleri çok güçlüdür.",
-            "type": "noun"
+            "tr_": "Filin fildişleri çok güçlüdür."
         },
         {
             "en": "gorilla",
@@ -5675,8 +5075,7 @@ const DICTIONARY = {
             "tr": "goril",
             "en_": "The gorilla is a powerful primate.",
             "es_": "El gorila es un primate poderoso.",
-            "tr_": "Goril güçlü bir primattır.",
-            "type": "noun"
+            "tr_": "Goril güçlü bir primattır."
         },
         {
             "en": "wild",
@@ -5684,8 +5083,7 @@ const DICTIONARY = {
             "tr": "vahşi",
             "en_": "Wild animals live in forests.",
             "es_": "Los animales salvajes viven en los bosques.",
-            "tr_": "Vahşi hayvanlar ormanlarda yaşar.",
-            "type": "adjective"
+            "tr_": "Vahşi hayvanlar ormanlarda yaşar."
         },
         {
             "en": "tame",
@@ -5693,8 +5091,7 @@ const DICTIONARY = {
             "tr": "uysal [evcil]",
             "en_": "The lion is not a tame animal.",
             "es_": "El león no es un animal manso.",
-            "tr_": "Aslan evcil bir hayvan değildir.",
-            "type": "adjective"
+            "tr_": "Aslan evcil bir hayvan değildir."
         },
         {
             "en": "guardian",
@@ -5702,8 +5099,7 @@ const DICTIONARY = {
             "tr": "bekçi",
             "en_": "The guardian watches over the animals.",
             "es_": "El guardián cuida de los animales.",
-            "tr_": "Bekçi hayvanlara göz kulak olur.",
-            "type": "noun"
+            "tr_": "Bekçi hayvanlara göz kulak olur."
         },
         {
             "en": "monkey",
@@ -5711,8 +5107,7 @@ const DICTIONARY = {
             "tr": "maymun",
             "en_": "The monkey is swinging from tree to tree.",
             "es_": "El mono está colgando de árbol en árbol.",
-            "tr_": "Maymun ağaçtan ağaca sallanıyor.",
-            "type": "noun"
+            "tr_": "Maymun ağaçtan ağaca sallanıyor."
         },
         {
             "en": "kangaroo",
@@ -5720,8 +5115,7 @@ const DICTIONARY = {
             "tr": "kanguru",
             "en_": "The kangaroo jumps very high.",
             "es_": "El canguro salta muy alto.",
-            "tr_": "Kanguru çok yükseğe zıplar.",
-            "type": "noun"
+            "tr_": "Kanguru çok yükseğe zıplar."
         },
         {
             "en": "ostrich",
@@ -5729,8 +5123,7 @@ const DICTIONARY = {
             "tr": "devekuşu",
             "en_": "The ostrich is the largest bird.",
             "es_": "El avestruz es el ave más grande.",
-            "tr_": "Devekuşu en büyük kuştur.",
-            "type": "noun"
+            "tr_": "Devekuşu en büyük kuştur."
         },
         {
             "en": "camel",
@@ -5738,8 +5131,7 @@ const DICTIONARY = {
             "tr": "deve",
             "en_": "The camel can survive in the desert.",
             "es_": "El camello puede sobrevivir en el desierto.",
-            "tr_": "Deve çölde hayatta kalabilir.",
-            "type": "noun"
+            "tr_": "Deve çölde hayatta kalabilir."
         },
         {
             "en": "hump",
@@ -5747,8 +5139,7 @@ const DICTIONARY = {
             "tr": "hörgüç",
             "en_": "The camel’s hump stores fat.",
             "es_": "La jiba del camello almacena grasa.",
-            "tr_": "Devenin hörgücü yağ depolar.",
-            "type": "noun"
+            "tr_": "Devenin hörgücü yağ depolar."
         },
         {
             "en": "eagle",
@@ -5756,8 +5147,7 @@ const DICTIONARY = {
             "tr": "kartal",
             "en_": "The eagle flies high in the sky.",
             "es_": "El águila vuela alto en el cielo.",
-            "tr_": "Kartal gökyüzünde yüksek uçar.",
-            "type": "noun"
+            "tr_": "Kartal gökyüzünde yüksek uçar."
         },
         {
             "en": "penguin",
@@ -5765,8 +5155,7 @@ const DICTIONARY = {
             "tr": "penguen",
             "en_": "The penguin cannot fly but swims well.",
             "es_": "El pingüino no puede volar pero nada bien.",
-            "tr_": "Penguen uçamaz ama iyi yüzer.",
-            "type": "noun"
+            "tr_": "Penguen uçamaz ama iyi yüzer."
         },
         {
             "en": "hippopotamus",
@@ -5774,8 +5163,7 @@ const DICTIONARY = {
             "tr": "su aygırı",
             "en_": "The hippopotamus spends most of its time in water.",
             "es_": "El hipopótamo pasa la mayor parte de su tiempo en el agua.",
-            "tr_": "Su aygırı zamanının çoğunu suda geçirir.",
-            "type": "noun"
+            "tr_": "Su aygırı zamanının çoğunu suda geçirir."
         },
         {
             "en": "lion",
@@ -5783,8 +5171,7 @@ const DICTIONARY = {
             "tr": "aslan",
             "en_": "The lion is known as the king of the jungle.",
             "es_": "El león es conocido como el rey de la selva.",
-            "tr_": "Aslan ormanın kralı olarak bilinir.",
-            "type": "noun"
+            "tr_": "Aslan ormanın kralı olarak bilinir."
         },
         {
             "en": "to roar",
@@ -5792,8 +5179,7 @@ const DICTIONARY = {
             "tr": "kükremek",
             "en_": "The lion began to roar loudly.",
             "es_": "El león comenzó a rugir fuerte.",
-            "tr_": "Aslan yüksek sesle kükremeye başladı.",
-            "type": "verb"
+            "tr_": "Aslan yüksek sesle kükremeye başladı."
         },
         {
             "en": "tiger",
@@ -5801,8 +5187,7 @@ const DICTIONARY = {
             "tr": "kaplan",
             "en_": "The tiger is a fierce predator.",
             "es_": "El tigre es un depredador feroz.",
-            "tr_": "Kaplan vahşi bir avcıdır.",
-            "type": "noun"
+            "tr_": "Kaplan vahşi bir avcıdır."
         },
         {
             "en": "snake",
@@ -5810,8 +5195,7 @@ const DICTIONARY = {
             "tr": "yılan",
             "en_": "The snake slithered through the grass.",
             "es_": "La serpiente se deslizó por la hierba.",
-            "tr_": "Yılan çimenlerin arasında süründü.",
-            "type": "noun"
+            "tr_": "Yılan çimenlerin arasında süründü."
         },
         {
             "en": "pigeon",
@@ -5819,8 +5203,7 @@ const DICTIONARY = {
             "tr": "güvercin",
             "en_": "The pigeon flew across the park.",
             "es_": "La paloma voló por el parque.",
-            "tr_": "Güvercin parkın üzerinden uçtu.",
-            "type": "noun"
+            "tr_": "Güvercin parkın üzerinden uçtu."
         }
     ],
     "In the park" : [
@@ -5830,8 +5213,7 @@ const DICTIONARY = {
             "tr": "park",
             "en_": "We spent the afternoon in the park.",
             "es_": "Pasamos la tarde en el parque.",
-            "tr_": "Öğleden sonrayı parkta geçirdik.",
-            "type": "noun"
+            "tr_": "Öğleden sonrayı parkta geçirdik."
         },
         {
             "en": "pond",
@@ -5839,8 +5221,7 @@ const DICTIONARY = {
             "tr": "gölet",
             "en_": "The ducks swim in the pond.",
             "es_": "Los patos nadan en el estanque.",
-            "tr_": "Ördekler gölette yüzer.",
-            "type": "noun"
+            "tr_": "Ördekler gölette yüzer."
         },
         {
             "en": "rowboat",
@@ -5848,8 +5229,7 @@ const DICTIONARY = {
             "tr": "kürekli tekne",
             "en_": "They rented a rowboat for the lake.",
             "es_": "Alquilaron una barca de remo para el lago.",
-            "tr_": "Göl için kürekli tekne kiraladılar.",
-            "type": "noun"
+            "tr_": "Göl için kürekli tekne kiraladılar."
         },
         {
             "en": "to row",
@@ -5857,8 +5237,7 @@ const DICTIONARY = {
             "tr": "kürek çekmek",
             "en_": "He likes to row early in the morning.",
             "es_": "Le gusta remar temprano en la mañana.",
-            "tr_": "Sabah erken saatlerde kürek çekmeyi sever.",
-            "type": "verb"
+            "tr_": "Sabah erken saatlerde kürek çekmeyi sever."
         },
         {
             "en": "oar",
@@ -5866,8 +5245,7 @@ const DICTIONARY = {
             "tr": "kürek",
             "en_": "She held the oar tightly while rowing.",
             "es_": "Ella sostuvo el remo con fuerza mientras remaba.",
-            "tr_": "Kürek çekerken küreği sıkıca tuttu.",
-            "type": "noun"
+            "tr_": "Kürek çekerken küreği sıkıca tuttu."
         },
         {
             "en": "picnic",
@@ -5875,8 +5253,7 @@ const DICTIONARY = {
             "tr": "piknik",
             "en_": "We had a picnic under the big tree.",
             "es_": "Tuvimos una merienda bajo el gran árbol.",
-            "tr_": "Büyük ağacın altında piknik yaptık.",
-            "type": "noun"
+            "tr_": "Büyük ağacın altında piknik yaptık."
         },
         {
             "en": "bench",
@@ -5884,8 +5261,7 @@ const DICTIONARY = {
             "tr": "bank",
             "en_": "She sat on the bench to rest.",
             "es_": "Ella se sentó en el banco para descansar.",
-            "tr_": "Dinlenmek için bankta oturdu.",
-            "type": "noun"
+            "tr_": "Dinlenmek için bankta oturdu."
         },
         {
             "en": "keeper",
@@ -5893,8 +5269,7 @@ const DICTIONARY = {
             "tr": "bekçi",
             "en_": "The park keeper ensures everything is safe.",
             "es_": "El vigilante del parque asegura que todo esté seguro.",
-            "tr_": "Park bekçisi her şeyin güvende olduğundan emin olur.",
-            "type": "noun"
+            "tr_": "Park bekçisi her şeyin güvende olduğundan emin olur."
         },
         {
             "en": "swing",
@@ -5902,8 +5277,7 @@ const DICTIONARY = {
             "tr": "salıncak",
             "en_": "The children played on the swing.",
             "es_": "Los niños jugaron en el columpio.",
-            "tr_": "Çocuklar salıncakta oynadılar.",
-            "type": "noun"
+            "tr_": "Çocuklar salıncakta oynadılar."
         },
         {
             "en": "to keep an eye on",
@@ -5911,8 +5285,7 @@ const DICTIONARY = {
             "tr": "göz kulak olmak",
             "en_": "Parents keep an eye on their kids in the park.",
             "es_": "Los padres vigilan a sus hijos en el parque.",
-            "tr_": "Ebeveynler parkta çocuklarına göz kulak olur.",
-            "type": "verb"
+            "tr_": "Ebeveynler parkta çocuklarına göz kulak olur."
         },
         {
             "en": "to climb",
@@ -5920,8 +5293,7 @@ const DICTIONARY = {
             "tr": "tırmanmak",
             "en_": "The kids love to climb the trees.",
             "es_": "A los niños les encanta trepar los árboles.",
-            "tr_": "Çocuklar ağaçlara tırmanmayı sever.",
-            "type": "verb"
+            "tr_": "Çocuklar ağaçlara tırmanmayı sever."
         },
         {
             "en": "slide",
@@ -5929,8 +5301,7 @@ const DICTIONARY = {
             "tr": "kaydırak",
             "en_": "She went down the slide quickly.",
             "es_": "Ella bajó rápido por el tobogán.",
-            "tr_": "Kaydıraktan hızlıca kaydı.",
-            "type": "noun"
+            "tr_": "Kaydıraktan hızlıca kaydı."
         },
         {
             "en": "to dig",
@@ -5938,8 +5309,7 @@ const DICTIONARY = {
             "tr": "kazmak",
             "en_": "The children like to dig in the sand.",
             "es_": "A los niños les gusta cavar en la arena.",
-            "tr_": "Çocuklar kumda kazmayı sever.",
-            "type": "verb"
+            "tr_": "Çocuklar kumda kazmayı sever."
         },
         {
             "en": "merry-go-round",
@@ -5947,8 +5317,7 @@ const DICTIONARY = {
             "tr": "atlıkarınca",
             "en_": "They rode the merry-go-round at the park.",
             "es_": "Montaron en el tiovivo en el parque.",
-            "tr_": "Parkta atlıkarıncaya bindiler.",
-            "type": "noun"
+            "tr_": "Parkta atlıkarıncaya bindiler."
         }
     ],
     "In the city" : [
@@ -5958,8 +5327,7 @@ const DICTIONARY = {
             "tr": "başkent",
             "en_": "Ankara is the capital city of Turkey.",
             "es_": "Ankara es la capital de Turquía.",
-            "tr_": "Ankara, Türkiye'nin başkentidir.",
-            "type": "noun"
+            "tr_": "Ankara, Türkiye'nin başkentidir."
         },
         {
             "en": "outskirts",
@@ -5967,8 +5335,7 @@ const DICTIONARY = {
             "tr": "kenar mahalleler",
             "en_": "They live in the outskirts of the city.",
             "es_": "Viven en las afueras de la ciudad.",
-            "tr_": "Şehrin kenar mahallelerinde yaşıyorlar.",
-            "type": "noun"
+            "tr_": "Şehrin kenar mahallelerinde yaşıyorlar."
         },
         {
             "en": "city",
@@ -5976,8 +5343,7 @@ const DICTIONARY = {
             "tr": "şehir",
             "en_": "I love visiting the city during festivals.",
             "es_": "Me encanta visitar la ciudad durante los festivales.",
-            "tr_": "Festival zamanlarında şehri ziyaret etmeyi severim.",
-            "type": "noun"
+            "tr_": "Festival zamanlarında şehri ziyaret etmeyi severim."
         },
         {
             "en": "skyscraper",
@@ -5985,8 +5351,7 @@ const DICTIONARY = {
             "tr": "gökdelen",
             "en_": "The skyscraper is the tallest building downtown.",
             "es_": "El rascacielos es el edificio más alto del centro.",
-            "tr_": "Gökdelen şehir merkezindeki en yüksek binadır.",
-            "type": "noun"
+            "tr_": "Gökdelen şehir merkezindeki en yüksek binadır."
         },
         {
             "en": "cathedral",
@@ -5994,8 +5359,7 @@ const DICTIONARY = {
             "tr": "katedral",
             "en_": "The cathedral attracts many tourists every year.",
             "es_": "La catedral atrae a muchos turistas cada año.",
-            "tr_": "Katedral her yıl birçok turisti çeker.",
-            "type": "noun"
+            "tr_": "Katedral her yıl birçok turisti çeker."
         },
         {
             "en": "river",
@@ -6003,8 +5367,7 @@ const DICTIONARY = {
             "tr": "nehir",
             "en_": "The river flows through the city center.",
             "es_": "El río pasa por el centro de la ciudad.",
-            "tr_": "Nehir şehir merkezinden akar.",
-            "type": "noun"
+            "tr_": "Nehir şehir merkezinden akar."
         },
         {
             "en": "district",
@@ -6012,8 +5375,7 @@ const DICTIONARY = {
             "tr": "ilçe",
             "en_": "This district is famous for its restaurants.",
             "es_": "Este distrito es famoso por sus restaurantes.",
-            "tr_": "Bu ilçe restoranlarıyla ünlüdür.",
-            "type": "noun"
+            "tr_": "Bu ilçe restoranlarıyla ünlüdür."
         },
         {
             "en": "building",
@@ -6021,8 +5383,7 @@ const DICTIONARY = {
             "tr": "bina",
             "en_": "The building has ten floors.",
             "es_": "El edificio tiene diez pisos.",
-            "tr_": "Binanın on katı var.",
-            "type": "noun"
+            "tr_": "Binanın on katı var."
         },
         {
             "en": "church",
@@ -6030,8 +5391,7 @@ const DICTIONARY = {
             "tr": "kilise",
             "en_": "The church is located near the town square.",
             "es_": "La iglesia está ubicada cerca de la plaza del pueblo.",
-            "tr_": "Kilise kasaba meydanının yakınında bulunur.",
-            "type": "noun"
+            "tr_": "Kilise kasaba meydanının yakınında bulunur."
         },
         {
             "en": "cemetery",
@@ -6039,8 +5399,7 @@ const DICTIONARY = {
             "tr": "mezarlık",
             "en_": "The old cemetery is a historical place.",
             "es_": "El cementerio viejo es un lugar histórico.",
-            "tr_": "Eski mezarlık tarihi bir yerdir.",
-            "type": "noun"
+            "tr_": "Eski mezarlık tarihi bir yerdir."
         },
         {
             "en": "fire station",
@@ -6048,8 +5407,7 @@ const DICTIONARY = {
             "tr": "itfaiye istasyonu",
             "en_": "The fire station is near the main street.",
             "es_": "El parque de bomberos está cerca de la calle principal.",
-            "tr_": "İtfaiye istasyonu ana caddeye yakındır.",
-            "type": "noun"
+            "tr_": "İtfaiye istasyonu ana caddeye yakındır."
         },
         {
             "en": "fire engine",
@@ -6057,8 +5415,7 @@ const DICTIONARY = {
             "tr": "itfaiye aracı",
             "en_": "The fire engine rushed to the emergency.",
             "es_": "El coche de bomberos corrió hacia la emergencia.",
-            "tr_": "İtfaiye aracı acil duruma koştu.",
-            "type": "noun"
+            "tr_": "İtfaiye aracı acil duruma koştu."
         },
         {
             "en": "factory",
@@ -6066,8 +5423,7 @@ const DICTIONARY = {
             "tr": "fabrika",
             "en_": "The factory produces cars.",
             "es_": "La fábrica produce coches.",
-            "tr_": "Fabrika araba üretir.",
-            "type": "noun"
+            "tr_": "Fabrika araba üretir."
         },
         {
             "en": "town hall",
@@ -6075,8 +5431,7 @@ const DICTIONARY = {
             "tr": "belediye binası",
             "en_": "The town hall is where local decisions are made.",
             "es_": "El ayuntamiento es donde se toman las decisiones locales.",
-            "tr_": "Belediye binası yerel kararların alındığı yerdir.",
-            "type": "noun"
+            "tr_": "Belediye binası yerel kararların alındığı yerdir."
         },
         {
             "en": "office block",
@@ -6084,8 +5439,7 @@ const DICTIONARY = {
             "tr": "ofis bloğu",
             "en_": "The office block is full of companies.",
             "es_": "El bloque de oficinas está lleno de empresas.",
-            "tr_": "Ofis bloğu şirketlerle doludur.",
-            "type": "noun"
+            "tr_": "Ofis bloğu şirketlerle doludur."
         },
         {
             "en": "police station",
@@ -6093,8 +5447,7 @@ const DICTIONARY = {
             "tr": "karakol",
             "en_": "The police station is next to the library.",
             "es_": "La comisaría está junto a la biblioteca.",
-            "tr_": "Karakol kütüphanenin yanında.",
-            "type": "noun"
+            "tr_": "Karakol kütüphanenin yanında."
         },
         {
             "en": "police car",
@@ -6102,8 +5455,7 @@ const DICTIONARY = {
             "tr": "polis arabası",
             "en_": "The police car was parked outside.",
             "es_": "El coche de policía estaba estacionado afuera.",
-            "tr_": "Polis arabası dışarıda park halindeydi.",
-            "type": "noun"
+            "tr_": "Polis arabası dışarıda park halindeydi."
         },
         {
             "en": "library",
@@ -6111,8 +5463,7 @@ const DICTIONARY = {
             "tr": "kütüphane",
             "en_": "I borrowed a book from the library.",
             "es_": "Tomé prestado un libro de la biblioteca.",
-            "tr_": "Kütüphaneden bir kitap ödünç aldım.",
-            "type": "noun"
+            "tr_": "Kütüphaneden bir kitap ödünç aldım."
         },
         {
             "en": "city center",
@@ -6120,8 +5471,7 @@ const DICTIONARY = {
             "tr": "şehir merkezi",
             "en_": "The city center is always busy.",
             "es_": "El centro de la ciudad siempre está ocupado.",
-            "tr_": "Şehir merkezi her zaman kalabalıktır.",
-            "type": "noun"
+            "tr_": "Şehir merkezi her zaman kalabalıktır."
         },
         {
             "en": "street",
@@ -6129,8 +5479,7 @@ const DICTIONARY = {
             "tr": "sokak",
             "en_": "They live on a quiet street.",
             "es_": "Viven en una calle tranquila.",
-            "tr_": "Sessiz bir sokakta yaşıyorlar.",
-            "type": "noun"
+            "tr_": "Sessiz bir sokakta yaşıyorlar."
         },
         {
             "en": "narrow",
@@ -6138,8 +5487,7 @@ const DICTIONARY = {
             "tr": "dar",
             "en_": "This street is very narrow.",
             "es_": "Esta calle es muy estrecha.",
-            "tr_": "Bu sokak çok dar.",
-            "type": "adjective"
+            "tr_": "Bu sokak çok dar."
         },
         {
             "en": "broad",
@@ -6147,8 +5495,7 @@ const DICTIONARY = {
             "tr": "geniş",
             "en_": "The avenue is broad and busy.",
             "es_": "La avenida es ancha y concurrida.",
-            "tr_": "Cadde geniş ve yoğundur.",
-            "type": "adjective"
+            "tr_": "Cadde geniş ve yoğundur."
         },
         {
             "en": "corner",
@@ -6156,8 +5503,7 @@ const DICTIONARY = {
             "tr": "köşe",
             "en_": "There is a café on the corner.",
             "es_": "Hay una cafetería en la esquina.",
-            "tr_": "Köşede bir kafe var.",
-            "type": "noun"
+            "tr_": "Köşede bir kafe var."
         },
         {
             "en": "to cross street",
@@ -6165,8 +5511,7 @@ const DICTIONARY = {
             "tr": "sokağı geçmek",
             "en_": "Be careful when you cross the street.",
             "es_": "Ten cuidado cuando atravieses la calle.",
-            "tr_": "Sokağı geçerken dikkatli ol.",
-            "type": "verb"
+            "tr_": "Sokağı geçerken dikkatli ol."
         },
         {
             "en": "pedestrian crossing",
@@ -6174,8 +5519,7 @@ const DICTIONARY = {
             "tr": "yaya geçidi",
             "en_": "Use the pedestrian crossing to be safe.",
             "es_": "Usa el cruce de peatones para estar seguro.",
-            "tr_": "Güvende olmak için yaya geçidini kullan.",
-            "type": "noun"
+            "tr_": "Güvende olmak için yaya geçidini kullan."
         },
         {
             "en": "pedestrian",
@@ -6183,8 +5527,7 @@ const DICTIONARY = {
             "tr": "yaya",
             "en_": "The pedestrian waited for the light to turn green.",
             "es_": "El peatón esperó a que el semáforo se pusiera verde.",
-            "tr_": "Yaya ışığın yeşile dönmesini bekledi.",
-            "type": "noun"
+            "tr_": "Yaya ışığın yeşile dönmesini bekledi."
         },
         {
             "en": "statute",
@@ -6192,8 +5535,7 @@ const DICTIONARY = {
             "tr": "heykel",
             "en_": "The statue is in the city square.",
             "es_": "La estatua está en la plaza de la ciudad.",
-            "tr_": "Heykel şehir meydanındadır.",
-            "type": "noun"
+            "tr_": "Heykel şehir meydanındadır."
         },
         {
             "en": "street light",
@@ -6201,8 +5543,7 @@ const DICTIONARY = {
             "tr": "elektrik direği",
             "en_": "The street light brightens the road at night.",
             "es_": "El poste de la luz ilumina la calle por la noche.",
-            "tr_": "Elektrik direği gece yolu aydınlatır.",
-            "type": "noun"
+            "tr_": "Elektrik direği gece yolu aydınlatır."
         },
         {
             "en": "subway",
@@ -6210,8 +5551,7 @@ const DICTIONARY = {
             "tr": "alt geçit",
             "en_": "Take the subway to cross the busy street.",
             "es_": "Usa el cruce subterráneo para cruzar la calle concurrida.",
-            "tr_": "Yoğun caddeden geçmek için alt geçidi kullan.",
-            "type": "noun"
+            "tr_": "Yoğun caddeden geçmek için alt geçidi kullan."
         },
         {
             "en": "pavement",
@@ -6219,8 +5559,7 @@ const DICTIONARY = {
             "tr": "kaldırım",
             "en_": "Walk on the pavement to stay safe.",
             "es_": "Camina por la acera para estar seguro.",
-            "tr_": "Güvende olmak için kaldırımda yürü.",
-            "type": "noun"
+            "tr_": "Güvende olmak için kaldırımda yürü."
         }
     ],
     "Shopping" : [
@@ -6230,8 +5569,7 @@ const DICTIONARY = {
             "tr": "alışveriş listesi yapmak",
             "en_": "I need to make a list before going shopping.",
             "es_": "Necesito hacer una lista antes de ir de compras.",
-            "tr_": "Alışverişe gitmeden önce alışveriş listesi yapmam lazım.",
-            "type": "verb"
+            "tr_": "Alışverişe gitmeden önce alışveriş listesi yapmam lazım."
         },
         {
             "en": "shopping bag",
@@ -6239,8 +5577,7 @@ const DICTIONARY = {
             "tr": "alışveriş çantası",
             "en_": "She carries a big shopping bag.",
             "es_": "Ella lleva una gran bolsa de compras.",
-            "tr_": "O büyük bir alışveriş çantası taşıyor.",
-            "type": "noun"
+            "tr_": "O büyük bir alışveriş çantası taşıyor."
         },
         {
             "en": "shop",
@@ -6248,8 +5585,7 @@ const DICTIONARY = {
             "tr": "dükkan",
             "en_": "This shop sells fresh fruits.",
             "es_": "Esta tienda vende frutas frescas.",
-            "tr_": "Bu dükkan taze meyveler satıyor.",
-            "type": "noun"
+            "tr_": "Bu dükkan taze meyveler satıyor."
         },
         {
             "en": "to go shopping",
@@ -6257,8 +5593,7 @@ const DICTIONARY = {
             "tr": "alışverişe gitmek",
             "en_": "We go shopping every Saturday.",
             "es_": "Vamos de tiendas todos los sábados.",
-            "tr_": "Biz her cumartesi alışverişe gideriz.",
-            "type": "verb"
+            "tr_": "Biz her cumartesi alışverişe gideriz."
         },
         {
             "en": "butcher",
@@ -6266,8 +5601,7 @@ const DICTIONARY = {
             "tr": "kasap",
             "en_": "The butcher sells fresh meat.",
             "es_": "El carnicero vende carne fresca.",
-            "tr_": "Kasap taze et satıyor.",
-            "type": "noun"
+            "tr_": "Kasap taze et satıyor."
         },
         {
             "en": "delicatessen",
@@ -6275,8 +5609,7 @@ const DICTIONARY = {
             "tr": "şarküteri",
             "en_": "I bought cheese at the delicatessen.",
             "es_": "Compré queso en la charcutería.",
-            "tr_": "Şarküteriden peynir aldım.",
-            "type": "noun"
+            "tr_": "Şarküteriden peynir aldım."
         },
         {
             "en": "delicatessen",
@@ -6284,8 +5617,7 @@ const DICTIONARY = {
             "tr": "şarküteri",
             "en_": "The delicatessen offers many kinds of sausages.",
             "es_": "La fiambrería ofrece muchos tipos de embutidos.",
-            "tr_": "Şarküteri birçok çeşit sucuk sunuyor.",
-            "type": "noun"
+            "tr_": "Şarküteri birçok çeşit sucuk sunuyor."
         },
         {
             "en": "bakery",
@@ -6293,8 +5625,7 @@ const DICTIONARY = {
             "tr": "fırın",
             "en_": "The bakery sells fresh bread every morning.",
             "es_": "La panadería vende pan fresco cada mañana.",
-            "tr_": "Fırın her sabah taze ekmek satıyor.",
-            "type": "noun"
+            "tr_": "Fırın her sabah taze ekmek satıyor."
         },
         {
             "en": "baker",
@@ -6302,8 +5633,7 @@ const DICTIONARY = {
             "tr": "fırıncı",
             "en_": "The baker wakes up early to bake bread.",
             "es_": "El panadero se despierta temprano para hornear pan.",
-            "tr_": "Fırıncı ekmek yapmak için erken kalkar.",
-            "type": "noun"
+            "tr_": "Fırıncı ekmek yapmak için erken kalkar."
         },
         {
             "en": "fish market",
@@ -6311,8 +5641,7 @@ const DICTIONARY = {
             "tr": "balık marketi",
             "en_": "I bought fresh fish at the fish market.",
             "es_": "Compré pescado fresco en la pescadería.",
-            "tr_": "Balık marketinden taze balık aldım.",
-            "type": "noun"
+            "tr_": "Balık marketinden taze balık aldım."
         },
         {
             "en": "pastry shop",
@@ -6320,8 +5649,7 @@ const DICTIONARY = {
             "tr": "pastane",
             "en_": "The pastry shop has delicious cakes.",
             "es_": "La pastelería tiene pasteles deliciosos.",
-            "tr_": "Pastanede lezzetli pastalar var.",
-            "type": "noun"
+            "tr_": "Pastanede lezzetli pastalar var."
         },
         {
             "en": "pharmacy",
@@ -6329,8 +5657,7 @@ const DICTIONARY = {
             "tr": "eczane",
             "en_": "I need to go to the pharmacy for medicine.",
             "es_": "Necesito ir a la farmacia por medicina.",
-            "tr_": "İlaç için eczaneye gitmem lazım.",
-            "type": "noun"
+            "tr_": "İlaç için eczaneye gitmem lazım."
         },
         {
             "en": "haberdashery",
@@ -6338,8 +5665,7 @@ const DICTIONARY = {
             "tr": "tuhafiye",
             "en_": "She bought buttons at the haberdashery.",
             "es_": "Ella compró botones en la mercería.",
-            "tr_": "Tuhafiyeden düğmeler aldı.",
-            "type": "noun"
+            "tr_": "Tuhafiyeden düğmeler aldı."
         },
         {
             "en": "bookshop",
@@ -6347,8 +5673,7 @@ const DICTIONARY = {
             "tr": "kitapçı",
             "en_": "The bookshop is full of interesting books.",
             "es_": "La librería está llena de libros interesantes.",
-            "tr_": "Kitapçı ilginç kitaplarla dolu.",
-            "type": "noun"
+            "tr_": "Kitapçı ilginç kitaplarla dolu."
         },
         {
             "en": "florist",
@@ -6356,8 +5681,7 @@ const DICTIONARY = {
             "tr": "çiçekçi",
             "en_": "The florist arranged beautiful flowers.",
             "es_": "La floristería arregló flores hermosas.",
-            "tr_": "Çiçekçi güzel çiçekler düzenledi.",
-            "type": "noun"
+            "tr_": "Çiçekçi güzel çiçekler düzenledi."
         },
         {
             "en": "hairdresser",
@@ -6365,8 +5689,7 @@ const DICTIONARY = {
             "tr": "kuaför",
             "en_": "I have an appointment with the hairdresser.",
             "es_": "Tengo una cita con la peluquería.",
-            "tr_": "Kuaförde randevum var.",
-            "type": "noun"
+            "tr_": "Kuaförde randevum var."
         },
         {
             "en": "to do shopping",
@@ -6374,8 +5697,7 @@ const DICTIONARY = {
             "tr": "alışveriş yapmak",
             "en_": "We usually do shopping on weekends.",
             "es_": "Normalmente hacemos las compras los fines de semana.",
-            "tr_": "Genellikle hafta sonları alışveriş yaparız.",
-            "type": "verb"
+            "tr_": "Genellikle hafta sonları alışveriş yaparız."
         },
         {
             "en": "to line up",
@@ -6383,8 +5705,7 @@ const DICTIONARY = {
             "tr": "sıraya girmek",
             "en_": "People line up to buy tickets.",
             "es_": "La gente hace cola para comprar boletos.",
-            "tr_": "İnsanlar bilet almak için sıraya girer.",
-            "type": "verb"
+            "tr_": "İnsanlar bilet almak için sıraya girer."
         },
         {
             "en": "to weigh",
@@ -6392,8 +5713,7 @@ const DICTIONARY = {
             "tr": "tartmak",
             "en_": "Please weigh the apples before buying.",
             "es_": "Por favor, pesa las manzanas antes de comprar.",
-            "tr_": "Lütfen elmalar satın almadan önce tart.",
-            "type": "verb"
+            "tr_": "Lütfen elmalar satın almadan önce tart."
         },
         {
             "en": "market",
@@ -6401,8 +5721,7 @@ const DICTIONARY = {
             "tr": "pazar",
             "en_": "We go to the market every Sunday.",
             "es_": "Vamos al mercado todos los domingos.",
-            "tr_": "Her pazar pazara gideriz.",
-            "type": "noun"
+            "tr_": "Her pazar pazara gideriz."
         },
         {
             "en": "basket",
@@ -6410,8 +5729,7 @@ const DICTIONARY = {
             "tr": "sepet",
             "en_": "She put the vegetables in the basket.",
             "es_": "Ella puso las verduras en la cesta.",
-            "tr_": "Sebzeleri sepete koydu.",
-            "type": "noun"
+            "tr_": "Sebzeleri sepete koydu."
         },
         {
             "en": "shopping cart",
@@ -6419,8 +5737,7 @@ const DICTIONARY = {
             "tr": "alışveriş arabası",
             "en_": "He pushed the shopping cart through the aisles.",
             "es_": "Él empujó la carretilla por los pasillos.",
-            "tr_": "O, alışveriş arabasını koridorlarda itti.",
-            "type": "noun"
+            "tr_": "O, alışveriş arabasını koridorlarda itti."
         },
         {
             "en": "can",
@@ -6428,8 +5745,7 @@ const DICTIONARY = {
             "tr": "kutu",
             "en_": "I bought a can of tomatoes.",
             "es_": "Compré un bote de tomates.",
-            "tr_": "Bir kutu domates aldım.",
-            "type": "noun"
+            "tr_": "Bir kutu domates aldım."
         },
         {
             "en": "packet",
@@ -6437,8 +5753,7 @@ const DICTIONARY = {
             "tr": "paket",
             "en_": "She opened a packet of cookies.",
             "es_": "Ella abrió un paquete de galletas.",
-            "tr_": "Bir paket kurabiye açtı.",
-            "type": "noun"
+            "tr_": "Bir paket kurabiye açtı."
         },
         {
             "en": "bottle",
@@ -6446,8 +5761,7 @@ const DICTIONARY = {
             "tr": "şişe",
             "en_": "He drank a bottle of water.",
             "es_": "Él bebió una botella de agua.",
-            "tr_": "Bir şişe su içti.",
-            "type": "noun"
+            "tr_": "Bir şişe su içti."
         },
         {
             "en": "entrance",
@@ -6455,8 +5769,7 @@ const DICTIONARY = {
             "tr": "giriş",
             "en_": "The entrance to the store is on the left.",
             "es_": "La entrada a la tienda está a la izquierda.",
-            "tr_": "Dükkanın girişi solda.",
-            "type": "noun"
+            "tr_": "Dükkanın girişi solda."
         },
         {
             "en": "exit",
@@ -6464,8 +5777,7 @@ const DICTIONARY = {
             "tr": "çıkış",
             "en_": "The exit is at the back of the building.",
             "es_": "La salida está en la parte trasera del edificio.",
-            "tr_": "Çıkış binanın arkasında.",
-            "type": "noun"
+            "tr_": "Çıkış binanın arkasında."
         },
         {
             "en": "cashier",
@@ -6473,8 +5785,7 @@ const DICTIONARY = {
             "tr": "kasiyer",
             "en_": "The cashier gave me my receipt.",
             "es_": "El cajero me dio mi recibo.",
-            "tr_": "Kasiyer bana fişimi verdi.",
-            "type": "noun"
+            "tr_": "Kasiyer bana fişimi verdi."
         },
         {
             "en": "little bag",
@@ -6482,8 +5793,7 @@ const DICTIONARY = {
             "tr": "küçük torba [poşet]",
             "en_": "Can I have a little bag for these fruits?",
             "es_": "¿Puedo tener una bolsita para estas frutas?",
-            "tr_": "Bu meyveler için küçük bir poşet alabilir miyim?",
-            "type": "noun"
+            "tr_": "Bu meyveler için küçük bir poşet alabilir miyim?"
         },
         {
             "en": "shop window",
@@ -6491,8 +5801,7 @@ const DICTIONARY = {
             "tr": "vitrin",
             "en_": "The shop window displays new clothes.",
             "es_": "El escaparate muestra ropa nueva.",
-            "tr_": "Vitrinde yeni kıyafetler sergileniyor.",
-            "type": "noun"
+            "tr_": "Vitrinde yeni kıyafetler sergileniyor."
         },
         {
             "en": "expensive",
@@ -6500,8 +5809,7 @@ const DICTIONARY = {
             "tr": "pahalı",
             "en_": "This watch is very expensive.",
             "es_": "Este reloj es muy caro.",
-            "tr_": "Bu saat çok pahalı.",
-            "type": "adjective"
+            "tr_": "Bu saat çok pahalı."
         },
         {
             "en": "customer",
@@ -6509,8 +5817,7 @@ const DICTIONARY = {
             "tr": "müşteri",
             "en_": "The customer asked for a refund.",
             "es_": "El cliente pidió un reembolso.",
-            "tr_": "Müşteri geri ödeme istedi.",
-            "type": "noun"
+            "tr_": "Müşteri geri ödeme istedi."
         },
         {
             "en": "to buy",
@@ -6518,8 +5825,7 @@ const DICTIONARY = {
             "tr": "satın almak",
             "en_": "I want to buy a new phone.",
             "es_": "Quiero comprar un teléfono nuevo.",
-            "tr_": "Yeni bir telefon satın almak istiyorum.",
-            "type": "verb"
+            "tr_": "Yeni bir telefon satın almak istiyorum."
         },
         {
             "en": "to sell",
@@ -6527,8 +5833,7 @@ const DICTIONARY = {
             "tr": "satmak",
             "en_": "They sell fresh vegetables every day.",
             "es_": "Venden verduras frescas todos los días.",
-            "tr_": "Her gün taze sebze satarlar.",
-            "type": "verb"
+            "tr_": "Her gün taze sebze satarlar."
         },
         {
             "en": "a bargain",
@@ -6536,8 +5841,7 @@ const DICTIONARY = {
             "tr": "ucuz bir şey",
             "en_": "This coat was a bargain.",
             "es_": "Este abrigo fue una ganga.",
-            "tr_": "Bu mont çok uygundu.",
-            "type": "noun"
+            "tr_": "Bu mont çok uygundu."
         },
         {
             "en": "to spend money",
@@ -6545,8 +5849,7 @@ const DICTIONARY = {
             "tr": "para harcamak",
             "en_": "I don’t like to spend money on clothes.",
             "es_": "No me gusta gastar dinero en ropa.",
-            "tr_": "Kıyafetlere para harcamayı sevmem.",
-            "type": "verb"
+            "tr_": "Kıyafetlere para harcamayı sevmem."
         },
         {
             "en": "price",
@@ -6554,8 +5857,7 @@ const DICTIONARY = {
             "tr": "fiyat",
             "en_": "The price of this car is high.",
             "es_": "El precio de este coche es alto.",
-            "tr_": "Bu arabanın fiyatı yüksek.",
-            "type": "noun"
+            "tr_": "Bu arabanın fiyatı yüksek."
         },
         {
             "en": "receipt",
@@ -6563,8 +5865,7 @@ const DICTIONARY = {
             "tr": "fiş",
             "en_": "Don’t forget to take your receipt.",
             "es_": "No olvides tomar tu recibo.",
-            "tr_": "Fişini almayı unutma.",
-            "type": "noun"
+            "tr_": "Fişini almayı unutma."
         },
         {
             "en": "small",
@@ -6572,8 +5873,7 @@ const DICTIONARY = {
             "tr": "küçük",
             "en_": "She has a small dog.",
             "es_": "Ella tiene un perro pequeño.",
-            "tr_": "Onun küçük bir köpeği var.",
-            "type": "adjective"
+            "tr_": "Onun küçük bir köpeği var."
         },
         {
             "en": "medium",
@@ -6581,8 +5881,7 @@ const DICTIONARY = {
             "tr": "orta",
             "en_": "I would like a medium size shirt.",
             "es_": "Quisiera una camisa mediana.",
-            "tr_": "Orta beden bir gömlek istiyorum.",
-            "type": "adjective"
+            "tr_": "Orta beden bir gömlek istiyorum."
         },
         {
             "en": "large",
@@ -6590,8 +5889,7 @@ const DICTIONARY = {
             "tr": "büyük",
             "en_": "They live in a large house.",
             "es_": "Viven en una casa grande.",
-            "tr_": "Onlar büyük bir evde yaşıyor.",
-            "type": "adjective"
+            "tr_": "Onlar büyük bir evde yaşıyor."
         },
         {
             "en": "the stationery store",
@@ -6599,8 +5897,7 @@ const DICTIONARY = {
             "tr": "kırtasiye dükkanı",
             "en_": "I bought pens at the stationery store.",
             "es_": "Compré bolígrafos en la papelería.",
-            "tr_": "Kırtasiyeden kalem aldım.",
-            "type": "noun"
+            "tr_": "Kırtasiyeden kalem aldım."
         },
         {
             "en": "book",
@@ -6608,8 +5905,7 @@ const DICTIONARY = {
             "tr": "kitap",
             "en_": "I am reading a good book.",
             "es_": "Estoy leyendo un buen libro.",
-            "tr_": "İyi bir kitap okuyorum.",
-            "type": "noun"
+            "tr_": "İyi bir kitap okuyorum."
         },
         {
             "en": "envelope",
@@ -6617,8 +5913,7 @@ const DICTIONARY = {
             "tr": "zarf",
             "en_": "Please put the letter in the envelope.",
             "es_": "Por favor, pon la carta en el sobre.",
-            "tr_": "Lütfen mektubu zarfın içine koy.",
-            "type": "noun"
+            "tr_": "Lütfen mektubu zarfın içine koy."
         },
         {
             "en": "postcard",
@@ -6626,8 +5921,7 @@ const DICTIONARY = {
             "tr": "kartpostal",
             "en_": "I sent a postcard from Paris.",
             "es_": "Envié una tarjeta postal desde París.",
-            "tr_": "Paris'ten bir kartpostal gönderdim.",
-            "type": "noun"
+            "tr_": "Paris'ten bir kartpostal gönderdim."
         },
         {
             "en": "pen",
@@ -6635,8 +5929,7 @@ const DICTIONARY = {
             "tr": "kalem",
             "en_": "Can I borrow your pen?",
             "es_": "¿Me prestas tu bolígrafo?",
-            "tr_": "Kalemini ödünç alabilir miyim?",
-            "type": "noun"
+            "tr_": "Kalemini ödünç alabilir miyim?"
         },
         {
             "en": "pencil",
@@ -6644,8 +5937,7 @@ const DICTIONARY = {
             "tr": "kurşun kalem",
             "en_": "I need a pencil to write.",
             "es_": "Necesito un lápiz para escribir.",
-            "tr_": "Yazmak için bir kurşun kaleme ihtiyacım var.",
-            "type": "noun"
+            "tr_": "Yazmak için bir kurşun kaleme ihtiyacım var."
         },
         {
             "en": "escalator",
@@ -6653,8 +5945,7 @@ const DICTIONARY = {
             "tr": "yürüyen merdiven",
             "en_": "Take the escalator to the second floor.",
             "es_": "Toma la escalera móvil hasta el segundo piso.",
-            "tr_": "İkinci kata yürüyen merdivenle çık.",
-            "type": "noun"
+            "tr_": "İkinci kata yürüyen merdivenle çık."
         },
         {
             "en": "elevator",
@@ -6662,8 +5953,7 @@ const DICTIONARY = {
             "tr": "asansör",
             "en_": "The elevator is out of order.",
             "es_": "El ascensor está fuera de servicio.",
-            "tr_": "Asansör arızalı.",
-            "type": "noun"
+            "tr_": "Asansör arızalı."
         },
         {
             "en": "clothes",
@@ -6671,8 +5961,7 @@ const DICTIONARY = {
             "tr": "giysi [kıyafet]",
             "en_": "She bought new clothes yesterday.",
             "es_": "Ella compró ropa nueva ayer.",
-            "tr_": "Dün yeni kıyafetler aldı.",
-            "type": "noun"
+            "tr_": "Dün yeni kıyafetler aldı."
         },
         {
             "en": "toy",
@@ -6680,8 +5969,7 @@ const DICTIONARY = {
             "tr": "oyuncak",
             "en_": "The child played with a toy car.",
             "es_": "El niño jugó con un juguete.",
-            "tr_": "Çocuk bir oyuncak araba ile oynadı.",
-            "type": "noun"
+            "tr_": "Çocuk bir oyuncak araba ile oynadı."
         },
         {
             "en": "furniture",
@@ -6689,8 +5977,7 @@ const DICTIONARY = {
             "tr": "mobilya",
             "en_": "They bought new furniture for the house.",
             "es_": "Compraron muebles nuevos para la casa.",
-            "tr_": "Ev için yeni mobilya aldılar.",
-            "type": "noun"
+            "tr_": "Ev için yeni mobilya aldılar."
         }
     ],
     "Post office and bank" : [
@@ -6700,8 +5987,7 @@ const DICTIONARY = {
             "tr": "postane",
             "en_": "I need to go to the post office.",
             "es_": "Necesito ir a correos.",
-            "tr_": "Postaneye gitmem gerekiyor.",
-            "type": "noun"
+            "tr_": "Postaneye gitmem gerekiyor."
         },
         {
             "en": "to send mail",
@@ -6709,8 +5995,7 @@ const DICTIONARY = {
             "tr": "postaya vermek",
             "en_": "She went to send mail this morning.",
             "es_": "Ella fue a echar al correo esta mañana.",
-            "tr_": "O, bu sabah postaya verdi.",
-            "type": "verb"
+            "tr_": "O, bu sabah postaya verdi."
         },
         {
             "en": "letter",
@@ -6718,8 +6003,7 @@ const DICTIONARY = {
             "tr": "mektup",
             "en_": "He wrote a letter to his friend.",
             "es_": "Él escribió una carta a su amigo.",
-            "tr_": "O, arkadaşına mektup yazdı.",
-            "type": "noun"
+            "tr_": "O, arkadaşına mektup yazdı."
         },
         {
             "en": "package",
@@ -6727,8 +6011,7 @@ const DICTIONARY = {
             "tr": "paket",
             "en_": "The package arrived yesterday.",
             "es_": "El paquete llegó ayer.",
-            "tr_": "Paket dün geldi.",
-            "type": "noun"
+            "tr_": "Paket dün geldi."
         },
         {
             "en": "to send",
@@ -6736,8 +6019,7 @@ const DICTIONARY = {
             "tr": "göndermek",
             "en_": "I will send the documents tomorrow.",
             "es_": "Mandaré los documentos mañana.",
-            "tr_": "Belgeleri yarın göndereceğim.",
-            "type": "verb"
+            "tr_": "Belgeleri yarın göndereceğim."
         },
         {
             "en": "telegram",
@@ -6745,8 +6027,7 @@ const DICTIONARY = {
             "tr": "telgraf",
             "en_": "They sent a telegram for the news.",
             "es_": "Enviaron un telegrama por la noticia.",
-            "tr_": "Haber için telgraf gönderdiler.",
-            "type": "noun"
+            "tr_": "Haber için telgraf gönderdiler."
         },
         {
             "en": "form",
@@ -6754,8 +6035,7 @@ const DICTIONARY = {
             "tr": "form",
             "en_": "Please fill out the form carefully.",
             "es_": "Por favor, rellene el formulario cuidadosamente.",
-            "tr_": "Lütfen formu dikkatlice doldurun.",
-            "type": "noun"
+            "tr_": "Lütfen formu dikkatlice doldurun."
         },
         {
             "en": "stamp",
@@ -6763,8 +6043,7 @@ const DICTIONARY = {
             "tr": "pul",
             "en_": "Don't forget to put a stamp on the envelope.",
             "es_": "No olvides poner un sello en el sobre.",
-            "tr_": "Zarfa pul koymayı unutma.",
-            "type": "noun"
+            "tr_": "Zarfa pul koymayı unutma."
         },
         {
             "en": "address",
@@ -6772,8 +6051,7 @@ const DICTIONARY = {
             "tr": "adres",
             "en_": "Write your address clearly.",
             "es_": "Escribe tus señas claramente.",
-            "tr_": "Adresini net yaz.",
-            "type": "noun"
+            "tr_": "Adresini net yaz."
         },
         {
             "en": "postman",
@@ -6781,8 +6059,7 @@ const DICTIONARY = {
             "tr": "postacı",
             "en_": "The postman delivers letters every morning.",
             "es_": "El cartero entrega cartas cada mañana.",
-            "tr_": "Postacı her sabah mektupları dağıtır.",
-            "type": "noun"
+            "tr_": "Postacı her sabah mektupları dağıtır."
         },
         {
             "en": "mail",
@@ -6790,8 +6067,7 @@ const DICTIONARY = {
             "tr": "posta",
             "en_": "The mail arrived late today.",
             "es_": "El correo llegó tarde hoy.",
-            "tr_": "Posta bugün geç geldi.",
-            "type": "noun"
+            "tr_": "Posta bugün geç geldi."
         },
         {
             "en": "to deliver",
@@ -6799,8 +6075,7 @@ const DICTIONARY = {
             "tr": "teslim etmek",
             "en_": "They will deliver the package tomorrow.",
             "es_": "Entregarán el paquete mañana.",
-            "tr_": "Paketi yarın teslim edecekler.",
-            "type": "verb"
+            "tr_": "Paketi yarın teslim edecekler."
         },
         {
             "en": "bank",
@@ -6808,8 +6083,7 @@ const DICTIONARY = {
             "tr": "banka",
             "en_": "I need to go to the bank.",
             "es_": "Necesito ir al banco.",
-            "tr_": "Bankaya gitmem gerekiyor.",
-            "type": "noun"
+            "tr_": "Bankaya gitmem gerekiyor."
         },
         {
             "en": "money",
@@ -6817,8 +6091,7 @@ const DICTIONARY = {
             "tr": "para",
             "en_": "She saved a lot of money.",
             "es_": "Ella ahorró mucho dinero.",
-            "tr_": "O, çok para biriktirdi.",
-            "type": "noun"
+            "tr_": "O, çok para biriktirdi."
         },
         {
             "en": "to exchange money",
@@ -6826,8 +6099,7 @@ const DICTIONARY = {
             "tr": "para bozdurmak",
             "en_": "I need to exchange money at the bank.",
             "es_": "Necesito cambiar dinero en el banco.",
-            "tr_": "Bankada para bozdurmam gerekiyor.",
-            "type": "verb"
+            "tr_": "Bankada para bozdurmam gerekiyor."
         },
         {
             "en": "exchange rate",
@@ -6835,8 +6107,7 @@ const DICTIONARY = {
             "tr": "döviz kuru",
             "en_": "The exchange rate is favorable today.",
             "es_": "El tipo de cambio es favorable hoy.",
-            "tr_": "Döviz kuru bugün uygun.",
-            "type": "noun"
+            "tr_": "Döviz kuru bugün uygun."
         },
         {
             "en": "bank manager",
@@ -6844,8 +6115,7 @@ const DICTIONARY = {
             "tr": "banka müdürü",
             "en_": "The bank manager helped me with the loan.",
             "es_": "El gerente del banco me ayudó con el préstamo.",
-            "tr_": "Banka müdürü bana kredi konusunda yardım etti.",
-            "type": "noun"
+            "tr_": "Banka müdürü bana kredi konusunda yardım etti."
         },
         {
             "en": "cashier",
@@ -6853,8 +6123,7 @@ const DICTIONARY = {
             "tr": "vezne görevlisi",
             "en_": "The cashier gave me my receipt.",
             "es_": "El cajero me dio mi recibo.",
-            "tr_": "Vezne görevlisi bana fişimi verdi.",
-            "type": "noun"
+            "tr_": "Vezne görevlisi bana fişimi verdi."
         },
         {
             "en": "coin",
@@ -6862,8 +6131,7 @@ const DICTIONARY = {
             "tr": "madeni para",
             "en_": "I found a coin on the street.",
             "es_": "Encontré una moneda en la calle.",
-            "tr_": "Sokakta madeni para buldum.",
-            "type": "noun"
+            "tr_": "Sokakta madeni para buldum."
         },
         {
             "en": "paper money",
@@ -6871,8 +6139,7 @@ const DICTIONARY = {
             "tr": "banknot",
             "en_": "He paid with paper money.",
             "es_": "Él pagó con billetes.",
-            "tr_": "O, banknot ile ödedi.",
-            "type": "noun"
+            "tr_": "O, banknot ile ödedi."
         },
         {
             "en": "credit card",
@@ -6880,8 +6147,7 @@ const DICTIONARY = {
             "tr": "kredi kartı",
             "en_": "She used her credit card to buy groceries.",
             "es_": "Ella usó su tarjeta de crédito para comprar comestibles.",
-            "tr_": "Marketten alışveriş yapmak için kredi kartını kullandı.",
-            "type": "noun"
+            "tr_": "Marketten alışveriş yapmak için kredi kartını kullandı."
         },
         {
             "en": "to deposit",
@@ -6889,8 +6155,7 @@ const DICTIONARY = {
             "tr": "para yatırmak",
             "en_": "I want to deposit some money into my account.",
             "es_": "Quiero meter dinero en mi cuenta.",
-            "tr_": "Hesabıma biraz para yatırmak istiyorum.",
-            "type": "verb"
+            "tr_": "Hesabıma biraz para yatırmak istiyorum."
         },
         {
             "en": "withdraw",
@@ -6898,8 +6163,7 @@ const DICTIONARY = {
             "tr": "para çekmek",
             "en_": "He went to the bank to withdraw cash.",
             "es_": "Él fue al banco a sacar dinero.",
-            "tr_": "Nakit çekmek için bankaya gitti.",
-            "type": "verb"
+            "tr_": "Nakit çekmek için bankaya gitti."
         },
         {
             "en": "checkbook",
@@ -6907,8 +6171,7 @@ const DICTIONARY = {
             "tr": "çek defteri",
             "en_": "She lost her checkbook yesterday.",
             "es_": "Ella perdió la chequera ayer.",
-            "tr_": "Dün çek defterini kaybetti.",
-            "type": "noun"
+            "tr_": "Dün çek defterini kaybetti."
         },
         {
             "en": "wallet",
@@ -6916,8 +6179,7 @@ const DICTIONARY = {
             "tr": "cüzdan",
             "en_": "He keeps his ID in his wallet.",
             "es_": "Él guarda su identificación en la cartera.",
-            "tr_": "Kimliğini cüzdanında tutar.",
-            "type": "noun"
+            "tr_": "Kimliğini cüzdanında tutar."
         },
         {
             "en": "purse",
@@ -6925,8 +6187,7 @@ const DICTIONARY = {
             "tr": "cüzdan",
             "en_": "Her purse is very stylish.",
             "es_": "Su monedero es muy elegante.",
-            "tr_": "Onun cüzdanı çok şık.",
-            "type": "noun"
+            "tr_": "Onun cüzdanı çok şık."
         },
         {
             "en": "bag",
@@ -6934,8 +6195,7 @@ const DICTIONARY = {
             "tr": "çanta",
             "en_": "She carries a large bag to work.",
             "es_": "Ella lleva un bolso grande al trabajo.",
-            "tr_": "İşe büyük bir çanta götürür.",
-            "type": "noun"
+            "tr_": "İşe büyük bir çanta götürür."
         }
     ],
     "Phonecalls and letters" : [
@@ -6945,8 +6205,7 @@ const DICTIONARY = {
             "tr": "arama yapmak",
             "en_": "I need to make a call to my friend.",
             "es_": "Necesito hacer una llamada a mi amigo.",
-            "tr_": "Arkadaşıma arama yapmam gerekiyor.",
-            "type": "verb"
+            "tr_": "Arkadaşıma arama yapmam gerekiyor."
         },
         {
             "en": "telephone",
@@ -6954,8 +6213,7 @@ const DICTIONARY = {
             "tr": "telefon",
             "en_": "The telephone is ringing.",
             "es_": "El teléfono está sonando.",
-            "tr_": "Telefon çalıyor.",
-            "type": "noun"
+            "tr_": "Telefon çalıyor."
         },
         {
             "en": "to dial number",
@@ -6963,8 +6221,7 @@ const DICTIONARY = {
             "tr": "numarayı çevirmek",
             "en_": "She dialed the number quickly.",
             "es_": "Ella marcó el número rápidamente.",
-            "tr_": "O, numarayı hızlıca çevirdi.",
-            "type": "verb"
+            "tr_": "O, numarayı hızlıca çevirdi."
         },
         {
             "en": "phone number",
@@ -6972,8 +6229,7 @@ const DICTIONARY = {
             "tr": "telefon numarası",
             "en_": "Can you give me your phone number?",
             "es_": "¿Puedes darme tu número de teléfono?",
-            "tr_": "Telefon numaranı verebilir misin?",
-            "type": "noun"
+            "tr_": "Telefon numaranı verebilir misin?"
         },
         {
             "en": "area code",
@@ -6981,8 +6237,7 @@ const DICTIONARY = {
             "tr": "alan kodu",
             "en_": "The area code is necessary for long-distance calls.",
             "es_": "La cifra regional es necesaria para llamadas de larga distancia.",
-            "tr_": "Uzun mesafe aramalar için alan kodu gereklidir.",
-            "type": "noun"
+            "tr_": "Uzun mesafe aramalar için alan kodu gereklidir."
         },
         {
             "en": "telephone directory",
@@ -6990,8 +6245,7 @@ const DICTIONARY = {
             "tr": "telefon rehberi",
             "en_": "Look it up in the telephone directory.",
             "es_": "Búscalo en la guía de teléfonos.",
-            "tr_": "Telefon rehberinde ara.",
-            "type": "noun"
+            "tr_": "Telefon rehberinde ara."
         },
         {
             "en": "to ring",
@@ -6999,8 +6253,7 @@ const DICTIONARY = {
             "tr": "çalmak",
             "en_": "The phone started to ring suddenly.",
             "es_": "El teléfono empezó a sonar de repente.",
-            "tr_": "Telefon aniden çalmaya başladı.",
-            "type": "verb"
+            "tr_": "Telefon aniden çalmaya başladı."
         },
         {
             "en": "to answer telephone",
@@ -7008,8 +6261,7 @@ const DICTIONARY = {
             "tr": "telefonu cevaplamak",
             "en_": "Please answer the telephone.",
             "es_": "Por favor, contesta al teléfono.",
-            "tr_": "Lütfen telefonu cevapla.",
-            "type": "verb"
+            "tr_": "Lütfen telefonu cevapla."
         },
         {
             "en": "telephone box",
@@ -7017,8 +6269,7 @@ const DICTIONARY = {
             "tr": "telefon kulübesi",
             "en_": "There is a telephone box on the street corner.",
             "es_": "Hay una cabina de teléfono en la esquina de la calle.",
-            "tr_": "Sokak köşesinde bir telefon kulübesi var.",
-            "type": "noun"
+            "tr_": "Sokak köşesinde bir telefon kulübesi var."
         },
         {
             "en": "emergency",
@@ -7026,8 +6277,7 @@ const DICTIONARY = {
             "tr": "aciliyet",
             "en_": "Call this number in case of emergency.",
             "es_": "Llama a este número en caso de urgencia.",
-            "tr_": "Aciliyet durumunda bu numarayı ara.",
-            "type": "noun"
+            "tr_": "Aciliyet durumunda bu numarayı ara."
         },
         {
             "en": "to write letter",
@@ -7035,8 +6285,7 @@ const DICTIONARY = {
             "tr": "mektup yazmak",
             "en_": "I like to write letters to my friends.",
             "es_": "Me gusta escribir cartas a mis amigos.",
-            "tr_": "Arkadaşlarıma mektup yazmayı seviyorum.",
-            "type": "verb"
+            "tr_": "Arkadaşlarıma mektup yazmayı seviyorum."
         },
         {
             "en": "to send a postcard",
@@ -7044,8 +6293,7 @@ const DICTIONARY = {
             "tr": "kartpostal göndermek",
             "en_": "I want to send a postcard from Paris.",
             "es_": "Quiero mandar una postal desde París.",
-            "tr_": "Paris'ten kartpostal göndermek istiyorum.",
-            "type": "verb"
+            "tr_": "Paris'ten kartpostal göndermek istiyorum."
         }
     ],
     "Out and about" : [
@@ -7055,8 +6303,7 @@ const DICTIONARY = {
             "tr": "yürüyerek gitmek",
             "en_": "I prefer to go on foot to the park.",
             "es_": "Prefiero ir a pie al parque.",
-            "tr_": "Parka yürüyerek gitmeyi tercih ederim.",
-            "type": "verb"
+            "tr_": "Parka yürüyerek gitmeyi tercih ederim."
         },
         {
             "en": "to walk",
@@ -7064,8 +6311,7 @@ const DICTIONARY = {
             "tr": "yürümek",
             "en_": "She likes to walk in the evening.",
             "es_": "Le gusta caminar por la tarde.",
-            "tr_": "O, akşamları yürümeyi sever.",
-            "type": "verb"
+            "tr_": "O, akşamları yürümeyi sever."
         },
         {
             "en": "to walk",
@@ -7073,8 +6319,7 @@ const DICTIONARY = {
             "tr": "yürümek",
             "en_": "We walk every morning in the park.",
             "es_": "Andamos cada mañana en el parque.",
-            "tr_": "Her sabah parkta yürürüz.",
-            "type": "verb"
+            "tr_": "Her sabah parkta yürürüz."
         },
         {
             "en": "to run",
@@ -7082,8 +6327,7 @@ const DICTIONARY = {
             "tr": "koşmak",
             "en_": "He likes to run fast.",
             "es_": "Le gusta correr rápido.",
-            "tr_": "O, hızlı koşmayı sever.",
-            "type": "verb"
+            "tr_": "O, hızlı koşmayı sever."
         },
         {
             "en": "baby carriage [baby stroller]",
@@ -7091,8 +6335,7 @@ const DICTIONARY = {
             "tr": "bebek arabası",
             "en_": "The baby is sleeping in the baby carriage.",
             "es_": "El bebé está durmiendo en el cochecito de bebé.",
-            "tr_": "Bebek arabasında bebek uyuyor.",
-            "type": "noun"
+            "tr_": "Bebek arabasında bebek uyuyor."
         },
         {
             "en": "to ask for directions",
@@ -7100,8 +6343,7 @@ const DICTIONARY = {
             "tr": "yol tarifi sormak",
             "en_": "I asked for directions to the museum.",
             "es_": "Pregunté el camino al museo.",
-            "tr_": "Müzeye nasıl gideceğimi sordum.",
-            "type": "verb"
+            "tr_": "Müzeye nasıl gideceğimi sordum."
         },
         {
             "en": "map",
@@ -7109,8 +6351,7 @@ const DICTIONARY = {
             "tr": "harita",
             "en_": "I looked at the map to find the way.",
             "es_": "Miré el mapa para encontrar el camino.",
-            "tr_": "Yolu bulmak için haritaya baktım.",
-            "type": "noun"
+            "tr_": "Yolu bulmak için haritaya baktım."
         },
         {
             "en": "signpost",
@@ -7118,8 +6359,7 @@ const DICTIONARY = {
             "tr": "yol tabelası",
             "en_": "The signpost shows the direction to the city.",
             "es_": "El poste indicador muestra la dirección a la ciudad.",
-            "tr_": "Yol tabelası şehre giden yönü gösteriyor.",
-            "type": "noun"
+            "tr_": "Yol tabelası şehre giden yönü gösteriyor."
         },
         {
             "en": "take the bus",
@@ -7127,8 +6367,7 @@ const DICTIONARY = {
             "tr": "otobüse binmek",
             "en_": "I take the bus to work every day.",
             "es_": "Cojo el bus para ir al trabajo todos los días.",
-            "tr_": "Her gün işe otobüse binerim.",
-            "type": "verb"
+            "tr_": "Her gün işe otobüse binerim."
         },
         {
             "en": "passenger",
@@ -7136,8 +6375,7 @@ const DICTIONARY = {
             "tr": "yolcu",
             "en_": "The passenger bought a ticket.",
             "es_": "El pasajero compró un billete.",
-            "tr_": "Yolcu bilet aldı.",
-            "type": "noun"
+            "tr_": "Yolcu bilet aldı."
         },
         {
             "en": "to get off",
@@ -7145,8 +6383,7 @@ const DICTIONARY = {
             "tr": "inmek",
             "en_": "We get off at the next stop.",
             "es_": "Nos bajamos en la próxima parada.",
-            "tr_": "Bir sonraki durakta ineriz.",
-            "type": "verb"
+            "tr_": "Bir sonraki durakta ineriz."
         },
         {
             "en": "to get on",
@@ -7154,8 +6391,7 @@ const DICTIONARY = {
             "tr": "binmek",
             "en_": "She got on the bus quickly.",
             "es_": "Ella se subió al autobús rápidamente.",
-            "tr_": "O, hızlıca otobüse bindi.",
-            "type": "verb"
+            "tr_": "O, hızlıca otobüse bindi."
         },
         {
             "en": "ticket",
@@ -7163,8 +6399,7 @@ const DICTIONARY = {
             "tr": "bilet",
             "en_": "I bought a ticket for the subway.",
             "es_": "Compré un billete para el metro.",
-            "tr_": "Metro için bilet aldım.",
-            "type": "noun"
+            "tr_": "Metro için bilet aldım."
         },
         {
             "en": "bus",
@@ -7172,8 +6407,7 @@ const DICTIONARY = {
             "tr": "otobüs",
             "en_": "The bus arrived late.",
             "es_": "El autobús llegó tarde.",
-            "tr_": "Otobüs geç kaldı.",
-            "type": "noun"
+            "tr_": "Otobüs geç kaldı."
         },
         {
             "en": "bus stop",
@@ -7181,8 +6415,7 @@ const DICTIONARY = {
             "tr": "otobüs durağı",
             "en_": "I waited at the bus stop.",
             "es_": "Esperé en la parada de autobuses.",
-            "tr_": "Otobüs durağında bekledim.",
-            "type": "noun"
+            "tr_": "Otobüs durağında bekledim."
         },
         {
             "en": "subway station",
@@ -7190,8 +6423,7 @@ const DICTIONARY = {
             "tr": "metro istasyonu",
             "en_": "The subway station is crowded.",
             "es_": "La estación de metro está llena.",
-            "tr_": "Metro istasyonu kalabalık.",
-            "type": "noun"
+            "tr_": "Metro istasyonu kalabalık."
         },
         {
             "en": "subway",
@@ -7199,8 +6431,7 @@ const DICTIONARY = {
             "tr": "metro",
             "en_": "I take the subway to go downtown.",
             "es_": "Tomo el metro para ir al centro.",
-            "tr_": "Şehir merkezine gitmek için metroya binerim.",
-            "type": "noun"
+            "tr_": "Şehir merkezine gitmek için metroya binerim."
         },
         {
             "en": "traffic",
@@ -7208,8 +6439,7 @@ const DICTIONARY = {
             "tr": "trafik",
             "en_": "The traffic is heavy this morning.",
             "es_": "El tráfico está pesado esta mañana.",
-            "tr_": "Bu sabah trafik yoğun.",
-            "type": "noun"
+            "tr_": "Bu sabah trafik yoğun."
         },
         {
             "en": "truck",
@@ -7217,8 +6447,7 @@ const DICTIONARY = {
             "tr": "kamyon",
             "en_": "The truck is carrying heavy goods.",
             "es_": "El camión lleva mercancías pesadas.",
-            "tr_": "Kamyon ağır yük taşıyor.",
-            "type": "noun"
+            "tr_": "Kamyon ağır yük taşıyor."
         },
         {
             "en": "van",
@@ -7226,8 +6455,7 @@ const DICTIONARY = {
             "tr": "minibüs",
             "en_": "The van is parked outside.",
             "es_": "La furgoneta está aparcada afuera.",
-            "tr_": "Minibüs dışarıda park edilmiş.",
-            "type": "noun"
+            "tr_": "Minibüs dışarıda park edilmiş."
         },
         {
             "en": "driver",
@@ -7235,8 +6463,7 @@ const DICTIONARY = {
             "tr": "sürücü [şoför]",
             "en_": "The driver stopped at the red light.",
             "es_": "El conductor se detuvo en el semáforo rojo.",
-            "tr_": "Şoför kırmızı ışıkta durdu.",
-            "type": "noun"
+            "tr_": "Şoför kırmızı ışıkta durdu."
         },
         {
             "en": "to drive",
@@ -7244,8 +6471,7 @@ const DICTIONARY = {
             "tr": "sürmek",
             "en_": "He likes to drive fast cars.",
             "es_": "Le gusta conducir autos rápidos.",
-            "tr_": "Hızlı arabalar sürmeyi sever.",
-            "type": "verb"
+            "tr_": "Hızlı arabalar sürmeyi sever."
         },
         {
             "en": "car",
@@ -7253,8 +6479,7 @@ const DICTIONARY = {
             "tr": "araba [otomobil]",
             "en_": "My car is new.",
             "es_": "Mi auto es nuevo.",
-            "tr_": "Arabam yeni.",
-            "type": "noun"
+            "tr_": "Arabam yeni."
         },
         {
             "en": "moped",
@@ -7262,8 +6487,7 @@ const DICTIONARY = {
             "tr": "moped",
             "en_": "He rides his moped every day.",
             "es_": "Él monta su ciclomotor todos los días.",
-            "tr_": "Her gün mopediyle gider.",
-            "type": "noun"
+            "tr_": "Her gün mopediyle gider."
         },
         {
             "en": "bicycle",
@@ -7271,8 +6495,7 @@ const DICTIONARY = {
             "tr": "bisiklet",
             "en_": "She bought a new bicycle.",
             "es_": "Ella compró una bicicleta nueva.",
-            "tr_": "Yeni bir bisiklet aldı.",
-            "type": "noun"
+            "tr_": "Yeni bir bisiklet aldı."
         },
         {
             "en": "to ride bicycle",
@@ -7280,8 +6503,7 @@ const DICTIONARY = {
             "tr": "bisiklete binmek",
             "en_": "I like to ride my bicycle in the park.",
             "es_": "Me gusta ir en bicicleta en el parque.",
-            "tr_": "Parkta bisiklete binmeyi severim.",
-            "type": "verb"
+            "tr_": "Parkta bisiklete binmeyi severim."
         },
         {
             "en": "motorbike",
@@ -7289,8 +6511,7 @@ const DICTIONARY = {
             "tr": "motosiklet",
             "en_": "He has a fast motorbike.",
             "es_": "Él tiene una motocicleta rápida.",
-            "tr_": "Hızlı bir motosikleti var.",
-            "type": "noun"
+            "tr_": "Hızlı bir motosikleti var."
         },
         {
             "en": "slow",
@@ -7298,8 +6519,7 @@ const DICTIONARY = {
             "tr": "yavaş",
             "en_": "The car is going slow.",
             "es_": "El auto va lento.",
-            "tr_": "Araba yavaş gidiyor.",
-            "type": "adjective"
+            "tr_": "Araba yavaş gidiyor."
         },
         {
             "en": "fast",
@@ -7307,8 +6527,7 @@ const DICTIONARY = {
             "tr": "hızlı",
             "en_": "She drives very fast.",
             "es_": "Ella conduce muy rápido.",
-            "tr_": "O çok hızlı sürüyor.",
-            "type": "adjective"
+            "tr_": "O çok hızlı sürüyor."
         },
         {
             "en": "traffic jam",
@@ -7316,8 +6535,7 @@ const DICTIONARY = {
             "tr": "trafik sıkışıklığı",
             "en_": "There is a traffic jam on the highway.",
             "es_": "Hay un embotellamiento en la autopista.",
-            "tr_": "Otoyolda trafik sıkışıklığı var.",
-            "type": "noun"
+            "tr_": "Otoyolda trafik sıkışıklığı var."
         },
         {
             "en": "taxi stand",
@@ -7325,8 +6543,7 @@ const DICTIONARY = {
             "tr": "taksi durağı",
             "en_": "The taxi stand is near the station.",
             "es_": "La parada de taxis está cerca de la estación.",
-            "tr_": "Taksi durağı istasyonun yanında.",
-            "type": "noun"
+            "tr_": "Taksi durağı istasyonun yanında."
         },
         {
             "en": "taxi",
@@ -7334,8 +6551,7 @@ const DICTIONARY = {
             "tr": "taksi",
             "en_": "I took a taxi to the airport.",
             "es_": "Tomé un taxi al aeropuerto.",
-            "tr_": "Havaalanına taksiyle gittim.",
-            "type": "noun"
+            "tr_": "Havaalanına taksiyle gittim."
         },
         {
             "en": "to hail taxi",
@@ -7343,8 +6559,7 @@ const DICTIONARY = {
             "tr": "taksi çevirmek",
             "en_": "He hailed a taxi on the street.",
             "es_": "Paró un taxi en la calle.",
-            "tr_": "Sokakta taksi çevirdi.",
-            "type": "verb"
+            "tr_": "Sokakta taksi çevirdi."
         },
         {
             "en": "fare",
@@ -7352,8 +6567,7 @@ const DICTIONARY = {
             "tr": "yol ücreti",
             "en_": "The fare to the city center is ten dollars.",
             "es_": "El precio del viaje al centro es diez dólares.",
-            "tr_": "Şehir merkezine yol ücreti on dolar.",
-            "type": "noun"
+            "tr_": "Şehir merkezine yol ücreti on dolar."
         }
     ],
     "Driving" : [
@@ -7363,8 +6577,7 @@ const DICTIONARY = {
             "tr": "çalıştırmak",
             "en_": "I started the car this morning.",
             "es_": "Arranqué el coche esta mañana.",
-            "tr_": "Bu sabah arabayı çalıştırdım.",
-            "type": "verb"
+            "tr_": "Bu sabah arabayı çalıştırdım."
         },
         {
             "en": "to accelerate",
@@ -7372,8 +6585,7 @@ const DICTIONARY = {
             "tr": "hızlanmak",
             "en_": "The driver accelerated quickly.",
             "es_": "El conductor aceleró rápido.",
-            "tr_": "Sürücü hızlandı.",
-            "type": "verb"
+            "tr_": "Sürücü hızlandı."
         },
         {
             "en": "to pass",
@@ -7381,8 +6593,7 @@ const DICTIONARY = {
             "tr": "geçmek",
             "en_": "He passed the slow car safely.",
             "es_": "Adelantó al coche lento con seguridad.",
-            "tr_": "Yavaş arabayı güvenle geçti.",
-            "type": "verb"
+            "tr_": "Yavaş arabayı güvenle geçti."
         },
         {
             "en": "to slow down",
@@ -7390,8 +6601,7 @@ const DICTIONARY = {
             "tr": "hızı azaltmak",
             "en_": "You should slow down near the school.",
             "es_": "Debes reducir velocidad cerca de la escuela.",
-            "tr_": "Okul yakınlarında hızını azaltmalısın.",
-            "type": "verb"
+            "tr_": "Okul yakınlarında hızını azaltmalısın."
         },
         {
             "en": "highway [motorway]",
@@ -7399,8 +6609,7 @@ const DICTIONARY = {
             "tr": "otoyol",
             "en_": "We drove on the highway for two hours.",
             "es_": "Conducimos por la autopista durante dos horas.",
-            "tr_": "İki saat otoyolda sürdük.",
-            "type": "noun"
+            "tr_": "İki saat otoyolda sürdük."
         },
         {
             "en": "traffic lights",
@@ -7408,8 +6617,7 @@ const DICTIONARY = {
             "tr": "trafik ışıkları",
             "en_": "Stop when the traffic lights turn red.",
             "es_": "Para cuando las luces de tráfico estén en rojo.",
-            "tr_": "Trafik ışıkları kırmızıya döndüğünde dur.",
-            "type": "noun"
+            "tr_": "Trafik ışıkları kırmızıya döndüğünde dur."
         },
         {
             "en": "road",
@@ -7417,8 +6625,7 @@ const DICTIONARY = {
             "tr": "yol",
             "en_": "The road is very busy today.",
             "es_": "La carretera está muy ocupada hoy.",
-            "tr_": "Yol bugün çok kalabalık.",
-            "type": "noun"
+            "tr_": "Yol bugün çok kalabalık."
         },
         {
             "en": "to turn left",
@@ -7426,8 +6633,7 @@ const DICTIONARY = {
             "tr": "sola dönmek",
             "en_": "Turn left at the next intersection.",
             "es_": "Tuerce a la izquierda en la próxima intersección.",
-            "tr_": "Bir sonraki kavşaktan sola dön.",
-            "type": "verb"
+            "tr_": "Bir sonraki kavşaktan sola dön."
         },
         {
             "en": "to turn right",
@@ -7435,8 +6641,7 @@ const DICTIONARY = {
             "tr": "sağa dönmek",
             "en_": "Turn right after the traffic lights.",
             "es_": "Tuerce a la derecha después de las luces de tráfico.",
-            "tr_": "Trafik ışıklarından sonra sağa dön.",
-            "type": "verb"
+            "tr_": "Trafik ışıklarından sonra sağa dön."
         },
         {
             "en": "to go straight ahead",
@@ -7444,8 +6649,7 @@ const DICTIONARY = {
             "tr": "düz doğru gitmek",
             "en_": "Go straight ahead for two blocks.",
             "es_": "Sigue todo derecho por dos cuadras.",
-            "tr_": "İki blok düz doğru git.",
-            "type": "verb"
+            "tr_": "İki blok düz doğru git."
         },
         {
             "en": "side street",
@@ -7453,8 +6657,7 @@ const DICTIONARY = {
             "tr": "ara sokak girişi",
             "en_": "Turn into the side street on the right.",
             "es_": "Gira en la bocacalle a la derecha.",
-            "tr_": "Sağa ara sokaktan dön.",
-            "type": "noun"
+            "tr_": "Sağa ara sokaktan dön."
         },
         {
             "en": "one-way",
@@ -7462,8 +6665,7 @@ const DICTIONARY = {
             "tr": "tek yön",
             "en_": "This street is one-way only.",
             "es_": "Esta calle es sólo de dirección única.",
-            "tr_": "Bu sokak sadece tek yönlüdür.",
-            "type": "noun"
+            "tr_": "Bu sokak sadece tek yönlüdür."
         },
         {
             "en": "no entry",
@@ -7471,8 +6673,7 @@ const DICTIONARY = {
             "tr": "giriş yok",
             "en_": "No entry for vehicles here.",
             "es_": "Dirección prohibida para vehículos aquí.",
-            "tr_": "Buradan araç girişi yoktur.",
-            "type": "noun"
+            "tr_": "Buradan araç girişi yoktur."
         },
         {
             "en": "parking area",
@@ -7480,8 +6681,7 @@ const DICTIONARY = {
             "tr": "park yeri",
             "en_": "The parking area is full.",
             "es_": "El aparcamiento está lleno.",
-            "tr_": "Park yeri dolu.",
-            "type": "noun"
+            "tr_": "Park yeri dolu."
         },
         {
             "en": "to park",
@@ -7489,8 +6689,7 @@ const DICTIONARY = {
             "tr": "park etmek",
             "en_": "Please park your car here.",
             "es_": "Por favor, aparca tu coche aquí.",
-            "tr_": "Lütfen arabayı burada park et.",
-            "type": "verb"
+            "tr_": "Lütfen arabayı burada park et."
         },
         {
             "en": "backward",
@@ -7516,8 +6715,7 @@ const DICTIONARY = {
             "tr": "kaza [çarpışma]",
             "en_": "There was a crash on the highway.",
             "es_": "Hubo un choque en la autopista.",
-            "tr_": "Otoyolda bir kaza oldu.",
-            "type": "noun"
+            "tr_": "Otoyolda bir kaza oldu."
         },
         {
             "en": "steering wheel",
@@ -7525,8 +6723,7 @@ const DICTIONARY = {
             "tr": "direksiyon",
             "en_": "Hold the steering wheel tightly.",
             "es_": "Sujeta el volante con fuerza.",
-            "tr_": "Direksiyonu sıkıca tut.",
-            "type": "noun"
+            "tr_": "Direksiyonu sıkıca tut."
         },
         {
             "en": "windshield",
@@ -7534,8 +6731,7 @@ const DICTIONARY = {
             "tr": "ön cam",
             "en_": "The windshield is clean.",
             "es_": "El parabrisas está limpio.",
-            "tr_": "Ön cam temiz.",
-            "type": "noun"
+            "tr_": "Ön cam temiz."
         },
         {
             "en": "safety belt",
@@ -7543,8 +6739,7 @@ const DICTIONARY = {
             "tr": "emniyet kemeri",
             "en_": "Always wear your safety belt while driving.",
             "es_": "Siempre usa el cinturón de seguridad mientras conduces.",
-            "tr_": "Araba kullanırken her zaman emniyet kemerini tak.",
-            "type": "noun"
+            "tr_": "Araba kullanırken her zaman emniyet kemerini tak."
         },
         {
             "en": "indicator",
@@ -7552,8 +6747,7 @@ const DICTIONARY = {
             "tr": "sinyal",
             "en_": "Turn on the indicator before you turn left.",
             "es_": "Enciende el indicador antes de girar a la izquierda.",
-            "tr_": "Sola dönmeden önce sinyali aç.",
-            "type": "noun"
+            "tr_": "Sola dönmeden önce sinyali aç."
         },
         {
             "en": "headlight",
@@ -7561,8 +6755,7 @@ const DICTIONARY = {
             "tr": "far",
             "en_": "The headlight is broken on the right side.",
             "es_": "El faro está roto en el lado derecho.",
-            "tr_": "Far sağ tarafta kırık.",
-            "type": "noun"
+            "tr_": "Far sağ tarafta kırık."
         },
         {
             "en": "hood",
@@ -7570,8 +6763,7 @@ const DICTIONARY = {
             "tr": "kaput",
             "en_": "Lift the hood to check the engine.",
             "es_": "Levanta el capó para revisar el motor.",
-            "tr_": "Motoru kontrol etmek için kaputu kaldır.",
-            "type": "noun"
+            "tr_": "Motoru kontrol etmek için kaputu kaldır."
         },
         {
             "en": "trunk",
@@ -7579,8 +6771,7 @@ const DICTIONARY = {
             "tr": "bagaj",
             "en_": "Put the luggage in the trunk.",
             "es_": "Pon el equipaje en el maletero.",
-            "tr_": "Bagaja bavulları koy.",
-            "type": "noun"
+            "tr_": "Bagaja bavulları koy."
         },
         {
             "en": "license plate",
@@ -7588,8 +6779,7 @@ const DICTIONARY = {
             "tr": "plaka",
             "en_": "The police checked the license plate number.",
             "es_": "La policía revisó el número de la matrícula.",
-            "tr_": "Polis plaka numarasını kontrol etti.",
-            "type": "noun"
+            "tr_": "Polis plaka numarasını kontrol etti."
         },
         {
             "en": "wheel",
@@ -7597,8 +6787,7 @@ const DICTIONARY = {
             "tr": "tekerlek",
             "en_": "The car has four wheels.",
             "es_": "El coche tiene cuatro ruedas.",
-            "tr_": "Arabanın dört tekerleği var.",
-            "type": "noun"
+            "tr_": "Arabanın dört tekerleği var."
         },
         {
             "en": "tire",
@@ -7606,8 +6795,7 @@ const DICTIONARY = {
             "tr": "lastik",
             "en_": "The tire is flat and needs to be replaced.",
             "es_": "El neumático está desinflado y necesita ser cambiado.",
-            "tr_": "Lastik inmiş ve değiştirilmesi gerekiyor.",
-            "type": "noun"
+            "tr_": "Lastik inmiş ve değiştirilmesi gerekiyor."
         },
         {
             "en": "horn",
@@ -7615,8 +6803,7 @@ const DICTIONARY = {
             "tr": "korna",
             "en_": "Use the horn to warn other drivers.",
             "es_": "Usa la bocina para avisar a otros conductores.",
-            "tr_": "Diğer sürücüleri uyarmak için korna çal.",
-            "type": "noun"
+            "tr_": "Diğer sürücüleri uyarmak için korna çal."
         },
         {
             "en": "flat tire [deflated tire]",
@@ -7624,8 +6811,7 @@ const DICTIONARY = {
             "tr": "inmiş lastik",
             "en_": "I have a flat tire; I need help.",
             "es_": "Tengo una rueda deshinchada; necesito ayuda.",
-            "tr_": "İnmiş lastiğim var; yardıma ihtiyacım var.",
-            "type": "noun"
+            "tr_": "İnmiş lastiğim var; yardıma ihtiyacım var."
         },
         {
             "en": "breakdown",
@@ -7633,8 +6819,7 @@ const DICTIONARY = {
             "tr": "arıza",
             "en_": "The car had a breakdown on the highway.",
             "es_": "El coche tuvo una avería en la autopista.",
-            "tr_": "Araba otoyolda arızalandı.",
-            "type": "noun"
+            "tr_": "Araba otoyolda arızalandı."
         },
         {
             "en": "mechanic",
@@ -7642,8 +6827,7 @@ const DICTIONARY = {
             "tr": "araba tamircisi",
             "en_": "I called a mechanic to fix the engine.",
             "es_": "Llamé a un mecánico para reparar el motor.",
-            "tr_": "Motoru tamir etmesi için bir tamirci çağırdım.",
-            "type": "noun"
+            "tr_": "Motoru tamir etmesi için bir tamirci çağırdım."
         },
         {
             "en": "oil",
@@ -7651,8 +6835,7 @@ const DICTIONARY = {
             "tr": "yağ",
             "en_": "Check the oil level regularly.",
             "es_": "Revisa el nivel de aceite regularmente.",
-            "tr_": "Yağ seviyesini düzenli kontrol et.",
-            "type": "noun"
+            "tr_": "Yağ seviyesini düzenli kontrol et."
         },
         {
             "en": "fill up with gas",
@@ -7660,8 +6843,7 @@ const DICTIONARY = {
             "tr": "benzin doldurmak",
             "en_": "I need to fill up with gas before the trip.",
             "es_": "Necesito llenar de gasolina antes del viaje.",
-            "tr_": "Seyahatten önce benzin doldurmam gerekiyor.",
-            "type": "verb"
+            "tr_": "Seyahatten önce benzin doldurmam gerekiyor."
         },
         {
             "en": "gasoline",
@@ -7669,8 +6851,7 @@ const DICTIONARY = {
             "tr": "benzin",
             "en_": "Gasoline prices have increased recently.",
             "es_": "Los precios de la gasolina han subido recientemente.",
-            "tr_": "Benzin fiyatları son zamanlarda arttı.",
-            "type": "noun"
+            "tr_": "Benzin fiyatları son zamanlarda arttı."
         }
     ],
     "Travelling by train" : [
@@ -7680,8 +6861,7 @@ const DICTIONARY = {
             "tr": "istasyon",
             "en_": "The train will arrive at the station soon.",
             "es_": "El tren llegará a la estación pronto.",
-            "tr_": "Tren yakında istasyona varacak.",
-            "type": "noun"
+            "tr_": "Tren yakında istasyona varacak."
         },
         {
             "en": "porter",
@@ -7689,8 +6869,7 @@ const DICTIONARY = {
             "tr": "hamal [taşıyıcı]",
             "en_": "The porter helped us with our luggage.",
             "es_": "El mozo nos ayudó con el equipaje.",
-            "tr_": "Hamal bagajlarımızda bize yardım etti.",
-            "type": "noun"
+            "tr_": "Hamal bagajlarımızda bize yardım etti."
         },
         {
             "en": "left-luggage office",
@@ -7698,8 +6877,7 @@ const DICTIONARY = {
             "tr": "emanet",
             "en_": "We left our bags at the left-luggage office.",
             "es_": "Dejamos nuestras bolsas en la consigna.",
-            "tr_": "Çantalarımızı emanete bıraktık.",
-            "type": "noun"
+            "tr_": "Çantalarımızı emanete bıraktık."
         },
         {
             "en": "ticket inspector [conductor]",
@@ -7707,8 +6885,7 @@ const DICTIONARY = {
             "tr": "bilet memuru [kondüktör]",
             "en_": "The ticket inspector checked our tickets.",
             "es_": "El revisor revisó nuestros billetes.",
-            "tr_": "Bilet memuru biletlerimizi kontrol etti.",
-            "type": "noun"
+            "tr_": "Bilet memuru biletlerimizi kontrol etti."
         },
         {
             "en": "waiting room",
@@ -7716,8 +6893,7 @@ const DICTIONARY = {
             "tr": "bekleme odası",
             "en_": "We waited in the waiting room for an hour.",
             "es_": "Esperamos en la sala de espera por una hora.",
-            "tr_": "Bir saat bekleme odasında bekledik.",
-            "type": "noun"
+            "tr_": "Bir saat bekleme odasında bekledik."
         },
         {
             "en": "barrier",
@@ -7725,8 +6901,7 @@ const DICTIONARY = {
             "tr": "bariyer",
             "en_": "The barrier was closed to stop cars from entering.",
             "es_": "La barrera estaba cerrada para detener a los coches.",
-            "tr_": "Bariyer araçların girişini durdurmak için kapalıydı.",
-            "type": "noun"
+            "tr_": "Bariyer araçların girişini durdurmak için kapalıydı."
         },
         {
             "en": "traveller",
@@ -7734,8 +6909,7 @@ const DICTIONARY = {
             "tr": "gezgin",
             "en_": "The traveller bought a ticket to the city.",
             "es_": "El viajero compró un billete a la ciudad.",
-            "tr_": "Gezgin şehir için bilet aldı.",
-            "type": "noun"
+            "tr_": "Gezgin şehir için bilet aldı."
         },
         {
             "en": "timetable [schedule]",
@@ -7743,8 +6917,7 @@ const DICTIONARY = {
             "tr": "çalışma saatleri [saat çizelgesi]",
             "en_": "Check the timetable for the train departure times.",
             "es_": "Consulta el horario para las salidas del tren.",
-            "tr_": "Tren kalkış saatleri için saat çizelgesine bak.",
-            "type": "noun"
+            "tr_": "Tren kalkış saatleri için saat çizelgesine bak."
         },
         {
             "en": "the train to ...",
@@ -7752,8 +6925,7 @@ const DICTIONARY = {
             "tr": "... treni",
             "en_": "The train to Madrid leaves at 5 p.m.",
             "es_": "El tren para Madrid sale a las 5 p.m.",
-            "tr_": "Madrid treni saat 5’te kalkıyor.",
-            "type": "noun"
+            "tr_": "Madrid treni saat 5’te kalkıyor."
         },
         {
             "en": "the train from ...",
@@ -7761,8 +6933,7 @@ const DICTIONARY = {
             "tr": "... den gelen tren",
             "en_": "The train from Barcelona is arriving now.",
             "es_": "El tren desde Barcelona está llegando ahora.",
-            "tr_": "Barselona’dan gelen tren şimdi varıyor.",
-            "type": "noun"
+            "tr_": "Barselona’dan gelen tren şimdi varıyor."
         },
         {
             "en": "ticket office [box office]",
@@ -7770,8 +6941,7 @@ const DICTIONARY = {
             "tr": "gişe",
             "en_": "Buy your tickets at the ticket office.",
             "es_": "Compra tus billetes en la taquilla.",
-            "tr_": "Biletlerini gişeden al.",
-            "type": "noun"
+            "tr_": "Biletlerini gişeden al."
         },
         {
             "en": "ticket",
@@ -7779,8 +6949,7 @@ const DICTIONARY = {
             "tr": "bilet",
             "en_": "I lost my ticket on the way here.",
             "es_": "Perdí mi billete en el camino aquí.",
-            "tr_": "Yolda biletimi kaybettim.",
-            "type": "noun"
+            "tr_": "Yolda biletimi kaybettim."
         },
         {
             "en": "return ticket",
@@ -7788,8 +6957,7 @@ const DICTIONARY = {
             "tr": "gidiş-dönüş bileti",
             "en_": "I bought a return ticket to save money.",
             "es_": "Compré un billete de ida y vuelta para ahorrar dinero.",
-            "tr_": "Para tasarrufu için gidiş-dönüş bileti aldım.",
-            "type": "noun"
+            "tr_": "Para tasarrufu için gidiş-dönüş bileti aldım."
         },
         {
             "en": "season ticket",
@@ -7797,8 +6965,7 @@ const DICTIONARY = {
             "tr": "abonman bileti",
             "en_": "He uses a season ticket for the subway.",
             "es_": "Él usa un billete de abono para el metro.",
-            "tr_": "Metro için abonman bileti kullanıyor.",
-            "type": "noun"
+            "tr_": "Metro için abonman bileti kullanıyor."
         },
         {
             "en": "ticket machine",
@@ -7806,8 +6973,7 @@ const DICTIONARY = {
             "tr": "bilet makinesi",
             "en_": "Buy your ticket from the ticket machine.",
             "es_": "Compra tu billete en la máquina de billetes.",
-            "tr_": "Biletini bilet makinesinden al.",
-            "type": "noun"
+            "tr_": "Biletini bilet makinesinden al."
         },
         {
             "en": "to reserve a seat",
@@ -7815,8 +6981,7 @@ const DICTIONARY = {
             "tr": "koltuk ayırtmak",
             "en_": "I want to reserve a seat on the train.",
             "es_": "Quiero reservar un asiento en el tren.",
-            "tr_": "Trende koltuk ayırtmak istiyorum.",
-            "type": "verb"
+            "tr_": "Trende koltuk ayırtmak istiyorum."
         },
         {
             "en": "railway",
@@ -7824,8 +6989,7 @@ const DICTIONARY = {
             "tr": "demir yolu",
             "en_": "The railway connects many cities.",
             "es_": "El ferrocarril conecta muchas ciudades.",
-            "tr_": "Demir yolu birçok şehri birbirine bağlıyor.",
-            "type": "noun"
+            "tr_": "Demir yolu birçok şehri birbirine bağlıyor."
         },
         {
             "en": "train",
@@ -7833,8 +6997,7 @@ const DICTIONARY = {
             "tr": "tren",
             "en_": "The train is very fast.",
             "es_": "El tren es muy rápido.",
-            "tr_": "Tren çok hızlıdır.",
-            "type": "noun"
+            "tr_": "Tren çok hızlıdır."
         },
         {
             "en": "first class",
@@ -7842,8 +7005,7 @@ const DICTIONARY = {
             "tr": "birinci sınıf",
             "en_": "I bought a first-class ticket for more comfort.",
             "es_": "Compré un billete de primera clase para más comodidad.",
-            "tr_": "Daha rahat olsun diye birinci sınıf bileti aldım.",
-            "type": "noun"
+            "tr_": "Daha rahat olsun diye birinci sınıf bileti aldım."
         },
         {
             "en": "to be delayed",
@@ -7851,8 +7013,7 @@ const DICTIONARY = {
             "tr": "gecikme yaşamak",
             "en_": "The train is delayed by 30 minutes.",
             "es_": "El tren lleva retraso de 30 minutos.",
-            "tr_": "Tren 30 dakika gecikme yaşıyor.",
-            "type": "verb"
+            "tr_": "Tren 30 dakika gecikme yaşıyor."
         },
         {
             "en": "to arrive on time",
@@ -7860,8 +7021,7 @@ const DICTIONARY = {
             "tr": "zamanında varmak",
             "en_": "The train always arrives on time.",
             "es_": "El tren siempre llega a la hora.",
-            "tr_": "Tren her zaman zamanında varır.",
-            "type": "verb"
+            "tr_": "Tren her zaman zamanında varır."
         },
         {
             "en": "sleeping-car",
@@ -7869,8 +7029,7 @@ const DICTIONARY = {
             "tr": "yataklı vagon",
             "en_": "We booked a sleeping-car for the overnight trip.",
             "es_": "Reservamos un coche-cama para el viaje nocturno.",
-            "tr_": "Gece yolculuğu için yataklı vagon ayırttık.",
-            "type": "noun"
+            "tr_": "Gece yolculuğu için yataklı vagon ayırttık."
         },
         {
             "en": "carriage [railcar]",
@@ -7878,8 +7037,7 @@ const DICTIONARY = {
             "tr": "vagon",
             "en_": "The passengers boarded the carriage quickly.",
             "es_": "Los pasajeros abordaron el vagón rápidamente.",
-            "tr_": "Yolcular hızlıca vagona bindi.",
-            "type": "noun"
+            "tr_": "Yolcular hızlıca vagona bindi."
         },
         {
             "en": "to catch train",
@@ -7887,8 +7045,7 @@ const DICTIONARY = {
             "tr": "trene yetişmek",
             "en_": "I ran to catch the train before it left.",
             "es_": "Corrí para coger el tren antes de que saliera.",
-            "tr_": "Tren kalkmadan önce trene yetişmek için koştum.",
-            "type": "verb"
+            "tr_": "Tren kalkmadan önce trene yetişmek için koştum."
         },
         {
             "en": "to miss train",
@@ -7896,8 +7053,7 @@ const DICTIONARY = {
             "tr": "treni kaçırmak",
             "en_": "She missed the train because she was late.",
             "es_": "Ella perdió el tren porque llegó tarde.",
-            "tr_": "Geç kaldığı için treni kaçırdı.",
-            "type": "verb"
+            "tr_": "Geç kaldığı için treni kaçırdı."
         },
         {
             "en": "engine",
@@ -7905,8 +7061,7 @@ const DICTIONARY = {
             "tr": "lokomotif",
             "en_": "The engine pulled the entire train.",
             "es_": "La máquina tiraba de todo el tren.",
-            "tr_": "Lokomotif tüm treni çekiyordu.",
-            "type": "noun"
+            "tr_": "Lokomotif tüm treni çekiyordu."
         },
         {
             "en": "track",
@@ -7914,8 +7069,7 @@ const DICTIONARY = {
             "tr": "ray",
             "en_": "The train is running on the left track.",
             "es_": "El tren circula por la vía izquierda.",
-            "tr_": "Tren sol rayda gidiyor.",
-            "type": "noun"
+            "tr_": "Tren sol rayda gidiyor."
         },
         {
             "en": "platform",
@@ -7923,8 +7077,7 @@ const DICTIONARY = {
             "tr": "peron",
             "en_": "Wait for the train on platform 3.",
             "es_": "Espera el tren en el andén 3.",
-            "tr_": "3 numaralı peronda treni bekle.",
-            "type": "noun"
+            "tr_": "3 numaralı peronda treni bekle."
         },
         {
             "en": "ticket inspector [conductor]",
@@ -7932,8 +7085,7 @@ const DICTIONARY = {
             "tr": "tren görevlisi [kondüktör]",
             "en_": "The ticket inspector checked all the passengers’ tickets.",
             "es_": "El interventor revisó los billetes de todos los pasajeros.",
-            "tr_": "Tren görevlisi tüm yolcuların biletlerini kontrol etti.",
-            "type": "noun"
+            "tr_": "Tren görevlisi tüm yolcuların biletlerini kontrol etti."
         },
         {
             "en": "freight train",
@@ -7941,8 +7093,7 @@ const DICTIONARY = {
             "tr": "yük treni",
             "en_": "The freight train carries goods across the country.",
             "es_": "El tren de mercancías transporta mercancías por todo el país.",
-            "tr_": "Yük treni ülke çapında malları taşıyor.",
-            "type": "noun"
+            "tr_": "Yük treni ülke çapında malları taşıyor."
         },
         {
             "en": "seat",
@@ -7950,8 +7101,7 @@ const DICTIONARY = {
             "tr": "koltuk",
             "en_": "Please take your seat before the train departs.",
             "es_": "Por favor, tome su asiento antes de que salga el tren.",
-            "tr_": "Lütfen tren kalkmadan önce koltuğunuza geçin.",
-            "type": "noun"
+            "tr_": "Lütfen tren kalkmadan önce koltuğunuza geçin."
         },
         {
             "en": "reserved seat",
@@ -7959,8 +7109,7 @@ const DICTIONARY = {
             "tr": "ayrılmış koltuk",
             "en_": "I have a reserved seat next to the window.",
             "es_": "Tengo un asiento reservado junto a la ventana.",
-            "tr_": "Pencere kenarında ayrılmış bir koltuğum var.",
-            "type": "noun"
+            "tr_": "Pencere kenarında ayrılmış bir koltuğum var."
         }
     ],
     "Travelling by plane and boat" : [
@@ -7970,8 +7119,7 @@ const DICTIONARY = {
             "tr": "havalimanı",
             "en_": "We arrived early at the airport.",
             "es_": "Llegamos temprano al aeropuerto.",
-            "tr_": "Havalimanına erken vardık.",
-            "type": "noun"
+            "tr_": "Havalimanına erken vardık."
         },
         {
             "en": "plane",
@@ -7979,8 +7127,7 @@ const DICTIONARY = {
             "tr": "uçak",
             "en_": "The plane took off on time.",
             "es_": "El avión despegó a tiempo.",
-            "tr_": "Uçak zamanında kalktı.",
-            "type": "noun"
+            "tr_": "Uçak zamanında kalktı."
         },
         {
             "en": "to fly",
@@ -7988,8 +7135,7 @@ const DICTIONARY = {
             "tr": "uçmak",
             "en_": "We will fly to Madrid tomorrow.",
             "es_": "Volaremos a Madrid mañana.",
-            "tr_": "Yarın Madrid'e uçacağız.",
-            "type": "verb"
+            "tr_": "Yarın Madrid'e uçacağız."
         },
         {
             "en": "to land",
@@ -7997,8 +7143,7 @@ const DICTIONARY = {
             "tr": "iniş yapmak",
             "en_": "The plane will land in 20 minutes.",
             "es_": "El avión aterrizará en 20 minutos.",
-            "tr_": "Uçak 20 dakika içinde iniş yapacak.",
-            "type": "verb"
+            "tr_": "Uçak 20 dakika içinde iniş yapacak."
         },
         {
             "en": "to take off",
@@ -8006,8 +7151,7 @@ const DICTIONARY = {
             "tr": "kalkış yapmak",
             "en_": "The flight took off without delay.",
             "es_": "El vuelo despegó sin retraso.",
-            "tr_": "Uçuş gecikmeden kalkış yaptı.",
-            "type": "verb"
+            "tr_": "Uçuş gecikmeden kalkış yaptı."
         },
         {
             "en": "runway",
@@ -8015,8 +7159,7 @@ const DICTIONARY = {
             "tr": "pist",
             "en_": "The plane landed safely on the runway.",
             "es_": "El avión aterrizó seguro en la pista de aterrizaje.",
-            "tr_": "Uçak güvenli bir şekilde piste indi.",
-            "type": "noun"
+            "tr_": "Uçak güvenli bir şekilde piste indi."
         },
         {
             "en": "arrivals",
@@ -8024,8 +7167,7 @@ const DICTIONARY = {
             "tr": "gelenler",
             "en_": "We waited at the arrivals hall.",
             "es_": "Esperamos en la sala de llegadas.",
-            "tr_": "Gelenler salonunda bekledik.",
-            "type": "noun"
+            "tr_": "Gelenler salonunda bekledik."
         },
         {
             "en": "customs",
@@ -8033,8 +7175,7 @@ const DICTIONARY = {
             "tr": "gümrük",
             "en_": "We passed through customs quickly.",
             "es_": "Pasamos la aduana rápidamente.",
-            "tr_": "Gümrükten hızlıca geçtik.",
-            "type": "noun"
+            "tr_": "Gümrükten hızlıca geçtik."
         },
         {
             "en": "customs officer",
@@ -8042,8 +7183,7 @@ const DICTIONARY = {
             "tr": "gümrük memuru",
             "en_": "The customs officer checked my passport.",
             "es_": "El aduanero revisó mi pasaporte.",
-            "tr_": "Gümrük memuru pasaportumu kontrol etti.",
-            "type": "noun"
+            "tr_": "Gümrük memuru pasaportumu kontrol etti."
         },
         {
             "en": "nothing to declare",
@@ -8051,8 +7191,7 @@ const DICTIONARY = {
             "tr": "bildirmek için bir şey yok",
             "en_": "I have nothing to declare at customs.",
             "es_": "No tengo nada que declarar en la aduana.",
-            "tr_": "Gümrükte bildirmek için bir şeyim yok.",
-            "type": "expression"
+            "tr_": "Gümrükte bildirmek için bir şeyim yok."
         },
         {
             "en": "passport",
@@ -8060,8 +7199,7 @@ const DICTIONARY = {
             "tr": "pasaport",
             "en_": "Don’t forget your passport for the flight.",
             "es_": "No olvides tu pasaporte para el vuelo.",
-            "tr_": "Uçuş için pasaportunu unutma.",
-            "type": "noun"
+            "tr_": "Uçuş için pasaportunu unutma."
         },
         {
             "en": "departures",
@@ -8069,8 +7207,7 @@ const DICTIONARY = {
             "tr": "gidenler",
             "en_": "The departures board shows the flight times.",
             "es_": "El tablero de salidas muestra los horarios de vuelo.",
-            "tr_": "Gidenler panosunda uçuş saatleri görünüyor.",
-            "type": "noun"
+            "tr_": "Gidenler panosunda uçuş saatleri görünüyor."
         },
         {
             "en": "check-in",
@@ -8078,8 +7215,7 @@ const DICTIONARY = {
             "tr": "giriş",
             "en_": "Please proceed to check-in 2 hours before departure.",
             "es_": "Por favor, dirígete a la recepción 2 horas antes de la salida.",
-            "tr_": "Lütfen kalkıştan 2 saat önce giriş işlemlerine git.",
-            "type": "noun"
+            "tr_": "Lütfen kalkıştan 2 saat önce giriş işlemlerine git."
         },
         {
             "en": "label",
@@ -8087,8 +7223,7 @@ const DICTIONARY = {
             "tr": "etiket",
             "en_": "Attach the luggage label to your suitcase.",
             "es_": "Coloca la etiqueta de equipaje en tu maleta.",
-            "tr_": "Bagaj etiketini bavuluna yapıştır.",
-            "type": "noun"
+            "tr_": "Bagaj etiketini bavuluna yapıştır."
         },
         {
             "en": "pilot",
@@ -8096,8 +7231,7 @@ const DICTIONARY = {
             "tr": "pilot",
             "en_": "The pilot announced the flight was smooth.",
             "es_": "El piloto anunció que el vuelo fue tranquilo.",
-            "tr_": "Pilot uçuşun sakin geçtiğini duyurdu.",
-            "type": "noun"
+            "tr_": "Pilot uçuşun sakin geçtiğini duyurdu."
         },
         {
             "en": "wheelbarrow",
@@ -8105,8 +7239,7 @@ const DICTIONARY = {
             "tr": "el arabası",
             "en_": "The porter used a wheelbarrow for the luggage.",
             "es_": "El mozo usó una carretilla para el equipaje.",
-            "tr_": "Hamal bagaj için el arabası kullandı.",
-            "type": "noun"
+            "tr_": "Hamal bagaj için el arabası kullandı."
         },
         {
             "en": "crew",
@@ -8114,8 +7247,7 @@ const DICTIONARY = {
             "tr": "mürettebat",
             "en_": "The crew prepared the cabin for landing.",
             "es_": "La tripulación preparó la cabina para el aterrizaje.",
-            "tr_": "Mürettebat iniş için kabini hazırladı.",
-            "type": "noun"
+            "tr_": "Mürettebat iniş için kabini hazırladı."
         },
         {
             "en": "stewardess",
@@ -8123,8 +7255,7 @@ const DICTIONARY = {
             "tr": "hostes",
             "en_": "The stewardess served drinks during the flight.",
             "es_": "La azafata sirvió bebidas durante el vuelo.",
-            "tr_": "Hostes uçuş sırasında içecek servisi yaptı.",
-            "type": "noun"
+            "tr_": "Hostes uçuş sırasında içecek servisi yaptı."
         },
         {
             "en": "suitcase",
@@ -8132,8 +7263,7 @@ const DICTIONARY = {
             "tr": "bavul",
             "en_": "She packed her clothes in the suitcase.",
             "es_": "Ella empacó su ropa en la maleta.",
-            "tr_": "Kıyafetlerini bavula yerleştirdi.",
-            "type": "noun"
+            "tr_": "Kıyafetlerini bavula yerleştirdi."
         },
         {
             "en": "hand luggage",
@@ -8141,8 +7271,7 @@ const DICTIONARY = {
             "tr": "el bagajı",
             "en_": "She carried her hand luggage onto the ferry.",
             "es_": "Ella llevó su equipaje de mano al ferry.",
-            "tr_": "Feribota el bagajını aldı.",
-            "type": "noun"
+            "tr_": "Feribota el bagajını aldı."
         },
         {
             "en": "port",
@@ -8150,8 +7279,7 @@ const DICTIONARY = {
             "tr": "liman",
             "en_": "The ship arrived at the port early in the morning.",
             "es_": "El barco llegó al puerto temprano en la mañana.",
-            "tr_": "Gemi sabah erken limana vardı.",
-            "type": "noun"
+            "tr_": "Gemi sabah erken limana vardı."
         },
         {
             "en": "to sail",
@@ -8159,8 +7287,7 @@ const DICTIONARY = {
             "tr": "denize açılmak",
             "en_": "They will sail across the ocean next week.",
             "es_": "Ellos irán en barco a través del océano la próxima semana.",
-            "tr_": "Gelecek hafta denize açılacaklar.",
-            "type": "verb"
+            "tr_": "Gelecek hafta denize açılacaklar."
         },
         {
             "en": "ship",
@@ -8168,8 +7295,7 @@ const DICTIONARY = {
             "tr": "gemi",
             "en_": "The ship was very large and luxurious.",
             "es_": "El barco era muy grande y lujoso.",
-            "tr_": "Gemi çok büyük ve lükstü.",
-            "type": "noun"
+            "tr_": "Gemi çok büyük ve lükstü."
         },
         {
             "en": "ocean liner",
@@ -8177,8 +7303,7 @@ const DICTIONARY = {
             "tr": "okyanus gemisi",
             "en_": "The ocean liner crossed the Atlantic in five days.",
             "es_": "El transatlántico cruzó el Atlántico en cinco días.",
-            "tr_": "Okyanus gemisi Atlantik’i beş günde geçti.",
-            "type": "noun"
+            "tr_": "Okyanus gemisi Atlantik’i beş günde geçti."
         },
         {
             "en": "flag",
@@ -8186,8 +7311,7 @@ const DICTIONARY = {
             "tr": "bayrak",
             "en_": "The ship flew the national flag proudly.",
             "es_": "El barco izó la bandera nacional con orgullo.",
-            "tr_": "Gemi ulusal bayrağı gururla taşıdı.",
-            "type": "noun"
+            "tr_": "Gemi ulusal bayrağı gururla taşıdı."
         },
         {
             "en": "porthole",
@@ -8195,8 +7319,7 @@ const DICTIONARY = {
             "tr": "ambar penceresi",
             "en_": "We looked out the porthole to see the sea.",
             "es_": "Miramos por la portilla para ver el mar.",
-            "tr_": "Ambar penceresinden denize baktık.",
-            "type": "noun"
+            "tr_": "Ambar penceresinden denize baktık."
         },
         {
             "en": "anchor",
@@ -8204,8 +7327,7 @@ const DICTIONARY = {
             "tr": "çapa",
             "en_": "The captain dropped the anchor near the shore.",
             "es_": "El capitán dejó caer el ancla cerca de la costa.",
-            "tr_": "Kaptan kıyıya yakın çapa attı.",
-            "type": "noun"
+            "tr_": "Kaptan kıyıya yakın çapa attı."
         },
         {
             "en": "cabin",
@@ -8213,8 +7335,7 @@ const DICTIONARY = {
             "tr": "kamara [kabin]",
             "en_": "Our cabin was comfortable and had a great view.",
             "es_": "Nuestro camarote era cómodo y tenía una gran vista.",
-            "tr_": "Kamaramız rahattı ve güzel bir manzarası vardı.",
-            "type": "noun"
+            "tr_": "Kamaramız rahattı ve güzel bir manzarası vardı."
         },
         {
             "en": "captain",
@@ -8222,8 +7343,7 @@ const DICTIONARY = {
             "tr": "kaptan",
             "en_": "The captain gave orders during the storm.",
             "es_": "El capitán dio órdenes durante la tormenta.",
-            "tr_": "Kaptan fırtına sırasında emirler verdi.",
-            "type": "noun"
+            "tr_": "Kaptan fırtına sırasında emirler verdi."
         },
         {
             "en": "deck",
@@ -8231,8 +7351,7 @@ const DICTIONARY = {
             "tr": "güverte",
             "en_": "We spent the afternoon walking on the deck.",
             "es_": "Pasamos la tarde caminando por la cubierta.",
-            "tr_": "Öğleden sonrayı güvertede yürüyerek geçirdik.",
-            "type": "noun"
+            "tr_": "Öğleden sonrayı güvertede yürüyerek geçirdik."
         },
         {
             "en": "smokestack",
@@ -8240,8 +7359,7 @@ const DICTIONARY = {
             "tr": "baca",
             "en_": "The smokestack released a large cloud of smoke.",
             "es_": "La chimenea liberó una gran nube de humo.",
-            "tr_": "Baca büyük bir duman bulutu saldı.",
-            "type": "noun"
+            "tr_": "Baca büyük bir duman bulutu saldı."
         },
         {
             "en": "gangway",
@@ -8249,8 +7367,7 @@ const DICTIONARY = {
             "tr": "gemiye biniş köprüsü",
             "en_": "Passengers boarded the ship via the gangway.",
             "es_": "Los pasajeros abordaron el barco por la pasarela.",
-            "tr_": "Yolcular gemiye biniş köprüsünden bindiler.",
-            "type": "noun"
+            "tr_": "Yolcular gemiye biniş köprüsünden bindiler."
         },
         {
             "en": "ferry",
@@ -8258,8 +7375,7 @@ const DICTIONARY = {
             "tr": "feribot",
             "en_": "We took the ferry to cross the river.",
             "es_": "Tomamos el ferry para cruzar el río.",
-            "tr_": "Nehri geçmek için feribotu kullandık.",
-            "type": "noun"
+            "tr_": "Nehri geçmek için feribotu kullandık."
         },
         {
             "en": "crossing",
@@ -8267,8 +7383,7 @@ const DICTIONARY = {
             "tr": "deniz yolculuğu",
             "en_": "The crossing took twelve hours.",
             "es_": "La travesía duró doce horas.",
-            "tr_": "Deniz yolculuğu on iki saat sürdü.",
-            "type": "noun"
+            "tr_": "Deniz yolculuğu on iki saat sürdü."
         },
         {
             "en": "to get seasick",
@@ -8276,8 +7391,7 @@ const DICTIONARY = {
             "tr": "deniz tutmak",
             "en_": "He tends to get seasick on long trips.",
             "es_": "Él tiende a marearse en viajes largos.",
-            "tr_": "Uzun yolculuklarda deniz tutar.",
-            "type": "verb"
+            "tr_": "Uzun yolculuklarda deniz tutar."
         },
         {
             "en": "dock",
@@ -8285,8 +7399,7 @@ const DICTIONARY = {
             "tr": "rıhtım",
             "en_": "The ship is tied to the dock.",
             "es_": "El barco está amarrado al muelle.",
-            "tr_": "Gemi rıhtıma bağlandı.",
-            "type": "noun"
+            "tr_": "Gemi rıhtıma bağlandı."
         },
         {
             "en": "cargo",
@@ -8294,8 +7407,7 @@ const DICTIONARY = {
             "tr": "kargo",
             "en_": "The cargo was loaded onto the ship.",
             "es_": "La carga fue cargada en el barco.",
-            "tr_": "Kargo gemiye yüklendi.",
-            "type": "noun"
+            "tr_": "Kargo gemiye yüklendi."
         },
         {
             "en": "to load",
@@ -8303,8 +7415,7 @@ const DICTIONARY = {
             "tr": "yüklemek",
             "en_": "Workers loaded the cargo carefully.",
             "es_": "Los trabajadores cargaron la carga con cuidado.",
-            "tr_": "İşçiler kargoyu dikkatlice yükledi.",
-            "type": "verb"
+            "tr_": "İşçiler kargoyu dikkatlice yükledi."
         },
         {
             "en": "to unload",
@@ -8312,8 +7423,7 @@ const DICTIONARY = {
             "tr": "boşaltmak [yük indirmek]",
             "en_": "They unloaded the cargo at the dock.",
             "es_": "Descargaron la carga en el muelle.",
-            "tr_": "Kargoyu rıhtımda boşalttılar.",
-            "type": "verb"
+            "tr_": "Kargoyu rıhtımda boşalttılar."
         },
         {
             "en": "hold",
@@ -8321,8 +7431,7 @@ const DICTIONARY = {
             "tr": "ambar",
             "en_": "The cargo was stored in the ship's hold.",
             "es_": "La carga se almacenó en la bodega del barco.",
-            "tr_": "Kargo geminin ambarında saklandı.",
-            "type": "noun"
+            "tr_": "Kargo geminin ambarında saklandı."
         },
         {
             "en": "sailor",
@@ -8330,8 +7439,7 @@ const DICTIONARY = {
             "tr": "denizci",
             "en_": "The sailor worked hard during the storm.",
             "es_": "El marinero trabajó duro durante la tormenta.",
-            "tr_": "Denizci fırtına sırasında çok çalıştı.",
-            "type": "noun"
+            "tr_": "Denizci fırtına sırasında çok çalıştı."
         }
     ],
     "Vacations" : [
@@ -8341,8 +7449,7 @@ const DICTIONARY = {
             "tr": "tatile gitmek",
             "en_": "We plan to go on vacation next month.",
             "es_": "Planeamos ir de vacaciones el próximo mes.",
-            "tr_": "Gelecek ay tatile gitmeyi planlıyoruz.",
-            "type": "verb"
+            "tr_": "Gelecek ay tatile gitmeyi planlıyoruz."
         },
         {
             "en": "tourist",
@@ -8350,8 +7457,7 @@ const DICTIONARY = {
             "tr": "turist",
             "en_": "The tourist visited many famous landmarks.",
             "es_": "El turista visitó muchos lugares famosos.",
-            "tr_": "Turist birçok ünlü yeri ziyaret etti.",
-            "type": "noun"
+            "tr_": "Turist birçok ünlü yeri ziyaret etti."
         },
         {
             "en": "to pack",
@@ -8359,8 +7465,7 @@ const DICTIONARY = {
             "tr": "bavul hazırlamak",
             "en_": "I need to pack my suitcase tonight.",
             "es_": "Necesito hacer la maleta esta noche.",
-            "tr_": "Bu gece bavulumu hazırlamam lazım.",
-            "type": "verb"
+            "tr_": "Bu gece bavulumu hazırlamam lazım."
         },
         {
             "en": "suntan oil",
@@ -8368,8 +7473,7 @@ const DICTIONARY = {
             "tr": "güneş yağı",
             "en_": "Don't forget to apply suntan oil at the beach.",
             "es_": "No olvides aplicar aceite para el sol en la playa.",
-            "tr_": "Plajda güneş yağını sürmeyi unutma.",
-            "type": "noun"
+            "tr_": "Plajda güneş yağını sürmeyi unutma."
         },
         {
             "en": "sunglasses",
@@ -8377,8 +7481,7 @@ const DICTIONARY = {
             "tr": "güneş gözlüğü",
             "en_": "She bought new sunglasses for the summer.",
             "es_": "Ella compró gafas de sol nuevas para el verano.",
-            "tr_": "Yaz için yeni güneş gözlüğü aldı.",
-            "type": "noun"
+            "tr_": "Yaz için yeni güneş gözlüğü aldı."
         },
         {
             "en": "hotel",
@@ -8386,8 +7489,7 @@ const DICTIONARY = {
             "tr": "otel",
             "en_": "We stayed at a luxury hotel during our trip.",
             "es_": "Nos alojamos en un hotel de lujo durante nuestro viaje.",
-            "tr_": "Gezimiz sırasında lüks bir otelde kaldık.",
-            "type": "noun"
+            "tr_": "Gezimiz sırasında lüks bir otelde kaldık."
         },
         {
             "en": "to stay in a hotel",
@@ -8395,8 +7497,7 @@ const DICTIONARY = {
             "tr": "otelde kalmak",
             "en_": "They decided to stay in a hotel near the beach.",
             "es_": "Decidieron quedarse en un hotel cerca de la playa.",
-            "tr_": "Plajın yakınında otelde kalmaya karar verdiler.",
-            "type": "verb"
+            "tr_": "Plajın yakınında otelde kalmaya karar verdiler."
         },
         {
             "en": "reception",
@@ -8404,8 +7505,7 @@ const DICTIONARY = {
             "tr": "resepsiyon",
             "en_": "Please check in at the hotel reception.",
             "es_": "Por favor, regístrese en la recepción del hotel.",
-            "tr_": "Lütfen otel resepsiyonunda giriş yapın.",
-            "type": "noun"
+            "tr_": "Lütfen otel resepsiyonunda giriş yapın."
         },
         {
             "en": "with shower",
@@ -8413,8 +7513,7 @@ const DICTIONARY = {
             "tr": "duşlu",
             "en_": "I booked a room with shower included.",
             "es_": "Reservé una habitación con ducha incluida.",
-            "tr_": "Duşlu bir oda ayırttım.",
-            "type": "phrase"
+            "tr_": "Duşlu bir oda ayırttım."
         },
         {
             "en": "with balcony",
@@ -8422,8 +7521,7 @@ const DICTIONARY = {
             "tr": "balkonlu",
             "en_": "We stayed in a hotel room with balcony.",
             "es_": "Nos alojamos en una habitación con balcón.",
-            "tr_": "Balkonlu bir otel odasında kaldık.",
-            "type": "phrase"
+            "tr_": "Balkonlu bir otel odasında kaldık."
         },
         {
             "en": "single room",
@@ -8431,8 +7529,7 @@ const DICTIONARY = {
             "tr": "tek kişilik oda",
             "en_": "I prefer a single room when I travel alone.",
             "es_": "Prefiero una habitación individual cuando viajo solo.",
-            "tr_": "Yalnız seyahat ettiğimde tek kişilik oda tercih ederim.",
-            "type": "noun"
+            "tr_": "Yalnız seyahat ettiğimde tek kişilik oda tercih ederim."
         },
         {
             "en": "double room",
@@ -8440,8 +7537,7 @@ const DICTIONARY = {
             "tr": "çift kişilik oda",
             "en_": "They reserved a double room for their stay.",
             "es_": "Reservaron una habitación doble para su estancia.",
-            "tr_": "Konaklamaları için çift kişilik oda ayırttılar.",
-            "type": "noun"
+            "tr_": "Konaklamaları için çift kişilik oda ayırttılar."
         },
         {
             "en": "to reserve a room",
@@ -8449,8 +7545,7 @@ const DICTIONARY = {
             "tr": "oda ayırtmak",
             "en_": "We need to reserve a room for the weekend.",
             "es_": "Necesitamos reservar una habitación para el fin de semana.",
-            "tr_": "Hafta sonu için oda ayırtmamız lazım.",
-            "type": "verb"
+            "tr_": "Hafta sonu için oda ayırtmamız lazım."
         },
         {
             "en": "to be full",
@@ -8458,8 +7553,7 @@ const DICTIONARY = {
             "tr": "dolu olmak",
             "en_": "The hotel is full during the holiday season.",
             "es_": "El hotel está completo durante la temporada de vacaciones.",
-            "tr_": "Otel tatil sezonunda dolu olur.",
-            "type": "verb"
+            "tr_": "Otel tatil sezonunda dolu olur."
         },
         {
             "en": "guesthouse [boarding house]",
@@ -8467,8 +7561,7 @@ const DICTIONARY = {
             "tr": "pansiyon",
             "en_": "We stayed at a cozy guesthouse during our trip.",
             "es_": "Nos alojamos en una pensión acogedora durante nuestro viaje.",
-            "tr_": "Gezimiz sırasında samimi bir pansiyonda kaldık.",
-            "type": "noun"
+            "tr_": "Gezimiz sırasında samimi bir pansiyonda kaldık."
         },
         {
             "en": "beach",
@@ -8476,8 +7569,7 @@ const DICTIONARY = {
             "tr": "plaj",
             "en_": "The beach was crowded with tourists.",
             "es_": "La playa estaba llena de turistas.",
-            "tr_": "Plaj turistlerle doluydu.",
-            "type": "noun"
+            "tr_": "Plaj turistlerle doluydu."
         },
         {
             "en": "seagull",
@@ -8485,8 +7577,7 @@ const DICTIONARY = {
             "tr": "martı",
             "en_": "A seagull flew over the ocean.",
             "es_": "Una gaviota voló sobre el océano.",
-            "tr_": "Bir martı okyanusun üzerinde uçtu.",
-            "type": "noun"
+            "tr_": "Bir martı okyanusun üzerinde uçtu."
         },
         {
             "en": "lifeguard",
@@ -8494,8 +7585,7 @@ const DICTIONARY = {
             "tr": "cankurtaran",
             "en_": "The lifeguard watched the swimmers carefully.",
             "es_": "El vigilante de playa vigilaba a los nadadores con cuidado.",
-            "tr_": "Cankurtaran yüzücüleri dikkatle izliyordu.",
-            "type": "noun"
+            "tr_": "Cankurtaran yüzücüleri dikkatle izliyordu."
         },
         {
             "en": "wave",
@@ -8503,8 +7593,7 @@ const DICTIONARY = {
             "tr": "dalga",
             "en_": "The waves crashed against the shore.",
             "es_": "Las olas chocaban contra la orilla.",
-            "tr_": "Dalgalar kıyıya vuruyordu.",
-            "type": "noun"
+            "tr_": "Dalgalar kıyıya vuruyordu."
         },
         {
             "en": "to swim",
@@ -8512,8 +7601,7 @@ const DICTIONARY = {
             "tr": "yüzmek",
             "en_": "We like to swim in the sea during summer.",
             "es_": "Nos gusta nadar en el mar durante el verano.",
-            "tr_": "Yazın denizde yüzmeyi severiz.",
-            "type": "verb"
+            "tr_": "Yazın denizde yüzmeyi severiz."
         },
         {
             "en": "sea",
@@ -8521,8 +7609,7 @@ const DICTIONARY = {
             "tr": "deniz",
             "en_": "The sea is calm today.",
             "es_": "El mar está tranquilo hoy.",
-            "tr_": "Deniz bugün sakin.",
-            "type": "noun"
+            "tr_": "Deniz bugün sakin."
         },
         {
             "en": "sand",
@@ -8530,8 +7617,7 @@ const DICTIONARY = {
             "tr": "kum",
             "en_": "The children played in the sand.",
             "es_": "Los niños jugaron en la arena.",
-            "tr_": "Çocuklar kumda oynadı.",
-            "type": "noun"
+            "tr_": "Çocuklar kumda oynadı."
         },
         {
             "en": "to sunbathe",
@@ -8539,8 +7625,7 @@ const DICTIONARY = {
             "tr": "güneşlenmek",
             "en_": "We like to sunbathe on the beach.",
             "es_": "Nos gusta tomar un baño de sol en la playa.",
-            "tr_": "Plajda güneşlenmeyi severiz.",
-            "type": "verb"
+            "tr_": "Plajda güneşlenmeyi severiz."
         },
         {
             "en": "tanned",
@@ -8548,8 +7633,7 @@ const DICTIONARY = {
             "tr": "bronzlanmış",
             "en_": "She got tanned after a week at the beach.",
             "es_": "Ella se bronceó después de una semana en la playa.",
-            "tr_": "Bir hafta plajda kaldıktan sonra bronzlandı.",
-            "type": "adjective"
+            "tr_": "Bir hafta plajda kaldıktan sonra bronzlandı."
         },
         {
             "en": "parasol [sunshade]",
@@ -8557,8 +7641,7 @@ const DICTIONARY = {
             "tr": "şemsiye [güneşlik]",
             "en_": "They sat under the parasol to avoid the sun.",
             "es_": "Se sentaron bajo el parasol para evitar el sol.",
-            "tr_": "Güneşten korunmak için şemsiyenin altında oturdular.",
-            "type": "noun"
+            "tr_": "Güneşten korunmak için şemsiyenin altında oturdular."
         },
         {
             "en": "seaweed",
@@ -8566,8 +7649,7 @@ const DICTIONARY = {
             "tr": "yosun",
             "en_": "The beach was covered with seaweed after the storm.",
             "es_": "La playa estaba cubierta de algas marinas después de la tormenta.",
-            "tr_": "Fırtınadan sonra plaj yosunlarla kaplandı.",
-            "type": "noun"
+            "tr_": "Fırtınadan sonra plaj yosunlarla kaplandı."
         },
         {
             "en": "crab",
@@ -8575,8 +7657,7 @@ const DICTIONARY = {
             "tr": "yengeç",
             "en_": "We saw a crab crawling on the rocks.",
             "es_": "Vimos un cangrejo arrastrándose sobre las rocas.",
-            "tr_": "Kayaların üzerinde yürüyen bir yengeç gördük.",
-            "type": "noun"
+            "tr_": "Kayaların üzerinde yürüyen bir yengeç gördük."
         },
         {
             "en": "seahell",
@@ -8584,8 +7665,7 @@ const DICTIONARY = {
             "tr": "deniz kabuğu",
             "en_": "She collected beautiful seashells on the shore.",
             "es_": "Ella recogió conchas bonitas en la orilla.",
-            "tr_": "Kıyıda güzel deniz kabukları topladı.",
-            "type": "noun"
+            "tr_": "Kıyıda güzel deniz kabukları topladı."
         },
         {
             "en": "to go to mountaineering",
@@ -8593,8 +7673,7 @@ const DICTIONARY = {
             "tr": "dağcılığa gitmek",
             "en_": "They like to go to mountaineering every summer.",
             "es_": "Les gusta hacer alpinismo cada verano.",
-            "tr_": "Her yaz dağcılığa gitmeyi severler.",
-            "type": "verb"
+            "tr_": "Her yaz dağcılığa gitmeyi severler."
         },
         {
             "en": "mountain",
@@ -8602,8 +7681,7 @@ const DICTIONARY = {
             "tr": "dağ",
             "en_": "The mountain is covered with snow.",
             "es_": "La montaña está cubierta de nieve.",
-            "tr_": "Dağ karla kaplıdır.",
-            "type": "noun"
+            "tr_": "Dağ karla kaplıdır."
         },
         {
             "en": "summit",
@@ -8611,8 +7689,7 @@ const DICTIONARY = {
             "tr": "zirve",
             "en_": "We reached the summit after a long climb.",
             "es_": "Llegamos a la cima después de una larga escalada.",
-            "tr_": "Uzun bir tırmanıştan sonra zirveye ulaştık.",
-            "type": "noun"
+            "tr_": "Uzun bir tırmanıştan sonra zirveye ulaştık."
         },
         {
             "en": "view",
@@ -8620,8 +7697,7 @@ const DICTIONARY = {
             "tr": "görünüm",
             "en_": "The view from the mountain is breathtaking.",
             "es_": "La vista desde la montaña es impresionante.",
-            "tr_": "Dağdan görünüm nefes kesici.",
-            "type": "noun"
+            "tr_": "Dağdan görünüm nefes kesici."
         },
         {
             "en": "sharp",
@@ -8629,8 +7705,7 @@ const DICTIONARY = {
             "tr": "dik",
             "en_": "The path up the mountain is very sharp.",
             "es_": "El camino hacia la montaña es muy empinado.",
-            "tr_": "Dağa çıkan yol çok dik.",
-            "type": "adjective"
+            "tr_": "Dağa çıkan yol çok dik."
         },
         {
             "en": "to climb",
@@ -8638,8 +7713,7 @@ const DICTIONARY = {
             "tr": "tırmanmak",
             "en_": "He likes to climb mountains on weekends.",
             "es_": "Le gusta escalar montañas los fines de semana.",
-            "tr_": "Hafta sonları dağlara tırmanmayı sever.",
-            "type": "verb"
+            "tr_": "Hafta sonları dağlara tırmanmayı sever."
         },
         {
             "en": "mountaineer [climber]",
@@ -8647,8 +7721,7 @@ const DICTIONARY = {
             "tr": "dağcı",
             "en_": "The mountaineer prepared his equipment carefully.",
             "es_": "El alpinista preparó su equipo cuidadosamente.",
-            "tr_": "Dağcı ekipmanını dikkatle hazırladı.",
-            "type": "noun"
+            "tr_": "Dağcı ekipmanını dikkatle hazırladı."
         },
         {
             "en": "backpeck",
@@ -8656,8 +7729,7 @@ const DICTIONARY = {
             "tr": "sırt çantası",
             "en_": "She carried her backpack during the hike.",
             "es_": "Ella llevó su mochila durante la caminata.",
-            "tr_": "Yürüyüş sırasında sırt çantasını taşıdı.",
-            "type": "noun"
+            "tr_": "Yürüyüş sırasında sırt çantasını taşıdı."
         },
         {
             "en": "to ski",
@@ -8665,8 +7737,7 @@ const DICTIONARY = {
             "tr": "kayak yapmak",
             "en_": "We like to ski every winter.",
             "es_": "Nos gusta esquiar cada invierno.",
-            "tr_": "Her kış kayak yapmayı severiz.",
-            "type": "verb"
+            "tr_": "Her kış kayak yapmayı severiz."
         },
         {
             "en": "ski resort [ski center]",
@@ -8674,8 +7745,7 @@ const DICTIONARY = {
             "tr": "kayak merkezi",
             "en_": "The ski resort is very popular among tourists.",
             "es_": "El centro de esquí es muy popular entre los turistas.",
-            "tr_": "Kayak merkezi turistler arasında çok popülerdir.",
-            "type": "noun"
+            "tr_": "Kayak merkezi turistler arasında çok popülerdir."
         },
         {
             "en": "chairlift",
@@ -8683,8 +7753,7 @@ const DICTIONARY = {
             "tr": "telesiyej",
             "en_": "We took the chairlift to the top of the mountain.",
             "es_": "Tomamos la silla de ascenso hasta la cima de la montaña.",
-            "tr_": "Dağın tepesine telesiyejle çıktık.",
-            "type": "noun"
+            "tr_": "Dağın tepesine telesiyejle çıktık."
         },
         {
             "en": "slide",
@@ -8692,8 +7761,7 @@ const DICTIONARY = {
             "tr": "kaydırak",
             "en_": "The children enjoyed playing on the slide.",
             "es_": "Los niños disfrutaron jugando en el tobogán.",
-            "tr_": "Çocuklar kaydırakta oynamaktan hoşlandı.",
-            "type": "noun"
+            "tr_": "Çocuklar kaydırakta oynamaktan hoşlandı."
         },
         {
             "en": "ski pole",
@@ -8701,8 +7769,7 @@ const DICTIONARY = {
             "tr": "kayak sopası",
             "en_": "He lost his ski pole during the race.",
             "es_": "Perdió su bastón de esquí durante la carrera.",
-            "tr_": "Yarış sırasında kayak sopasını kaybetti.",
-            "type": "noun"
+            "tr_": "Yarış sırasında kayak sopasını kaybetti."
         },
         {
             "en": "ski boots",
@@ -8710,8 +7777,7 @@ const DICTIONARY = {
             "tr": "kayak botu",
             "en_": "She bought new ski boots for the winter.",
             "es_": "Compró nuevas botas de esquí para el invierno.",
-            "tr_": "Kış için yeni kayak botları aldı.",
-            "type": "noun"
+            "tr_": "Kış için yeni kayak botları aldı."
         },
         {
             "en": "skis",
@@ -8719,8 +7785,7 @@ const DICTIONARY = {
             "tr": "kayak takımı",
             "en_": "The skis were too long for him.",
             "es_": "Los esquís eran demasiado largos para él.",
-            "tr_": "Kayak takımı onun için çok uzundu.",
-            "type": "noun"
+            "tr_": "Kayak takımı onun için çok uzundu."
         },
         {
             "en": "to go to camping",
@@ -8728,8 +7793,7 @@ const DICTIONARY = {
             "tr": "kampa gitmek",
             "en_": "We plan to go to camping next weekend.",
             "es_": "Planeamos ir de camping el próximo fin de semana.",
-            "tr_": "Gelecek hafta sonu kampa gitmeyi planlıyoruz.",
-            "type": "verb"
+            "tr_": "Gelecek hafta sonu kampa gitmeyi planlıyoruz."
         },
         {
             "en": "campsite",
@@ -8737,8 +7801,7 @@ const DICTIONARY = {
             "tr": "kamp alanı",
             "en_": "The campsite is near the lake.",
             "es_": "El camping está cerca del lago.",
-            "tr_": "Kamp alanı gölün yakınında.",
-            "type": "noun"
+            "tr_": "Kamp alanı gölün yakınında."
         },
         {
             "en": "caravan [camper van]",
@@ -8746,8 +7809,7 @@ const DICTIONARY = {
             "tr": "karavan",
             "en_": "They traveled across the country in a caravan.",
             "es_": "Viajaron por el país en una caravana.",
-            "tr_": "Ülkeyi karavanla dolaştılar.",
-            "type": "noun"
+            "tr_": "Ülkeyi karavanla dolaştılar."
         },
         {
             "en": "tent",
@@ -8755,8 +7817,7 @@ const DICTIONARY = {
             "tr": "çadır",
             "en_": "We set up the tent before nightfall.",
             "es_": "Montamos la tienda de campaña antes del anochecer.",
-            "tr_": "Gün batmadan önce çadırı kurduk.",
-            "type": "noun"
+            "tr_": "Gün batmadan önce çadırı kurduk."
         },
         {
             "en": "to pitch the tent",
@@ -8764,8 +7825,7 @@ const DICTIONARY = {
             "tr": "çadır kurmak",
             "en_": "He helped us to pitch the tent.",
             "es_": "Nos ayudó a montar la tienda de campaña.",
-            "tr_": "Çadır kurmamıza yardım etti.",
-            "type": "verb"
+            "tr_": "Çadır kurmamıza yardım etti."
         },
         {
             "en": "camping stove",
@@ -8773,8 +7833,7 @@ const DICTIONARY = {
             "tr": "kamp ocağı",
             "en_": "We cooked dinner on the camping stove.",
             "es_": "Cocinamos la cena en el infiernillo.",
-            "tr_": "Yemeği kamp ocağında pişirdik.",
-            "type": "noun"
+            "tr_": "Yemeği kamp ocağında pişirdik."
         },
         {
             "en": "sleeping bag",
@@ -8782,8 +7841,7 @@ const DICTIONARY = {
             "tr": "uyku tulumu",
             "en_": "I forgot my sleeping bag at home.",
             "es_": "Olvidé mi saco de dormir en casa.",
-            "tr_": "Uyku tulumumu evde unuttum.",
-            "type": "noun"
+            "tr_": "Uyku tulumumu evde unuttum."
         },
         {
             "en": "lake",
@@ -8791,8 +7849,7 @@ const DICTIONARY = {
             "tr": "göl",
             "en_": "We went swimming in the lake.",
             "es_": "Fuimos a nadar en el lago.",
-            "tr_": "Gölda yüzmeye gittik.",
-            "type": "noun"
+            "tr_": "Gölda yüzmeye gittik."
         },
         {
             "en": "reed",
@@ -8800,8 +7857,7 @@ const DICTIONARY = {
             "tr": "kamış",
             "en_": "The birds nested in the reeds by the lake.",
             "es_": "Los pájaros anidaron en los juncos junto al lago.",
-            "tr_": "Kuşlar göl kenarındaki kamışlarda yuva yaptı.",
-            "type": "noun"
+            "tr_": "Kuşlar göl kenarındaki kamışlarda yuva yaptı."
         },
         {
             "en": "to go to fishing",
@@ -8809,8 +7865,7 @@ const DICTIONARY = {
             "tr": "balığa gitmek",
             "en_": "We like to go fishing on weekends.",
             "es_": "Nos gusta ir de pesca los fines de semana.",
-            "tr_": "Hafta sonları balığa gitmeyi severiz.",
-            "type": "verb"
+            "tr_": "Hafta sonları balığa gitmeyi severiz."
         },
         {
             "en": "fishing boat",
@@ -8818,8 +7873,7 @@ const DICTIONARY = {
             "tr": "balıkçı teknesi",
             "en_": "The fishing boat returned with a big catch.",
             "es_": "La barca de pesca volvió con una gran captura.",
-            "tr_": "Balıkçı teknesi büyük bir avla döndü.",
-            "type": "noun"
+            "tr_": "Balıkçı teknesi büyük bir avla döndü."
         },
         {
             "en": "bait",
@@ -8827,8 +7881,7 @@ const DICTIONARY = {
             "tr": "yem",
             "en_": "He put bait on the hook.",
             "es_": "Puso cebo en el anzuelo.",
-            "tr_": "Olta iğnesine yem koydu.",
-            "type": "noun"
+            "tr_": "Olta iğnesine yem koydu."
         },
         {
             "en": "hook",
@@ -8836,8 +7889,7 @@ const DICTIONARY = {
             "tr": "olta iğnesi",
             "en_": "The fish bit the hook.",
             "es_": "El pez mordió el anzuelo.",
-            "tr_": "Balık olta iğnesini ısırdı.",
-            "type": "noun"
+            "tr_": "Balık olta iğnesini ısırdı."
         },
         {
             "en": "net",
@@ -8845,8 +7897,7 @@ const DICTIONARY = {
             "tr": "ağ",
             "en_": "They threw a net into the water.",
             "es_": "Lanzaron una red al agua.",
-            "tr_": "Suya ağ attılar.",
-            "type": "noun"
+            "tr_": "Suya ağ attılar."
         },
         {
             "en": "to catch a fish",
@@ -8854,8 +7905,7 @@ const DICTIONARY = {
             "tr": "balık tutmak",
             "en_": "He managed to catch a fish.",
             "es_": "Logró coger un pez.",
-            "tr_": "Balık tutmayı başardı.",
-            "type": "verb"
+            "tr_": "Balık tutmayı başardı."
         },
         {
             "en": "canoe",
@@ -8863,8 +7913,7 @@ const DICTIONARY = {
             "tr": "kano",
             "en_": "They paddled the canoe across the lake.",
             "es_": "Remaron la canoa por el lago.",
-            "tr_": "Göl boyunca kanoyla kürek çektiler.",
-            "type": "noun"
+            "tr_": "Göl boyunca kanoyla kürek çektiler."
         },
         {
             "en": "to capsize",
@@ -8872,8 +7921,7 @@ const DICTIONARY = {
             "tr": "devrilmek",
             "en_": "The boat capsized in the storm.",
             "es_": "La barca se volcó en la tormenta.",
-            "tr_": "Tekne fırtınada devrildi.",
-            "type": "verb"
+            "tr_": "Tekne fırtınada devrildi."
         },
         {
             "en": "to float",
@@ -8881,8 +7929,7 @@ const DICTIONARY = {
             "tr": "su üstüne durmak",
             "en_": "The leaves float on the surface of the water.",
             "es_": "Las hojas flotan en la superficie del agua.",
-            "tr_": "Yapraklar suyun yüzeyinde su üstüne duruyor.",
-            "type": "verb"
+            "tr_": "Yapraklar suyun yüzeyinde su üstüne duruyor."
         },
         {
             "en": "dragonfly",
@@ -8890,8 +7937,7 @@ const DICTIONARY = {
             "tr": "yusufçuk",
             "en_": "A dragonfly landed on the flower.",
             "es_": "Una libélula aterrizó en la flor.",
-            "tr_": "Bir yusufçuk çiçeğin üzerine kondu.",
-            "type": "noun"
+            "tr_": "Bir yusufçuk çiçeğin üzerine kondu."
         },
         {
             "en": "mosquito",
@@ -8899,8 +7945,7 @@ const DICTIONARY = {
             "tr": "sivrisinek",
             "en_": "Mosquitoes are common in summer.",
             "es_": "Los mosquitos son comunes en verano.",
-            "tr_": "Sivrisinekler yazın çok olur.",
-            "type": "noun"
+            "tr_": "Sivrisinekler yazın çok olur."
         },
         {
             "en": "duck",
@@ -8908,8 +7953,7 @@ const DICTIONARY = {
             "tr": "ördek",
             "en_": "The duck swam across the pond.",
             "es_": "El pato nadó por el estanque.",
-            "tr_": "Ördek gölette yüzdü.",
-            "type": "noun"
+            "tr_": "Ördek gölette yüzdü."
         },
         {
             "en": "frog",
@@ -8917,8 +7961,7 @@ const DICTIONARY = {
             "tr": "kurbağa",
             "en_": "The frog jumped into the water.",
             "es_": "La rana saltó al agua.",
-            "tr_": "Kurbağa suya atladı.",
-            "type": "noun"
+            "tr_": "Kurbağa suya atladı."
         }
     ],
     "In the countryside" : [
@@ -8928,8 +7971,7 @@ const DICTIONARY = {
             "tr": "köy",
             "en_": "The village is surrounded by mountains.",
             "es_": "El pueblo está rodeado de montañas.",
-            "tr_": "Köy dağlarla çevrili.",
-            "type": "noun"
+            "tr_": "Köy dağlarla çevrili."
         },
         {
             "en": "landscape",
@@ -8937,8 +7979,7 @@ const DICTIONARY = {
             "tr": "manzara",
             "en_": "The landscape was breathtaking.",
             "es_": "El paisaje era impresionante.",
-            "tr_": "Manzara nefes kesiciydi.",
-            "type": "noun"
+            "tr_": "Manzara nefes kesiciydi."
         },
         {
             "en": "peaceful",
@@ -8946,8 +7987,7 @@ const DICTIONARY = {
             "tr": "huzurlu",
             "en_": "It was a peaceful afternoon in the countryside.",
             "es_": "Fue una tarde tranquila en el campo.",
-            "tr_": "Kırsalda huzurlu bir öğleden sonraydı.",
-            "type": "adjective"
+            "tr_": "Kırsalda huzurlu bir öğleden sonraydı."
         },
         {
             "en": "countryside",
@@ -8955,8 +7995,7 @@ const DICTIONARY = {
             "tr": "kırsal",
             "en_": "They enjoy living in the countryside.",
             "es_": "Disfrutan vivir en el campo.",
-            "tr_": "Kırsalda yaşamaktan hoşlanıyorlar.",
-            "type": "noun"
+            "tr_": "Kırsalda yaşamaktan hoşlanıyorlar."
         },
         {
             "en": "cottage",
@@ -8964,8 +8003,7 @@ const DICTIONARY = {
             "tr": "küçük ev",
             "en_": "She owns a small cottage by the lake.",
             "es_": "Ella tiene una casita junto al lago.",
-            "tr_": "Göl kenarında küçük bir evi var.",
-            "type": "noun"
+            "tr_": "Göl kenarında küçük bir evi var."
         },
         {
             "en": "to go for a walk",
@@ -8973,8 +8011,7 @@ const DICTIONARY = {
             "tr": "yürüyüşe çıkmak",
             "en_": "Let's go for a walk in the woods.",
             "es_": "Vamos a dar un paseo por el bosque.",
-            "tr_": "Ormanda yürüyüşe çıkalım.",
-            "type": "verb"
+            "tr_": "Ormanda yürüyüşe çıkalım."
         },
         {
             "en": "path",
@@ -8982,8 +8019,7 @@ const DICTIONARY = {
             "tr": "patika",
             "en_": "The path leads to a beautiful waterfall.",
             "es_": "El camino lleva a una hermosa cascada.",
-            "tr_": "Patika güzel bir şelaleye gidiyor.",
-            "type": "noun"
+            "tr_": "Patika güzel bir şelaleye gidiyor."
         },
         {
             "en": "stream",
@@ -8991,8 +8027,7 @@ const DICTIONARY = {
             "tr": "dere",
             "en_": "We sat beside the stream to rest.",
             "es_": "Nos sentamos junto al arroyo para descansar.",
-            "tr_": "Dere kenarında dinlendik.",
-            "type": "noun"
+            "tr_": "Dere kenarında dinlendik."
         },
         {
             "en": "meadow",
@@ -9000,8 +8035,7 @@ const DICTIONARY = {
             "tr": "çayır",
             "en_": "The cows are grazing in the meadow.",
             "es_": "Las vacas están pastando en el prado.",
-            "tr_": "İnekler çayırda otluyor.",
-            "type": "noun"
+            "tr_": "İnekler çayırda otluyor."
         },
         {
             "en": "mole",
@@ -9009,8 +8043,7 @@ const DICTIONARY = {
             "tr": "köstebek",
             "en_": "A mole dug tunnels in the garden.",
             "es_": "Un topo cavó túneles en el jardín.",
-            "tr_": "Bir köstebek bahçede tüneller kazdı.",
-            "type": "noun"
+            "tr_": "Bir köstebek bahçede tüneller kazdı."
         },
         {
             "en": "to climb a tree",
@@ -9018,8 +8051,7 @@ const DICTIONARY = {
             "tr": "ağaca tırmanmak",
             "en_": "The children love to climb trees.",
             "es_": "A los niños les encanta trepar árboles.",
-            "tr_": "Çocuklar ağaca tırmanmayı çok sever.",
-            "type": "verb"
+            "tr_": "Çocuklar ağaca tırmanmayı çok sever."
         },
         {
             "en": "wild flowers",
@@ -9027,8 +8059,7 @@ const DICTIONARY = {
             "tr": "kır çiçekleri",
             "en_": "The meadow is full of wild flowers.",
             "es_": "El prado está lleno de flores del campo.",
-            "tr_": "Çayır kır çiçekleriyle dolu.",
-            "type": "noun"
+            "tr_": "Çayır kır çiçekleriyle dolu."
         },
         {
             "en": "to pick flowers",
@@ -9036,8 +8067,7 @@ const DICTIONARY = {
             "tr": "çiçek toplamak",
             "en_": "She likes to pick flowers in the garden.",
             "es_": "A ella le gusta coger flores en el jardín.",
-            "tr_": "Bahçede çiçek toplamayı sever.",
-            "type": "verb"
+            "tr_": "Bahçede çiçek toplamayı sever."
         },
         {
             "en": "a bunch of flowers",
@@ -9045,8 +8075,7 @@ const DICTIONARY = {
             "tr": "bir demet çiçek",
             "en_": "He gave her a bunch of flowers.",
             "es_": "Él le dio un manojo de flores.",
-            "tr_": "Ona bir demet çiçek verdi.",
-            "type": "noun"
+            "tr_": "Ona bir demet çiçek verdi."
         },
         {
             "en": "daisy",
@@ -9054,8 +8083,7 @@ const DICTIONARY = {
             "tr": "papatya",
             "en_": "The daisy is a common flower in the meadow.",
             "es_": "La margarita es una flor común en el prado.",
-            "tr_": "Papatya çayırda yaygın bir çiçektir.",
-            "type": "noun"
+            "tr_": "Papatya çayırda yaygın bir çiçektir."
         },
         {
             "en": "poppy",
@@ -9063,8 +8091,7 @@ const DICTIONARY = {
             "tr": "gelincik",
             "en_": "The field was covered with red poppies.",
             "es_": "El campo estaba cubierto de amapolas rojas.",
-            "tr_": "Tarla kırmızı gelinciklerle kaplıydı.",
-            "type": "noun"
+            "tr_": "Tarla kırmızı gelinciklerle kaplıydı."
         },
         {
             "en": "woods",
@@ -9072,8 +8099,7 @@ const DICTIONARY = {
             "tr": "orman",
             "en_": "We went for a hike in the woods.",
             "es_": "Fuimos a hacer senderismo por el bosque.",
-            "tr_": "Ormanda yürüyüşe çıktık.",
-            "type": "noun"
+            "tr_": "Ormanda yürüyüşe çıktık."
         },
         {
             "en": "oak",
@@ -9081,8 +8107,7 @@ const DICTIONARY = {
             "tr": "meşe",
             "en_": "The old oak tree is very tall.",
             "es_": "El viejo roble es muy alto.",
-            "tr_": "Eski meşe ağacı çok uzun.",
-            "type": "noun"
+            "tr_": "Eski meşe ağacı çok uzun."
         },
         {
             "en": "pine",
@@ -9090,8 +8115,7 @@ const DICTIONARY = {
             "tr": "çam",
             "en_": "Pine trees are common in this forest.",
             "es_": "Los pinos son comunes en este bosque.",
-            "tr_": "Bu ormanda çam ağaçları yaygındır.",
-            "type": "noun"
+            "tr_": "Bu ormanda çam ağaçları yaygındır."
         },
         {
             "en": "leaf",
@@ -9099,8 +8123,7 @@ const DICTIONARY = {
             "tr": "yaprak",
             "en_": "The leaf fell gently from the tree.",
             "es_": "La hoja cayó suavemente del árbol.",
-            "tr_": "Yaprak nazikçe ağaçtan düştü.",
-            "type": "noun"
+            "tr_": "Yaprak nazikçe ağaçtan düştü."
         },
         {
             "en": "branch",
@@ -9108,8 +8131,7 @@ const DICTIONARY = {
             "tr": "dal",
             "en_": "The bird perched on the branch.",
             "es_": "El pájaro se posó en la rama.",
-            "tr_": "Kuş dala kondu.",
-            "type": "noun"
+            "tr_": "Kuş dala kondu."
         },
         {
             "en": "owl",
@@ -9117,8 +8139,7 @@ const DICTIONARY = {
             "tr": "baykuş",
             "en_": "The owl hooted in the night.",
             "es_": "El búho ululó en la noche.",
-            "tr_": "Baykuş geceleri ötüyor.",
-            "type": "noun"
+            "tr_": "Baykuş geceleri ötüyor."
         },
         {
             "en": "blackbird",
@@ -9126,8 +8147,7 @@ const DICTIONARY = {
             "tr": "karatavuk",
             "en_": "A blackbird sang beautifully in the morning.",
             "es_": "Un mirlo cantó hermosamente por la mañana.",
-            "tr_": "Karatavuk sabah güzelce öttü.",
-            "type": "noun"
+            "tr_": "Karatavuk sabah güzelce öttü."
         },
         {
             "en": "squirrel",
@@ -9135,8 +8155,7 @@ const DICTIONARY = {
             "tr": "sincap",
             "en_": "The squirrel gathered nuts for the winter.",
             "es_": "La ardilla recogió nueces para el invierno.",
-            "tr_": "Sincap kış için fındık topladı.",
-            "type": "noun"
+            "tr_": "Sincap kış için fındık topladı."
         },
         {
             "en": "fox",
@@ -9144,8 +8163,7 @@ const DICTIONARY = {
             "tr": "tilki",
             "en_": "The fox sneaked through the forest.",
             "es_": "El zorro se coló por el bosque.",
-            "tr_": "Tilki ormanın içinden sessizce geçti.",
-            "type": "noun"
+            "tr_": "Tilki ormanın içinden sessizce geçti."
         },
         {
             "en": "to fly",
@@ -9153,8 +8171,7 @@ const DICTIONARY = {
             "tr": "uçmak",
             "en_": "Birds fly south in winter.",
             "es_": "Los pájaros vuelan al sur en invierno.",
-            "tr_": "Kuşlar kışın güneye uçar.",
-            "type": "verb"
+            "tr_": "Kuşlar kışın güneye uçar."
         },
         {
             "en": "sparrow",
@@ -9162,8 +8179,7 @@ const DICTIONARY = {
             "tr": "serçe",
             "en_": "The sparrow built its nest in the tree.",
             "es_": "El gorrión construyó su nido en el árbol.",
-            "tr_": "Serçe ağaca yuva yaptı.",
-            "type": "noun"
+            "tr_": "Serçe ağaca yuva yaptı."
         },
         {
             "en": "valley",
@@ -9171,8 +8187,7 @@ const DICTIONARY = {
             "tr": "vadi",
             "en_": "The river flows through the valley.",
             "es_": "El río fluye por el valle.",
-            "tr_": "Nehir vadiden akar.",
-            "type": "noun"
+            "tr_": "Nehir vadiden akar."
         },
         {
             "en": "hill",
@@ -9180,8 +8195,7 @@ const DICTIONARY = {
             "tr": "tepe",
             "en_": "They climbed the hill to see the view.",
             "es_": "Subieron el cerro para ver la vista.",
-            "tr_": "Manzarayı görmek için tepeye tırmandılar.",
-            "type": "noun"
+            "tr_": "Manzarayı görmek için tepeye tırmandılar."
         },
         {
             "en": "bridge",
@@ -9189,8 +8203,7 @@ const DICTIONARY = {
             "tr": "köprü",
             "en_": "The bridge connects the two towns.",
             "es_": "El puente conecta los dos pueblos.",
-            "tr_": "Köprü iki kasabayı birbirine bağlar.",
-            "type": "noun"
+            "tr_": "Köprü iki kasabayı birbirine bağlar."
         },
         {
             "en": "slope",
@@ -9198,8 +8211,7 @@ const DICTIONARY = {
             "tr": "yokuş",
             "en_": "The car struggled going up the slope.",
             "es_": "El coche tuvo dificultades para subir la cuesta.",
-            "tr_": "Araba yokuşu çıkmakta zorlandı.",
-            "type": "noun"
+            "tr_": "Araba yokuşu çıkmakta zorlandı."
         },
         {
             "en": "willow",
@@ -9207,8 +8219,7 @@ const DICTIONARY = {
             "tr": "söğüt",
             "en_": "The willow tree grew near the riverbank.",
             "es_": "El sauce creció cerca de la orilla del río.",
-            "tr_": "Söğüt ağacı nehir kenarında büyüdü.",
-            "type": "noun"
+            "tr_": "Söğüt ağacı nehir kenarında büyüdü."
         },
         {
             "en": "bank",
@@ -9216,8 +8227,7 @@ const DICTIONARY = {
             "tr": "kıyı",
             "en_": "We had a picnic on the river bank.",
             "es_": "Hicimos un picnic en la orilla del río.",
-            "tr_": "Nehir kıyısında piknik yaptık.",
-            "type": "noun"
+            "tr_": "Nehir kıyısında piknik yaptık."
         },
         {
             "en": "river",
@@ -9225,8 +8235,7 @@ const DICTIONARY = {
             "tr": "nehir",
             "en_": "The river is very wide in this area.",
             "es_": "El río es muy ancho en esta zona.",
-            "tr_": "Nehir bu bölgede çok geniştir.",
-            "type": "noun"
+            "tr_": "Nehir bu bölgede çok geniştir."
         },
         {
             "en": "fly",
@@ -9234,8 +8243,7 @@ const DICTIONARY = {
             "tr": "sinek",
             "en_": "The fly landed on the food.",
             "es_": "La mosca se posó sobre la comida.",
-            "tr_": "Sinek yemeğin üzerine kondu.",
-            "type": "noun"
+            "tr_": "Sinek yemeğin üzerine kondu."
         },
         {
             "en": "spider",
@@ -9243,8 +8251,7 @@ const DICTIONARY = {
             "tr": "örümcek",
             "en_": "The spider spun a web in the corner.",
             "es_": "La araña tejió una telaraña en la esquina.",
-            "tr_": "Örümcek köşede ağ ördü.",
-            "type": "noun"
+            "tr_": "Örümcek köşede ağ ördü."
         }
     ],
     "On the farm" : [
@@ -9254,8 +8261,7 @@ const DICTIONARY = {
             "tr": "çiftlik",
             "en_": "They have a big farm in the countryside.",
             "es_": "Tienen una granja grande en el campo.",
-            "tr_": "Kırsalda büyük bir çiftlikleri var.",
-            "type": "noun"
+            "tr_": "Kırsalda büyük bir çiftlikleri var."
         },
         {
             "en": "stable",
@@ -9263,8 +8269,7 @@ const DICTIONARY = {
             "tr": "ahır",
             "en_": "The horses are kept in the stable.",
             "es_": "Los caballos se mantienen en el establo.",
-            "tr_": "Atlar ahırda tutulur.",
-            "type": "noun"
+            "tr_": "Atlar ahırda tutulur."
         },
         {
             "en": "horse",
@@ -9272,8 +8277,7 @@ const DICTIONARY = {
             "tr": "at",
             "en_": "The horse galloped across the field.",
             "es_": "El caballo galopó por el campo.",
-            "tr_": "At tarlada dörtnala koştu.",
-            "type": "noun"
+            "tr_": "At tarlada dörtnala koştu."
         },
         {
             "en": "barn",
@@ -9281,8 +8285,7 @@ const DICTIONARY = {
             "tr": "ambar",
             "en_": "They stored the hay in the barn.",
             "es_": "Guardaron el heno en el granero.",
-            "tr_": "Samanı ambarın içine koydular.",
-            "type": "noun"
+            "tr_": "Samanı ambarın içine koydular."
         },
         {
             "en": "hay",
@@ -9290,8 +8293,7 @@ const DICTIONARY = {
             "tr": "saman",
             "en_": "The cows ate the fresh hay.",
             "es_": "Las vacas comieron el heno fresco.",
-            "tr_": "İnekler taze saman yedi.",
-            "type": "noun"
+            "tr_": "İnekler taze saman yedi."
         },
         {
             "en": "cow",
@@ -9299,8 +8301,7 @@ const DICTIONARY = {
             "tr": "inek",
             "en_": "The cow is grazing in the meadow.",
             "es_": "La vaca está pastando en el prado.",
-            "tr_": "İnek çayırda otluyor.",
-            "type": "noun"
+            "tr_": "İnek çayırda otluyor."
         },
         {
             "en": "donkey",
@@ -9308,8 +8309,7 @@ const DICTIONARY = {
             "tr": "eşek",
             "en_": "The donkey carried the farmer’s tools.",
             "es_": "El burro llevó las herramientas del granjero.",
-            "tr_": "Eşek çiftçinin aletlerini taşıdı.",
-            "type": "noun"
+            "tr_": "Eşek çiftçinin aletlerini taşıdı."
         },
         {
             "en": "to milk",
@@ -9317,8 +8317,7 @@ const DICTIONARY = {
             "tr": "sağmak",
             "en_": "She milks the cow every morning.",
             "es_": "Ella ordeña la vaca todas las mañanas.",
-            "tr_": "Her sabah ineği sağıyor.",
-            "type": "verb"
+            "tr_": "Her sabah ineği sağıyor."
         },
         {
             "en": "calf",
@@ -9326,8 +8325,7 @@ const DICTIONARY = {
             "tr": "dana",
             "en_": "The calf followed its mother closely.",
             "es_": "La ternera siguió a su madre de cerca.",
-            "tr_": "Dana annesinin peşinden yürüdü.",
-            "type": "noun"
+            "tr_": "Dana annesinin peşinden yürüdü."
         },
         {
             "en": "pig",
@@ -9335,8 +8333,7 @@ const DICTIONARY = {
             "tr": "domuz",
             "en_": "The pigs rolled in the mud.",
             "es_": "Los cerdos se revolcaron en el barro.",
-            "tr_": "Domuzlar çamurda yuvarlandı.",
-            "type": "noun"
+            "tr_": "Domuzlar çamurda yuvarlandı."
         },
         {
             "en": "ladder",
@@ -9344,8 +8341,7 @@ const DICTIONARY = {
             "tr": "merdiven",
             "en_": "He climbed the ladder to reach the roof.",
             "es_": "Él subió la escalera para alcanzar el techo.",
-            "tr_": "Çatıya ulaşmak için merdivene tırmandı.",
-            "type": "noun"
+            "tr_": "Çatıya ulaşmak için merdivene tırmandı."
         },
         {
             "en": "farmyard",
@@ -9353,8 +8349,7 @@ const DICTIONARY = {
             "tr": "çiftlik avlusu",
             "en_": "Children played in the farmyard all day.",
             "es_": "Los niños jugaron todo el día en el patio de labranza.",
-            "tr_": "Çocuklar bütün gün çiftlik avlusunda oynadı.",
-            "type": "noun"
+            "tr_": "Çocuklar bütün gün çiftlik avlusunda oynadı."
         },
         {
             "en": "hen",
@@ -9362,8 +8357,7 @@ const DICTIONARY = {
             "tr": "tavuk",
             "en_": "The hen laid three eggs this morning.",
             "es_": "La gallina puso tres huevos esta mañana.",
-            "tr_": "Tavuk bu sabah üç yumurta yumurtladı.",
-            "type": "noun"
+            "tr_": "Tavuk bu sabah üç yumurta yumurtladı."
         },
         {
             "en": "rooster",
@@ -9371,8 +8365,7 @@ const DICTIONARY = {
             "tr": "horoz",
             "en_": "The rooster crowed at dawn.",
             "es_": "El gallo cantó al amanecer.",
-            "tr_": "Horoz şafakta öttü.",
-            "type": "noun"
+            "tr_": "Horoz şafakta öttü."
         },
         {
             "en": "chicken coop",
@@ -9380,8 +8373,7 @@ const DICTIONARY = {
             "tr": "tavuk kümesi",
             "en_": "The chickens returned to the chicken coop at night.",
             "es_": "Las gallinas regresaron al gallinero por la noche.",
-            "tr_": "Tavuklar gece tavuk kümesine döndü.",
-            "type": "noun"
+            "tr_": "Tavuklar gece tavuk kümesine döndü."
         },
         {
             "en": "to lay eggs",
@@ -9389,8 +8381,7 @@ const DICTIONARY = {
             "tr": "yumurtlamak",
             "en_": "Hens lay eggs every day.",
             "es_": "Las gallinas ponen huevos todos los días.",
-            "tr_": "Tavuklar her gün yumurtlar.",
-            "type": "verb"
+            "tr_": "Tavuklar her gün yumurtlar."
         },
         {
             "en": "farmer",
@@ -9398,8 +8389,7 @@ const DICTIONARY = {
             "tr": "çiftçi",
             "en_": "The farmer works hard on the farm.",
             "es_": "El granjero trabaja duro en la granja.",
-            "tr_": "Çiftçi çiftlikte çok çalışır.",
-            "type": "noun"
+            "tr_": "Çiftçi çiftlikte çok çalışır."
         },
         {
             "en": "goose",
@@ -9407,8 +8397,7 @@ const DICTIONARY = {
             "tr": "kaz",
             "en_": "The goose honked loudly near the pond.",
             "es_": "El ganso graznó fuerte cerca del estanque.",
-            "tr_": "Kaz göletin yanında yüksek sesle vakladı.",
-            "type": "noun"
+            "tr_": "Kaz göletin yanında yüksek sesle vakladı."
         },
         {
             "en": "goat",
@@ -9416,8 +8405,7 @@ const DICTIONARY = {
             "tr": "keçi",
             "en_": "The goat climbed the rocky hill.",
             "es_": "La cabra subió la colina rocosa.",
-            "tr_": "Keçi kayalık tepeye tırmandı.",
-            "type": "noun"
+            "tr_": "Keçi kayalık tepeye tırmandı."
         },
         {
             "en": "field",
@@ -9425,8 +8413,7 @@ const DICTIONARY = {
             "tr": "tarla",
             "en_": "The farmer planted corn in the field.",
             "es_": "El granjero plantó maíz en el campo.",
-            "tr_": "Çiftçi tarlaya mısır ekti.",
-            "type": "noun"
+            "tr_": "Çiftçi tarlaya mısır ekti."
         },
         {
             "en": "flock",
@@ -9434,8 +8421,7 @@ const DICTIONARY = {
             "tr": "sürü",
             "en_": "The shepherd watched over the flock of sheep.",
             "es_": "El pastor cuidaba del rebaño de ovejas.",
-            "tr_": "Çoban koyun sürüsüne göz kulak oldu.",
-            "type": "noun"
+            "tr_": "Çoban koyun sürüsüne göz kulak oldu."
         },
         {
             "en": "sheep",
@@ -9443,8 +8429,7 @@ const DICTIONARY = {
             "tr": "koyun",
             "en_": "The sheep grazed peacefully in the meadow.",
             "es_": "La oveja pastaba pacíficamente en el prado.",
-            "tr_": "Koyun çayırda huzur içinde otladı.",
-            "type": "noun"
+            "tr_": "Koyun çayırda huzur içinde otladı."
         },
         {
             "en": "lamb",
@@ -9452,8 +8437,7 @@ const DICTIONARY = {
             "tr": "kuzu",
             "en_": "The lamb followed its mother closely.",
             "es_": "El cordero siguió a su madre de cerca.",
-            "tr_": "Kuzu annesinin peşinden yürüdü.",
-            "type": "noun"
+            "tr_": "Kuzu annesinin peşinden yürüdü."
         },
         {
             "en": "gate",
@@ -9461,8 +8445,7 @@ const DICTIONARY = {
             "tr": "kapı",
             "en_": "He closed the gate behind the tractor.",
             "es_": "Cerró la puerta detrás del tractor.",
-            "tr_": "Traktörün arkasından kapıyı kapattı.",
-            "type": "noun"
+            "tr_": "Traktörün arkasından kapıyı kapattı."
         },
         {
             "en": "shepherd dog",
@@ -9470,8 +8453,7 @@ const DICTIONARY = {
             "tr": "çoban köpeği",
             "en_": "The shepherd dog helped herd the sheep.",
             "es_": "El perro pastor ayudó a arrear las ovejas.",
-            "tr_": "Çoban köpeği koyunları güdümlemeye yardım etti.",
-            "type": "noun"
+            "tr_": "Çoban köpeği koyunları güdümlemeye yardım etti."
         },
         {
             "en": "vineyard",
@@ -9479,8 +8461,7 @@ const DICTIONARY = {
             "tr": "bağ",
             "en_": "The vineyard produces excellent grapes every year.",
             "es_": "La viña produce excelentes uvas cada año.",
-            "tr_": "Bağ her yıl mükemmel üzüm üretir.",
-            "type": "noun"
+            "tr_": "Bağ her yıl mükemmel üzüm üretir."
         },
         {
             "en": "vine",
@@ -9488,8 +8469,7 @@ const DICTIONARY = {
             "tr": "asma",
             "en_": "The vine grew thick with leaves and fruit.",
             "es_": "La vid creció gruesa con hojas y fruta.",
-            "tr_": "Asma yaprakları ve meyveleriyle sıklaştı.",
-            "type": "noun"
+            "tr_": "Asma yaprakları ve meyveleriyle sıklaştı."
         },
         {
             "en": "to harvest",
@@ -9497,8 +8477,7 @@ const DICTIONARY = {
             "tr": "hasat yapmak",
             "en_": "Farmers harvest the wheat in late summer.",
             "es_": "Los agricultores cosechan el trigo a finales del verano.",
-            "tr_": "Çiftçiler buğdayı yaz sonu hasat eder.",
-            "type": "verb"
+            "tr_": "Çiftçiler buğdayı yaz sonu hasat eder."
         },
         {
             "en": "haystack",
@@ -9506,8 +8485,7 @@ const DICTIONARY = {
             "tr": "samanlık",
             "en_": "The haystack was built near the barn.",
             "es_": "El almiar se construyó cerca del granero.",
-            "tr_": "Samanlık ambarın yanında yapıldı.",
-            "type": "noun"
+            "tr_": "Samanlık ambarın yanında yapıldı."
         },
         {
             "en": "wheat",
@@ -9515,8 +8493,7 @@ const DICTIONARY = {
             "tr": "buğday",
             "en_": "Wheat is a staple crop in many countries.",
             "es_": "El trigo es un cultivo básico en muchos países.",
-            "tr_": "Buğday birçok ülkede temel bir üründür.",
-            "type": "noun"
+            "tr_": "Buğday birçok ülkede temel bir üründür."
         },
         {
             "en": "to sow",
@@ -9524,8 +8501,7 @@ const DICTIONARY = {
             "tr": "ekmek",
             "en_": "They sowed the seeds in early spring.",
             "es_": "Sembraron las semillas a principios de la primavera.",
-            "tr_": "Tohumları erken ilkbaharda ektiler.",
-            "type": "verb"
+            "tr_": "Tohumları erken ilkbaharda ektiler."
         },
         {
             "en": "orchard",
@@ -9533,8 +8509,7 @@ const DICTIONARY = {
             "tr": "bahçe",
             "en_": "The apple orchard is full of ripe fruit.",
             "es_": "El huerto de manzanas está lleno de fruta madura.",
-            "tr_": "Elma bahçesi olgun meyvelerle dolu.",
-            "type": "noun"
+            "tr_": "Elma bahçesi olgun meyvelerle dolu."
         },
         {
             "en": "apple tree",
@@ -9542,8 +8517,7 @@ const DICTIONARY = {
             "tr": "elma ağacı",
             "en_": "The apple tree blossomed beautifully in spring.",
             "es_": "El manzano floreció hermosamente en primavera.",
-            "tr_": "Elma ağacı ilkbaharda güzelce çiçek açtı.",
-            "type": "noun"
+            "tr_": "Elma ağacı ilkbaharda güzelce çiçek açtı."
         },
         {
             "en": "to pick",
@@ -9551,8 +8525,7 @@ const DICTIONARY = {
             "tr": "toplamak",
             "en_": "They picked fresh apples from the tree.",
             "es_": "Cogieron manzanas frescas del árbol.",
-            "tr_": "Ağaçtan taze elmalar topladılar.",
-            "type": "verb"
+            "tr_": "Ağaçtan taze elmalar topladılar."
         },
         {
             "en": "tractor",
@@ -9560,8 +8533,7 @@ const DICTIONARY = {
             "tr": "traktör",
             "en_": "The tractor plowed the field all day.",
             "es_": "El tractor aró el campo todo el día.",
-            "tr_": "Traktör bütün gün tarlayı sürdü.",
-            "type": "noun"
+            "tr_": "Traktör bütün gün tarlayı sürdü."
         },
         {
             "en": "to plow",
@@ -9569,8 +8541,7 @@ const DICTIONARY = {
             "tr": "sürmek",
             "en_": "Farmers plow their fields before planting.",
             "es_": "Los agricultores aran sus campos antes de sembrar.",
-            "tr_": "Çiftçiler ekmeden önce tarlalarını sürerler.",
-            "type": "verb"
+            "tr_": "Çiftçiler ekmeden önce tarlalarını sürerler."
         },
         {
             "en": "scarecrow",
@@ -9578,8 +8549,7 @@ const DICTIONARY = {
             "tr": "korkuluk",
             "en_": "The scarecrow kept the birds away from the crops.",
             "es_": "El espantapájaros ahuyentó a los pájaros de los cultivos.",
-            "tr_": "Korkuluk kuşları ürünlerden uzak tuttu.",
-            "type": "noun"
+            "tr_": "Korkuluk kuşları ürünlerden uzak tuttu."
         }
     ],
     "At work" : [
@@ -9589,8 +8559,7 @@ const DICTIONARY = {
             "tr": "işe gitmek",
             "en_": "I usually go to work by bus.",
             "es_": "Normalmente voy a trabajar en autobús.",
-            "tr_": "Genellikle işe otobüsle giderim.",
-            "type": "verb"
+            "tr_": "Genellikle işe otobüsle giderim."
         },
         {
             "en": "to be late",
@@ -9598,8 +8567,7 @@ const DICTIONARY = {
             "tr": "geç kalmak",
             "en_": "He was late for the meeting.",
             "es_": "Llegó tarde a la reunión.",
-            "tr_": "Toplantıya geç kaldı.",
-            "type": "verb"
+            "tr_": "Toplantıya geç kaldı."
         },
         {
             "en": "to be on time",
@@ -9607,8 +8575,7 @@ const DICTIONARY = {
             "tr": "zamanında varmak",
             "en_": "She always tries to be on time.",
             "es_": "Siempre trata de llegar a tiempo.",
-            "tr_": "Her zaman zamanında varmaya çalışır.",
-            "type": "verb"
+            "tr_": "Her zaman zamanında varmaya çalışır."
         },
         {
             "en": "lunch time",
@@ -9616,8 +8583,7 @@ const DICTIONARY = {
             "tr": "yemek saati",
             "en_": "Lunch time is usually at 12:30.",
             "es_": "La hora de comer suele ser a las 12:30.",
-            "tr_": "Yemek saati genellikle 12:30'dadır.",
-            "type": "noun"
+            "tr_": "Yemek saati genellikle 12:30'dadır."
         },
         {
             "en": "overtime",
@@ -9625,8 +8591,7 @@ const DICTIONARY = {
             "tr": "fazla mesai",
             "en_": "He worked overtime to finish the project.",
             "es_": "Trabajó horas extraordinarias para terminar el proyecto.",
-            "tr_": "Projeyi bitirmek için fazla mesai yaptı.",
-            "type": "noun"
+            "tr_": "Projeyi bitirmek için fazla mesai yaptı."
         },
         {
             "en": "office",
@@ -9634,8 +8599,7 @@ const DICTIONARY = {
             "tr": "ofis",
             "en_": "The office closes at 6 pm.",
             "es_": "La oficina cierra a las 6 de la tarde.",
-            "tr_": "Ofis akşam 6'da kapanıyor.",
-            "type": "noun"
+            "tr_": "Ofis akşam 6'da kapanıyor."
         },
         {
             "en": "boss",
@@ -9643,8 +8607,7 @@ const DICTIONARY = {
             "tr": "patron",
             "en_": "The boss called a meeting this morning.",
             "es_": "El jefe convocó una reunión esta mañana.",
-            "tr_": "Patron bu sabah bir toplantı çağırdı.",
-            "type": "noun"
+            "tr_": "Patron bu sabah bir toplantı çağırdı."
         },
         {
             "en": "secretary",
@@ -9652,8 +8615,7 @@ const DICTIONARY = {
             "tr": "sekreter",
             "en_": "The secretary answered the phone.",
             "es_": "El secretario contestó el teléfono.",
-            "tr_": "Sekreter telefonu açtı.",
-            "type": "noun"
+            "tr_": "Sekreter telefonu açtı."
         },
         {
             "en": "to employ",
@@ -9661,8 +8623,7 @@ const DICTIONARY = {
             "tr": "iş vermek",
             "en_": "The company employs over 500 workers.",
             "es_": "La empresa emplea a más de 500 trabajadores.",
-            "tr_": "Şirket 500'den fazla çalışan işe alıyor.",
-            "type": "verb"
+            "tr_": "Şirket 500'den fazla çalışan işe alıyor."
         },
         {
             "en": "employee",
@@ -9670,8 +8631,7 @@ const DICTIONARY = {
             "tr": "çalışan",
             "en_": "The employees are happy with the new policy.",
             "es_": "Los empleados están contentos con la nueva política.",
-            "tr_": "Çalışanlar yeni politikadan memnun.",
-            "type": "noun"
+            "tr_": "Çalışanlar yeni politikadan memnun."
         },
         {
             "en": "hardworking",
@@ -9679,8 +8639,7 @@ const DICTIONARY = {
             "tr": "çalışkan",
             "en_": "She is a hardworking student.",
             "es_": "Ella es una estudiante trabajadora.",
-            "tr_": "O, çalışkan bir öğrenci.",
-            "type": "adjective"
+            "tr_": "O, çalışkan bir öğrenci."
         },
         {
             "en": "lazy",
@@ -9688,8 +8647,7 @@ const DICTIONARY = {
             "tr": "tembel",
             "en_": "Don't be lazy and finish your tasks.",
             "es_": "No seas perezoso y termina tus tareas.",
-            "tr_": "Tembel olma ve işlerini bitir.",
-            "type": "adjective"
+            "tr_": "Tembel olma ve işlerini bitir."
         },
         {
             "en": "to retire",
@@ -9697,8 +8655,7 @@ const DICTIONARY = {
             "tr": "emekli olmak",
             "en_": "He plans to retire next year.",
             "es_": "Él planea jubilarse el próximo año.",
-            "tr_": "O, gelecek yıl emekli olmayı planlıyor.",
-            "type": "verb"
+            "tr_": "O, gelecek yıl emekli olmayı planlıyor."
         },
         {
             "en": "to fire",
@@ -9706,8 +8663,7 @@ const DICTIONARY = {
             "tr": "işten çıkarmak [kovmak]",
             "en_": "The company had to fire several employees.",
             "es_": "La empresa tuvo que despedir a varios empleados.",
-            "tr_": "Şirket birkaç çalışanı işten çıkarmak zorunda kaldı.",
-            "type": "verb"
+            "tr_": "Şirket birkaç çalışanı işten çıkarmak zorunda kaldı."
         },
         {
             "en": "profession",
@@ -9715,8 +8671,7 @@ const DICTIONARY = {
             "tr": "meslek",
             "en_": "Teaching is a noble profession.",
             "es_": "La enseñanza es una profesión noble.",
-            "tr_": "Öğretmenlik soylu bir meslektir.",
-            "type": "noun"
+            "tr_": "Öğretmenlik soylu bir meslektir."
         },
         {
             "en": "bricklayer",
@@ -9724,8 +8679,7 @@ const DICTIONARY = {
             "tr": "duvar ustası",
             "en_": "The bricklayer built the new wall quickly.",
             "es_": "El albañil construyó la nueva pared rápidamente.",
-            "tr_": "Duvar ustası yeni duvarı hızlıca inşa etti.",
-            "type": "noun"
+            "tr_": "Duvar ustası yeni duvarı hızlıca inşa etti."
         },
         {
             "en": "plumber",
@@ -9733,8 +8687,7 @@ const DICTIONARY = {
             "tr": "tesisatçı",
             "en_": "The plumber fixed the leaking pipe.",
             "es_": "El fontanero arregló la tubería que goteaba.",
-            "tr_": "Tesisatçı sızdıran boruyu tamir etti.",
-            "type": "noun"
+            "tr_": "Tesisatçı sızdıran boruyu tamir etti."
         },
         {
             "en": "architect",
@@ -9742,8 +8695,7 @@ const DICTIONARY = {
             "tr": "mimar",
             "en_": "The architect designed a modern building.",
             "es_": "El arquitecto diseñó un edificio moderno.",
-            "tr_": "Mimar modern bir bina tasarladı.",
-            "type": "noun"
+            "tr_": "Mimar modern bir bina tasarladı."
         },
         {
             "en": "judge",
@@ -9751,8 +8703,7 @@ const DICTIONARY = {
             "tr": "hakim",
             "en_": "The judge made a fair decision.",
             "es_": "El juez tomó una decisión justa.",
-            "tr_": "Hakim adil bir karar verdi.",
-            "type": "noun"
+            "tr_": "Hakim adil bir karar verdi."
         },
         {
             "en": "lawyer",
@@ -9760,8 +8711,7 @@ const DICTIONARY = {
             "tr": "avukat",
             "en_": "The lawyer defended his client well.",
             "es_": "El abogado defendió bien a su cliente.",
-            "tr_": "Avukat müvekkilini iyi savundu.",
-            "type": "noun"
+            "tr_": "Avukat müvekkilini iyi savundu."
         },
         {
             "en": "journalist",
@@ -9769,8 +8719,7 @@ const DICTIONARY = {
             "tr": "gazeteci",
             "en_": "The journalist wrote an interesting article.",
             "es_": "El periodista escribió un artículo interesante.",
-            "tr_": "Gazeteci ilginç bir makale yazdı.",
-            "type": "noun"
+            "tr_": "Gazeteci ilginç bir makale yazdı."
         },
         {
             "en": "policeman",
@@ -9778,8 +8727,7 @@ const DICTIONARY = {
             "tr": "polis",
             "en_": "The policeman helped the lost child.",
             "es_": "El policía ayudó al niño perdido.",
-            "tr_": "Polis kaybolan çocuğa yardım etti.",
-            "type": "noun"
+            "tr_": "Polis kaybolan çocuğa yardım etti."
         },
         {
             "en": "vicar",
@@ -9787,8 +8735,7 @@ const DICTIONARY = {
             "tr": "rahip",
             "en_": "The vicar led the Sunday service.",
             "es_": "El párroco dirigió el servicio dominical.",
-            "tr_": "Rahip pazar ayinini yönetti.",
-            "type": "noun"
+            "tr_": "Rahip pazar ayinini yönetti."
         },
         {
             "en": "photographer",
@@ -9796,8 +8743,7 @@ const DICTIONARY = {
             "tr": "fotoğrafçı",
             "en_": "The photographer took beautiful pictures.",
             "es_": "El fotógrafo tomó fotos hermosas.",
-            "tr_": "Fotoğrafçı güzel fotoğraflar çekti.",
-            "type": "noun"
+            "tr_": "Fotoğrafçı güzel fotoğraflar çekti."
         },
         {
             "en": "shopkeeper",
@@ -9805,8 +8751,7 @@ const DICTIONARY = {
             "tr": "tezgahtar",
             "en_": "The shopkeeper greeted every customer.",
             "es_": "El tendero saludó a todos los clientes.",
-            "tr_": "Tezgahtar her müşteriyi selamladı.",
-            "type": "noun"
+            "tr_": "Tezgahtar her müşteriyi selamladı."
         },
         {
             "en": "sales representative",
@@ -9814,8 +8759,7 @@ const DICTIONARY = {
             "tr": "satış temsilcisi",
             "en_": "The sales representative visited many clients.",
             "es_": "El representante comercial visitó a muchos clientes.",
-            "tr_": "Satış temsilcisi birçok müşteriyi ziyaret etti.",
-            "type": "noun"
+            "tr_": "Satış temsilcisi birçok müşteriyi ziyaret etti."
         },
         {
             "en": "sailor",
@@ -9823,8 +8767,7 @@ const DICTIONARY = {
             "tr": "denizci",
             "en_": "The sailor navigated through the storm.",
             "es_": "El marinero navegó durante la tormenta.",
-            "tr_": "Denizci fırtına sırasında yol aldı.",
-            "type": "noun"
+            "tr_": "Denizci fırtına sırasında yol aldı."
         },
         {
             "en": "soldier",
@@ -9832,8 +8775,7 @@ const DICTIONARY = {
             "tr": "asker",
             "en_": "The soldier defended the country bravely.",
             "es_": "El soldado defendió el país valientemente.",
-            "tr_": "Asker ülkeyi cesurca savundu.",
-            "type": "noun"
+            "tr_": "Asker ülkeyi cesurca savundu."
         },
         {
             "en": "designer",
@@ -9841,8 +8783,7 @@ const DICTIONARY = {
             "tr": "tasarımcı",
             "en_": "The designer created a new fashion line.",
             "es_": "El diseñador creó una nueva línea de moda.",
-            "tr_": "Tasarımcı yeni bir moda koleksiyonu yarattı.",
-            "type": "noun"
+            "tr_": "Tasarımcı yeni bir moda koleksiyonu yarattı."
         },
         {
             "en": "hairdresser",
@@ -9850,8 +8791,7 @@ const DICTIONARY = {
             "tr": "kuaför",
             "en_": "The hairdresser styled her hair beautifully.",
             "es_": "El peluquero peinó su cabello hermosamente.",
-            "tr_": "Kuaför saçını güzelce şekillendirdi.",
-            "type": "noun"
+            "tr_": "Kuaför saçını güzelce şekillendirdi."
         },
         {
             "en": "model",
@@ -9859,8 +8799,7 @@ const DICTIONARY = {
             "tr": "model",
             "en_": "The model walked the runway confidently.",
             "es_": "La modelo caminó por la pasarela con confianza.",
-            "tr_": "Model kendinden emin şekilde podyumda yürüdü.",
-            "type": "noun"
+            "tr_": "Model kendinden emin şekilde podyumda yürüdü."
         },
         {
             "en": "garbage collector",
@@ -9868,8 +8807,7 @@ const DICTIONARY = {
             "tr": "çöpçü",
             "en_": "The garbage collector works early in the morning.",
             "es_": "El basurero trabaja temprano en la mañana.",
-            "tr_": "Çöpçü sabah erken çalışır.",
-            "type": "noun"
+            "tr_": "Çöpçü sabah erken çalışır."
         },
         {
             "en": "taxi driver",
@@ -9877,8 +8815,7 @@ const DICTIONARY = {
             "tr": "taksici",
             "en_": "The taxi driver took us to the airport.",
             "es_": "El taxista nos llevó al aeropuerto.",
-            "tr_": "Taksici bizi havaalanına götürdü.",
-            "type": "noun"
+            "tr_": "Taksici bizi havaalanına götürdü."
         },
         {
             "en": "truck driver",
@@ -9886,8 +8823,7 @@ const DICTIONARY = {
             "tr": "kamyon şoförü",
             "en_": "The truck driver delivered the goods on time.",
             "es_": "El camionero entregó las mercancías a tiempo.",
-            "tr_": "Kamyon şoförü malları zamanında teslim etti.",
-            "type": "noun"
+            "tr_": "Kamyon şoförü malları zamanında teslim etti."
         },
         {
             "en": "fireman",
@@ -9895,8 +8831,7 @@ const DICTIONARY = {
             "tr": "itfaiyeci",
             "en_": "The fireman rescued people from the burning building.",
             "es_": "El bombero rescató a personas del edificio en llamas.",
-            "tr_": "İtfaiyeci yanan binadan insanları kurtardı.",
-            "type": "noun"
+            "tr_": "İtfaiyeci yanan binadan insanları kurtardı."
         },
         {
             "en": "pilot",
@@ -9904,8 +8839,7 @@ const DICTIONARY = {
             "tr": "pilot",
             "en_": "The pilot landed the plane safely.",
             "es_": "El piloto aterrizó el avión de manera segura.",
-            "tr_": "Pilot uçağı güvenle indirdi.",
-            "type": "noun"
+            "tr_": "Pilot uçağı güvenle indirdi."
         },
         {
             "en": "stewardess",
@@ -9913,8 +8847,7 @@ const DICTIONARY = {
             "tr": "hostes",
             "en_": "The stewardess served drinks to the passengers.",
             "es_": "La azafata sirvió bebidas a los pasajeros.",
-            "tr_": "Hostes yolculara içecek servisi yaptı.",
-            "type": "noun"
+            "tr_": "Hostes yolculara içecek servisi yaptı."
         },
         {
             "en": "steward",
@@ -9922,8 +8855,7 @@ const DICTIONARY = {
             "tr": "host",
             "en_": "The steward helped passengers with their luggage.",
             "es_": "El azafato ayudó a los pasajeros con su equipaje.",
-            "tr_": "Host yolcuların bagajlarına yardımcı oldu.",
-            "type": "noun"
+            "tr_": "Host yolcuların bagajlarına yardımcı oldu."
         }
     ],
     "Illness and health" : [
@@ -9933,8 +8865,7 @@ const DICTIONARY = {
             "tr": "hasta hissetmek",
             "en_": "I started to feel ill after lunch.",
             "es_": "Empecé a sentirme mal después del almuerzo.",
-            "tr_": "Öğle yemeğinden sonra hasta hissetmeye başladım.",
-            "type": "verb"
+            "tr_": "Öğle yemeğinden sonra hasta hissetmeye başladım."
         },
         {
             "en": "to feel better",
@@ -9942,8 +8873,7 @@ const DICTIONARY = {
             "tr": "daha iyi hissetmek",
             "en_": "She feels better after taking medicine.",
             "es_": "Ella se siente mejor después de tomar la medicina.",
-            "tr_": "O, ilaç aldıktan sonra daha iyi hissetti.",
-            "type": "verb"
+            "tr_": "O, ilaç aldıktan sonra daha iyi hissetti."
         },
         {
             "en": "to take temperature",
@@ -9951,8 +8881,7 @@ const DICTIONARY = {
             "tr": "ateşi ölçmek",
             "en_": "The nurse will take your temperature.",
             "es_": "La enfermera tomará tu temperatura.",
-            "tr_": "Hemşire ateşinizi ölçecek.",
-            "type": "verb"
+            "tr_": "Hemşire ateşinizi ölçecek."
         },
         {
             "en": "thermometer",
@@ -9960,8 +8889,7 @@ const DICTIONARY = {
             "tr": "termometre",
             "en_": "Use the thermometer to check your fever.",
             "es_": "Usa el termómetro para revisar tu fiebre.",
-            "tr_": "Ateşini kontrol etmek için termometreyi kullan.",
-            "type": "noun"
+            "tr_": "Ateşini kontrol etmek için termometreyi kullan."
         },
         {
             "en": "to have a fever",
@@ -9969,8 +8897,7 @@ const DICTIONARY = {
             "tr": "ateşi olmak",
             "en_": "He has a fever and needs to rest.",
             "es_": "Él tiene fiebre y necesita descansar.",
-            "tr_": "Onun ateşi var ve dinlenmesi gerekiyor.",
-            "type": "verb"
+            "tr_": "Onun ateşi var ve dinlenmesi gerekiyor."
         },
         {
             "en": "doctor",
@@ -9978,8 +8905,7 @@ const DICTIONARY = {
             "tr": "doktor",
             "en_": "The doctor will see you now.",
             "es_": "El médico te atenderá ahora.",
-            "tr_": "Doktor sizi şimdi muayene edecek.",
-            "type": "noun"
+            "tr_": "Doktor sizi şimdi muayene edecek."
         },
         {
             "en": "prescription",
@@ -9987,8 +8913,7 @@ const DICTIONARY = {
             "tr": "reçete",
             "en_": "The pharmacist gave me the prescription.",
             "es_": "El farmacéutico me dio la receta.",
-            "tr_": "Eczacı bana reçeteyi verdi.",
-            "type": "noun"
+            "tr_": "Eczacı bana reçeteyi verdi."
         },
         {
             "en": "to cure [to heal]",
@@ -9996,8 +8921,7 @@ const DICTIONARY = {
             "tr": "tedavi etmek",
             "en_": "The medicine helped to cure the infection.",
             "es_": "La medicina ayudó a curar la infección.",
-            "tr_": "İlaç enfeksiyonu tedavi etmeye yardımcı oldu.",
-            "type": "verb"
+            "tr_": "İlaç enfeksiyonu tedavi etmeye yardımcı oldu."
         },
         {
             "en": "pill",
@@ -10005,8 +8929,7 @@ const DICTIONARY = {
             "tr": "hap",
             "en_": "Take a pill after meals.",
             "es_": "Toma una pastilla después de las comidas.",
-            "tr_": "Yemeklerden sonra bir hap al.",
-            "type": "noun"
+            "tr_": "Yemeklerden sonra bir hap al."
         },
         {
             "en": "healthy",
@@ -10014,8 +8937,7 @@ const DICTIONARY = {
             "tr": "sağlıklı",
             "en_": "She has a healthy lifestyle.",
             "es_": "Ella tiene un estilo de vida sano.",
-            "tr_": "O, sağlıklı bir yaşam tarzına sahip.",
-            "type": "adjective"
+            "tr_": "O, sağlıklı bir yaşam tarzına sahip."
         },
         {
             "en": "to have cold",
@@ -10023,8 +8945,7 @@ const DICTIONARY = {
             "tr": "nezle olmak",
             "en_": "I have a cold and a sore throat.",
             "es_": "Tengo un resfriado y dolor de garganta.",
-            "tr_": "Nezlem ve boğaz ağrım var.",
-            "type": "verb"
+            "tr_": "Nezlem ve boğaz ağrım var."
         },
         {
             "en": "to sneeze",
@@ -10032,8 +8953,7 @@ const DICTIONARY = {
             "tr": "hapşırmak",
             "en_": "He began to sneeze suddenly.",
             "es_": "Él comenzó a estornudar de repente.",
-            "tr_": "Aniden hapşırmaya başladı.",
-            "type": "verb"
+            "tr_": "Aniden hapşırmaya başladı."
         },
         {
             "en": "to faint [to pass out]",
@@ -10041,8 +8961,7 @@ const DICTIONARY = {
             "tr": "bayılmak",
             "en_": "He fainted and fell to the ground.",
             "es_": "Se desmayó y cayó al suelo.",
-            "tr_": "Bayılıp yere düştü.",
-            "type": "verb"
+            "tr_": "Bayılıp yere düştü."
         },
         {
             "en": "to have stomach ache",
@@ -10050,8 +8969,7 @@ const DICTIONARY = {
             "tr": "mide ağrısı olmak",
             "en_": "He has a stomach ache after eating too much.",
             "es_": "Él tiene dolor de estómago después de comer demasiado.",
-            "tr_": "Çok yedikten sonra mide ağrısı oldu.",
-            "type": "verb"
+            "tr_": "Çok yedikten sonra mide ağrısı oldu."
         },
         {
             "en": "to vomit",
@@ -10059,8 +8977,7 @@ const DICTIONARY = {
             "tr": "kusmak",
             "en_": "She started to vomit after the ride.",
             "es_": "Ella comenzó a vomitar después del paseo.",
-            "tr_": "Geziden sonra kusmaya başladı.",
-            "type": "verb"
+            "tr_": "Geziden sonra kusmaya başladı."
         },
         {
             "en": "to have a headache",
@@ -10068,8 +8985,7 @@ const DICTIONARY = {
             "tr": "baş ağrısı olmak",
             "en_": "I have a headache from working all day.",
             "es_": "Tengo dolor de cabeza por trabajar todo el día.",
-            "tr_": "Tüm gün çalışmaktan başım ağrıyor.",
-            "type": "verb"
+            "tr_": "Tüm gün çalışmaktan başım ağrıyor."
         },
         {
             "en": "dentist",
@@ -10077,8 +8993,7 @@ const DICTIONARY = {
             "tr": "dişçi",
             "en_": "The dentist fixed my cavity.",
             "es_": "El dentista arregló mi caries.",
-            "tr_": "Dişçi çürüğümü tedavi etti.",
-            "type": "noun"
+            "tr_": "Dişçi çürüğümü tedavi etti."
         },
         {
             "en": "to get a tooth filled",
@@ -10086,8 +9001,7 @@ const DICTIONARY = {
             "tr": "bir dişe dolgu yaptırmak",
             "en_": "I need to get a tooth filled next week.",
             "es_": "Necesito empastarme un diente la próxima semana.",
-            "tr_": "Gelecek hafta bir dişime dolgu yaptırmam gerekiyor.",
-            "type": "verb"
+            "tr_": "Gelecek hafta bir dişime dolgu yaptırmam gerekiyor."
         },
         {
             "en": "injection",
@@ -10095,8 +9009,7 @@ const DICTIONARY = {
             "tr": "iğne [enjeksiyon]",
             "en_": "The nurse gave me an injection.",
             "es_": "La enfermera me puso una inyección.",
-            "tr_": "Hemşire bana iğne yaptı.",
-            "type": "noun"
+            "tr_": "Hemşire bana iğne yaptı."
         },
         {
             "en": "to have a toothache",
@@ -10104,8 +9017,7 @@ const DICTIONARY = {
             "tr": "diş ağrısı olmak",
             "en_": "He has a toothache and needs to see the dentist.",
             "es_": "Él tiene dolor de muelas y necesita ver al dentista.",
-            "tr_": "Dişi ağrıyor ve dişçiye gitmesi gerekiyor.",
-            "type": "verb"
+            "tr_": "Dişi ağrıyor ve dişçiye gitmesi gerekiyor."
         },
         {
             "en": "hospital",
@@ -10113,8 +9025,7 @@ const DICTIONARY = {
             "tr": "hastane",
             "en_": "She was taken to the hospital after the accident.",
             "es_": "La llevaron al hospital después del accidente.",
-            "tr_": "Kaza sonrası hastaneye götürüldü.",
-            "type": "noun"
+            "tr_": "Kaza sonrası hastaneye götürüldü."
         },
         {
             "en": "emergencies",
@@ -10122,8 +9033,7 @@ const DICTIONARY = {
             "tr": "acil servis",
             "en_": "The patient was rushed to emergencies.",
             "es_": "El paciente fue llevado a urgencias.",
-            "tr_": "Hasta acil servise götürüldü.",
-            "type": "noun"
+            "tr_": "Hasta acil servise götürüldü."
         },
         {
             "en": "to break one's leg",
@@ -10131,8 +9041,7 @@ const DICTIONARY = {
             "tr": "bacağını kırmak",
             "en_": "He broke his leg while skiing.",
             "es_": "Se rompió la pierna mientras esquiaba.",
-            "tr_": "Kayak yaparken bacağını kırdı.",
-            "type": "verb"
+            "tr_": "Kayak yaparken bacağını kırdı."
         },
         {
             "en": "bruise",
@@ -10140,8 +9049,7 @@ const DICTIONARY = {
             "tr": "morluk",
             "en_": "She has a large bruise on her arm.",
             "es_": "Tiene una gran contusión en el brazo.",
-            "tr_": "Kolunda büyük bir morluk var.",
-            "type": "noun"
+            "tr_": "Kolunda büyük bir morluk var."
         },
         {
             "en": "cut",
@@ -10149,8 +9057,7 @@ const DICTIONARY = {
             "tr": "kesik",
             "en_": "He got a deep cut on his finger.",
             "es_": "Se hizo una cortadura profunda en el dedo.",
-            "tr_": "Parmağında derin bir kesik oluştu.",
-            "type": "noun"
+            "tr_": "Parmağında derin bir kesik oluştu."
         },
         {
             "en": "burn",
@@ -10158,8 +9065,7 @@ const DICTIONARY = {
             "tr": "yanık",
             "en_": "She has a burn on her hand from hot water.",
             "es_": "Tiene una quemadura en la mano por agua caliente.",
-            "tr_": "Sıcak sudan dolayı elinde yanık var.",
-            "type": "noun"
+            "tr_": "Sıcak sudan dolayı elinde yanık var."
         },
         {
             "en": "to dislocate one’s wrist",
@@ -10167,8 +9073,7 @@ const DICTIONARY = {
             "tr": "bileği çıkmak",
             "en_": "He dislocated his wrist playing basketball.",
             "es_": "Se dislocó la muñeca jugando baloncesto.",
-            "tr_": "Basketbol oynarken bileği çıktı.",
-            "type": "verb"
+            "tr_": "Basketbol oynarken bileği çıktı."
         },
         {
             "en": "to sprain one’s wrist",
@@ -10176,8 +9081,7 @@ const DICTIONARY = {
             "tr": "bileğini burkmak",
             "en_": "She sprained her wrist while falling.",
             "es_": "Se torció la muñeca al caer.",
-            "tr_": "Düşerken bileğini burktu.",
-            "type": "verb"
+            "tr_": "Düşerken bileğini burktu."
         },
         {
             "en": "adhesive bandage",
@@ -10185,8 +9089,7 @@ const DICTIONARY = {
             "tr": "yara bandı",
             "en_": "Put an adhesive bandage on the cut.",
             "es_": "Pon un esparadrapo en la cortadura.",
-            "tr_": "Kesik üzerine yara bandı yapıştır.",
-            "type": "noun"
+            "tr_": "Kesik üzerine yara bandı yapıştır."
         },
         {
             "en": "bandage",
@@ -10194,8 +9097,7 @@ const DICTIONARY = {
             "tr": "sargı bezi",
             "en_": "The nurse wrapped the patient's arm with a bandage..",
             "es_": "La enfermera envolvió el brazo del paciente con una venda.",
-            "tr_": "Hemşire hastanın kolunu sargı bezi ile  sardı.",
-            "type": "noun"
+            "tr_": "Hemşire hastanın kolunu sargı bezi ile  sardı."
         },
         {
             "en": "ambulance",
@@ -10203,8 +9105,7 @@ const DICTIONARY = {
             "tr": "ambulans",
             "en_": "The ambulance arrived quickly at the scene.",
             "es_": "La ambulancia llegó rápidamente al lugar.",
-            "tr_": "Ambulans olay yerine hızlıca geldi.",
-            "type": "noun"
+            "tr_": "Ambulans olay yerine hızlıca geldi."
         },
         {
             "en": "to take the pulse",
@@ -10212,8 +9113,7 @@ const DICTIONARY = {
             "tr": "nabız ölçmek",
             "en_": "The doctor took the patient’s pulse.",
             "es_": "El médico tomó el pulso del paciente.",
-            "tr_": "Doktor hastanın nabzını ölçtü.",
-            "type": "verb"
+            "tr_": "Doktor hastanın nabzını ölçtü."
         },
         {
             "en": "stretcher",
@@ -10221,8 +9121,7 @@ const DICTIONARY = {
             "tr": "sedye",
             "en_": "They carried the injured man on a stretcher.",
             "es_": "Llevaron al hombre herido en una camilla.",
-            "tr_": "Yaralı adamı sedyeyle taşıdılar.",
-            "type": "noun"
+            "tr_": "Yaralı adamı sedyeyle taşıdılar."
         },
         {
             "en": "patient",
@@ -10230,8 +9129,7 @@ const DICTIONARY = {
             "tr": "hasta",
             "en_": "The patient needs immediate care.",
             "es_": "El paciente necesita atención inmediata.",
-            "tr_": "Hasta acil bakıma ihtiyaç duyuyor.",
-            "type": "noun"
+            "tr_": "Hasta acil bakıma ihtiyaç duyuyor."
         },
         {
             "en": "operating room",
@@ -10239,8 +9137,7 @@ const DICTIONARY = {
             "tr": "ameliyathane",
             "en_": "The surgeon prepared for the operation in the operating room.",
             "es_": "El cirujano se preparó para la operación en el quirófano.",
-            "tr_": "Cerrah ameliyathanede operasyon için hazırlandı.",
-            "type": "noun"
+            "tr_": "Cerrah ameliyathanede operasyon için hazırlandı."
         },
         {
             "en": "surgeon",
@@ -10248,8 +9145,7 @@ const DICTIONARY = {
             "tr": "cerrah",
             "en_": "The surgeon performed a complex surgery.",
             "es_": "El cirujano realizó una cirugía compleja.",
-            "tr_": "Cerrah karmaşık bir ameliyat yaptı.",
-            "type": "noun"
+            "tr_": "Cerrah karmaşık bir ameliyat yaptı."
         },
         {
             "en": "surgery",
@@ -10257,8 +9153,7 @@ const DICTIONARY = {
             "tr": "ameliyat",
             "en_": "The patient is recovering from surgery.",
             "es_": "El paciente se está recuperando de la intervención quirúrgica.",
-            "tr_": "Hasta ameliyattan sonra iyileşiyor.",
-            "type": "noun"
+            "tr_": "Hasta ameliyattan sonra iyileşiyor."
         },
         {
             "en": "nurse",
@@ -10266,8 +9161,7 @@ const DICTIONARY = {
             "tr": "hemşire",
             "en_": "The nurse took care of the patient.",
             "es_": "El enfermero cuidó al paciente.",
-            "tr_": "Hemşire hastaya baktı.",
-            "type": "noun"
+            "tr_": "Hemşire hastaya baktı."
         }
     ],
     "School and education" : [
@@ -10277,8 +9171,7 @@ const DICTIONARY = {
             "tr": "anaokulu",
             "en_": "My little sister goes to nursery school.",
             "es_": "Mi hermanita va al jardín infantil.",
-            "tr_": "Küçük kız kardeşim anaokuluna gidiyor.",
-            "type": "noun"
+            "tr_": "Küçük kız kardeşim anaokuluna gidiyor."
         },
         {
             "en": "primary school",
@@ -10286,8 +9179,7 @@ const DICTIONARY = {
             "tr": "ilkokul",
             "en_": "He started primary school last year.",
             "es_": "Empezó la escuela primaria el año pasado.",
-            "tr_": "Geçen yıl ilkokula başladı.",
-            "type": "noun"
+            "tr_": "Geçen yıl ilkokula başladı."
         },
         {
             "en": "high school",
@@ -10295,8 +9187,7 @@ const DICTIONARY = {
             "tr": "lise",
             "en_": "She will graduate from high school next month.",
             "es_": "Se graduará del colegio el próximo mes.",
-            "tr_": "Önümüzdeki ay liseden mezun olacak.",
-            "type": "noun"
+            "tr_": "Önümüzdeki ay liseden mezun olacak."
         },
         {
             "en": "headmaster",
@@ -10304,8 +9195,7 @@ const DICTIONARY = {
             "tr": "müdür",
             "en_": "The headmaster welcomed the new students.",
             "es_": "El director dio la bienvenida a los nuevos estudiantes.",
-            "tr_": "Müdür yeni öğrencilere hoşgeldin dedi.",
-            "type": "noun"
+            "tr_": "Müdür yeni öğrencilere hoşgeldin dedi."
         },
         {
             "en": "headmistress",
@@ -10313,8 +9203,7 @@ const DICTIONARY = {
             "tr": "müdire",
             "en_": "The headmistress is very strict.",
             "es_": "La directora es muy estricta.",
-            "tr_": "Müdire çok disiplinlidir.",
-            "type": "noun"
+            "tr_": "Müdire çok disiplinlidir."
         },
         {
             "en": "university",
@@ -10322,8 +9211,7 @@ const DICTIONARY = {
             "tr": "üniversite",
             "en_": "He studies engineering at university.",
             "es_": "Estudia ingeniería en la universidad.",
-            "tr_": "Üniversitede mühendislik okuyor.",
-            "type": "noun"
+            "tr_": "Üniversitede mühendislik okuyor."
         },
         {
             "en": "at school",
@@ -10331,8 +9219,7 @@ const DICTIONARY = {
             "tr": "okulda",
             "en_": "The children are at school now.",
             "es_": "Los niños están en el colegio ahora.",
-            "tr_": "Çocuklar şimdi okulda.",
-            "type": "phrase"
+            "tr_": "Çocuklar şimdi okulda."
         },
         {
             "en": "classroom",
@@ -10340,8 +9227,7 @@ const DICTIONARY = {
             "tr": "sınıf",
             "en_": "The classroom is very bright and clean.",
             "es_": "La clase es muy luminosa y limpia.",
-            "tr_": "Sınıf çok aydınlık ve temiz.",
-            "type": "noun"
+            "tr_": "Sınıf çok aydınlık ve temiz."
         },
         {
             "en": "map",
@@ -10349,8 +9235,7 @@ const DICTIONARY = {
             "tr": "harita",
             "en_": "The teacher showed us a map of the world.",
             "es_": "El profesor nos mostró un mapa del mundo.",
-            "tr_": "Öğretmen bize dünya haritası gösterdi.",
-            "type": "noun"
+            "tr_": "Öğretmen bize dünya haritası gösterdi."
         },
         {
             "en": "lesson",
@@ -10358,8 +9243,7 @@ const DICTIONARY = {
             "tr": "ders",
             "en_": "Today's lesson is about history.",
             "es_": "La lección de hoy es sobre historia.",
-            "tr_": "Bugünkü ders tarih hakkında.",
-            "type": "noun"
+            "tr_": "Bugünkü ders tarih hakkında."
         },
         {
             "en": "teacher",
@@ -10367,8 +9251,7 @@ const DICTIONARY = {
             "tr": "öğretmen",
             "en_": "The teacher explained the topic clearly.",
             "es_": "El profesor explicó el tema claramente.",
-            "tr_": "Öğretmen konuyu net bir şekilde anlattı.",
-            "type": "noun"
+            "tr_": "Öğretmen konuyu net bir şekilde anlattı."
         },
         {
             "en": "to teach",
@@ -10376,8 +9259,7 @@ const DICTIONARY = {
             "tr": "öğretmek",
             "en_": "She teaches math at the local school.",
             "es_": "Ella enseña matemáticas en la escuela local.",
-            "tr_": "O, yerel okulda matematik öğretiyor.",
-            "type": "verb"
+            "tr_": "O, yerel okulda matematik öğretiyor."
         },
         {
             "en": "student",
@@ -10385,8 +9267,7 @@ const DICTIONARY = {
             "tr": "öğrenci",
             "en_": "The students are studying for the exam.",
             "es_": "Los alumnos están estudiando para el examen.",
-            "tr_": "Öğrenciler sınav için çalışıyor.",
-            "type": "noun"
+            "tr_": "Öğrenciler sınav için çalışıyor."
         },
         {
             "en": "to learn",
@@ -10394,8 +9275,7 @@ const DICTIONARY = {
             "tr": "öğrenmek",
             "en_": "Children learn new things every day.",
             "es_": "Los niños aprenden cosas nuevas cada día.",
-            "tr_": "Çocuklar her gün yeni şeyler öğrenir.",
-            "type": "verb"
+            "tr_": "Çocuklar her gün yeni şeyler öğrenir."
         },
         {
             "en": "easy",
@@ -10403,8 +9283,7 @@ const DICTIONARY = {
             "tr": "kolay",
             "en_": "This exercise is easy.",
             "es_": "Este ejercicio es fácil.",
-            "tr_": "Bu egzersiz kolay.",
-            "type": "adjective"
+            "tr_": "Bu egzersiz kolay."
         },
         {
             "en": "difficult",
@@ -10412,8 +9291,7 @@ const DICTIONARY = {
             "tr": "zor",
             "en_": "The test was very difficult.",
             "es_": "El examen fue muy difícil.",
-            "tr_": "Sınav çok zordu.",
-            "type": "adjective"
+            "tr_": "Sınav çok zordu."
         },
         {
             "en": "blackboard",
@@ -10421,8 +9299,7 @@ const DICTIONARY = {
             "tr": "kara tahta",
             "en_": "The teacher wrote on the blackboard.",
             "es_": "El profesor escribió en el encerado.",
-            "tr_": "Öğretmen kara tahtaya yazdı.",
-            "type": "noun"
+            "tr_": "Öğretmen kara tahtaya yazdı."
         },
         {
             "en": "chalk",
@@ -10430,8 +9307,7 @@ const DICTIONARY = {
             "tr": "tebeşir",
             "en_": "She used white chalk to write.",
             "es_": "Ella usó tiza blanca para escribir.",
-            "tr_": "Yazmak için beyaz tebeşir kullandı.",
-            "type": "noun"
+            "tr_": "Yazmak için beyaz tebeşir kullandı."
         },
         {
             "en": "to read",
@@ -10439,8 +9315,7 @@ const DICTIONARY = {
             "tr": "okumak",
             "en_": "He likes to read books.",
             "es_": "Le gusta leer libros.",
-            "tr_": "Kitap okumayı sever.",
-            "type": "verb"
+            "tr_": "Kitap okumayı sever."
         },
         {
             "en": "to write",
@@ -10448,8 +9323,7 @@ const DICTIONARY = {
             "tr": "yazmak",
             "en_": "The students write in their notebooks.",
             "es_": "Los alumnos escriben en sus cuadernos.",
-            "tr_": "Öğrenciler defterlerine yazıyorlar.",
-            "type": "verb"
+            "tr_": "Öğrenciler defterlerine yazıyorlar."
         },
         {
             "en": "to ask",
@@ -10457,8 +9331,7 @@ const DICTIONARY = {
             "tr": "sormak",
             "en_": "Can I ask a question?",
             "es_": "¿Puedo preguntar algo?",
-            "tr_": "Bir şey sorabilir miyim?",
-            "type": "verb"
+            "tr_": "Bir şey sorabilir miyim?"
         },
         {
             "en": "satchel",
@@ -10466,8 +9339,7 @@ const DICTIONARY = {
             "tr": "okul çantası",
             "en_": "She packed her satchel for school.",
             "es_": "Ella preparó su cartera para la escuela.",
-            "tr_": "Okul için çantasını hazırladı.",
-            "type": "noun"
+            "tr_": "Okul için çantasını hazırladı."
         },
         {
             "en": "notebook",
@@ -10475,8 +9347,7 @@ const DICTIONARY = {
             "tr": "defter",
             "en_": "He wrote the notes in his notebook.",
             "es_": "Él escribió las notas en su cuaderno.",
-            "tr_": "Notları defterine yazdı.",
-            "type": "noun"
+            "tr_": "Notları defterine yazdı."
         },
         {
             "en": "pencil case",
@@ -10484,8 +9355,7 @@ const DICTIONARY = {
             "tr": "kalem kutusu",
             "en_": "Her pencil case is full of colorful pens.",
             "es_": "Su caja de lápices está llena de bolígrafos coloridos.",
-            "tr_": "Kalem kutusu renkli kalemlerle dolu.",
-            "type": "noun"
+            "tr_": "Kalem kutusu renkli kalemlerle dolu."
         },
         {
             "en": "pen",
@@ -10493,8 +9363,7 @@ const DICTIONARY = {
             "tr": "dolma kalem",
             "en_": "He prefers to write with a pen.",
             "es_": "Prefiere escribir con una pluma.",
-            "tr_": "Yazmak için dolma kalemi tercih eder.",
-            "type": "noun"
+            "tr_": "Yazmak için dolma kalemi tercih eder."
         },
         {
             "en": "ballpoint pen",
@@ -10502,8 +9371,7 @@ const DICTIONARY = {
             "tr": "tükenmez kalem",
             "en_": "I bought a blue ballpoint pen.",
             "es_": "Compré un bolígrafo azul.",
-            "tr_": "Mavi bir tükenmez kalem aldım.",
-            "type": "noun"
+            "tr_": "Mavi bir tükenmez kalem aldım."
         },
         {
             "en": "pencil",
@@ -10511,8 +9379,7 @@ const DICTIONARY = {
             "tr": "kurşun kalem",
             "en_": "Please sharpen your pencil before the test.",
             "es_": "Por favor, afila tu lápiz antes del examen.",
-            "tr_": "Lütfen sınavdan önce kurşun kalemini aç.",
-            "type": "noun"
+            "tr_": "Lütfen sınavdan önce kurşun kalemini aç."
         },
         {
             "en": "toy",
@@ -10520,8 +9387,7 @@ const DICTIONARY = {
             "tr": "oyuncak",
             "en_": "The children shared their toys.",
             "es_": "Los niños compartieron sus juguetes.",
-            "tr_": "Çocuklar oyuncaklarını paylaştılar.",
-            "type": "noun"
+            "tr_": "Çocuklar oyuncaklarını paylaştılar."
         },
         {
             "en": "colored pencil",
@@ -10529,8 +9395,7 @@ const DICTIONARY = {
             "tr": "boya kalemi",
             "en_": "She drew a rainbow with colored pencils.",
             "es_": "Ella dibujó un arcoíris con lápices de color.",
-            "tr_": "Boya kalemleriyle gökkuşağı çizdi.",
-            "type": "noun"
+            "tr_": "Boya kalemleriyle gökkuşağı çizdi."
         },
         {
             "en": "picture book",
@@ -10538,8 +9403,7 @@ const DICTIONARY = {
             "tr": "resim kitabı",
             "en_": "He loves reading picture books.",
             "es_": "Le encanta leer libros de imágenes.",
-            "tr_": "Resim kitaplarını okumayı çok sever.",
-            "type": "noun"
+            "tr_": "Resim kitaplarını okumayı çok sever."
         },
         {
             "en": "to play",
@@ -10547,8 +9411,7 @@ const DICTIONARY = {
             "tr": "oynamak",
             "en_": "The kids play in the playground after class.",
             "es_": "Los niños juegan en el patio de juego después de clase.",
-            "tr_": "Çocuklar ders sonrası oyun alanında oynar.",
-            "type": "verb"
+            "tr_": "Çocuklar ders sonrası oyun alanında oynar."
         },
         {
             "en": "playground",
@@ -10556,8 +9419,7 @@ const DICTIONARY = {
             "tr": "oyun alanı",
             "en_": "The playground is full of laughter.",
             "es_": "El patio de juego está lleno de risas.",
-            "tr_": "Oyun alanı kahkahalarla dolu.",
-            "type": "noun"
+            "tr_": "Oyun alanı kahkahalarla dolu."
         },
         {
             "en": "break",
@@ -10565,8 +9427,7 @@ const DICTIONARY = {
             "tr": "mola",
             "en_": "We have a 15-minute break between lessons.",
             "es_": "Tenemos un descanso de 15 minutos entre lecciones.",
-            "tr_": "Dersler arasında 15 dakikalık mola var.",
-            "type": "noun"
+            "tr_": "Dersler arasında 15 dakikalık mola var."
         },
         {
             "en": "bell",
@@ -10574,8 +9435,7 @@ const DICTIONARY = {
             "tr": "zil",
             "en_": "The bell rings at the end of the day.",
             "es_": "La campana suena al final del día.",
-            "tr_": "Gün sonunda zil çalar.",
-            "type": "noun"
+            "tr_": "Gün sonunda zil çalar."
         },
         {
             "en": "coatroom [wardrobe]",
@@ -10583,8 +9443,7 @@ const DICTIONARY = {
             "tr": "kıyafet dolabı",
             "en_": "Put your coat in the coatroom.",
             "es_": "Pon tu abrigo en el guardarropa.",
-            "tr_": "Kabanını kıyafet dolabına koy.",
-            "type": "noun"
+            "tr_": "Kabanını kıyafet dolabına koy."
         },
         {
             "en": "course",
@@ -10592,8 +9451,7 @@ const DICTIONARY = {
             "tr": "kurs",
             "en_": "I'm taking a Spanish course this semester.",
             "es_": "Estoy tomando un curso de español este semestre.",
-            "tr_": "Bu dönem İspanyolca kursuna gidiyorum.",
-            "type": "noun"
+            "tr_": "Bu dönem İspanyolca kursuna gidiyorum."
         },
         {
             "en": "subject",
@@ -10601,8 +9459,7 @@ const DICTIONARY = {
             "tr": "konu",
             "en_": "Math is my favorite subject.",
             "es_": "Las matemáticas son mi asignatura favorita.",
-            "tr_": "Matematik favori konumdur.",
-            "type": "noun"
+            "tr_": "Matematik favori konumdur."
         },
         {
             "en": "Spanish",
@@ -10610,8 +9467,7 @@ const DICTIONARY = {
             "tr": "İspanyolca",
             "en_": "I speak Spanish fluently.",
             "es_": "Hablo español con fluidez.",
-            "tr_": "İspanyolcayı akıcı konuşuyorum.",
-            "type": "noun"
+            "tr_": "İspanyolcayı akıcı konuşuyorum."
         },
         {
             "en": "French",
@@ -10619,8 +9475,7 @@ const DICTIONARY = {
             "tr": "Fransızca",
             "en_": "She is learning French this year.",
             "es_": "Ella está aprendiendo francés este año.",
-            "tr_": "Bu yıl Fransızca öğreniyor.",
-            "type": "noun"
+            "tr_": "Bu yıl Fransızca öğreniyor."
         },
         {
             "en": "English",
@@ -10628,8 +9483,7 @@ const DICTIONARY = {
             "tr": "İngilizce",
             "en_": "English is widely spoken worldwide.",
             "es_": "El inglés se habla ampliamente en todo el mundo.",
-            "tr_": "İngilizce dünya genelinde yaygın olarak konuşulur.",
-            "type": "noun"
+            "tr_": "İngilizce dünya genelinde yaygın olarak konuşulur."
         },
         {
             "en": "German",
@@ -10637,8 +9491,7 @@ const DICTIONARY = {
             "tr": "Almanca",
             "en_": "I am learning German this year.",
             "es_": "Estoy aprendiendo alemán este año.",
-            "tr_": "Bu yıl Almanca öğreniyorum.",
-            "type": "noun"
+            "tr_": "Bu yıl Almanca öğreniyorum."
         },
         {
             "en": "math",
@@ -10646,8 +9499,7 @@ const DICTIONARY = {
             "tr": "matematik",
             "en_": "Math is my favorite subject.",
             "es_": "Las matemáticas son mi asignatura favorita.",
-            "tr_": "Matematik favori dersimdir.",
-            "type": "noun"
+            "tr_": "Matematik favori dersimdir."
         },
         {
             "en": "physics",
@@ -10655,8 +9507,7 @@ const DICTIONARY = {
             "tr": "fizik",
             "en_": "Physics helps us understand the universe.",
             "es_": "La física nos ayuda a entender el universo.",
-            "tr_": "Fizik evreni anlamamıza yardımcı olur.",
-            "type": "noun"
+            "tr_": "Fizik evreni anlamamıza yardımcı olur."
         },
         {
             "en": "chemistry",
@@ -10664,8 +9515,7 @@ const DICTIONARY = {
             "tr": "kimya",
             "en_": "Chemistry experiments are very interesting.",
             "es_": "Los experimentos de química son muy interesantes.",
-            "tr_": "Kimya deneyleri çok ilginçtir.",
-            "type": "noun"
+            "tr_": "Kimya deneyleri çok ilginçtir."
         },
         {
             "en": "biology",
@@ -10673,8 +9523,7 @@ const DICTIONARY = {
             "tr": "biyoloji",
             "en_": "Biology teaches about living organisms.",
             "es_": "La biología enseña sobre los organismos vivos.",
-            "tr_": "Biyoloji, canlı organizmaları öğretir.",
-            "type": "noun"
+            "tr_": "Biyoloji, canlı organizmaları öğretir."
         },
         {
             "en": "history",
@@ -10682,8 +9531,7 @@ const DICTIONARY = {
             "tr": "tarih",
             "en_": "History class is very informative.",
             "es_": "La clase de historia es muy informativa.",
-            "tr_": "Tarih dersi çok bilgilendiricidir.",
-            "type": "noun"
+            "tr_": "Tarih dersi çok bilgilendiricidir."
         },
         {
             "en": "geography",
@@ -10691,8 +9539,7 @@ const DICTIONARY = {
             "tr": "coğrafya",
             "en_": "Geography helps us learn about the Earth.",
             "es_": "La geografía nos ayuda a aprender sobre la Tierra.",
-            "tr_": "Coğrafya, Dünya'yı öğrenmemize yardımcı olur.",
-            "type": "noun"
+            "tr_": "Coğrafya, Dünya'yı öğrenmemize yardımcı olur."
         },
         {
             "en": "music",
@@ -10700,8 +9547,7 @@ const DICTIONARY = {
             "tr": "müzik",
             "en_": "Music class is my favorite.",
             "es_": "La clase de música es mi favorita.",
-            "tr_": "Müzik dersi favorimdir.",
-            "type": "noun"
+            "tr_": "Müzik dersi favorimdir."
         },
         {
             "en": "computer science",
@@ -10709,8 +9555,7 @@ const DICTIONARY = {
             "tr": "bilişim",
             "en_": "Computer science is a fast-growing field.",
             "es_": "La informática es un campo de rápido crecimiento.",
-            "tr_": "Bilişim hızlı büyüyen bir alandır.",
-            "type": "noun"
+            "tr_": "Bilişim hızlı büyüyen bir alandır."
         },
         {
             "en": "gymnastics",
@@ -10718,8 +9563,7 @@ const DICTIONARY = {
             "tr": "jimnastik",
             "en_": "She practices gymnastics every day.",
             "es_": "Ella practica gimnasia todos los días.",
-            "tr_": "Her gün jimnastik yapıyor.",
-            "type": "noun"
+            "tr_": "Her gün jimnastik yapıyor."
         },
         {
             "en": "letter",
@@ -10727,8 +9571,7 @@ const DICTIONARY = {
             "tr": "harf",
             "en_": "The letter A is the first in the alphabet.",
             "es_": "La letra A es la primera en el alfabeto.",
-            "tr_": "A harfi, alfabedeki ilk harftir.",
-            "type": "noun"
+            "tr_": "A harfi, alfabedeki ilk harftir."
         },
         {
             "en": "alphabet",
@@ -10736,8 +9579,7 @@ const DICTIONARY = {
             "tr": "alfabe",
             "en_": "Children learn the alphabet in kindergarten.",
             "es_": "Los niños aprenden el alfabeto en el jardín de infancia.",
-            "tr_": "Çocuklar anaokulunda alfabeyi öğrenir.",
-            "type": "noun"
+            "tr_": "Çocuklar anaokulunda alfabeyi öğrenir."
         },
         {
             "en": "grammar",
@@ -10745,8 +9587,7 @@ const DICTIONARY = {
             "tr": "gramer",
             "en_": "Grammar is important for writing correctly.",
             "es_": "La gramática es importante para escribir correctamente.",
-            "tr_": "Doğru yazmak için gramer önemlidir.",
-            "type": "noun"
+            "tr_": "Doğru yazmak için gramer önemlidir."
         },
         {
             "en": "spelling",
@@ -10754,8 +9595,7 @@ const DICTIONARY = {
             "tr": "yazım",
             "en_": "Spelling mistakes are common in early learning.",
             "es_": "Los errores de ortografía son comunes en el aprendizaje temprano.",
-            "tr_": "Yazım hataları erken öğrenmede yaygındır.",
-            "type": "noun"
+            "tr_": "Yazım hataları erken öğrenmede yaygındır."
         },
         {
             "en": "capital letter",
@@ -10763,8 +9603,7 @@ const DICTIONARY = {
             "tr": "büyük harf",
             "en_": "Start sentences with a capital letter.",
             "es_": "Empieza las oraciones con una mayúscula.",
-            "tr_": "Cümlelere büyük harfle başla.",
-            "type": "noun"
+            "tr_": "Cümlelere büyük harfle başla."
         },
         {
             "en": "word",
@@ -10772,8 +9611,7 @@ const DICTIONARY = {
             "tr": "kelime",
             "en_": "I learned a new word today.",
             "es_": "Aprendí una palabra nueva hoy.",
-            "tr_": "Bugün yeni bir kelime öğrendim.",
-            "type": "noun"
+            "tr_": "Bugün yeni bir kelime öğrendim."
         },
         {
             "en": "sentence",
@@ -10781,8 +9619,7 @@ const DICTIONARY = {
             "tr": "cümle",
             "en_": "This sentence is easy to understand.",
             "es_": "Esta frase es fácil de entender.",
-            "tr_": "Bu cümle anlaşılması kolaydır.",
-            "type": "noun"
+            "tr_": "Bu cümle anlaşılması kolaydır."
         },
         {
             "en": "period",
@@ -10790,8 +9627,7 @@ const DICTIONARY = {
             "tr": "nokta",
             "en_": "Put a period at the end of the sentence.",
             "es_": "Pon un punto al final de la frase.",
-            "tr_": "Cümlenin sonuna nokta koy.",
-            "type": "noun"
+            "tr_": "Cümlenin sonuna nokta koy."
         },
         {
             "en": "to calculate",
@@ -10799,8 +9635,7 @@ const DICTIONARY = {
             "tr": "hesap yapmak",
             "en_": "I need to calculate the total cost.",
             "es_": "Necesito hacer cuentas del costo total.",
-            "tr_": "Toplam maliyeti hesaplamam lazım.",
-            "type": "verb"
+            "tr_": "Toplam maliyeti hesaplamam lazım."
         },
         {
             "en": "to add",
@@ -10808,8 +9643,7 @@ const DICTIONARY = {
             "tr": "toplamak",
             "en_": "Add the numbers carefully.",
             "es_": "Suma los números con cuidado.",
-            "tr_": "Sayıları dikkatlice topla.",
-            "type": "verb"
+            "tr_": "Sayıları dikkatlice topla."
         },
         {
             "en": "plus",
@@ -10826,8 +9660,7 @@ const DICTIONARY = {
             "tr": "çıkarmak",
             "en_": "Subtract five from ten.",
             "es_": "Resta cinco de diez.",
-            "tr_": "Ondan beşi çıkar.",
-            "type": "verb"
+            "tr_": "Ondan beşi çıkar."
         },
         {
             "en": "minus",
@@ -10844,8 +9677,7 @@ const DICTIONARY = {
             "tr": "çarpmak",
             "en_": "Multiply four by six.",
             "es_": "Multiplica cuatro por seis.",
-            "tr_": "Dört ile altıyı çarp.",
-            "type": "verb"
+            "tr_": "Dört ile altıyı çarp."
         },
         {
             "en": "times [multiplied by]",
@@ -10862,8 +9694,7 @@ const DICTIONARY = {
             "tr": "bölmek",
             "en_": "Divide twelve by four.",
             "es_": "Divide doce entre cuatro.",
-            "tr_": "On ikiyi dört ile böl.",
-            "type": "verb"
+            "tr_": "On ikiyi dört ile böl."
         },
         {
             "en": "divided by",
@@ -10880,8 +9711,7 @@ const DICTIONARY = {
             "tr": "bilgisayar",
             "en_": "I use my computer every day.",
             "es_": "Uso mi computadora todos los días.",
-            "tr_": "Her gün bilgisayarımı kullanırım.",
-            "type": "noun"
+            "tr_": "Her gün bilgisayarımı kullanırım."
         },
         {
             "en": "keyboard",
@@ -10889,8 +9719,7 @@ const DICTIONARY = {
             "tr": "klavye",
             "en_": "The keyboard is wireless.",
             "es_": "El teclado es inalámbrico.",
-            "tr_": "Klavye kablosuzdur.",
-            "type": "noun"
+            "tr_": "Klavye kablosuzdur."
         },
         {
             "en": "calculator",
@@ -10898,8 +9727,7 @@ const DICTIONARY = {
             "tr": "hesap makinesi",
             "en_": "Use a calculator to check your work.",
             "es_": "Usa una calculadora para revisar tu trabajo.",
-            "tr_": "Çalışmanı kontrol etmek için hesap makinesi kullan.",
-            "type": "noun"
+            "tr_": "Çalışmanı kontrol etmek için hesap makinesi kullan."
         },
         {
             "en": "fraction",
@@ -10907,8 +9735,7 @@ const DICTIONARY = {
             "tr": "kesir",
             "en_": "One-half is a common fraction.",
             "es_": "Un medio es una fracción común.",
-            "tr_": "Yarım yaygın bir kesirdir.",
-            "type": "noun"
+            "tr_": "Yarım yaygın bir kesirdir."
         },
         {
             "en": "quarter",
@@ -10916,8 +9743,7 @@ const DICTIONARY = {
             "tr": "çeyrek",
             "en_": "A quarter of the cake is missing.",
             "es_": "Falta un cuarto del pastel.",
-            "tr_": "Pasta çeyreği eksik.",
-            "type": "noun"
+            "tr_": "Pasta çeyreği eksik."
         },
         {
             "en": "half",
@@ -10925,8 +9751,7 @@ const DICTIONARY = {
             "tr": "yarım",
             "en_": "I ate half of the sandwich.",
             "es_": "Comí la mitad del sándwich.",
-            "tr_": "Sandviçin yarısını yedim.",
-            "type": "noun"
+            "tr_": "Sandviçin yarısını yedim."
         },
         {
             "en": "one third",
@@ -10934,8 +9759,7 @@ const DICTIONARY = {
             "tr": "üçte bir",
             "en_": "One third of the students passed the test.",
             "es_": "Una tercera parte de los estudiantes aprobaron el examen.",
-            "tr_": "Öğrencilerin üçte biri sınavı geçti.",
-            "type": "noun"
+            "tr_": "Öğrencilerin üçte biri sınavı geçti."
         },
         {
             "en": "student",
@@ -10943,8 +9767,7 @@ const DICTIONARY = {
             "tr": "öğrenci",
             "en_": "The student studies hard every day.",
             "es_": "El estudiante estudia mucho todos los días.",
-            "tr_": "Öğrenci her gün çok çalışıyor.",
-            "type": "noun"
+            "tr_": "Öğrenci her gün çok çalışıyor."
         },
         {
             "en": "to study",
@@ -10952,8 +9775,7 @@ const DICTIONARY = {
             "tr": "ders çalışmak",
             "en_": "I study for exams every weekend.",
             "es_": "Estudio para los exámenes todos los fines de semana.",
-            "tr_": "Her hafta sonu sınavlara çalışırım.",
-            "type": "verb"
+            "tr_": "Her hafta sonu sınavlara çalışırım."
         },
         {
             "en": "exam",
@@ -10961,8 +9783,7 @@ const DICTIONARY = {
             "tr": "sınav",
             "en_": "The exam was very difficult.",
             "es_": "El examen fue muy difícil.",
-            "tr_": "Sınav çok zordu.",
-            "type": "noun"
+            "tr_": "Sınav çok zordu."
         },
         {
             "en": "to take an exam",
@@ -10970,8 +9791,7 @@ const DICTIONARY = {
             "tr": "sınava girmek",
             "en_": "I will take an exam next Monday.",
             "es_": "Me examinaré el próximo lunes.",
-            "tr_": "Gelecek pazartesi sınava gireceğim.",
-            "type": "verb"
+            "tr_": "Gelecek pazartesi sınava gireceğim."
         },
         {
             "en": "to fail an exam",
@@ -10979,8 +9799,7 @@ const DICTIONARY = {
             "tr": "sınavda kalmak",
             "en_": "He failed the math exam.",
             "es_": "Suspendió el examen de matemáticas.",
-            "tr_": "Matematik sınavında kaldı.",
-            "type": "verb"
+            "tr_": "Matematik sınavında kaldı."
         },
         {
             "en": "to pass an exam",
@@ -10988,8 +9807,7 @@ const DICTIONARY = {
             "tr": "sınavı geçmek",
             "en_": "She passed the history exam.",
             "es_": "Aprobó el examen de historia.",
-            "tr_": "Tarih sınavını geçti.",
-            "type": "verb"
+            "tr_": "Tarih sınavını geçti."
         }
     ],
     "Shape and sizes" : [
@@ -10999,8 +9817,7 @@ const DICTIONARY = {
             "tr": "şekil",
             "en_": "What shape is this object?",
             "es_": "¿Qué forma tiene este objeto?",
-            "tr_": "Bu nesne ne şekildedir?",
-            "type": "noun"
+            "tr_": "Bu nesne ne şekildedir?"
         },
         {
             "en": "circle",
@@ -11008,8 +9825,7 @@ const DICTIONARY = {
             "tr": "çember [daire]",
             "en_": "He drew a perfect circle.",
             "es_": "Dibujó un círculo perfecto.",
-            "tr_": "Mükemmel bir daire çizdi.",
-            "type": "noun"
+            "tr_": "Mükemmel bir daire çizdi."
         },
         {
             "en": "square",
@@ -11017,8 +9833,7 @@ const DICTIONARY = {
             "tr": "kare",
             "en_": "A square has four equal sides.",
             "es_": "Un cuadrado tiene cuatro lados iguales.",
-            "tr_": "Bir karenin dört eşit kenarı vardır.",
-            "type": "noun"
+            "tr_": "Bir karenin dört eşit kenarı vardır."
         },
         {
             "en": "triangle",
@@ -11026,8 +9841,7 @@ const DICTIONARY = {
             "tr": "üçgen",
             "en_": "She cut the paper into a triangle.",
             "es_": "Cortó el papel en forma de triángulo.",
-            "tr_": "Kağıdı üçgen şeklinde kesti.",
-            "type": "noun"
+            "tr_": "Kağıdı üçgen şeklinde kesti."
         },
         {
             "en": "cone",
@@ -11035,8 +9849,7 @@ const DICTIONARY = {
             "tr": "koni",
             "en_": "An ice cream cone has a cone shape.",
             "es_": "Un helado tiene forma de cono.",
-            "tr_": "Bir dondurma koni şeklindedir.",
-            "type": "noun"
+            "tr_": "Bir dondurma koni şeklindedir."
         },
         {
             "en": "rectangle",
@@ -11044,8 +9857,7 @@ const DICTIONARY = {
             "tr": "dikdörtgen",
             "en_": "This table is shaped like a rectangle.",
             "es_": "Esta mesa tiene forma de rectángulo.",
-            "tr_": "Bu masa dikdörtgen şeklindedir.",
-            "type": "noun"
+            "tr_": "Bu masa dikdörtgen şeklindedir."
         },
         {
             "en": "enormous",
@@ -11053,8 +9865,7 @@ const DICTIONARY = {
             "tr": "kocaman",
             "en_": "The elephant is an enormous animal.",
             "es_": "El elefante es un animal enorme.",
-            "tr_": "Fil kocaman bir hayvandır.",
-            "type": "adjective"
+            "tr_": "Fil kocaman bir hayvandır."
         },
         {
             "en": "big",
@@ -11062,8 +9873,7 @@ const DICTIONARY = {
             "tr": "büyük",
             "en_": "They live in a big house.",
             "es_": "Viven en una casa grande.",
-            "tr_": "Büyük bir evde yaşıyorlar.",
-            "type": "adjective"
+            "tr_": "Büyük bir evde yaşıyorlar."
         },
         {
             "en": "small",
@@ -11071,8 +9881,7 @@ const DICTIONARY = {
             "tr": "küçük",
             "en_": "She has small hands.",
             "es_": "Tiene las manos pequeñas.",
-            "tr_": "Küçük elleri var.",
-            "type": "adjective"
+            "tr_": "Küçük elleri var."
         },
         {
             "en": "tiny",
@@ -11080,8 +9889,7 @@ const DICTIONARY = {
             "tr": "minik",
             "en_": "Look at this tiny insect!",
             "es_": "¡Mira este insecto diminuto!",
-            "tr_": "Bu minik böceğe bak!",
-            "type": "adjective"
+            "tr_": "Bu minik böceğe bak!"
         },
         {
             "en": "height",
@@ -11089,8 +9897,7 @@ const DICTIONARY = {
             "tr": "yükseklik",
             "en_": "What is the height of the building?",
             "es_": "¿Cuál es la altura del edificio?",
-            "tr_": "Binanın yüksekliği nedir?",
-            "type": "noun"
+            "tr_": "Binanın yüksekliği nedir?"
         },
         {
             "en": "to measure",
@@ -11098,8 +9905,7 @@ const DICTIONARY = {
             "tr": "ölçmek",
             "en_": "You need a ruler to measure it.",
             "es_": "Necesitas una regla para medirlo.",
-            "tr_": "Bunu ölçmek için cetvel gerekir.",
-            "type": "verb"
+            "tr_": "Bunu ölçmek için cetvel gerekir."
         },
         {
             "en": "meter",
@@ -11107,8 +9913,7 @@ const DICTIONARY = {
             "tr": "metre",
             "en_": "The room is five meters wide.",
             "es_": "La habitación tiene cinco metros de ancho.",
-            "tr_": "Oda beş metre genişliğindedir.",
-            "type": "noun"
+            "tr_": "Oda beş metre genişliğindedir."
         },
         {
             "en": "centimeter",
@@ -11116,8 +9921,7 @@ const DICTIONARY = {
             "tr": "santimetre",
             "en_": "This pencil is fifteen centimeters long.",
             "es_": "Este lápiz mide quince centímetros.",
-            "tr_": "Bu kalem on beş santimetre uzunluğunda.",
-            "type": "noun"
+            "tr_": "Bu kalem on beş santimetre uzunluğunda."
         },
         {
             "en": "length",
@@ -11125,8 +9929,7 @@ const DICTIONARY = {
             "tr": "uzunluk",
             "en_": "What is the length of the rope?",
             "es_": "¿Cuál es el largo de la cuerda?",
-            "tr_": "İpin uzunluğu nedir?",
-            "type": "noun"
+            "tr_": "İpin uzunluğu nedir?"
         },
         {
             "en": "width",
@@ -11134,8 +9937,7 @@ const DICTIONARY = {
             "tr": "genişlik",
             "en_": "We measured the width of the door.",
             "es_": "Medimos el ancho de la puerta.",
-            "tr_": "Kapının genişliğini ölçtük.",
-            "type": "noun"
+            "tr_": "Kapının genişliğini ölçtük."
         },
         {
             "en": "volume",
@@ -11143,8 +9945,7 @@ const DICTIONARY = {
             "tr": "hacim",
             "en_": "Calculate the volume of the box.",
             "es_": "Calcula el volumen de la caja.",
-            "tr_": "Kutunun hacmini hesapla.",
-            "type": "noun"
+            "tr_": "Kutunun hacmini hesapla."
         },
         {
             "en": "liter",
@@ -11152,8 +9953,7 @@ const DICTIONARY = {
             "tr": "litre",
             "en_": "I drank one liter of water.",
             "es_": "Bebí un litro de agua.",
-            "tr_": "Bir litre su içtim.",
-            "type": "noun"
+            "tr_": "Bir litre su içtim."
         },
         {
             "en": "half a liter",
@@ -11161,8 +9961,7 @@ const DICTIONARY = {
             "tr": "yarım litre",
             "en_": "Add half a liter of milk.",
             "es_": "Agrega medio litro de leche.",
-            "tr_": "Yarım litre süt ekle.",
-            "type": "noun"
+            "tr_": "Yarım litre süt ekle."
         },
         {
             "en": "weight",
@@ -11170,8 +9969,7 @@ const DICTIONARY = {
             "tr": "ağırlık",
             "en_": "The weight of this package is 10 kilos.",
             "es_": "El peso de este paquete es de 10 kilos.",
-            "tr_": "Bu paketin ağırlığı 10 kilo.",
-            "type": "noun"
+            "tr_": "Bu paketin ağırlığı 10 kilo."
         },
         {
             "en": "kilo",
@@ -11179,8 +9977,7 @@ const DICTIONARY = {
             "tr": "kilo",
             "en_": "I bought two kilos of apples.",
             "es_": "Compré dos kilos de manzanas.",
-            "tr_": "İki kilo elma aldım.",
-            "type": "noun"
+            "tr_": "İki kilo elma aldım."
         },
         {
             "en": "half a kilo",
@@ -11188,8 +9985,7 @@ const DICTIONARY = {
             "tr": "yarım kilo",
             "en_": "She bought half a kilo of rice.",
             "es_": "Compró medio kilo de arroz.",
-            "tr_": "Yarım kilo pirinç aldı.",
-            "type": "noun"
+            "tr_": "Yarım kilo pirinç aldı."
         }
     ],
     "Numbers" : [
@@ -11199,8 +9995,7 @@ const DICTIONARY = {
             "tr": "sıfır",
             "en_": "He scored zero goals in the match.",
             "es_": "Marcó cero goles en el partido.",
-            "tr_": "Maçta sıfır gol attı.",
-            "type": "noun"
+            "tr_": "Maçta sıfır gol attı."
         },
         {
             "en": "one",
@@ -11208,8 +10003,7 @@ const DICTIONARY = {
             "tr": "bir",
             "en_": "I have one brother.",
             "es_": "Tengo un hermano.",
-            "tr_": "Bir erkek kardeşim var.",
-            "type": "noun"
+            "tr_": "Bir erkek kardeşim var."
         },
         {
             "en": "two",
@@ -11217,8 +10011,7 @@ const DICTIONARY = {
             "tr": "iki",
             "en_": "She bought two books.",
             "es_": "Compró dos libros.",
-            "tr_": "İki kitap aldı.",
-            "type": "noun"
+            "tr_": "İki kitap aldı."
         },
         {
             "en": "three",
@@ -11226,8 +10019,7 @@ const DICTIONARY = {
             "tr": "üç",
             "en_": "We have three cats.",
             "es_": "Tenemos tres gatos.",
-            "tr_": "Üç kedimiz var.",
-            "type": "noun"
+            "tr_": "Üç kedimiz var."
         },
         {
             "en": "four",
@@ -11235,8 +10027,7 @@ const DICTIONARY = {
             "tr": "dört",
             "en_": "The classroom has four windows.",
             "es_": "El aula tiene cuatro ventanas.",
-            "tr_": "Sınıfta dört pencere var.",
-            "type": "noun"
+            "tr_": "Sınıfta dört pencere var."
         },
         {
             "en": "five",
@@ -11244,8 +10035,7 @@ const DICTIONARY = {
             "tr": "beş",
             "en_": "They waited for five minutes.",
             "es_": "Esperaron cinco minutos.",
-            "tr_": "Beş dakika beklediler.",
-            "type": "noun"
+            "tr_": "Beş dakika beklediler."
         },
         {
             "en": "six",
@@ -11253,8 +10043,7 @@ const DICTIONARY = {
             "tr": "altı",
             "en_": "There are six chairs around the table.",
             "es_": "Hay seis sillas alrededor de la mesa.",
-            "tr_": "Masada altı sandalye var.",
-            "type": "noun"
+            "tr_": "Masada altı sandalye var."
         },
         {
             "en": "seven",
@@ -11262,8 +10051,7 @@ const DICTIONARY = {
             "tr": "yedi",
             "en_": "He wakes up at seven o'clock.",
             "es_": "Se despierta a las siete.",
-            "tr_": "Saat yedide uyanır.",
-            "type": "noun"
+            "tr_": "Saat yedide uyanır."
         },
         {
             "en": "eight",
@@ -11271,8 +10059,7 @@ const DICTIONARY = {
             "tr": "sekiz",
             "en_": "The school starts at eight.",
             "es_": "La escuela empieza a las ocho.",
-            "tr_": "Okul sekizde başlar.",
-            "type": "noun"
+            "tr_": "Okul sekizde başlar."
         },
         {
             "en": "nine",
@@ -11280,8 +10067,7 @@ const DICTIONARY = {
             "tr": "dokuz",
             "en_": "She has nine pencils.",
             "es_": "Tiene nueve lápices.",
-            "tr_": "Dokuz kalemi var.",
-            "type": "noun"
+            "tr_": "Dokuz kalemi var."
         },
         {
             "en": "ten",
@@ -11289,8 +10075,7 @@ const DICTIONARY = {
             "tr": "on",
             "en_": "He can count to ten.",
             "es_": "Puede contar hasta diez.",
-            "tr_": "Ona kadar sayabiliyor.",
-            "type": "noun"
+            "tr_": "Ona kadar sayabiliyor."
         },
         {
             "en": "eleven",
@@ -11298,8 +10083,7 @@ const DICTIONARY = {
             "tr": "on bir",
             "en_": "The train arrives at eleven.",
             "es_": "El tren llega a las once.",
-            "tr_": "Tren saat on birde geliyor.",
-            "type": "noun"
+            "tr_": "Tren saat on birde geliyor."
         },
         {
             "en": "twelve",
@@ -11307,8 +10091,7 @@ const DICTIONARY = {
             "tr": "on iki",
             "en_": "We ate lunch at twelve.",
             "es_": "Almorzamos a las doce.",
-            "tr_": "Öğle yemeğini saat on ikide yedik.",
-            "type": "noun"
+            "tr_": "Öğle yemeğini saat on ikide yedik."
         },
         {
             "en": "thirteen",
@@ -11316,8 +10099,7 @@ const DICTIONARY = {
             "tr": "on üç",
             "en_": "She is thirteen years old.",
             "es_": "Tiene trece años.",
-            "tr_": "On üç yaşında.",
-            "type": "noun"
+            "tr_": "On üç yaşında."
         },
         {
             "en": "fourteen",
@@ -11325,8 +10107,7 @@ const DICTIONARY = {
             "tr": "on dört",
             "en_": "There are fourteen students in the class.",
             "es_": "Hay catorce estudiantes en la clase.",
-            "tr_": "Sınıfta on dört öğrenci var.",
-            "type": "noun"
+            "tr_": "Sınıfta on dört öğrenci var."
         },
         {
             "en": "fifteen",
@@ -11334,8 +10115,7 @@ const DICTIONARY = {
             "tr": "on beş",
             "en_": "He got fifteen marks on the test.",
             "es_": "Obtuvo quince puntos en el examen.",
-            "tr_": "Sınavdan on beş puan aldı.",
-            "type": "noun"
+            "tr_": "Sınavdan on beş puan aldı."
         },
         {
             "en": "sixteen",
@@ -11343,8 +10123,7 @@ const DICTIONARY = {
             "tr": "on altı",
             "en_": "She will turn sixteen next week.",
             "es_": "Cumplirá dieciséis la próxima semana.",
-            "tr_": "Gelecek hafta on altı yaşına girecek.",
-            "type": "noun"
+            "tr_": "Gelecek hafta on altı yaşına girecek."
         },
         {
             "en": "seventeen",
@@ -11352,8 +10131,7 @@ const DICTIONARY = {
             "tr": "on yedi",
             "en_": "They have been married for seventeen years.",
             "es_": "Han estado casados durante diecisiete años.",
-            "tr_": "On yedi yıldır evliler.",
-            "type": "noun"
+            "tr_": "On yedi yıldır evliler."
         },
         {
             "en": "eighteen",
@@ -11361,8 +10139,7 @@ const DICTIONARY = {
             "tr": "on sekiz",
             "en_": "He needs eighteen dollars.",
             "es_": "Necesita dieciocho dólares.",
-            "tr_": "On sekiz dolara ihtiyacı var.",
-            "type": "noun"
+            "tr_": "On sekiz dolara ihtiyacı var."
         },
         {
             "en": "nineteen",
@@ -11370,8 +10147,7 @@ const DICTIONARY = {
             "tr": "on dokuz",
             "en_": "She counted to nineteen.",
             "es_": "Contó hasta diecinueve.",
-            "tr_": "On dokuza kadar saydı.",
-            "type": "noun"
+            "tr_": "On dokuza kadar saydı."
         },
         {
             "en": "twenty",
@@ -11379,8 +10155,7 @@ const DICTIONARY = {
             "tr": "yirmi",
             "en_": "He bought twenty apples.",
             "es_": "Compró veinte manzanas.",
-            "tr_": "Yirmi elma aldı.",
-            "type": "noun"
+            "tr_": "Yirmi elma aldı."
         },
         {
             "en": "twenty-one",
@@ -11388,8 +10163,7 @@ const DICTIONARY = {
             "tr": "yirmi bir",
             "en_": "She is twenty-one years old.",
             "es_": "Tiene veintiún años.",
-            "tr_": "Yirmi bir yaşında.",
-            "type": "noun"
+            "tr_": "Yirmi bir yaşında."
         },
         {
             "en": "twenty-two",
@@ -11397,8 +10171,7 @@ const DICTIONARY = {
             "tr": "yirmi iki",
             "en_": "They have twenty-two books.",
             "es_": "Tienen veintidós libros.",
-            "tr_": "Yirmi iki kitapları var.",
-            "type": "noun"
+            "tr_": "Yirmi iki kitapları var."
         },
         {
             "en": "thirty",
@@ -11406,8 +10179,7 @@ const DICTIONARY = {
             "tr": "otuz",
             "en_": "There are thirty students in the class.",
             "es_": "Hay treinta estudiantes en la clase.",
-            "tr_": "Sınıfta otuz öğrenci var.",
-            "type": "noun"
+            "tr_": "Sınıfta otuz öğrenci var."
         },
         {
             "en": "forty",
@@ -11415,8 +10187,7 @@ const DICTIONARY = {
             "tr": "kırk",
             "en_": "He waited for forty minutes.",
             "es_": "Esperó cuarenta minutos.",
-            "tr_": "Kırk dakika bekledi.",
-            "type": "noun"
+            "tr_": "Kırk dakika bekledi."
         },
         {
             "en": "fifty",
@@ -11424,8 +10195,7 @@ const DICTIONARY = {
             "tr": "elli",
             "en_": "She scored fifty points.",
             "es_": "Obtuvo cincuenta puntos.",
-            "tr_": "Elli puan aldı.",
-            "type": "noun"
+            "tr_": "Elli puan aldı."
         },
         {
             "en": "sixty",
@@ -11433,8 +10203,7 @@ const DICTIONARY = {
             "tr": "altmış",
             "en_": "There are sixty chairs in the hall.",
             "es_": "Hay sesenta sillas en el salón.",
-            "tr_": "Salonda altmış sandalye var.",
-            "type": "noun"
+            "tr_": "Salonda altmış sandalye var."
         },
         {
             "en": "seventy",
@@ -11442,8 +10211,7 @@ const DICTIONARY = {
             "tr": "yetmiş",
             "en_": "The bag weighs seventy kilos.",
             "es_": "La bolsa pesa setenta kilos.",
-            "tr_": "Çanta yetmiş kilo ağırlığında.",
-            "type": "noun"
+            "tr_": "Çanta yetmiş kilo ağırlığında."
         },
         {
             "en": "eighty",
@@ -11451,8 +10219,7 @@ const DICTIONARY = {
             "tr": "seksen",
             "en_": "My grandmother is eighty years old.",
             "es_": "Mi abuela tiene ochenta años.",
-            "tr_": "Büyükannem seksen yaşında.",
-            "type": "noun"
+            "tr_": "Büyükannem seksen yaşında."
         },
         {
             "en": "ninety",
@@ -11460,8 +10227,7 @@ const DICTIONARY = {
             "tr": "doksan",
             "en_": "He ran ninety meters.",
             "es_": "Corrió noventa metros.",
-            "tr_": "Doksan metre koştu.",
-            "type": "noun"
+            "tr_": "Doksan metre koştu."
         },
         {
             "en": "hundred",
@@ -11469,8 +10235,7 @@ const DICTIONARY = {
             "tr": "yüz",
             "en_": "There are one hundred people at the concert.",
             "es_": "Hay cien personas en el concierto.",
-            "tr_": "Konserde yüz kişi var.",
-            "type": "noun"
+            "tr_": "Konserde yüz kişi var."
         },
         {
             "en": "thousand",
@@ -11478,8 +10243,7 @@ const DICTIONARY = {
             "tr": "bin",
             "en_": "The stadium holds one thousand fans.",
             "es_": "El estadio tiene capacidad para mil aficionados.",
-            "tr_": "Stadyum bin taraftar alıyor.",
-            "type": "noun"
+            "tr_": "Stadyum bin taraftar alıyor."
         },
         {
             "en": "million",
@@ -11487,8 +10251,7 @@ const DICTIONARY = {
             "tr": "milyon",
             "en_": "The city has one million inhabitants.",
             "es_": "La ciudad tiene un millón de habitantes.",
-            "tr_": "Şehirde bir milyon insan yaşıyor.",
-            "type": "noun"
+            "tr_": "Şehirde bir milyon insan yaşıyor."
         }
     ],
     "Sport" : [
@@ -11498,8 +10261,7 @@ const DICTIONARY = {
             "tr": "formda kalmak",
             "en_": "He goes to the gym to keep fit.",
             "es_": "Él va al gimnasio para mantenerse en forma.",
-            "tr_": "Formda kalmak için spor salonuna gider.",
-            "type": "verb"
+            "tr_": "Formda kalmak için spor salonuna gider."
         },
         {
             "en": "to jog",
@@ -11507,8 +10269,7 @@ const DICTIONARY = {
             "tr": "koşu yapmak",
             "en_": "I jog every morning in the park.",
             "es_": "Hago footing cada mañana en el parque.",
-            "tr_": "Her sabah parkta koşu yaparım.",
-            "type": "verb"
+            "tr_": "Her sabah parkta koşu yaparım."
         },
         {
             "en": "to train",
@@ -11516,8 +10277,7 @@ const DICTIONARY = {
             "tr": "antrenman yapmak",
             "en_": "They train hard before the match.",
             "es_": "Ellos se entrenan duro antes del partido.",
-            "tr_": "Maçtan önce sıkı antrenman yaparlar.",
-            "type": "verb"
+            "tr_": "Maçtan önce sıkı antrenman yaparlar."
         },
         {
             "en": "running shoes",
@@ -11525,8 +10285,7 @@ const DICTIONARY = {
             "tr": "koşu ayakkabısı",
             "en_": "She bought new running shoes yesterday.",
             "es_": "Ella compró nuevos zapatos de corredor ayer.",
-            "tr_": "Dün yeni koşu ayakkabısı aldı.",
-            "type": "noun"
+            "tr_": "Dün yeni koşu ayakkabısı aldı."
         },
         {
             "en": "tracksuit",
@@ -11534,8 +10293,7 @@ const DICTIONARY = {
             "tr": "eşofman takımı",
             "en_": "He wears a tracksuit to the gym.",
             "es_": "Él lleva un traje de entrenamiento al gimnasio.",
-            "tr_": "Spor salonuna eşofman takımı giyerek gider.",
-            "type": "noun"
+            "tr_": "Spor salonuna eşofman takımı giyerek gider."
         },
         {
             "en": "to play tennis",
@@ -11543,8 +10301,7 @@ const DICTIONARY = {
             "tr": "tenis oynamak",
             "en_": "We play tennis every weekend.",
             "es_": "Jugamos al tenis cada fin de semana.",
-            "tr_": "Her hafta sonu tenis oynarız.",
-            "type": "verb"
+            "tr_": "Her hafta sonu tenis oynarız."
         },
         {
             "en": "tennis court",
@@ -11552,8 +10309,7 @@ const DICTIONARY = {
             "tr": "tenis kortu",
             "en_": "The tennis court is next to the swimming pool.",
             "es_": "La pista de tenis está al lado de la piscina.",
-            "tr_": "Tenis kortu yüzme havuzunun yanındadır.",
-            "type": "noun"
+            "tr_": "Tenis kortu yüzme havuzunun yanındadır."
         },
         {
             "en": "tennis player",
@@ -11561,8 +10317,7 @@ const DICTIONARY = {
             "tr": "tenisçi",
             "en_": "She is a professional tennis player.",
             "es_": "Ella es una tenista profesional.",
-            "tr_": "O profesyonel bir tenisçidir.",
-            "type": "noun"
+            "tr_": "O profesyonel bir tenisçidir."
         },
         {
             "en": "to serve",
@@ -11570,8 +10325,7 @@ const DICTIONARY = {
             "tr": "servis atmak",
             "en_": "He serves the ball very fast.",
             "es_": "Él sirve la pelota muy rápido.",
-            "tr_": "Topa çok hızlı servis atar.",
-            "type": "verb"
+            "tr_": "Topa çok hızlı servis atar."
         },
         {
             "en": "in",
@@ -11597,8 +10351,7 @@ const DICTIONARY = {
             "tr": "net",
             "en_": "The ball hit the net.",
             "es_": "La pelota golpeó la red.",
-            "tr_": "Top fileye çarptı.",
-            "type": "noun"
+            "tr_": "Top fileye çarptı."
         },
         {
             "en": "ball",
@@ -11606,8 +10359,7 @@ const DICTIONARY = {
             "tr": "top",
             "en_": "Can you pass me the ball?",
             "es_": "¿Puedes pasarme la pelota?",
-            "tr_": "Bana topu uzatır mısın?",
-            "type": "noun"
+            "tr_": "Bana topu uzatır mısın?"
         },
         {
             "en": "racket",
@@ -11615,8 +10367,7 @@ const DICTIONARY = {
             "tr": "raket",
             "en_": "He broke his tennis racket.",
             "es_": "Él rompió su raqueta de tenis.",
-            "tr_": "Tenis raketini kırdı.",
-            "type": "noun"
+            "tr_": "Tenis raketini kırdı."
         },
         {
             "en": "to play golf",
@@ -11624,8 +10375,7 @@ const DICTIONARY = {
             "tr": "golf oynamak",
             "en_": "They play golf every Sunday.",
             "es_": "Juegan al golf todos los domingos.",
-            "tr_": "Her pazar golf oynarlar.",
-            "type": "verb"
+            "tr_": "Her pazar golf oynarlar."
         },
         {
             "en": "golf club",
@@ -11633,8 +10383,7 @@ const DICTIONARY = {
             "tr": "golf kulübü",
             "en_": "He forgot his golf club at home.",
             "es_": "Olvidó su palo de golf en casa.",
-            "tr_": "Golf kulübünü evde unuttu.",
-            "type": "noun"
+            "tr_": "Golf kulübünü evde unuttu."
         },
         {
             "en": "to play football",
@@ -11642,8 +10391,7 @@ const DICTIONARY = {
             "tr": "futbol oynamak",
             "en_": "The kids play football after school.",
             "es_": "Los niños juegan al fútbol después de la escuela.",
-            "tr_": "Çocuklar okuldan sonra futbol oynar.",
-            "type": "verb"
+            "tr_": "Çocuklar okuldan sonra futbol oynar."
         },
         {
             "en": "referee",
@@ -11651,8 +10399,7 @@ const DICTIONARY = {
             "tr": "hakem",
             "en_": "The referee stopped the game.",
             "es_": "El árbitro detuvo el partido.",
-            "tr_": "Hakem oyunu durdurdu.",
-            "type": "noun"
+            "tr_": "Hakem oyunu durdurdu."
         },
         {
             "en": "team",
@@ -11660,8 +10407,7 @@ const DICTIONARY = {
             "tr": "takım [ekip]",
             "en_": "Our team won the championship.",
             "es_": "Nuestro equipo ganó el campeonato.",
-            "tr_": "Takımımız şampiyonluğu kazandı.",
-            "type": "noun"
+            "tr_": "Takımımız şampiyonluğu kazandı."
         },
         {
             "en": "soccer field",
@@ -11669,8 +10415,7 @@ const DICTIONARY = {
             "tr": "futbol sahası",
             "en_": "The soccer field is wet after the rain.",
             "es_": "El campo de fútbol está mojado después de la lluvia.",
-            "tr_": "Yağmurdan sonra futbol sahası ıslak.",
-            "type": "noun"
+            "tr_": "Yağmurdan sonra futbol sahası ıslak."
         },
         {
             "en": "goalkeeper",
@@ -11678,8 +10423,7 @@ const DICTIONARY = {
             "tr": "kaleci",
             "en_": "The goalkeeper saved the penalty.",
             "es_": "El portero paró el penalti.",
-            "tr_": "Kaleci penaltıyı kurtardı.",
-            "type": "noun"
+            "tr_": "Kaleci penaltıyı kurtardı."
         },
         {
             "en": "ball [soccer ball]",
@@ -11687,8 +10431,7 @@ const DICTIONARY = {
             "tr": "futbol topu",
             "en_": "He kicked the soccer ball into the goal.",
             "es_": "Pateó el balón hacia la portería.",
-            "tr_": "Futbol topunu kaleye vurdu.",
-            "type": "noun"
+            "tr_": "Futbol topunu kaleye vurdu."
         },
         {
             "en": "to score a goal",
@@ -11696,8 +10439,7 @@ const DICTIONARY = {
             "tr": "gol atmak",
             "en_": "She scored a goal in the final minute.",
             "es_": "Ella marcó un gol en el último minuto.",
-            "tr_": "Son dakikada gol attı.",
-            "type": "verb"
+            "tr_": "Son dakikada gol attı."
         },
         {
             "en": "swimming pool",
@@ -11705,8 +10447,7 @@ const DICTIONARY = {
             "tr": "yüzme havuzu",
             "en_": "The hotel has a large swimming pool.",
             "es_": "El hotel tiene una piscina grande.",
-            "tr_": "Otelin büyük bir yüzme havuzu var.",
-            "type": "noun"
+            "tr_": "Otelin büyük bir yüzme havuzu var."
         },
         {
             "en": "to swim",
@@ -11714,8 +10455,7 @@ const DICTIONARY = {
             "tr": "yüzmek",
             "en_": "I like to swim in the sea.",
             "es_": "Me gusta nadar en el mar.",
-            "tr_": "Denizde yüzmeyi severim.",
-            "type": "verb"
+            "tr_": "Denizde yüzmeyi severim."
         },
         {
             "en": "to swim the backstroke",
@@ -11723,8 +10463,7 @@ const DICTIONARY = {
             "tr": "sırtüstü yüzmek",
             "en_": "He learned to swim the backstroke last year.",
             "es_": "Aprendió a hacer la brazada de espalda el año pasado.",
-            "tr_": "Geçen yıl sırtüstü yüzmeyi öğrendi.",
-            "type": "verb"
+            "tr_": "Geçen yıl sırtüstü yüzmeyi öğrendi."
         },
         {
             "en": "to swim breaststroke",
@@ -11732,8 +10471,7 @@ const DICTIONARY = {
             "tr": "kurbağalama yüzmek",
             "en_": "She swims breaststroke very well.",
             "es_": "Ella hace la braza de pecho muy bien.",
-            "tr_": "Kurbağalama yüzmeyi çok iyi bilir.",
-            "type": "verb"
+            "tr_": "Kurbağalama yüzmeyi çok iyi bilir."
         },
         {
             "en": "to dive",
@@ -11741,8 +10479,7 @@ const DICTIONARY = {
             "tr": "atlamak",
             "en_": "He dived from the highest platform.",
             "es_": "Se tiró desde la plataforma más alta.",
-            "tr_": "En yüksek platformdan atladı.",
-            "type": "verb"
+            "tr_": "En yüksek platformdan atladı."
         },
         {
             "en": "trampoline [diving board]",
@@ -11750,8 +10487,7 @@ const DICTIONARY = {
             "tr": "trambolin",
             "en_": "The child jumped off the trampoline.",
             "es_": "El niño saltó del trampolín.",
-            "tr_": "Çocuk trambolinden atladı.",
-            "type": "noun"
+            "tr_": "Çocuk trambolinden atladı."
         },
         {
             "en": "horse racing",
@@ -11759,8 +10495,7 @@ const DICTIONARY = {
             "tr": "at yarışı",
             "en_": "Horse racing is popular in many countries.",
             "es_": "Las carreras de caballos son populares en muchos países.",
-            "tr_": "At yarışı birçok ülkede popülerdir.",
-            "type": "noun"
+            "tr_": "At yarışı birçok ülkede popülerdir."
         },
         {
             "en": "car racing",
@@ -11768,8 +10503,7 @@ const DICTIONARY = {
             "tr": "araba yarışı",
             "en_": "He dreams of winning a car racing championship.",
             "es_": "Sueña con ganar un campeonato de carreras de coches.",
-            "tr_": "Bir araba yarışı şampiyonluğu kazanmayı hayal ediyor.",
-            "type": "noun"
+            "tr_": "Bir araba yarışı şampiyonluğu kazanmayı hayal ediyor."
         },
         {
             "en": "gymnastics",
@@ -11777,8 +10511,7 @@ const DICTIONARY = {
             "tr": "jimnastik",
             "en_": "She practices gymnastics every afternoon.",
             "es_": "Ella practica gimnasia todas las tardes.",
-            "tr_": "Her öğleden sonra jimnastik yapar.",
-            "type": "noun"
+            "tr_": "Her öğleden sonra jimnastik yapar."
         },
         {
             "en": "athletics",
@@ -11786,8 +10519,7 @@ const DICTIONARY = {
             "tr": "atletizm",
             "en_": "Athletics is part of the Olympic Games.",
             "es_": "El atletismo es parte de los Juegos Olímpicos.",
-            "tr_": "Atletizm, Olimpiyat Oyunlarının bir parçasıdır.",
-            "type": "noun"
+            "tr_": "Atletizm, Olimpiyat Oyunlarının bir parçasıdır."
         }
     ],
     "Celebrations" : [
@@ -11797,8 +10529,7 @@ const DICTIONARY = {
             "tr": "doğum günü",
             "en_": "Her birthday is in July.",
             "es_": "Su cumpleaños es en julio.",
-            "tr_": "Doğum günü Temmuz ayında.",
-            "type": "noun"
+            "tr_": "Doğum günü Temmuz ayında."
         },
         {
             "en": "party",
@@ -11806,8 +10537,7 @@ const DICTIONARY = {
             "tr": "parti [eğlence]",
             "en_": "They are having a party tonight.",
             "es_": "Tienen una fiesta esta noche.",
-            "tr_": "Bu gece bir parti veriyorlar.",
-            "type": "noun"
+            "tr_": "Bu gece bir parti veriyorlar."
         },
         {
             "en": "balloon",
@@ -11815,8 +10545,7 @@ const DICTIONARY = {
             "tr": "balon",
             "en_": "The room was full of colorful balloons.",
             "es_": "La habitación estaba llena de globos de colores.",
-            "tr_": "Oda rengarenk balonlarla doluydu.",
-            "type": "noun"
+            "tr_": "Oda rengarenk balonlarla doluydu."
         },
         {
             "en": "Congratulations!",
@@ -11824,8 +10553,7 @@ const DICTIONARY = {
             "tr": "Tebrikler!",
             "en_": "Congratulations on your success!",
             "es_": "¡Felicidades por tu éxito!",
-            "tr_": "Başarın için tebrikler!",
-            "type": "interjection"
+            "tr_": "Başarın için tebrikler!"
         },
         {
             "en": "to invite",
@@ -11833,8 +10561,7 @@ const DICTIONARY = {
             "tr": "davet etmek",
             "en_": "We invited all our friends to the wedding.",
             "es_": "Invitamos a todos nuestros amigos a la boda.",
-            "tr_": "Tüm arkadaşlarımızı düğüne davet ettik.",
-            "type": "verb"
+            "tr_": "Tüm arkadaşlarımızı düğüne davet ettik."
         },
         {
             "en": "to have fun [to enjoy oneself]",
@@ -11842,8 +10569,7 @@ const DICTIONARY = {
             "tr": "eğlenmek",
             "en_": "The kids had a lot of fun at the party.",
             "es_": "Los niños se divirtieron mucho en la fiesta.",
-            "tr_": "Çocuklar partide çok eğlendi.",
-            "type": "verb"
+            "tr_": "Çocuklar partide çok eğlendi."
         },
         {
             "en": "cake",
@@ -11851,8 +10577,7 @@ const DICTIONARY = {
             "tr": "turta",
             "en_": "She baked a chocolate cake for the party.",
             "es_": "Ella horneó una tarta de chocolate para la fiesta.",
-            "tr_": "Parti için çikolatalı bir turta yaptı.",
-            "type": "noun"
+            "tr_": "Parti için çikolatalı bir turta yaptı."
         },
         {
             "en": "candle",
@@ -11860,8 +10585,7 @@ const DICTIONARY = {
             "tr": "mum",
             "en_": "There were ten candles on the cake.",
             "es_": "Había diez velas en la tarta.",
-            "tr_": "Pastanın üstünde on mum vardı.",
-            "type": "noun"
+            "tr_": "Pastanın üstünde on mum vardı."
         },
         {
             "en": "present [gift]",
@@ -11869,8 +10593,7 @@ const DICTIONARY = {
             "tr": "hediye",
             "en_": "I bought a present for her birthday.",
             "es_": "Compré un regalo para su cumpleaños.",
-            "tr_": "Doğum günü için bir hediye aldım.",
-            "type": "noun"
+            "tr_": "Doğum günü için bir hediye aldım."
         },
         {
             "en": "card",
@@ -11878,8 +10601,7 @@ const DICTIONARY = {
             "tr": "tebrik kartı",
             "en_": "He wrote a message in the birthday card.",
             "es_": "Escribió un mensaje en la tarjeta de cumpleaños.",
-            "tr_": "Doğum günü kartına bir mesaj yazdı.",
-            "type": "noun"
+            "tr_": "Doğum günü kartına bir mesaj yazdı."
         },
         {
             "en": "wrapping",
@@ -11887,8 +10609,7 @@ const DICTIONARY = {
             "tr": "ambalaj",
             "en_": "The gift was wrapped in colorful wrapping paper.",
             "es_": "El regalo estaba envuelto en papel de colores.",
-            "tr_": "Hediye renkli ambalaj kağıdına sarılmıştı.",
-            "type": "noun"
+            "tr_": "Hediye renkli ambalaj kağıdına sarılmıştı."
         },
         {
             "en": "Easter",
@@ -11896,8 +10617,7 @@ const DICTIONARY = {
             "tr": "Paskalya",
             "en_": "We decorate eggs for Easter.",
             "es_": "Decoramos huevos para Pascua.",
-            "tr_": "Paskalya için yumurtaları süslüyoruz.",
-            "type": "noun"
+            "tr_": "Paskalya için yumurtaları süslüyoruz."
         },
         {
             "en": "Christmas",
@@ -11905,8 +10625,7 @@ const DICTIONARY = {
             "tr": "Noel",
             "en_": "I love spending Christmas with my family.",
             "es_": "Me encanta pasar las Navidades con mi familia.",
-            "tr_": "Noeli ailemle geçirmeyi çok seviyorum.",
-            "type": "noun"
+            "tr_": "Noeli ailemle geçirmeyi çok seviyorum."
         },
         {
             "en": "Christmas Day",
@@ -11914,8 +10633,7 @@ const DICTIONARY = {
             "tr": "Noel Günü",
             "en_": "We exchange gifts on Christmas Day.",
             "es_": "Intercambiamos regalos el Día de Navidad.",
-            "tr_": "Noel Günü hediyeler değiş tokuş ederiz.",
-            "type": "noun"
+            "tr_": "Noel Günü hediyeler değiş tokuş ederiz."
         },
         {
             "en": "Christmas tree",
@@ -11923,8 +10641,7 @@ const DICTIONARY = {
             "tr": "Noel ağacı",
             "en_": "They decorated the Christmas tree together.",
             "es_": "Decoraron el árbol de Navidad juntos.",
-            "tr_": "Noel ağacını birlikte süslediler.",
-            "type": "noun"
+            "tr_": "Noel ağacını birlikte süslediler."
         },
         {
             "en": "to start dating",
@@ -11932,8 +10649,7 @@ const DICTIONARY = {
             "tr": "sevgili olmak",
             "en_": "They started dating last year.",
             "es_": "Se hicieron novios el año pasado.",
-            "tr_": "Geçen yıl sevgili oldular.",
-            "type": "verb"
+            "tr_": "Geçen yıl sevgili oldular."
         },
         {
             "en": "wedding",
@@ -11941,8 +10657,7 @@ const DICTIONARY = {
             "tr": "düğün",
             "en_": "The wedding will take place next month.",
             "es_": "La boda será el mes que viene.",
-            "tr_": "Düğün gelecek ay olacak.",
-            "type": "noun"
+            "tr_": "Düğün gelecek ay olacak."
         },
         {
             "en": "to get married",
@@ -11950,8 +10665,7 @@ const DICTIONARY = {
             "tr": "evlenmek",
             "en_": "They are going to get married in June.",
             "es_": "Van a casarse en junio.",
-            "tr_": "Haziran ayında evlenecekler.",
-            "type": "verb"
+            "tr_": "Haziran ayında evlenecekler."
         },
         {
             "en": "bridegroom",
@@ -11959,8 +10673,7 @@ const DICTIONARY = {
             "tr": "damat",
             "en_": "The bridegroom looked very nervous.",
             "es_": "El novio estaba muy nervioso.",
-            "tr_": "Damat çok gergin görünüyordu.",
-            "type": "noun"
+            "tr_": "Damat çok gergin görünüyordu."
         },
         {
             "en": "bride",
@@ -11968,8 +10681,7 @@ const DICTIONARY = {
             "tr": "gelin",
             "en_": "The bride wore a beautiful dress.",
             "es_": "La novia llevaba un vestido hermoso.",
-            "tr_": "Gelin güzel bir elbise giymişti.",
-            "type": "noun"
+            "tr_": "Gelin güzel bir elbise giymişti."
         },
         {
             "en": "guest",
@@ -11977,8 +10689,7 @@ const DICTIONARY = {
             "tr": "misafir",
             "en_": "We welcomed many guests to the party.",
             "es_": "Recibimos a muchos invitados en la fiesta.",
-            "tr_": "Partiye çok misafir geldi.",
-            "type": "noun"
+            "tr_": "Partiye çok misafir geldi."
         },
         {
             "en": "to congratulate",
@@ -11986,8 +10697,7 @@ const DICTIONARY = {
             "tr": "tebrik etmek",
             "en_": "I congratulated her on her promotion.",
             "es_": "La felicité por su ascenso.",
-            "tr_": "Terfisi için onu tebrik ettim.",
-            "type": "verb"
+            "tr_": "Terfisi için onu tebrik ettim."
         },
         {
             "en": "bouquet",
@@ -11995,8 +10705,7 @@ const DICTIONARY = {
             "tr": "çiçek buketi",
             "en_": "She received a beautiful bouquet of flowers.",
             "es_": "Recibió un hermoso ramo de flores.",
-            "tr_": "Güzel bir çiçek buketi aldı.",
-            "type": "noun"
+            "tr_": "Güzel bir çiçek buketi aldı."
         },
         {
             "en": "to be happy",
@@ -12004,8 +10713,7 @@ const DICTIONARY = {
             "tr": "mutlu olmak",
             "en_": "They are happy with their new home.",
             "es_": "Son felices con su nueva casa.",
-            "tr_": "Yeni evlerinden dolayı mutlular.",
-            "type": "verb"
+            "tr_": "Yeni evlerinden dolayı mutlular."
         },
         {
             "en": "honeymoon",
@@ -12013,8 +10721,7 @@ const DICTIONARY = {
             "tr": "balayı",
             "en_": "They went to Hawaii for their honeymoon.",
             "es_": "Fueron a Hawái para su viaje de novios.",
-            "tr_": "Balayı için Hawai'ye gittiler.",
-            "type": "noun"
+            "tr_": "Balayı için Hawai'ye gittiler."
         },
         {
             "en": "carol",
@@ -12022,8 +10729,7 @@ const DICTIONARY = {
             "tr": "ilahi",
             "en_": "We sang carols on Christmas Eve.",
             "es_": "Cantamos villancicos en Nochebuena.",
-            "tr_": "Noel arifesinde ilahiler söyledik.",
-            "type": "noun"
+            "tr_": "Noel arifesinde ilahiler söyledik."
         },
         {
             "en": "to give as a gift",
@@ -12031,8 +10737,7 @@ const DICTIONARY = {
             "tr": "hediye vermek",
             "en_": "She gave me a book as a gift.",
             "es_": "Me regaló un libro.",
-            "tr_": "Bana bir kitap hediye etti.",
-            "type": "verb"
+            "tr_": "Bana bir kitap hediye etti."
         },
         {
             "en": "to receive",
@@ -12040,8 +10745,7 @@ const DICTIONARY = {
             "tr": "almak",
             "en_": "He received many presents for his birthday.",
             "es_": "Recibió muchos regalos por su cumpleaños.",
-            "tr_": "Doğum günü için çok hediye aldı.",
-            "type": "verb"
+            "tr_": "Doğum günü için çok hediye aldı."
         },
         {
             "en": "to thank",
@@ -12049,8 +10753,7 @@ const DICTIONARY = {
             "tr": "teşekkür etmek",
             "en_": "I thanked her for the wonderful gift.",
             "es_": "Le di las gracias por el regalo maravilloso.",
-            "tr_": "Harika hediye için ona teşekkür ettim.",
-            "type": "verb"
+            "tr_": "Harika hediye için ona teşekkür ettim."
         },
         {
             "en": "New Year's Eve",
@@ -12058,8 +10761,7 @@ const DICTIONARY = {
             "tr": "yılbaşı gecesi",
             "en_": "We watched fireworks on New Year's Eve.",
             "es_": "Vimos fuegos artificiales en Nochevieja.",
-            "tr_": "Yılbaşı gecesi havai fişek izledik.",
-            "type": "noun"
+            "tr_": "Yılbaşı gecesi havai fişek izledik."
         },
         {
             "en": "New Year's Day",
@@ -12067,8 +10769,7 @@ const DICTIONARY = {
             "tr": "yeni yıl günü",
             "en_": "People make resolutions on New Year's Day.",
             "es_": "La gente hace propósitos en el Día de Año Nuevo.",
-            "tr_": "İnsanlar yeni yıl gününde kararlar alır.",
-            "type": "noun"
+            "tr_": "İnsanlar yeni yıl gününde kararlar alır."
         },
         {
             "en": "to celebrate",
@@ -12076,8 +10777,7 @@ const DICTIONARY = {
             "tr": "kutlamak",
             "en_": "They celebrate their anniversary every year.",
             "es_": "Celebran su aniversario cada año.",
-            "tr_": "Her yıl yıldönümlerini kutlarlar.",
-            "type": "verb"
+            "tr_": "Her yıl yıldönümlerini kutlarlar."
         },
         {
             "en": "Happy New Year!",
@@ -12085,8 +10785,7 @@ const DICTIONARY = {
             "tr": "Mutlu Yıllar!",
             "en_": "Happy New Year! I wish you all the best.",
             "es_": "¡Feliz Año! Te deseo todo lo mejor.",
-            "tr_": "Mutlu Yıllar! Sana en iyisini dilerim.",
-            "type": "expression"
+            "tr_": "Mutlu Yıllar! Sana en iyisini dilerim."
         }
     ],
     "Days and dates" : [
@@ -12096,8 +10795,7 @@ const DICTIONARY = {
             "tr": "takvim",
             "en_": "I marked the date on the calendar.",
             "es_": "Marqué la fecha en el calendario.",
-            "tr_": "Tarihi takvime işaretledim.",
-            "type": "noun"
+            "tr_": "Tarihi takvime işaretledim."
         },
         {
             "en": "year",
@@ -12105,8 +10803,7 @@ const DICTIONARY = {
             "tr": "yıl",
             "en_": "This year has been very productive.",
             "es_": "Este año ha sido muy productivo.",
-            "tr_": "Bu yıl çok verimli geçti.",
-            "type": "noun"
+            "tr_": "Bu yıl çok verimli geçti."
         },
         {
             "en": "month",
@@ -12114,8 +10811,7 @@ const DICTIONARY = {
             "tr": "ay",
             "en_": "My birthday is next month.",
             "es_": "Mi cumpleaños es el próximo mes.",
-            "tr_": "Doğum günüm gelecek ay.",
-            "type": "noun"
+            "tr_": "Doğum günüm gelecek ay."
         },
         {
             "en": "January",
@@ -12123,8 +10819,7 @@ const DICTIONARY = {
             "tr": "Ocak",
             "en_": "January is the first month of the year.",
             "es_": "Enero es el primer mes del año.",
-            "tr_": "Ocak yılın ilk ayıdır.",
-            "type": "noun"
+            "tr_": "Ocak yılın ilk ayıdır."
         },
         {
             "en": "February",
@@ -12132,8 +10827,7 @@ const DICTIONARY = {
             "tr": "Şubat",
             "en_": "February is usually cold here.",
             "es_": "Febrero suele ser frío aquí.",
-            "tr_": "Burada Şubat genellikle soğuktur.",
-            "type": "noun"
+            "tr_": "Burada Şubat genellikle soğuktur."
         },
         {
             "en": "March",
@@ -12141,8 +10835,7 @@ const DICTIONARY = {
             "tr": "Mart",
             "en_": "We plan to travel in March.",
             "es_": "Planeamos viajar en marzo.",
-            "tr_": "Mart’ta seyahat etmeyi planlıyoruz.",
-            "type": "noun"
+            "tr_": "Mart’ta seyahat etmeyi planlıyoruz."
         },
         {
             "en": "April",
@@ -12150,8 +10843,7 @@ const DICTIONARY = {
             "tr": "Nisan",
             "en_": "April showers bring May flowers.",
             "es_": "Las lluvias de abril traen flores de mayo.",
-            "tr_": "Nisan yağmurları Mayıs çiçeklerini getirir.",
-            "type": "noun"
+            "tr_": "Nisan yağmurları Mayıs çiçeklerini getirir."
         },
         {
             "en": "May",
@@ -12159,8 +10851,7 @@ const DICTIONARY = {
             "tr": "Mayıs",
             "en_": "May is my favorite month.",
             "es_": "Mayo es mi mes favorito.",
-            "tr_": "Mayıs benim favori ayım.",
-            "type": "noun"
+            "tr_": "Mayıs benim favori ayım."
         },
         {
             "en": "June",
@@ -12168,8 +10859,7 @@ const DICTIONARY = {
             "tr": "Haziran",
             "en_": "School ends in June.",
             "es_": "La escuela termina en junio.",
-            "tr_": "Okullar Haziran’da biter.",
-            "type": "noun"
+            "tr_": "Okullar Haziran’da biter."
         },
         {
             "en": "July",
@@ -12177,8 +10867,7 @@ const DICTIONARY = {
             "tr": "Temmuz",
             "en_": "We have a holiday in July.",
             "es_": "Tenemos vacaciones en julio.",
-            "tr_": "Temmuz’da tatilimiz var.",
-            "type": "noun"
+            "tr_": "Temmuz’da tatilimiz var."
         },
         {
             "en": "August",
@@ -12186,8 +10875,7 @@ const DICTIONARY = {
             "tr": "Ağustos",
             "en_": "August is usually very hot.",
             "es_": "Agosto suele ser muy caluroso.",
-            "tr_": "Ağustos genellikle çok sıcak olur.",
-            "type": "noun"
+            "tr_": "Ağustos genellikle çok sıcak olur."
         },
         {
             "en": "September",
@@ -12195,8 +10883,7 @@ const DICTIONARY = {
             "tr": "Eylül",
             "en_": "September marks the start of autumn.",
             "es_": "Septiembre marca el inicio del otoño.",
-            "tr_": "Eylül sonbaharın başlangıcıdır.",
-            "type": "noun"
+            "tr_": "Eylül sonbaharın başlangıcıdır."
         },
         {
             "en": "October",
@@ -12204,8 +10891,7 @@ const DICTIONARY = {
             "tr": "Ekim",
             "en_": "October is famous for Halloween.",
             "es_": "Octubre es famoso por Halloween.",
-            "tr_": "Ekim Cadılar Bayramı ile ünlüdür.",
-            "type": "noun"
+            "tr_": "Ekim Cadılar Bayramı ile ünlüdür."
         },
         {
             "en": "November",
@@ -12213,8 +10899,7 @@ const DICTIONARY = {
             "tr": "Kasım",
             "en_": "It often rains in November.",
             "es_": "A menudo llueve en noviembre.",
-            "tr_": "Kasım’da sık sık yağmur yağar.",
-            "type": "noun"
+            "tr_": "Kasım’da sık sık yağmur yağar."
         },
         {
             "en": "December",
@@ -12222,8 +10907,7 @@ const DICTIONARY = {
             "tr": "Aralık",
             "en_": "December brings winter holidays.",
             "es_": "Diciembre trae las vacaciones de invierno.",
-            "tr_": "Aralık kış tatillerini getirir.",
-            "type": "noun"
+            "tr_": "Aralık kış tatillerini getirir."
         },
         {
             "en": "week",
@@ -12231,8 +10915,7 @@ const DICTIONARY = {
             "tr": "hafta",
             "en_": "There are seven days in a week.",
             "es_": "Hay siete días en una semana.",
-            "tr_": "Bir haftada yedi gün vardır.",
-            "type": "noun"
+            "tr_": "Bir haftada yedi gün vardır."
         },
         {
             "en": "weekend",
@@ -12240,8 +10923,7 @@ const DICTIONARY = {
             "tr": "hafta sonu",
             "en_": "I relax on the weekend.",
             "es_": "Me relajo el fin de semana.",
-            "tr_": "Hafta sonunda dinlenirim.",
-            "type": "noun"
+            "tr_": "Hafta sonunda dinlenirim."
         },
         {
             "en": "day",
@@ -12249,8 +10931,7 @@ const DICTIONARY = {
             "tr": "gün",
             "en_": "Today is a sunny day.",
             "es_": "Hoy es un día soleado.",
-            "tr_": "Bugün güneşli bir gün.",
-            "type": "noun"
+            "tr_": "Bugün güneşli bir gün."
         },
         {
             "en": "Monday",
@@ -12258,8 +10939,7 @@ const DICTIONARY = {
             "tr": "Pazartesi",
             "en_": "Monday is the first day of the workweek.",
             "es_": "El lunes es el primer día de la semana laboral.",
-            "tr_": "Pazartesi iş haftasının ilk günüdür.",
-            "type": "noun"
+            "tr_": "Pazartesi iş haftasının ilk günüdür."
         },
         {
             "en": "Tuesday",
@@ -12267,8 +10947,7 @@ const DICTIONARY = {
             "tr": "Salı",
             "en_": "I have a meeting on Tuesday.",
             "es_": "Tengo una reunión el martes.",
-            "tr_": "Salı günü bir toplantım var.",
-            "type": "noun"
+            "tr_": "Salı günü bir toplantım var."
         },
         {
             "en": "Wednesday",
@@ -12276,8 +10955,7 @@ const DICTIONARY = {
             "tr": "Çarşamba",
             "en_": "We have a meeting on Wednesday.",
             "es_": "Tenemos una reunión el miércoles.",
-            "tr_": "Çarşamba günü toplantımız var.",
-            "type": "noun"
+            "tr_": "Çarşamba günü toplantımız var."
         },
         {
             "en": "Thursday",
@@ -12285,8 +10963,7 @@ const DICTIONARY = {
             "tr": "Perşembe",
             "en_": "Thursday is almost the weekend.",
             "es_": "El jueves es casi fin de semana.",
-            "tr_": "Perşembe neredeyse hafta sonu.",
-            "type": "noun"
+            "tr_": "Perşembe neredeyse hafta sonu."
         },
         {
             "en": "Friday",
@@ -12294,8 +10971,7 @@ const DICTIONARY = {
             "tr": "Cuma",
             "en_": "Friday is my favorite day of the week.",
             "es_": "El viernes es mi día favorito de la semana.",
-            "tr_": "Cuma haftanın en sevdiğim günü.",
-            "type": "noun"
+            "tr_": "Cuma haftanın en sevdiğim günü."
         },
         {
             "en": "Saturday",
@@ -12303,8 +10979,7 @@ const DICTIONARY = {
             "tr": "Cumartesi",
             "en_": "We go hiking every Saturday.",
             "es_": "Vamos de excursión todos los sábados.",
-            "tr_": "Her Cumartesi yürüyüşe çıkarız.",
-            "type": "noun"
+            "tr_": "Her Cumartesi yürüyüşe çıkarız."
         },
         {
             "en": "Sunday",
@@ -12312,8 +10987,7 @@ const DICTIONARY = {
             "tr": "Pazar",
             "en_": "Sunday is a day to relax.",
             "es_": "El domingo es un día para relajarse.",
-            "tr_": "Pazar dinlenme günüdür.",
-            "type": "noun"
+            "tr_": "Pazar dinlenme günüdür."
         },
         {
             "en": "date",
@@ -12321,14 +10995,12 @@ const DICTIONARY = {
             "tr": "tarih",
             "en_": "Please check the date on the document.",
             "es_": "Por favor, revise la fecha en el documento.",
-            "tr_": "Lütfen belgede tarih kontrol edin.",
-            "type": "noun"
+            "tr_": "Lütfen belgede tarih kontrol edin."
         },
         {
             "en" : "Tuesday, the 2nd of June",
             "es" : "martes, dos de junio",
-            "tr" : "2 Haziran Salı",
-            "type" : "noun"
+            "tr" : "2 Haziran Salı"
         },
         {
             "en": "the first",
@@ -12336,8 +11008,7 @@ const DICTIONARY = {
             "tr": "birinci",
             "en_": "She finished the first in the race.",
             "es_": "Ella terminó la primera en la carrera.",
-            "tr_": "Yarışta birinci oldu.",
-            "type": "noun"
+            "tr_": "Yarışta birinci oldu."
         },
         {
             "en": "the second",
@@ -12345,8 +11016,7 @@ const DICTIONARY = {
             "tr": "ikinci",
             "en_": "He came in the second place.",
             "es_": "Él llegó en segundo lugar.",
-            "tr_": "İkinci oldu.",
-            "type": "noun"
+            "tr_": "İkinci oldu."
         },
         {
             "en": "the third",
@@ -12354,8 +11024,7 @@ const DICTIONARY = {
             "tr": "üçüncü",
             "en_": "They took the third prize.",
             "es_": "Ellos obtuvieron el tercer premio.",
-            "tr_": "Üçüncü ödülü aldılar.",
-            "type": "noun"
+            "tr_": "Üçüncü ödülü aldılar."
         },
         {
             "en": "the fourth",
@@ -12363,8 +11032,7 @@ const DICTIONARY = {
             "tr": "dördüncü",
             "en_": "This is the fourth chapter.",
             "es_": "Este es el cuarto capítulo.",
-            "tr_": "Bu dördüncü bölümdür.",
-            "type": "noun"
+            "tr_": "Bu dördüncü bölümdür."
         },
         {
             "en": "the fifth",
@@ -12372,8 +11040,7 @@ const DICTIONARY = {
             "tr": "beşinci",
             "en_": "He scored the fifth goal.",
             "es_": "Él marcó el quinto gol.",
-            "tr_": "Beşinci golü attı.",
-            "type": "noun"
+            "tr_": "Beşinci golü attı."
         },
         {
             "en": "yesterday",
@@ -12381,8 +11048,7 @@ const DICTIONARY = {
             "tr": "dün",
             "en_": "I went to the market yesterday.",
             "es_": "Fui al mercado ayer.",
-            "tr_": "Dün pazara gittim.",
-            "type": "noun"
+            "tr_": "Dün pazara gittim."
         },
         {
             "en": "yesterday morning",
@@ -12390,8 +11056,7 @@ const DICTIONARY = {
             "tr": "dün sabah",
             "en_": "Yesterday morning was very sunny.",
             "es_": "Ayer por la mañana estuvo muy soleado.",
-            "tr_": "Dün sabah çok güneşliydi.",
-            "type": "noun"
+            "tr_": "Dün sabah çok güneşliydi."
         },
         {
             "en": "yesterday night",
@@ -12399,8 +11064,7 @@ const DICTIONARY = {
             "tr": "dün gece",
             "en_": "It rained a lot yesterday night.",
             "es_": "Llovió mucho anoche.",
-            "tr_": "Dün gece çok yağmur yağdı.",
-            "type": "noun"
+            "tr_": "Dün gece çok yağmur yağdı."
         },
         {
             "en": "today",
@@ -12408,8 +11072,7 @@ const DICTIONARY = {
             "tr": "bugün",
             "en_": "I am busy today.",
             "es_": "Estoy ocupado hoy.",
-            "tr_": "Bugün meşgulüm.",
-            "type": "noun"
+            "tr_": "Bugün meşgulüm."
         },
         {
             "en": "this morning",
@@ -12417,8 +11080,7 @@ const DICTIONARY = {
             "tr": "bu sabah",
             "en_": "I drank coffee this morning.",
             "es_": "Bebí café esta mañana.",
-            "tr_": "Bu sabah kahve içtim.",
-            "type": "noun"
+            "tr_": "Bu sabah kahve içtim."
         },
         {
             "en": "this afternoon",
@@ -12426,8 +11088,7 @@ const DICTIONARY = {
             "tr": "bu öğleden sonra",
             "en_": "We will meet this afternoon.",
             "es_": "Nos reuniremos esta tarde.",
-            "tr_": "Bu öğleden sonra buluşacağız.",
-            "type": "noun"
+            "tr_": "Bu öğleden sonra buluşacağız."
         },
         {
             "en": "tomorrow",
@@ -12435,8 +11096,7 @@ const DICTIONARY = {
             "tr": "yarın",
             "en_": "Tomorrow is a holiday.",
             "es_": "Mañana es un día festivo.",
-            "tr_": "Yarın tatil.",
-            "type": "noun"
+            "tr_": "Yarın tatil."
         },
         {
             "en": "tomorrow morning",
@@ -12444,8 +11104,7 @@ const DICTIONARY = {
             "tr": "yarın sabah",
             "en_": "I have an appointment tomorrow morning.",
             "es_": "Tengo una cita mañana por la mañana.",
-            "tr_": "Yarın sabah randevum var.",
-            "type": "noun"
+            "tr_": "Yarın sabah randevum var."
         },
         {
             "en": "tomorrow afternoon",
@@ -12453,8 +11112,7 @@ const DICTIONARY = {
             "tr": "yarın öğleden sonra",
             "en_": "She will arrive tomorrow afternoon.",
             "es_": "Ella llegará mañana por la tarde.",
-            "tr_": "Yarın öğleden sonra gelecek.",
-            "type": "noun"
+            "tr_": "Yarın öğleden sonra gelecek."
         },
         {
             "en": "the day before yesterday",
@@ -12462,8 +11120,7 @@ const DICTIONARY = {
             "tr": "önceki gün",
             "en_": "We met the day before yesterday.",
             "es_": "Nos conocimos anteayer.",
-            "tr_": "Önceki gün buluştuk.",
-            "type": "noun"
+            "tr_": "Önceki gün buluştuk."
         },
         {
             "en": "the day after tomorrow",
@@ -12471,8 +11128,7 @@ const DICTIONARY = {
             "tr": "öbür gün",
             "en_": "I will travel the day after tomorrow.",
             "es_": "Viajaré pasado mañana.",
-            "tr_": "Öbür gün seyahat edeceğim.",
-            "type": "noun"
+            "tr_": "Öbür gün seyahat edeceğim."
         },
         {
             "en": "next Monday",
@@ -12480,8 +11136,7 @@ const DICTIONARY = {
             "tr": "gelecek Pazartesi",
             "en_": "The meeting is scheduled for next Monday.",
             "es_": "La reunión está programada para el lunes próximo.",
-            "tr_": "Toplantı gelecek Pazartesi planlandı.",
-            "type": "noun"
+            "tr_": "Toplantı gelecek Pazartesi planlandı."
         },
         {
             "en": "next week",
@@ -12489,8 +11144,7 @@ const DICTIONARY = {
             "tr": "gelecek hafta",
             "en_": "We will travel next week.",
             "es_": "Viajaremos la semana próxima.",
-            "tr_": "Gelecek hafta seyahat edeceğiz.",
-            "type": "noun"
+            "tr_": "Gelecek hafta seyahat edeceğiz."
         }
     ],
     "Time" : [
@@ -12500,8 +11154,7 @@ const DICTIONARY = {
             "tr": "şafak [tan]",
             "en_": "We woke up at dawn.",
             "es_": "Nos despertamos al amanecer.",
-            "tr_": "Şafakta uyandık.",
-            "type": "noun"
+            "tr_": "Şafakta uyandık."
         },
         {
             "en": "sunrise",
@@ -12509,8 +11162,7 @@ const DICTIONARY = {
             "tr": "gün doğumu",
             "en_": "The sunrise was beautiful this morning.",
             "es_": "La salida del sol fue hermosa esta mañana.",
-            "tr_": "Bu sabah gün doğumu çok güzeldi.",
-            "type": "noun"
+            "tr_": "Bu sabah gün doğumu çok güzeldi."
         },
         {
             "en": "morning",
@@ -12518,8 +11170,7 @@ const DICTIONARY = {
             "tr": "sabah",
             "en_": "I like to exercise in the morning.",
             "es_": "Me gusta hacer ejercicio en la mañana.",
-            "tr_": "Sabahları egzersiz yapmayı severim.",
-            "type": "noun"
+            "tr_": "Sabahları egzersiz yapmayı severim."
         },
         {
             "en": "sun",
@@ -12527,8 +11178,7 @@ const DICTIONARY = {
             "tr": "güneş",
             "en_": "The sun is shining today.",
             "es_": "El sol brilla hoy.",
-            "tr_": "Bugün güneş parlıyor.",
-            "type": "noun"
+            "tr_": "Bugün güneş parlıyor."
         },
         {
             "en": "sky",
@@ -12536,8 +11186,7 @@ const DICTIONARY = {
             "tr": "gökyüzü",
             "en_": "The sky is very clear tonight.",
             "es_": "El cielo está muy despejado esta noche.",
-            "tr_": "Gökyüzü bu gece çok açık.",
-            "type": "noun"
+            "tr_": "Gökyüzü bu gece çok açık."
         },
         {
             "en": "day",
@@ -12545,8 +11194,7 @@ const DICTIONARY = {
             "tr": "gün",
             "en_": "It was a sunny day.",
             "es_": "Fue un día soleado.",
-            "tr_": "Güneşli bir gündü.",
-            "type": "noun"
+            "tr_": "Güneşli bir gündü."
         },
         {
             "en": "afternoon [early evening]",
@@ -12554,8 +11202,7 @@ const DICTIONARY = {
             "tr": "öğleden sonra [akşam üstü]",
             "en_": "We will meet in the afternoon.",
             "es_": "Nos encontraremos en la tarde.",
-            "tr_": "Öğleden sonra buluşacağız.",
-            "type": "noun"
+            "tr_": "Öğleden sonra buluşacağız."
         },
         {
             "en": "sunset",
@@ -12563,8 +11210,7 @@ const DICTIONARY = {
             "tr": "günbatımı",
             "en_": "The sunset was amazing yesterday.",
             "es_": "La puesta del sol fue increíble ayer.",
-            "tr_": "Dünkü günbatımı muhteşemdi.",
-            "type": "noun"
+            "tr_": "Dünkü günbatımı muhteşemdi."
         },
         {
             "en": "night",
@@ -12572,8 +11218,7 @@ const DICTIONARY = {
             "tr": "gece",
             "en_": "I sleep better at night.",
             "es_": "Duermo mejor por la noche.",
-            "tr_": "Gece daha iyi uyurum.",
-            "type": "noun"
+            "tr_": "Gece daha iyi uyurum."
         },
         {
             "en": "star",
@@ -12581,8 +11226,7 @@ const DICTIONARY = {
             "tr": "yıldız",
             "en_": "The stars shine brightly.",
             "es_": "Las estrellas brillan intensamente.",
-            "tr_": "Yıldızlar parlak parlıyor.",
-            "type": "noun"
+            "tr_": "Yıldızlar parlak parlıyor."
         },
         {
             "en": "moon",
@@ -12590,8 +11234,7 @@ const DICTIONARY = {
             "tr": "ay",
             "en_": "The moon looks full tonight.",
             "es_": "La luna se ve llena esta noche.",
-            "tr_": "Ay bu gece dolunay görünüyor.",
-            "type": "noun"
+            "tr_": "Ay bu gece dolunay görünüyor."
         },
         {
             "en": "What time is it?",
@@ -12599,8 +11242,7 @@ const DICTIONARY = {
             "tr": "Saat kaç?",
             "en_": "Excuse me, what time is it?",
             "es_": "Disculpe, ¿qué hora es?",
-            "tr_": "Affedersiniz, saat kaç?",
-            "type": "expression"
+            "tr_": "Affedersiniz, saat kaç?"
         },
         {
             "en": "hour",
@@ -12608,8 +11250,7 @@ const DICTIONARY = {
             "tr": "saat",
             "en_": "The meeting starts at two o’clock.",
             "es_": "La reunión empieza a las dos horas.",
-            "tr_": "Toplantı saat iki de başlıyor.",
-            "type": "noun"
+            "tr_": "Toplantı saat iki de başlıyor."
         },
         {
             "en": "minute",
@@ -12617,8 +11258,7 @@ const DICTIONARY = {
             "tr": "dakika",
             "en_": "Wait a minute, please.",
             "es_": "Espera un minuto, por favor.",
-            "tr_": "Bir dakika bekle lütfen.",
-            "type": "noun"
+            "tr_": "Bir dakika bekle lütfen."
         },
         {
             "en": "second",
@@ -12626,8 +11266,7 @@ const DICTIONARY = {
             "tr": "saniye",
             "en_": "I will be there in a second.",
             "es_": "Estaré allí en un segundo.",
-            "tr_": "Bir saniye içinde orada olacağım.",
-            "type": "noun"
+            "tr_": "Bir saniye içinde orada olacağım."
         },
         {
             "en": "noon [midday]",
@@ -12635,8 +11274,7 @@ const DICTIONARY = {
             "tr": "öğle [gün ortası]",
             "en_": "We eat lunch at noon.",
             "es_": "Comemos al mediodía.",
-            "tr_": "Öğle yemeğini öğle saatinde yeriz.",
-            "type": "noun"
+            "tr_": "Öğle yemeğini öğle saatinde yeriz."
         },
         {
             "en": "midnight",
@@ -12644,8 +11282,7 @@ const DICTIONARY = {
             "tr": "gece yarısı",
             "en_": "The party ended at midnight.",
             "es_": "La fiesta terminó a la medianoche.",
-            "tr_": "Parti gece yarısı bitti.",
-            "type": "noun"
+            "tr_": "Parti gece yarısı bitti."
         },
         {
             "en": "quarter to ten",
@@ -12653,8 +11290,7 @@ const DICTIONARY = {
             "tr": "ona çeyrek var",
             "en_": "It’s quarter to ten now.",
             "es_": "Son las diez menos cuarto ahora.",
-            "tr_": "Şu an ona çeyrek var.",
-            "type": "expression"
+            "tr_": "Şu an ona çeyrek var."
         },
         {
             "en": "five past ten",
@@ -12662,8 +11298,7 @@ const DICTIONARY = {
             "tr": "onu beş geçiyor",
             "en_": "The meeting is at five past ten.",
             "es_": "La reunión es a las diez y cinco.",
-            "tr_": "Toplantı onu beş geçe.",
-            "type": "expression"
+            "tr_": "Toplantı onu beş geçe."
         },
         {
             "en": "quarter past ten",
@@ -12671,8 +11306,7 @@ const DICTIONARY = {
             "tr": "onu çeyrek geçiyor",
             "en_": "She arrived at quarter past ten.",
             "es_": "Ella llegó a las diez y cuarto.",
-            "tr_": "O, onu çeyrek geçe geldi.",
-            "type": "expression"
+            "tr_": "O, onu çeyrek geçe geldi."
         },
         {
             "en": "half past ten",
@@ -12680,8 +11314,7 @@ const DICTIONARY = {
             "tr": "on buçuk",
             "en_": "The train leaves at half past ten.",
             "es_": "El tren sale a las diez y media.",
-            "tr_": "Tren on buçukta kalkıyor.",
-            "type": "expression"
+            "tr_": "Tren on buçukta kalkıyor."
         },
         {
             "en": "8:00 a.m",
@@ -12689,8 +11322,7 @@ const DICTIONARY = {
             "tr": "sabah saat sekiz",
             "en_": "I wake up at 8:00 a.m.",
             "es_": "Me despierto a las ocho de la mañana.",
-            "tr_": "Sabah saat sekizde uyanırım.",
-            "type": "expression"
+            "tr_": "Sabah saat sekizde uyanırım."
         },
         {
             "en": "8:00 p.m",
@@ -12698,8 +11330,7 @@ const DICTIONARY = {
             "tr": "akşam saat sekiz",
             "en_": "Dinner is served at 8:00 p.m.",
             "es_": "La cena se sirve a las ocho de la noche.",
-            "tr_": "Akşam yemeği akşam saat sekizde servis edilir.",
-            "type": "expression"
+            "tr_": "Akşam yemeği akşam saat sekizde servis edilir."
         },
         {
             "en": "time",
@@ -12707,8 +11338,7 @@ const DICTIONARY = {
             "tr": "zaman",
             "en_": "Time flies when you are having fun.",
             "es_": "El tiempo vuela cuando te estás divirtiendo.",
-            "tr_": "Eğlenirken zaman hızla geçer.",
-            "type": "noun"
+            "tr_": "Eğlenirken zaman hızla geçer."
         },
         {
             "en": "past",
@@ -12716,8 +11346,7 @@ const DICTIONARY = {
             "tr": "geçmiş",
             "en_": "We learn from the past.",
             "es_": "Aprendemos del pasado.",
-            "tr_": "Geçmişten öğreniriz.",
-            "type": "noun"
+            "tr_": "Geçmişten öğreniriz."
         },
         {
             "en": "future",
@@ -12725,8 +11354,7 @@ const DICTIONARY = {
             "tr": "gelecek",
             "en_": "She is planning for the future.",
             "es_": "Ella está planeando para el futuro.",
-            "tr_": "O, gelecek için plan yapıyor.",
-            "type": "noun"
+            "tr_": "O, gelecek için plan yapıyor."
         },
         {
             "en": "present",
@@ -12734,8 +11362,7 @@ const DICTIONARY = {
             "tr": "şimdiki zaman",
             "en_": "Live in the present moment.",
             "es_": "Vive en el presente.",
-            "tr_": "Şimdiki zamanda yaşa.",
-            "type": "noun"
+            "tr_": "Şimdiki zamanda yaşa."
         },
         {
             "en": "then",
@@ -12752,8 +11379,7 @@ const DICTIONARY = {
             "tr": "gelecekte",
             "en_": "We will meet again in the future.",
             "es_": "Nos volveremos a encontrar en el futuro.",
-            "tr_": "Gelecekte tekrar görüşeceğiz.",
-            "type": "expression"
+            "tr_": "Gelecekte tekrar görüşeceğiz."
         },
         {
             "en": "now",
@@ -12772,8 +11398,7 @@ const DICTIONARY = {
             "tr": "mevsim",
             "en_": "Winter is my favorite season.",
             "es_": "El invierno es mi estación favorita.",
-            "tr_": "Kış benim favori mevsimimdir.",
-            "type": "noun"
+            "tr_": "Kış benim favori mevsimimdir."
         },
         {
             "en": "spring",
@@ -12781,8 +11406,7 @@ const DICTIONARY = {
             "tr": "ilkbahar",
             "en_": "Flowers bloom in spring.",
             "es_": "Las flores florecen en primavera.",
-            "tr_": "Çiçekler ilkbaharda açar.",
-            "type": "noun"
+            "tr_": "Çiçekler ilkbaharda açar."
         },
         {
             "en": "summer",
@@ -12790,8 +11414,7 @@ const DICTIONARY = {
             "tr": "yaz",
             "en_": "We go to the beach every summer.",
             "es_": "Vamos a la playa cada verano.",
-            "tr_": "Her yaz plaja gideriz.",
-            "type": "noun"
+            "tr_": "Her yaz plaja gideriz."
         },
         {
             "en": "autumn",
@@ -12799,8 +11422,7 @@ const DICTIONARY = {
             "tr": "sonbahar",
             "en_": "Leaves fall during autumn.",
             "es_": "Las hojas caen durante el otoño.",
-            "tr_": "Yapraklar sonbaharda dökülür.",
-            "type": "noun"
+            "tr_": "Yapraklar sonbaharda dökülür."
         },
         {
             "en": "winter",
@@ -12808,8 +11430,7 @@ const DICTIONARY = {
             "tr": "kış",
             "en_": "It often snows in winter.",
             "es_": "A menudo nieva en invierno.",
-            "tr_": "Kışın sık sık kar yağar.",
-            "type": "noun"
+            "tr_": "Kışın sık sık kar yağar."
         },
         {
             "en": "weather",
@@ -12817,8 +11438,7 @@ const DICTIONARY = {
             "tr": "hava",
             "en_": "The weather is sunny today.",
             "es_": "El tiempo está soleado hoy.",
-            "tr_": "Bugün hava güneşli.",
-            "type": "noun"
+            "tr_": "Bugün hava güneşli."
         },
         {
             "en": "rain",
@@ -12826,8 +11446,7 @@ const DICTIONARY = {
             "tr": "yağmur",
             "en_": "The rain stopped this afternoon.",
             "es_": "La lluvia paró esta tarde.",
-            "tr_": "Yağmur bu öğleden sonra durdu.",
-            "type": "noun"
+            "tr_": "Yağmur bu öğleden sonra durdu."
         },
         {
             "en": "storm",
@@ -12835,8 +11454,7 @@ const DICTIONARY = {
             "tr": "fırtına",
             "en_": "The storm lasted all night.",
             "es_": "La tormenta duró toda la noche.",
-            "tr_": "Fırtına bütün gece sürdü.",
-            "type": "noun"
+            "tr_": "Fırtına bütün gece sürdü."
         },
         {
             "en": "cloud",
@@ -12844,8 +11462,7 @@ const DICTIONARY = {
             "tr": "bulut",
             "en_": "There are many clouds in the sky.",
             "es_": "Hay muchas nubes en el cielo.",
-            "tr_": "Gökyüzünde çok bulut var.",
-            "type": "noun"
+            "tr_": "Gökyüzünde çok bulut var."
         },
         {
             "en": "lightning",
@@ -12853,8 +11470,7 @@ const DICTIONARY = {
             "tr": "şimşek",
             "en_": "The lightning lit up the sky.",
             "es_": "El relámpago iluminó el cielo.",
-            "tr_": "Şimşek gökyüzünü aydınlattı.",
-            "type": "noun"
+            "tr_": "Şimşek gökyüzünü aydınlattı."
         },
         {
             "en": "thunder",
@@ -12862,8 +11478,7 @@ const DICTIONARY = {
             "tr": "gök gürültüsü",
             "en_": "We heard thunder during the storm.",
             "es_": "Escuchamos el trueno durante la tormenta.",
-            "tr_": "Fırtına sırasında gök gürültüsü duyduk.",
-            "type": "noun"
+            "tr_": "Fırtına sırasında gök gürültüsü duyduk."
         },
         {
             "en": "umbrella",
@@ -12871,8 +11486,7 @@ const DICTIONARY = {
             "tr": "şemsiye",
             "en_": "Don't forget your umbrella.",
             "es_": "No olvides tu paraguas.",
-            "tr_": "Şemsiyeni unutma.",
-            "type": "noun"
+            "tr_": "Şemsiyeni unutma."
         },
         {
             "en": "rainbow",
@@ -12880,8 +11494,7 @@ const DICTIONARY = {
             "tr": "gökkuşağı",
             "en_": "A rainbow appeared after the rain.",
             "es_": "Apareció un arcoiris después de la lluvia.",
-            "tr_": "Yağmurdan sonra gökkuşağı çıktı.",
-            "type": "noun"
+            "tr_": "Yağmurdan sonra gökkuşağı çıktı."
         },
         {
             "en": "to be soaked",
@@ -12889,8 +11502,7 @@ const DICTIONARY = {
             "tr": "sırılsıklam olmak",
             "en_": "He was soaked after walking in the rain.",
             "es_": "Él estaba calado después de caminar bajo la lluvia.",
-            "tr_": "Yağmurda yürüdükten sonra sırılsıklamdı.",
-            "type": "verb"
+            "tr_": "Yağmurda yürüdükten sonra sırılsıklamdı."
         },
         {
             "en": "puddle",
@@ -12898,8 +11510,7 @@ const DICTIONARY = {
             "tr": "su birikintisi",
             "en_": "The children jumped over the puddle.",
             "es_": "Los niños saltaron sobre el charco.",
-            "tr_": "Çocuklar su birikintisinin üzerinden atladı.",
-            "type": "noun"
+            "tr_": "Çocuklar su birikintisinin üzerinden atladı."
         },
         {
             "en": "raindrop",
@@ -12907,8 +11518,7 @@ const DICTIONARY = {
             "tr": "yağmur damlası",
             "en_": "A raindrop landed on my hand.",
             "es_": "Una gota de lluvia cayó en mi mano.",
-            "tr_": "Elime bir yağmur damlası düştü.",
-            "type": "noun"
+            "tr_": "Elime bir yağmur damlası düştü."
         },
         {
             "en": "hail",
@@ -12916,8 +11526,7 @@ const DICTIONARY = {
             "tr": "dolu",
             "en_": "The hail damaged the cars.",
             "es_": "El granizo dañó los coches.",
-            "tr_": "Dolu arabaları zarar verdi.",
-            "type": "noun"
+            "tr_": "Dolu arabaları zarar verdi."
         },
         {
             "en": "flood",
@@ -12925,8 +11534,7 @@ const DICTIONARY = {
             "tr": "sel",
             "en_": "The flood caused severe damage.",
             "es_": "La inundación causó daños graves.",
-            "tr_": "Sel ciddi hasara neden oldu.",
-            "type": "noun"
+            "tr_": "Sel ciddi hasara neden oldu."
         },
         {
             "en": "climate",
@@ -12934,8 +11542,7 @@ const DICTIONARY = {
             "tr": "iklim",
             "en_": "The climate here is very humid.",
             "es_": "El clima aquí es muy húmedo.",
-            "tr_": "Buradaki iklim çok nemlidir.",
-            "type": "noun"
+            "tr_": "Buradaki iklim çok nemlidir."
         },
         {
             "en": "weather forecast",
@@ -12943,8 +11550,7 @@ const DICTIONARY = {
             "tr": "hava tahmini",
             "en_": "I checked the weather forecast for tomorrow.",
             "es_": "Consulté el pronóstico del tiempo para mañana.",
-            "tr_": "Yarın için hava tahminini kontrol ettim.",
-            "type": "noun"
+            "tr_": "Yarın için hava tahminini kontrol ettim."
         },
         {
             "en": "to sweat",
@@ -12952,8 +11558,7 @@ const DICTIONARY = {
             "tr": "terlemek",
             "en_": "I start to sweat when I run.",
             "es_": "Empiezo a sudar cuando corro.",
-            "tr_": "Koşunca terlemeye başlarım.",
-            "type": "verb"
+            "tr_": "Koşunca terlemeye başlarım."
         },
         {
             "en": "wind",
@@ -12961,8 +11566,7 @@ const DICTIONARY = {
             "tr": "rüzgar",
             "en_": "The wind is strong today.",
             "es_": "El viento está fuerte hoy.",
-            "tr_": "Bugün rüzgar güçlü.",
-            "type": "noun"
+            "tr_": "Bugün rüzgar güçlü."
         },
         {
             "en": "fog",
@@ -12970,8 +11574,7 @@ const DICTIONARY = {
             "tr": "sis",
             "en_": "The fog is thick this morning.",
             "es_": "La niebla está densa esta mañana.",
-            "tr_": "Bu sabah sis yoğundu.",
-            "type": "noun"
+            "tr_": "Bu sabah sis yoğundu."
         },
         {
             "en": "to be freezing",
@@ -12979,8 +11582,7 @@ const DICTIONARY = {
             "tr": "buz gibi olmak",
             "en_": "I'm freezing in this cold weather.",
             "es_": "Estoy helado con este clima frío.",
-            "tr_": "Bu soğuk havada buz gibiyim.",
-            "type": "verb"
+            "tr_": "Bu soğuk havada buz gibiyim."
         },
         {
             "en": "frost",
@@ -12988,8 +11590,7 @@ const DICTIONARY = {
             "tr": "kırağı",
             "en_": "The frost covered the grass last night.",
             "es_": "La escarcha cubrió el césped anoche.",
-            "tr_": "Kırağı dün gece çimleri kapladı.",
-            "type": "noun"
+            "tr_": "Kırağı dün gece çimleri kapladı."
         },
         {
             "en": "icicle",
@@ -12997,8 +11598,7 @@ const DICTIONARY = {
             "tr": "buz sarkıtı",
             "en_": "Icicles hung from the roof.",
             "es_": "Los carámbanos colgaban del techo.",
-            "tr_": "Buz sarkıtları çatıdan sarkıyordu.",
-            "type": "noun"
+            "tr_": "Buz sarkıtları çatıdan sarkıyordu."
         },
         {
             "en": "snow",
@@ -13006,8 +11606,7 @@ const DICTIONARY = {
             "tr": "kar",
             "en_": "The snow started to fall in the afternoon.",
             "es_": "La nieve comenzó a caer por la tarde.",
-            "tr_": "Kar öğleden sonra yağmaya başladı.",
-            "type": "noun"
+            "tr_": "Kar öğleden sonra yağmaya başladı."
         },
         {
             "en": "snowman",
@@ -13015,8 +11614,7 @@ const DICTIONARY = {
             "tr": "kardan adam",
             "en_": "The children built a snowman.",
             "es_": "Los niños hicieron un hombre de nieve.",
-            "tr_": "Çocuklar kardan adam yaptı.",
-            "type": "noun"
+            "tr_": "Çocuklar kardan adam yaptı."
         },
         {
             "en": "to thaw [to melt]",
@@ -13024,8 +11622,7 @@ const DICTIONARY = {
             "tr": "erimek",
             "en_": "The ice will thaw in the sun.",
             "es_": "El hielo deshielará al sol.",
-            "tr_": "Buz güneşte eriyecek.",
-            "type": "verb"
+            "tr_": "Buz güneşte eriyecek."
         }
     ],
     "Phrases and expressions" : [
@@ -13035,8 +11632,7 @@ const DICTIONARY = {
             "tr": "Kar yağıyor.",
             "en_": "It's snowing heavily outside.",
             "es_": "Nieva mucho afuera.",
-            "tr_": "Dışarıda çok kar yağıyor.",
-            "type": "expression"
+            "tr_": "Dışarıda çok kar yağıyor."
         },
         {
             "en": "It's cold.",
@@ -13044,8 +11640,7 @@ const DICTIONARY = {
             "tr": "Hava soğuk.",
             "en_": "It's cold outside today.",
             "es_": "Hace frío afuera hoy.",
-            "tr_": "Bugün dışarıda hava soğuk.",
-            "type": "expression"
+            "tr_": "Bugün dışarıda hava soğuk."
         },
         {
             "en": "It's foggy",
@@ -13053,8 +11648,7 @@ const DICTIONARY = {
             "tr": "Hava sisli.",
             "en_": "It's foggy in the mountains.",
             "es_": "Hay niebla en las montañas.",
-            "tr_": "Dağlarda hava sisli.",
-            "type": "expression"
+            "tr_": "Dağlarda hava sisli."
         },
         {
             "en": "It's windy.",
@@ -13062,8 +11656,7 @@ const DICTIONARY = {
             "tr": "Hava rüzgârlı.",
             "en_": "It's windy outside.",
             "es_": "Hace viento afuera.",
-            "tr_": "Dışarıda hava rüzgârlı.",
-            "type": "expression"
+            "tr_": "Dışarıda hava rüzgârlı."
         },
         {
             "en": "I'm hot",
@@ -13071,8 +11664,7 @@ const DICTIONARY = {
             "tr": "Sıcakladım.",
             "en_": "I'm hot because of the sun.",
             "es_": "Tengo calor por el sol.",
-            "tr_": "Güneşten sıcakladım.",
-            "type": "expression"
+            "tr_": "Güneşten sıcakladım."
         },
         {
             "en": "What’s the weather like?",
@@ -13080,8 +11672,7 @@ const DICTIONARY = {
             "tr": "Hava nasıl?",
             "en_": "What's the weather like today?",
             "es_": "¿Qué tiempo hace hoy?",
-            "tr_": "Bugün hava nasıl?",
-            "type": "expression"
+            "tr_": "Bugün hava nasıl?"
         },
         {
             "en": "The weather is nice.",
@@ -13089,8 +11680,7 @@ const DICTIONARY = {
             "tr": "Hava güzel.",
             "en_": "The weather is nice for a walk.",
             "es_": "Hace bueno para dar un paseo.",
-            "tr_": "Yürüyüş için hava güzel.",
-            "type": "expression"
+            "tr_": "Yürüyüş için hava güzel."
         },
         {
             "en": "The sun is shining.",
@@ -13098,8 +11688,7 @@ const DICTIONARY = {
             "tr": "Güneş parlıyor.",
             "en_": "The sun is shining brightly today.",
             "es_": "Brilla el sol intensamente hoy.",
-            "tr_": "Bugün güneş parlak parlıyor.",
-            "type": "expression"
+            "tr_": "Bugün güneş parlak parlıyor."
         },
         {
             "en": "It's raining.",
@@ -13107,8 +11696,7 @@ const DICTIONARY = {
             "tr": "Yağmur yağıyor",
             "en_": "It's raining outside.",
             "es_": "Está lloviendo afuera.",
-            "tr_": "Dışarıda yağmur yağıyor.",
-            "type": "expression"
+            "tr_": "Dışarıda yağmur yağıyor."
         },
         {
             "en": "It’s one o’clock",
@@ -13116,8 +11704,7 @@ const DICTIONARY = {
             "tr": "saat bir",
             "en_": "It’s one o’clock now.",
             "es_": "Es la una ahora.",
-            "tr_": "Şu an saat bir.",
-            "type": "expression"
+            "tr_": "Şu an saat bir."
         },
         {
             "en": "It’s three o’clock",
@@ -13125,20 +11712,17 @@ const DICTIONARY = {
             "tr": "saat üç",
             "en_": "It’s three o’clock in the afternoon.",
             "es_": "Son las tres de la tarde.",
-            "tr_": "Öğleden sonra saat üç.",
-            "type": "expression"
+            "tr_": "Öğleden sonra saat üç."
         },
         {
             "en" : "How old are you?",
             "es" : "¿Cuántos años tienes?",
-            "tr" : "Kaç yaşındasın?",
-            "type" : "expression"
+            "tr" : "Kaç yaşındasın?"
         },
         {
             "en" : "I am nineteen",
             "es" : "Tengo diecinueve años",
-            "tr" : "Ondokuz yaşındayım",
-            "type" : "expression"
+            "tr" : "Ondokuz yaşındayım"
         },
         {
             "en" : "My name is ...",
@@ -13146,8 +11730,7 @@ const DICTIONARY = {
             "tr" : "Benim adım ...",
             "en_": "My name is Maria.",
             "es_": "Me llamo Maria.",
-            "tr_": "Benim adım Maria.",
-            "type" : "expression"
+            "tr_": "Benim adım Maria."
         },
         {
             "en" : "His name is ...",
@@ -13155,26 +11738,22 @@ const DICTIONARY = {
             "tr" : "Onun adı ...",
             "en_": "His name is Alex.",
             "es_": "El llamo Alex.",
-            "tr_": "Onun adı Alex.",
-            "type" : "expression"
+            "tr_": "Onun adı Alex."
         },
         {
             "en" : "How are you?",
             "es" : "¿Qué tal?",
-            "tr" : "Nasılsın?",
-            "type" : "phrase"
+            "tr" : "Nasılsın?"
         },
         {
             "en" : "Very well, thank you",
             "es" : "Muy bien, ¡gracias!",
-            "tr" : "Çok iyiyim teşekkür ederim",
-            "type" : "expression"
+            "tr" : "Çok iyiyim teşekkür ederim"
         },
         {
             "en" : "What is your name?",
             "es" : "¿Cómo te llamas?",
-            "tr" : "Adın ne?",
-            "type" : "phrase"
+            "tr" : "Adın ne?"
         },
         {
             "en": "a kilo of ...",
@@ -13182,8 +11761,7 @@ const DICTIONARY = {
             "tr": "bir kilo ...",
             "en_": "I want to buy a kilo of apples.",
             "es_": "Quiero comprar un kilo de manzanas.",
-            "tr_": "Bir kilo elma almak istiyorum.",
-            "type": "phrase"
+            "tr_": "Bir kilo elma almak istiyorum."
         },
         {
             "en": "half a kilo of ...",
@@ -13191,8 +11769,7 @@ const DICTIONARY = {
             "tr": "yarım kilo ...",
             "en_": "She needs half a kilo of tomatoes.",
             "es_": "Ella necesita medio kilo de tomates.",
-            "tr_": "Yarım kilo domatese ihtiyacı var.",
-            "type": "phrase"
+            "tr_": "Yarım kilo domatese ihtiyacı var."
         },
         {
             "en": "How much is ...?",
@@ -13200,8 +11777,7 @@ const DICTIONARY = {
             "tr": "Kaç para?",
             "en_": "How much is this book?",
             "es_": "¿Cuánto cuesta este libro?",
-            "tr_": "Bu kitap kaç para?",
-            "type": "phrase"
+            "tr_": "Bu kitap kaç para?"
         },
         {
             "en": "Do you have change?",
@@ -13209,8 +11785,7 @@ const DICTIONARY = {
             "tr": "Bozuk paranız var mı?",
             "en_": "Do you have change for a ten-dollar bill?",
             "es_": "¿Tiene cambio para un billete de diez dólares?",
-            "tr_": "On dolarlık bozuk paranız var mı?",
-            "type": "phrase"
+            "tr_": "On dolarlık bozuk paranız var mı?"
         },
         {
             "en": "Yours sincerely",
@@ -13218,8 +11793,7 @@ const DICTIONARY = {
             "tr": "Saygılarımla",
             "en_": "Yours sincerely, John Smith.",
             "es_": "Le saluda atentamente, John Smith.",
-            "tr_": "Saygılarımla, John Smith.",
-            "type": "phrase"
+            "tr_": "Saygılarımla, John Smith."
         },
         {
             "en": "Dear sir / madam",
@@ -13227,8 +11801,7 @@ const DICTIONARY = {
             "tr": "Sayın bay / bayan",
             "en_": "Dear sir / madam, I am writing to complain.",
             "es_": "Muy señor mío, le escribo para quejarme.",
-            "tr_": "Sayın bay / bayan, şikayet etmek için yazıyorum.",
-            "type": "phrase"
+            "tr_": "Sayın bay / bayan, şikayet etmek için yazıyorum."
         },
         {
             "en": "Dear ...",
@@ -13236,8 +11809,7 @@ const DICTIONARY = {
             "tr": "Değerli ...",
             "en_": "Dear Maria, thank you for your letter.",
             "es_": "Querida Maria, gracias por tu carta.",
-            "tr_": "Değerli Maria, mektubun için teşekkür ederim.",
-            "type": "phrase"
+            "tr_": "Değerli Maria, mektubun için teşekkür ederim."
         },
         {
             "en": "How far is ...?",
@@ -13245,8 +11817,7 @@ const DICTIONARY = {
             "tr": "... ne kadar uzakta?",
             "en_": "How far is the train station from here?",
             "es_": "¿A qué distancia está la estación de tren desde aquí?",
-            "tr_": "Tren istasyonu buradan ne kadar uzakta?",
-            "type": "phrase"
+            "tr_": "Tren istasyonu buradan ne kadar uzakta?"
         },
         {
             "en": "No smoking",
@@ -13254,8 +11825,7 @@ const DICTIONARY = {
             "tr": "Sigara içmek yasaktır",
             "en_": "No smoking is allowed on the train.",
             "es_": "Prohibido fumar en el tren.",
-            "tr_": "Trende sigara içmek yasaktır.",
-            "type": "phrase"
+            "tr_": "Trende sigara içmek yasaktır."
         },
         {
             "en": "Fasten your seatbelts!",
@@ -13263,8 +11833,7 @@ const DICTIONARY = {
             "tr": "Emniyet kemerinizi bağlayın!",
             "en_": "Fasten your seatbelts before takeoff.",
             "es_": "¡Abrocharse el cinturón antes del despegue!",
-            "tr_": "Kalkıştan önce emniyet kemerinizi bağlayın!",
-            "type": "phrase"
+            "tr_": "Kalkıştan önce emniyet kemerinizi bağlayın!"
         }
     ]
 };
