@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Word Treasure</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
-    <script src="js/dictionary.js?v=2"></script>
+    <script src="js/dictionary.js?v=3"></script>
 
     <style>
         @font-face {
@@ -40,7 +40,6 @@
             background-color: black;
             font-size: 1.8em;
          /*   background-image: url("images/pngtree-colorful-leaves-2.png");  */
-            background-repeat: repeat;
         }
 
         .alert-word {
@@ -81,13 +80,40 @@
             color: white;
         }
 
+        .btn-menu:hover {
+            color: lime;
+        }
+
+        .categories .badge {
+            position: absolute;
+            top: 0;
+            right: 0;
+            margin-top:-0.7em;
+            margin-right: -0.5em;
+            font-size: 0.6em;
+        }
+
+        .categories button {
+            position: relative;
+            background-image: linear-gradient(lightskyblue, dodgerblue, lightskyblue);
+            color: white;
+            min-height: 100px;
+            margin-bottom: 1em;
+            font-size: 0.7em !important;
+        }
+
+        .categories button:hover {
+            background-image: linear-gradient(dodgerblue, navy, dodgerblue);
+            color: white;
+        }
+
         .score-board {
             display: flex;
             background-color: #21252a;
             color: white;
             border: 1px solid grey;
             border-top: none;
-            font-family: DSEG7;
+            font-family: DSEG7, sans-serif;
             font-size: 0.8em;
         }
 
@@ -110,6 +136,7 @@
             text-align: center;
             border-radius: 6px;
             padding: 5px 0;
+            margin-top: -0.2em;
             margin-bottom: 1em;
             font-size: 0.6em;
         }
@@ -123,25 +150,6 @@
             border-width: 10px;
             border-style: solid;
             border-color: transparent transparent #971e3c transparent;
-        }
-
-        #example-from {
-            margin-top: -0.5em;
-        }
-
-        #example-tom {
-            margin-top: -0.3em;
-        }
-
-        .btn-menu:hover {
-            color: lime;
-        }
-
-        *[data-category] {
-            background-color: dodgerblue;
-            color: white;
-            min-height: 100px;
-            margin-bottom: 1em;
         }
 
         @media (max-width: 768px) {
@@ -186,52 +194,7 @@
 
     <div class="container-fluid text-center">
         <div class="categories pt-4" style="display: flex; flex-wrap: wrap; justify-content: space-around;">
-            <button class="col-lg" data-category="-"></button>
-            <button class="col-lg" data-category="-"></button>
-            <button class="col-lg" data-category="-"></button>
-            <button class="col-lg" data-category="-"></button>
-            <button class="col-lg" data-category="-"></button>
-            <button class="col-lg" data-category="-"></button>
-            <button class="col-lg" data-category="-"></button>
-            <button class="col-lg" data-category="-"></button>
-            <button class="col-lg" data-category="-"></button>
-            <button class="col-lg" data-category="-"></button>
-            <button class="col-lg" data-category="-"></button>
-            <button class="col-lg" data-category="-"></button>
-            <button class="col-lg" data-category="-"></button>
-            <button class="col-lg" data-category="-"></button>
-            <button class="col-lg" data-category="-"></button>
-            <button class="col-lg" data-category="-"></button>
-            <button class="col-lg" data-category="-"></button>
-            <button class="col-lg" data-category="-"></button>
-            <button class="col-lg" data-category="-"></button>
-            <button class="col-lg" data-category="-"></button>
-            <button class="col-lg" data-category="-"></button>
-            <button class="col-lg" data-category="-"></button>
-            <button class="col-lg" data-category="-"></button>
-            <button class="col-lg" data-category="-"></button>
-            <button class="col-lg" data-category="-"></button>
-            <button class="col-lg" data-category="-"></button>
-            <button class="col-lg" data-category="-"></button>
-            <button class="col-lg" data-category="-"></button>
-            <button class="col-lg" data-category="-"></button>
-            <button class="col-lg" data-category="-"></button>
-            <button class="col-lg" data-category="-"></button>
-            <button class="col-lg" data-category="-"></button>
-            <button class="col-lg" data-category="-"></button>
-            <button class="col-lg" data-category="-"></button>
-            <button class="col-lg" data-category="-"></button>
-            <button class="col-lg" data-category="-"></button>
-            <button class="col-lg" data-category="-"></button>
-            <button class="col-lg" data-category="-"></button>
-            <button class="col-lg" data-category="-"></button>
-            <button class="col-lg" data-category="-"></button>
-            <button class="col-lg" data-category="-"></button>
-            <button class="col-lg" data-category="-"></button>
-            <button class="col-lg" data-category="-"></button>
-            <button class="col-lg" data-category="-"></button>
-            <button class="col-lg" data-category="-"></button>
-            <button class="col-lg" data-category="-"></button>
+
         </div>
 
         <div class="row words d-none">
@@ -248,19 +211,19 @@
                     </div>
                 </div>
 
-                <div class="alert alert-word mb-4 p-1 fw-bold question" role="alert"></div>
+                <div class="alert alert-word mb-3 p-1 fw-bold question" role="alert"></div>
 
                 <div class="example d-none" id="example-from"></div>
 
-                <button type="button" class="d-block w-100 btn btn-option mb-3"></button>
+                <button type="button" class="d-block w-100 btn btn-option mb-3 mt-4"></button>
 
                 <button type="button" class="d-block w-100 btn btn-option mb-3"></button>
 
                 <button type="button" class="d-block w-100 btn btn-option mb-3"></button>
 
-                <button type="button" class="d-block w-100 btn btn-option mb-4"></button>
+                <button type="button" class="d-block w-100 btn btn-option mb-3"></button>
 
-                <button type="button" class="d-block w-100 btn btn-next" id="nextButton"><img src="images/next.png" style="width: 40px"/></button>
+                <button type="button" class="d-block w-100 btn btn-next mt-4" id="nextButton"><img src="images/next.png" style="width: 40px"/></button>
 
                 <div class="example d-none" id="example-to"></div>
             </div>
@@ -277,7 +240,6 @@
         const toLang = document.getElementById("toLang");
         const successDisplay = document.querySelector(".score-board .success");
         const failureDisplay = document.querySelector(".score-board .failure");
-        const categoryButtons =  document.querySelectorAll("*[data-category]");
         const categoriesDiv = document.querySelector(".categories");
         const wordsDiv = document.querySelector(".words");
         const question = document.querySelector(".question");
@@ -301,16 +263,17 @@
             reset();
         });
 
-        categoryButtons.forEach(button => {
-            button.addEventListener("click", function () {
-                selectedCategory = button.dataset.category;
+        categoriesDiv.addEventListener("click", function (event) {
+            if (event.target.dataset.category) {
+                selectedCategory = event.target.dataset.category;
                 SELECTED_WORDS = DICTIONARY[selectedCategory].filter(word => word["en"] !== "");
                 categoriesDiv.classList.add("d-none");
                 wordsDiv.classList.remove("d-none");
                 menuBtn.classList.remove("d-none");
                 page = "words";
                 nextWord();
-            });
+            }
+            console.log(event.target.dataset.category);
         });
 
         optionButtons.forEach(button => {
@@ -336,6 +299,13 @@
                         optionButtons.forEach(button => {
                             if (button.dataset.answer) {
                                 button.classList.add("btn-true");
+
+                                if (answer[to + "_"]) {
+                                    example_from.classList.remove("d-none");
+                                    example_to.innerHTML = answer[to + "_"];
+                                    button.after(example_to);
+                                    example_to.classList.remove("d-none");
+                                }
                             }
                         });
                     }, 1000);
@@ -371,32 +341,26 @@
             }
         });
 
-        /*
-        const keys = Object.keys(DICTIONARY);
-
-        for(let key of keys) {
-            SELECTED_WORDS.push(DICTIONARY[key]);
-        }
-
-        SELECTED_WORDS = SELECTED_WORDS.flat();
-
-        SELECTED_WORDS = SELECTED_WORDS.filter(word => word["en"] !== "");
-
-        let wordCount = SELECTED_WORDS.length;
-        */
-
         function resetScore() {
             successDisplay.innerHTML = "0";
             failureDisplay.innerHTML = "0";
         }
 
         function categories() {
-            for(let i=0; i < categoryButtons.length; i++) {
-                let button = categoryButtons[i];
+            categoriesDiv.innerHTML = "";
+
+            for(let i=0; i < CATEGORIES.length; i++) {
                 let category = CATEGORIES[i];
 
-                button.innerHTML = category[from];
+                if (!DICTIONARY[category["en"]]) continue;
+
+                let button = document.createElement("button");
+
+                button.classList.add("col-lg", "btn");
+                button.innerHTML = category[from] + '<span class="badge rounded-pill bg-danger">' + DICTIONARY[category["en"]].length + '</span>';
                 button.dataset.category = category["en"];
+
+                categoriesDiv.appendChild(button);
             }
         }
 
