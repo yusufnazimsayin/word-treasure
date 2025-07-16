@@ -94,7 +94,7 @@ const CATEGORIES = [
     {
         "en": "Vacationes / Outdoor",
         "es": "Las vacaciones / Aire libre",
-        "tr": "Tatil / Açık Hava"
+        "tr": "Tatil / Açık hava"
     },
     {
         "en": "Farm",
@@ -182,14 +182,14 @@ const CATEGORIES = [
         "tr": "Eylem fiilleri"
     },
     {
-        "en": "Other",
-        "es": "La otra",
-        "tr": "Diğer"
-    },
-    {
         "en": "Phrases and expressions",
         "es": "Las frases y las expresiones",
         "tr": "Cümleler ve ifadeler"
+    },
+    {
+        "en": "Other",
+        "es": "La otra",
+        "tr": "Diğer"
     }
 ];
 
@@ -1033,9 +1033,17 @@ const DICTIONARY = {
             "en": "to exchange money",
             "es": "cambiar dinero",
             "tr": "para bozdurmak",
-            "en_": "I need to exchange money at the bank.",
-            "es_": "Necesito cambiar dinero en el banco.",
-            "tr_": "Bankada para bozdurmam gerekiyor."
+            "en_": "I can't find my cellphone.",
+            "es_": "No puedo encontrar mi celular.",
+            "tr_": "Cep telefonumu bulamıyorum."
+        },
+        {
+            "en": "to find",
+            "es": "encontrar",
+            "tr": "bulmak",
+            "en_": "He went to the bank to withdraw cash.",
+            "es_": "Él fue al banco a sacar dinero.",
+            "tr_": "Nakit çekmek için bankaya gitti."
         },
         {
             "en": "oar",
@@ -4033,20 +4041,76 @@ const DICTIONARY = {
     ],
     "Self care" : [
         {
-            "en": "shower",
-            "es": "la ducha",
-            "tr": "duş",
-            "en_": "I take a quick shower every morning.",
-            "es_": "Me doy una ducha rápida cada mañana.",
-            "tr_": "Her sabah hızlı bir duş alırım."
-        },
-        {
             "en": "to have shower",
             "es": "ducharse",
             "tr": "duş almak",
             "en_": "They shower before going to work.",
             "es_": "Ellos se duchan antes de ir al trabajo.",
             "tr_": "İşe gitmeden önce duş alırlar."
+        },
+        {
+            "en": "to wash oneself",
+            "es": "lavarse",
+            "tr": "yıkanmak",
+            "en_": "He washes himself with cold water.",
+            "es_": "Él se lava con agua fría.",
+            "tr_": "Soğuk suyla yıkanır."
+        },
+        {
+            "en": "to dry oneself",
+            "es": "secarse",
+            "tr": "kurulanmak",
+            "en_": "After showering, she dries herself quickly.",
+            "es_": "Después de ducharse, ella se seca rápidamente.",
+            "tr_": "Duştan sonra hızla kurulanır."
+        },
+        {
+            "en": "to shave",
+            "es": "afeitarse",
+            "tr": "tıraş olmak",
+            "en_": "He shaves every morning before work.",
+            "es_": "Él se afeita cada mañana antes del trabajo.",
+            "tr_": "Her sabah işe gitmeden önce tıraş olur."
+        },
+        {
+            "en": "to clean teeth",
+            "es": "limpiarse los dientes",
+            "tr": "dişleri temizlemek",
+            "en_": "I always clean my teeth before going to bed.",
+            "es_": "Siempre me limpio los dientes antes de acostarme.",
+            "tr_": "Yatmadan önce her zaman dişlerimi temizlerim."
+        },
+        {
+            "en": "to dry one's hair",
+            "es": "secarse el pelo",
+            "tr": "saçını kurutmak",
+            "en_": "She dries her hair after taking a shower.",
+            "es_": "Ella se seca el pelo después de ducharse.",
+            "tr_": "Duş aldıktan sonra saçını kurutur."
+        },
+        {
+            "en": "to comb one's hair",
+            "es": "peinarse",
+            "tr": "saçını taramak",
+            "en_": "I always comb my hair before leaving the house.",
+            "es_": "Siempre me peino antes de salir de casa.",
+            "tr_": "Evden çıkmadan önce her zaman saçımı tararım."
+        },
+        {
+            "en": "to brush one's hair",
+            "es": "cepillarse el pelo",
+            "tr": "saçını fırçalamak",
+            "en_": "She brushes her hair every morning.",
+            "es_": "Ella se cepilla el pelo cada mañana.",
+            "tr_": "Her sabah saçını fırçalar."
+        },
+        {
+            "en": "to make up",
+            "es": "maquillarse",
+            "tr": "makyaj yapmak",
+            "en_": "She takes 20 minutes to make up before work.",
+            "es_": "Ella tarda 20 minutos en maquillarse antes del trabajo.",
+            "tr_": "İşe gitmeden önce makyaj yapmak için 20 dakika harcıyor."
         },
         {
             "en": "shampoo",
@@ -4057,12 +4121,12 @@ const DICTIONARY = {
             "tr_": "Bu şampuan saçımı parlak yapıyor."
         },
         {
-            "en": "to wash",
-            "es": "lavarse",
-            "tr": "yıkanmak",
-            "en_": "He washes with cold water.",
-            "es_": "Él se lava con agua fría.",
-            "tr_": "Soğuk suyla yıkanır."
+            "en": "shower",
+            "es": "la ducha",
+            "tr": "duş",
+            "en_": "I take a quick shower every morning.",
+            "es_": "Me doy una ducha rápida cada mañana.",
+            "tr_": "Her sabah hızlı bir duş alırım."
         },
         {
             "en": "soap",
@@ -4079,22 +4143,6 @@ const DICTIONARY = {
             "en_": "The baby ran around naked.",
             "es_": "El bebé corrió desnudo por la casa.",
             "tr_": "Bebek evin içinde çıplak koştu."
-        },
-        {
-            "en": "to dry vourself",
-            "es": "secarse",
-            "tr": "kurulanmak",
-            "en_": "After showering, she dries herself quickly.",
-            "es_": "Después de ducharse, ella se seca rápidamente.",
-            "tr_": "Duştan sonra hızla kurulanır."
-        },
-        {
-            "en": "to shave",
-            "es": "afeitarse",
-            "tr": "tıraş olmak",
-            "en_": "He shaves every morning before work.",
-            "es_": "Él se afeita cada mañana antes del trabajo.",
-            "tr_": "Her sabah işe gitmeden önce tıraş olur."
         },
         {
             "en": "mirror",
@@ -4137,22 +4185,6 @@ const DICTIONARY = {
             "tr_": "Dün yeni bir diş fırçası aldım."
         },
         {
-            "en": "to clean teeth",
-            "es": "limpiarse los dientes",
-            "tr": "dişleri temizlemek",
-            "en_": "I always clean my teeth before going to bed.",
-            "es_": "Siempre me limpio los dientes antes de acostarme.",
-            "tr_": "Yatmadan önce her zaman dişlerimi temizlerim."
-        },
-        {
-            "en": "to dry your hair",
-            "es": "secarse el pelo",
-            "tr": "saçını kurutmak",
-            "en_": "She dries her hair after taking a shower.",
-            "es_": "Ella se seca el pelo después de ducharse.",
-            "tr_": "Duş aldıktan sonra saçını kurutur."
-        },
-        {
             "en": "brush",
             "es": "el cepillo",
             "tr": "fırça",
@@ -4167,30 +4199,6 @@ const DICTIONARY = {
             "en_": "He forgot his comb at the hotel.",
             "es_": "Él olvidó su peine en el hotel.",
             "tr_": "Tarağını otelde unuttu."
-        },
-        {
-            "en": "to comb your hair",
-            "es": "peinarse",
-            "tr": "saçını taramak",
-            "en_": "I always comb my hair before leaving the house.",
-            "es_": "Siempre me peino antes de salir de casa.",
-            "tr_": "Evden çıkmadan önce her zaman saçımı tararım."
-        },
-        {
-            "en": "to brush your hair",
-            "es": "cepillarse el pelo",
-            "tr": "saçını fırçalamak",
-            "en_": "She brushes her hair every morning.",
-            "es_": "Ella se cepilla el pelo cada mañana.",
-            "tr_": "Her sabah saçını fırçalar."
-        },
-        {
-            "en": "to make up",
-            "es": "maquillarse",
-            "tr": "makyaj yapmak",
-            "en_": "She takes 20 minutes to make up before work.",
-            "es_": "Ella tarda 20 minutos en maquillarse antes del trabajo.",
-            "tr_": "İşe gitmeden önce makyaj yapmak için 20 dakika harcıyor."
         },
         {
             "en": "mascara",
@@ -12739,6 +12747,652 @@ const DICTIONARY = {
             "en_": "The door has a metallic frame.",
             "es_": "La puerta tiene un marco de metal.",
             "tr_": "Kapının metal bir çerçevesi var."
+        }
+    ],
+    "Colors" : [
+        {
+            "en": "color",
+            "es": "el color",
+            "tr": "renk",
+            "en_": "What is your favorite color?",
+            "es_": "¿Cuál es tu color favorito?",
+            "tr_": "En sevdiğin renk nedir?"
+        },
+        {
+            "en": "red",
+            "es": "rojo(a)",
+            "tr": "kırmızı",
+            "en_": "She wore a red dress.",
+            "es_": "Ella llevaba un vestido rojo.",
+            "tr_": "Kırmızı bir elbise giydi."
+        },
+        {
+            "en": "pink",
+            "es": "rosado(a)",
+            "tr": "pembe",
+            "en_": "I bought pink flowers.",
+            "es_": "Compré flores rosadas.",
+            "tr_": "Pembe çiçekler aldım."
+        },
+        {
+            "en": "white",
+            "es": "blanco(a)",
+            "tr": "beyaz",
+            "en_": "The snow is white.",
+            "es_": "La nieve es blanca.",
+            "tr_": "Kar beyazdır."
+        },
+        {
+            "en": "black",
+            "es": "negro(a)",
+            "tr": "siyah",
+            "en_": "He is wearing black shoes.",
+            "es_": "Lleva zapatos negros.",
+            "tr_": "Siyah ayakkabılar giyiyor."
+        },
+        {
+            "en": "grey",
+            "es": "gris",
+            "tr": "gri",
+            "en_": "The sky is grey today.",
+            "es_": "El cielo está gris hoy.",
+            "tr_": "Bugün gökyüzü gri."
+        },
+        {
+            "en": "light",
+            "es": "claro(a)",
+            "tr": "açık",
+            "en_": "I prefer light blue walls.",
+            "es_": "Prefiero las paredes azul claro.",
+            "tr_": "Açık mavi duvarları tercih ederim."
+        },
+        {
+            "en": "dull",
+            "es": "apagado(a)",
+            "tr": "mat",
+            "en_": "The color of this painting is dull.",
+            "es_": "El color de esta pintura es apagado.",
+            "tr_": "Bu tablonun rengi mat."
+        },
+        {
+            "en": "brown",
+            "es": "marron",
+            "tr": "kahverengi",
+            "en_": "He has brown eyes.",
+            "es_": "Él tiene ojos marrones.",
+            "tr_": "Onun kahverengi gözleri var."
+        },
+        {
+            "en": "yellow",
+            "es": "amarillo(a)",
+            "tr": "sarı",
+            "en_": "I painted the room yellow.",
+            "es_": "Pinté la habitación de amarillo.",
+            "tr_": "Odayı sarıya boyadım."
+        },
+        {
+            "en": "bright [vivid]",
+            "es": "vivo(a)",
+            "tr": "parlak [canlı]",
+            "en_": "She chose bright colors for the party.",
+            "es_": "Eligió colores vivos para la fiesta.",
+            "tr_": "Parti için canlı renkler seçti."
+        },
+        {
+            "en": "orange",
+            "es": "anaranjado(a)",
+            "tr": "turuncu",
+            "en_": "I like orange juice.",
+            "es_": "Me gusta el jugo de naranja.",
+            "tr_": "Portakal suyunu severim."
+        },
+        {
+            "en": "blue",
+            "es": "azul",
+            "tr": "mavi",
+            "en_": "The ocean is blue.",
+            "es_": "El océano es azul.",
+            "tr_": "Okyanus mavidir."
+        },
+        {
+            "en": "navy",
+            "es": "azul marino",
+            "tr": "lacivert",
+            "en_": "He wore a navy suit.",
+            "es_": "Llevaba un traje azul marino.",
+            "tr_": "Lacivert bir takım elbise giydi."
+        },
+        {
+            "en": "purple",
+            "es": "morado(a)",
+            "tr": "mor",
+            "en_": "She painted her nails purple.",
+            "es_": "Se pintó las uñas de morado.",
+            "tr_": "Tırnaklarını mora boyadı."
+        },
+        {
+            "en": "dark",
+            "es": "oscuro(a)",
+            "tr": "koyu",
+            "en_": "He painted the room a dark blue.",
+            "es_": "Pintó la habitación de azul oscuro.",
+            "tr_": "Odayı koyu maviye boyadı."
+        },
+        {
+            "en": "green",
+            "es": "verde",
+            "tr": "yeşil",
+            "en_": "The grass is green in spring.",
+            "es_": "La hierba es verde en primavera.",
+            "tr_": "İlkbaharda çimenler yeşildir."
+        },
+        {
+            "en": "printed [patterned]",
+            "es": "estampado(a)",
+            "tr": "baskılı [desenli]",
+            "en_": "She wore a patterned dress.",
+            "es_": "Llevaba un vestido estampado.",
+            "tr_": "Desenli bir elbise giydi."
+        },
+        {
+            "en": "spotted",
+            "es": "con lunares",
+            "tr": "benekli [puantiyeli]",
+            "en_": "He has a spotted tie.",
+            "es_": "Tiene una corbata con lunares.",
+            "tr_": "Benekli bir kravatı var."
+        },
+        {
+            "en": "stripped",
+            "es": "a rayas",
+            "tr": "çizgili",
+            "en_": "I like wearing striped shirts.",
+            "es_": "Me gusta llevar camisas a rayas.",
+            "tr_": "Çizgili gömlekler giymeyi severim."
+        }
+    ],
+    "In, on, under" : [
+        {
+            "en": "in",
+            "es": "en",
+            "tr": "içinde",
+            "en_": "The keys are in the bag.",
+            "es_": "Las llaves están en la bolsa.",
+            "tr_": "Anahtarlar çantanın içinde."
+        },
+        {
+            "en": "on [about]",
+            "es": "sobre",
+            "tr": "üzerinde [hakkında]",
+            "en_": "The book is on the table.",
+            "es_": "El libro está sobre la mesa.",
+            "tr_": "Kitap masanın üzerinde."
+        },
+        {
+            "en": "under",
+            "es": "debajo de",
+            "tr": "altında",
+            "en_": "The cat is under the bed.",
+            "es_": "El gato está debajo de la cama.",
+            "tr_": "Kedi yatağın altında."
+        },
+        {
+            "en": "over [above]",
+            "es": "por encima de",
+            "tr": "üstünde [üzerinde]",
+            "en_": "A lamp hangs over the table.",
+            "es_": "Una lámpara cuelga por encima de la mesa.",
+            "tr_": "Masanın üstünde bir lamba asılı."
+        },
+        {
+            "en": "into",
+            "es": "dentro",
+            "tr": "içine",
+            "en_": "He jumped into the pool.",
+            "es_": "Saltó dentro de la piscina.",
+            "tr_": "Havuza içine atladı."
+        },
+        {
+            "en": "outside [out]",
+            "es": "fuera",
+            "tr": "dışında [dışarıda]",
+            "en_": "They are playing outside.",
+            "es_": "Están jugando fuera.",
+            "tr_": "Dışarıda oynuyorlar."
+        },
+        {
+            "en": "beside [next to]",
+            "es": "al lado de",
+            "tr": "yanında",
+            "en_": "She sat beside her friend.",
+            "es_": "Se sentó al lado de su amiga.",
+            "tr_": "Arkadaşının yanında oturdu."
+        },
+        {
+            "en": "between",
+            "es": "entre",
+            "tr": "ortasında",
+            "en_": "The ball is between the shoes.",
+            "es_": "La pelota está entre los zapatos.",
+            "tr_": "Top ayakkabıların ortasında."
+        },
+        {
+            "en": "among",
+            "es": "entre",
+            "tr": "arasında",
+            "en_": "He was sitting among his classmates.",
+            "es_": "Estaba sentado entre sus compañeros de clase.",
+            "tr_": "Sınıf arkadaşlarının arasında oturuyordu."
+        },
+        {
+            "en": "near [close to]",
+            "es": "cerca de",
+            "tr": "yakınında",
+            "en_": "The station is near the bank.",
+            "es_": "La estación está cerca del banco.",
+            "tr_": "İstasyon bankanın yakınında."
+        },
+        {
+            "en": "far from",
+            "es": "lejos de",
+            "tr": "uzağında",
+            "en_": "He lives far from the city.",
+            "es_": "Vive lejos de la ciudad.",
+            "tr_": "Şehrin uzağında yaşıyor."
+        },
+        {
+            "en": "in front of",
+            "es": "delante de",
+            "tr": "önünde",
+            "en_": "He parked in front of the school.",
+            "es_": "Aparcó delante de la escuela.",
+            "tr_": "Okulun önünde park etti."
+        },
+        {
+            "en": "behind",
+            "es": "detrás de",
+            "tr": "arkasında",
+            "en_": "The car is behind the truck.",
+            "es_": "El coche está detrás del camión.",
+            "tr_": "Araba kamyonun arkasında."
+        },
+        {
+            "en": "against",
+            "es": "contra",
+            "tr": "-e karşı",
+            "en_": "He leaned against the wall.",
+            "es_": "Se apoyó contra la pared.",
+            "tr_": "Duvara yaslandı."
+        },
+        {
+            "en": "for",
+            "es": "por",
+            "tr": "için",
+            "en_": "This gift is for you.",
+            "es_": "Este regalo es para ti.",
+            "tr_": "Bu hediye senin için."
+        },
+        {
+            "en": "by",
+            "es": "por",
+            "tr": "tarafından",
+            "en_": "The book was written by her.",
+            "es_": "El libro fue escrito por ella.",
+            "tr_": "Kitap onun tarafından yazıldı."
+        },
+        {
+            "en": "through",
+            "es": "por",
+            "tr": "vasıtasıyla",
+            "en_": "They went through the tunnel.",
+            "es_": "Pasaron por el túnel.",
+            "tr_": "Tünelden geçtiler."
+        },
+        {
+            "en": "toward [towards]",
+            "es": "hacia",
+            "tr": "-e doğru [-e karşı]",
+            "en_": "She ran toward the door.",
+            "es_": "Corrió hacia la puerta.",
+            "tr_": "Kapıya doğru koştu."
+        },
+        {
+            "en": "from",
+            "es": "desde",
+            "tr": "-den",
+            "en_": "He came from France.",
+            "es_": "Vino desde Francia.",
+            "tr_": "Fransa'dan geldi."
+        },
+        {
+            "en": "since",
+            "es": "desde",
+            "tr": "-den itibaren",
+            "en_": "They have lived here since 2020.",
+            "es_": "Viven aquí desde 2020.",
+            "tr_": "2020'den beri burada yaşıyorlar."
+        },
+        {
+            "en": "up",
+            "es": "arriba",
+            "tr": "yukarı",
+            "en_": "Look up at the sky.",
+            "es_": "Mira arriba al cielo.",
+            "tr_": "Gökyüzüne yukarı bak."
+        },
+        {
+            "en": "down",
+            "es": "abajo",
+            "tr": "aşağı",
+            "en_": "The ball rolled down the hill.",
+            "es_": "La pelota rodó cuesta abajo.",
+            "tr_": "Top tepenin aşağısına yuvarlandı."
+        },
+        {
+            "en": "opposite",
+            "es": "frente a",
+            "tr": "karşısında",
+            "en_": "The bank is opposite the supermarket.",
+            "es_": "El banco está frente al supermercado.",
+            "tr_": "Banka, süpermarketin karşısında."
+        },
+        {
+            "en": "with",
+            "es": "con",
+            "tr": "ile",
+            "en_": "She went to the cinema with her brother.",
+            "es_": "Fue al cine con su hermano.",
+            "tr_": "Kardeşiyle sinemaya gitti."
+        },
+        {
+            "en": "without",
+            "es": "sin",
+            "tr": "-siz, -sız [olmadan]",
+            "en_": "He drank coffee without sugar.",
+            "es_": "Bebió café sin azúcar.",
+            "tr_": "Kahvesini şekersiz içti."
+        }
+    ],
+    "Action words" : [
+        {
+            "en": "to whisper",
+            "es": "cuchichear",
+            "tr": "fısıldamak",
+            "en_": "She whispered a secret to me.",
+            "es_": "Ella me cuchicheó un secreto.",
+            "tr_": "Bana bir sır fısıldadı."
+        },
+        {
+            "en": "to shout",
+            "es": "gritar",
+            "tr": "bağırmak",
+            "en_": "He shouted loudly at the game.",
+            "es_": "Él gritó fuerte en el partido.",
+            "tr_": "Maçta yüksek sesle bağırdı."
+        },
+        {
+            "en": "to look for",
+            "es": "buscar",
+            "tr": "aramak",
+            "en_": "I am looking for my keys.",
+            "es_": "Estoy buscando mis llaves.",
+            "tr_": "Anahtarlarımı arıyorum."
+        },
+        {
+            "en": "to wait",
+            "es": "esperar",
+            "tr": "beklemek",
+            "en_": "We have to wait for the bus.",
+            "es_": "Tenemos que esperar el autobús.",
+            "tr_": "Otobüsü beklemek zorundayız."
+        },
+        {
+            "en": "to hope [to expect]",
+            "es": "esperar",
+            "tr": "ummak",
+            "en_": "I hope everything goes well.",
+            "es_": "Espero que todo salga bien.",
+            "tr_": "Her şeyin iyi gitmesini umuyorum."
+        },
+        {
+            "en": "to lean on",
+            "es": "apoyarse en",
+            "tr": "-e dayanmak",
+            "en_": "She leaned on the wall for support.",
+            "es_": "Ella se apoyó en la pared para sostenerse.",
+            "tr_": "Desteğe dayanmak için duvara yaslandı."
+        },
+        {
+            "en": "to rely on",
+            "es": "apoyarse en",
+            "tr": "güvenmek",
+            "en_": "You can rely on me.",
+            "es_": "Puedes apoyarte en mí.",
+            "tr_": "Bana güvenebilirsin."
+        },
+        {
+            "en": "to have",
+            "es": "tener",
+            "tr": "sahip olmak",
+            "en_": "I have a car.",
+            "es_": "Tengo un coche.",
+            "tr_": "Bir arabam var."
+        },
+        {
+            "en": "to carry",
+            "es": "llevar",
+            "tr": "taşımak",
+            "en_": "He is carrying a heavy bag.",
+            "es_": "Él está llevando una bolsa pesada.",
+            "tr_": "Ağır bir çanta taşıyor."
+        },
+        {
+            "en": "to take",
+            "es": "llevar",
+            "tr": "götürmek",
+            "en_": "Please take this to the office.",
+            "es_": "Por favor lleva esto a la oficina.",
+            "tr_": "Lütfen bunu ofise götür."
+        },
+        {
+            "en": "to drop [to let fall]",
+            "es": "dejar caer",
+            "tr": "düşürmek [yere bırakmak]",
+            "en_": "I accidentally dropped my phone.",
+            "es_": "Dejé caer mi teléfono por accidente.",
+            "tr_": "Telefonumu kazara düşürdüm."
+        },
+        {
+            "en": "to pick up",
+            "es": "recoger",
+            "tr": "gidip almak",
+            "en_": "Can you pick up the package?",
+            "es_": "¿Puedes recoger el paquete?",
+            "tr_": "Paketi gidip alabilir misin?"
+        },
+        {
+            "en": "to collect",
+            "es": "recoger",
+            "tr": "toplamak",
+            "en_": "She collects stamps as a hobby.",
+            "es_": "Ella recoge sellos como pasatiempo.",
+            "tr_": "O, pul toplamayı hobi olarak yapıyor."
+        },
+        {
+            "en": "to deposit",
+            "es": "depositar",
+            "tr": "yatırmak",
+            "en_": "I need to deposit money in the bank.",
+            "es_": "Necesito depositar dinero en el banco.",
+            "tr_": "Bankaya para yatırmam gerekiyor."
+        },
+        {
+            "en": "to put",
+            "es": "depositar",
+            "tr": "koymak",
+            "en_": "Please put the book on the table.",
+            "es_": "Por favor, deposita el libro en la mesa.",
+            "tr_": "Lütfen kitabı masanın üzerine koy."
+        },
+        {
+            "en": "to touch",
+            "es": "tocar",
+            "tr": "dokunmak",
+            "en_": "Don't touch the hot stove.",
+            "es_": "No toques la estufa caliente.",
+            "tr_": "Sıcak sobaya dokunma."
+        },
+        {
+            "en": "to play",
+            "es": "tocar",
+            "tr": "çalmak",
+            "en_": "He plays the guitar very well.",
+            "es_": "Él toca la guitarra muy bien.",
+            "tr_": "O, gitarı çok iyi çalıyor."
+        },
+        {
+            "en": "to open",
+            "es": "abrir",
+            "tr": "açmak",
+            "en_": "Can you open the door, please?",
+            "es_": "¿Puedes abrir la puerta, por favor?",
+            "tr_": "Kapıyı açabilir misin, lütfen?"
+        },
+        {
+            "en": "to close",
+            "es": "cerrar",
+            "tr": "kapatmak",
+            "en_": "Don't forget to close the window.",
+            "es_": "No olvides cerrar la ventana.",
+            "tr_": "Pencereyi kapatmayı unutma."
+        },
+        {
+            "en": "to pour",
+            "es": "verter",
+            "tr": "dökmek",
+            "en_": "She poured some water into the glass.",
+            "es_": "Ella vertió un poco de agua en el vaso.",
+            "tr_": "Bardağa biraz su döktü."
+        },
+        {
+            "en": "to fill",
+            "es": "llenar",
+            "tr": "doldurmak",
+            "en_": "Please fill the bottle with juice.",
+            "es_": "Por favor, llena la botella con jugo.",
+            "tr_": "Lütfen şişeyi meyve suyu ile doldur."
+        },
+        {
+            "en": "to shake",
+            "es": "sacudir",
+            "tr": "sallamak",
+            "en_": "He shook the bottle before opening it.",
+            "es_": "Él sacudió la botella antes de abrirla.",
+            "tr_": "Şişeyi açmadan önce salladı."
+        },
+        {
+            "en": "to empty",
+            "es": "vaciar",
+            "tr": "boşaltmak",
+            "en_": "Please empty the trash bin.",
+            "es_": "Por favor, vacía el bote de basura.",
+            "tr_": "Lütfen çöp kutusunu boşalt."
+        },
+        {
+            "en": "to tear",
+            "es": "romper",
+            "tr": "yırtmak",
+            "en_": "Be careful not to tear the paper.",
+            "es_": "Ten cuidado de no romper el papel.",
+            "tr_": "Kağıdı yırtmamaya dikkat et."
+        },
+        {
+            "en": "to mend",
+            "es": "zurcir",
+            "tr": "dikmek",
+            "en_": "She mended the torn shirt.",
+            "es_": "Ella zurció la camisa rota.",
+            "tr_": "Yırtılan gömleği dikti."
+        },
+        {
+            "en": "to throw",
+            "es": "tirar",
+            "tr": "atmak [fırlatmak]",
+            "en_": "He threw the ball to his friend.",
+            "es_": "Él tiró la pelota a su amigo.",
+            "tr_": "Topu arkadaşına attı."
+        },
+        {
+            "en": "to catch",
+            "es": "coger",
+            "tr": "tutmak [yakalamak]",
+            "en_": "He caught the ball quickly.",
+            "es_": "Él cogió la pelota rápidamente.",
+            "tr_": "Topu hızlıca yakaladı."
+        },
+        {
+            "en": "to knock over",
+            "es": "volcar",
+            "tr": "devirmek",
+            "en_": "She accidentally knocked over the vase.",
+            "es_": "Ella accidentalmente volcó el jarrón.",
+            "tr_": "Kazara vazoyu devirdi."
+        },
+        {
+            "en": "to break",
+            "es": "romper",
+            "tr": "kırmak [bozmak]",
+            "en_": "Be careful not to break the glass.",
+            "es_": "Ten cuidado de no romper el vaso.",
+            "tr_": "Bardağı kırmamaya dikkat et."
+        },
+        {
+            "en": "to pull",
+            "es": "tirar de [jalar]",
+            "tr": "çekmek",
+            "en_": "She pulled the door open.",
+            "es_": "Ella tiró de la puerta para abrirla.",
+            "tr_": "Kapıyı çekerek açtı."
+        },
+        {
+            "en": "to push",
+            "es": "empujar",
+            "tr": "itmek",
+            "en_": "He pushed the cart down the street.",
+            "es_": "Él empujó el carrito por la calle.",
+            "tr_": "Arabayı sokakta itti."
+        },
+        {
+            "en": "to steal",
+            "es": "robar",
+            "tr": "çalmak",
+            "en_": "Someone tried to steal my wallet.",
+            "es_": "Alguien intentó robar mi cartera.",
+            "tr_": "Birisi cüzdanımı çalmaya çalıştı."
+        },
+        {
+            "en": "to slip",
+            "es": "resbalar",
+            "tr": "kaymak",
+            "en_": "Be careful not to slip on the ice.",
+            "es_": "Ten cuidado de no resbalar en el hielo.",
+            "tr_": "Buzda kaymamaya dikkat et."
+        },
+        {
+            "en": "to follow",
+            "es": "seguir",
+            "tr": "takip etmek",
+            "en_": "The dog follows its owner everywhere.",
+            "es_": "El perro sigue a su dueño a todas partes.",
+            "tr_": "Köpek sahibini her yerde takip eder."
+        },
+        {
+            "en": "to hide",
+            "es": "esconderse",
+            "tr": "saklanmak [gizlemek]",
+            "en_": "The child hid behind the tree.",
+            "es_": "El niño se escondió detrás del árbol.",
+            "tr_": "Çocuk ağacın arkasına saklandı."
         }
     ]
 };
